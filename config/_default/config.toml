@@ -31,8 +31,8 @@ googleAnalytics = ""
     noClasses = false
   [markup.tableOfContents]
     endLevel = 4
-    ordered = false
-    startLevel = 2
+    ordered = true
+    startLevel = 3
 
 [outputs]
   home = ["HTML", "RSS", "SearchIndex"]
