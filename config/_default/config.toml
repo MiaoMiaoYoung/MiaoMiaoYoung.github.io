@@ -32,7 +32,7 @@ googleAnalytics = ""
   [markup.tableOfContents]
     endLevel = 4
     ordered = true
-    startLevel = 3
+    startLevel = 2
 
 [outputs]
   home = ["HTML", "RSS", "SearchIndex"]
