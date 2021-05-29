@@ -96,3 +96,32 @@ draft: false
 
 ![薄荷](images/day5/薄荷.jpg)
 
+## DAY 7 (05.29)
+
+### 水萝卜
+
+![水萝卜](images/day7/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day7/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day7/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day7/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day7/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day7/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day7/薰衣草.jpg)
