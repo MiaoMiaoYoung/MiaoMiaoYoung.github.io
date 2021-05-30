@@ -11,3 +11,5 @@ tags:
 
 ## 键盘说明书
 
+{{<embed-pdf "/en/posts/nichijou/keyboard.pdf">}}
+

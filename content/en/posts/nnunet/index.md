@@ -5,7 +5,7 @@ draft: False
 math: true
 katex: true
 markup: "mmark"
-image: "nnunet.jpg"
+image: images/posts/nnunet.jpg
 categories:
     - Work
 tags:

@@ -72,3 +72,10 @@ tags:
 4. To enable KaTex globally set the parameter math to true in a project's configuration
    
    To enable KaTex on a per page basis include the parameter math: true in content files
+
+## 添加.pdf支持
+
+
+- hugo pdf支持：https://github.com/anvithks/hugo-embed-pdf-shortcode
+
+- 分别将layouts\shortcodes和static\js\pdf-js拷贝到主目录对应位置中
