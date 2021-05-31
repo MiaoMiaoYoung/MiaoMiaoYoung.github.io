@@ -154,4 +154,34 @@ draft: false
 
 ### 薰衣草
 
-![薰衣草](images/day7/薰衣草.jpg)
+![薰衣草](images/day8/薰衣草.jpg)
+
+## DAY 9 (05.31)
+
+### 水萝卜
+
+![水萝卜](images/day9/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day9/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day9/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day9/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day9/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day9/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day9/薰衣草.jpg)
