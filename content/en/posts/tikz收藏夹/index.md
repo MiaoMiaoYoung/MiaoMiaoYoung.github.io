@@ -3,7 +3,7 @@ title: "Tikz收藏夹"
 date: 2021-03-16T15:24:27+08:00
 draft: false
 categories:
-    - Work
+    - work
     - paper
 tags:
     - 作图

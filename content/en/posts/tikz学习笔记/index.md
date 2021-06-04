@@ -4,7 +4,7 @@ date: 2021-03-16T08:59:52+08:00
 draft: flase
 image: "images/posts/tikz.jpg"
 categories:
-    - Work
+    - work
     - paper
 tags:
     - 作图

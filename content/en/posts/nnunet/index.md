@@ -7,7 +7,7 @@ katex: true
 markup: "mmark"
 image: images/posts/nnunet.jpg
 categories:
-    - Work
+    - work
 tags:
     - 代码复现
     - 医学图像

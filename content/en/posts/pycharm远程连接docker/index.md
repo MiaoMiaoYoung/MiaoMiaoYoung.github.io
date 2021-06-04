@@ -3,7 +3,7 @@ title: "Pycharm远程连接Docker容器"
 date: 2021-03-11T10:37:48+08:00
 draft: False
 categories:
-    - Work
+    - work
 tags:
     - pycharm
     - docker

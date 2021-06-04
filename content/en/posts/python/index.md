@@ -4,7 +4,7 @@ date: 2021-03-09T11:09:34+08:00
 draft: false
 image: images/posts/python.jpg
 categories:
-    - Work
+    - work
 tags:
     - python
 ---

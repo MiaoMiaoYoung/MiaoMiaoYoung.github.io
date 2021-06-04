@@ -3,7 +3,7 @@ title: "TensorboardX"
 date: 2021-04-12T14:36:46+08:00
 draft: False
 categories:
-    - Work
+    - work
     - code
 tags:
     - python

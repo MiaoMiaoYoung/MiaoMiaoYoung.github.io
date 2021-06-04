@@ -3,7 +3,7 @@ title: "linux"
 date: 2021-03-11T11:02:33+08:00
 draft: false
 categories:
-    - Work
+    - work
 tags:
     - linux
     - ubuntu
