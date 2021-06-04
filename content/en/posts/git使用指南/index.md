@@ -81,3 +81,14 @@ git merge test
 ```
 
 使用-d标识来删除分支
+
+```bash
+git branch -d test
+```
+
+使用-m/-M表示来对分支进行重命名
+
+```bash
+git branch -M main
+```
+
