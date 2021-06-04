@@ -193,7 +193,7 @@ commento = false
   google-scholar = ""
 
 [donationOptions]
-  enable = true
+  enable = false
   alipay = "" 
   wechat = ""
   paypal = ""
