@@ -185,3 +185,101 @@ draft: false
 ### 薰衣草
 
 ![薰衣草](images/day9/薰衣草.jpg)
+
+## DAY 10 (06.01)
+
+重新播种了一下草莓和向日葵
+
+向日葵发不出芽实在让我想不通，是不是名字起错了？？？“错过的爱情”真就开不出来，哈哈哈
+
+## DAY 11 (06.02)
+
+### 水萝卜
+
+![水萝卜](images/day11/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day11/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day11/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day11/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day11/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day11/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day11/薰衣草.jpg)
+
+
+## DAY 12 (06.03)
+
+### 水萝卜
+
+![水萝卜](images/day12/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day12/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day12/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day12/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day12/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day12/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day12/薰衣草.jpg)
+
+## DAY B (06.04)
+
+### 水萝卜
+
+![水萝卜](images/dayB/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/dayB/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/dayB/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/dayB/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/dayB/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/dayB/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/dayB/薰衣草.jpg)
+
