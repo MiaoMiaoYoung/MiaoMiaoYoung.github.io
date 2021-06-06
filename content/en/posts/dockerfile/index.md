@@ -3,7 +3,7 @@ title: "Dockerfile"
 date: 2021-04-15T12:24:19+08:00
 draft: False
 categories:
-    - Work
+    - work
     - code
 tags:
     - linux

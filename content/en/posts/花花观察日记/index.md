@@ -283,3 +283,62 @@ draft: false
 
 ![薰衣草](images/dayB/薰衣草.jpg)
 
+## DAY 14 (06.05)
+
+### 水萝卜
+
+![水萝卜](images/day14/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day14/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day14/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day14/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day14/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day14/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day14/薰衣草.jpg)
+
+## DAY 15 (06.06)
+
+### 水萝卜
+
+![水萝卜](images/day15/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day15/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day15/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day15/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day15/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day15/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day15/薰衣草.jpg)
