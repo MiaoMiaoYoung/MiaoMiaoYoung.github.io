@@ -348,3 +348,155 @@ tags:
 ### 薰衣草
 
 ![薰衣草](images/day15/薰衣草.jpg)
+
+## DAY 16 (06.07)
+
+### 水萝卜
+
+![水萝卜](images/day16/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day16/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day16/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day16/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day16/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day16/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day16/薰衣草.jpg)
+
+## DAY 17 (06.08)
+
+### 水萝卜
+
+![水萝卜](images/day17/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day17/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day17/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day17/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day17/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day17/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day17/薰衣草.jpg)
+
+
+## DAY 18 (06.09)
+
+### 水萝卜
+
+![水萝卜](images/day18/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day18/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day18/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day18/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day18/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day18/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day18/薰衣草.jpg)
+
+
+## DAY 19 (06.10)
+
+### 水萝卜
+
+![水萝卜](images/day19/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day19/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day19/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day19/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day19/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day19/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day19/薰衣草.jpg)
+
+## DAY 23 (06.14)
+
+### 水萝卜
+
+![水萝卜](images/day23/水萝卜.jpg)
+
+### 向日葵
+
+![向日葵](images/day23/向日葵.jpg)
+
+### 牵牛花
+
+![牵牛花](images/day23/牵牛花.jpg)
+
+### 西红柿
+
+![西红柿](images/day23/西红柿.jpg)
+
+### 薄荷
+
+![薄荷](images/day23/薄荷.jpg)
+
+### 紫苏
+
+![紫苏](images/day23/紫苏.jpg)
+
+### 薰衣草
+
+![薰衣草](images/day23/薰衣草.jpg)
