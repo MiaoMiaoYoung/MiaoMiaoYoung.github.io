@@ -3,7 +3,7 @@ title: "AWS s3 下载"
 date: 2021-03-29T14:06:50+08:00
 draft: False
 categories:
-    - Work
+    - work
 tags:
     - aws下载
 ---

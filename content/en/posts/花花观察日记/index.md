@@ -2,6 +2,12 @@
 title: "花花观察日记"
 date: 2021-05-27T22:50:02+08:00
 draft: false
+categories:
+    - nichijou
+    - 烟花三月 
+tags:
+    - nichijou
+    - 烟花三月
 ---
 
 ## DAY 0
