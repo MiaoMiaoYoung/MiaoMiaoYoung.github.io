@@ -18,6 +18,7 @@ libraries:
   - [1.2 概率论](#12-概率论)
     - [联合概率、边缘概率和条件概率](#联合概率边缘概率和条件概率)
     - [1.2.1 概率密度 (Probability densities)](#121-概率密度-probability-densities)
+    - [1.2.2 期望(Expectations)和协方差(Covariances)](#122-期望expectations和协方差covariances)
 
 ## 前沿
 
@@ -106,5 +107,33 @@ $x$在$(-\infty, z)$上的概率，成为累计密度函数
 $$P(z)=\int_{-\infty}^{z} p(x) \mathrm{d} x$$
 
 **多个连续型变量**
+
+对于多个连续型变量$x_{1},\cdots,x_{D}$，组成的向量$\mathbf{x}$
+
+定义联合概率密度$p(\mathrm{x})=p\left(x_{1}, \ldots, x_{D}\right)$
+
+多元概率密度必须满足
+
+$$\begin{array}{r} p(\mathbf{x}) \geqslant 0 \\\\ \int p(\mathbf{x}) \mathrm{d} \mathbf{x}=1\end{array}$$
+
+> 如果$\mathbf{x}$是一个离散变量，那么$p(\mathbf{x})$有时成为概率质量函数(probability mass function)；
+> 
+> 因为他被视为一组集中在$\mathbf{x}$上的概率质量
+
+对于概率密度来说，求和、乘法法则、贝叶斯同样适用于**概率密度**
+
+$$ \begin{aligned} p(x) &=\int p(x, y) \mathrm{d} y \\ p(x, y) &=p(y \mid x) p(x) \end{aligned} $$
+
+
+#### 1.2.2 期望(Expectations)和协方差(Covariances)
+
+对于函数$f(x)$，在一个概率分配$p(x)$下的平均值成为期望(Expectations)，记为$\mathbb{E}[f]$
+
+- 对于离散型分布：
+    $$\mathbb{E}[f]=\sum_{x} p(x) f(x)$$
+    平均值由不同$x$对应的概率进行加权
+
+
+- 对于连续性分布
 
 p19
