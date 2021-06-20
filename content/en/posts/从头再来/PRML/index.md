@@ -214,8 +214,9 @@ $$\text { posterior } \propto \text { likelihood } \times\text { prior }$$
 
 $$p(\mathbf{w} \mid \mathcal{D}) \propto p(\mathcal{D} \mid \mathbf{w}) \times p(\mathbf{w})$$
 
-
 $$\text { 后验 } \propto \text { 似然 } \times\text { 先验 }$$
+
+> 这里其实主要描述的是对$\mathbf{w}$的不确定性的测量，先验、后验、似然都是针对$\mathbf{w}$来说的
 
 贝叶斯公式中的分母 $p(\mathcal{D})$是为了概率进行归一化的，可以表达为下面的这种形式：
 
