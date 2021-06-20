@@ -192,5 +192,68 @@ $$ \begin{aligned} \operatorname{cov}[\mathrm{x}, \mathbf{y}] &=\mathbb{E}_{\mat
 > 
 > Now we turn to the more general Bayesian view, in which probabilities provide a quantification of uncertainty.
 
+> 贝叶斯派 Vs 频率派：
+> 1. 频率学派的参数固定，数据根据固定参数随机产生；**贝叶斯学派认为参数也是一个随机变量，也有概率分布**。也就是说，贝叶斯学派才有$p(\mathbf{w})$ 这个东西
+> 2. 频率学派没有先验概率，使用最大似然估计(maximum likelihood estimator,MLE)，容易过拟合，而贝叶斯学派可以使用最大后验估计(MAP)，可以一定程度上避免过拟合。严格来说MAP也不是纯贝叶斯的方法，真正的贝叶斯方法，需要算出参数的概率分布。
+> 3. 频率学派的重点是优化问题，优化一个损失函数的目标；贝叶斯学派的重点是积分问题，后验概率中分母的那个积分（也叫配分函数）的计算。
+真正的贝叶斯方法除了做MAP之外，一般有两步：1. 贝叶斯推断/估计 计算p(w|D)主要是一个积分问题 2.贝叶斯决策/预测，使用w预测新来的数据的概率
+>
+>转自：https://zhuanlan.zhihu.com/p/365934431
+
+
+
+假设我们观察到的变量是$t_{n}$，我们对一些参数$\mathbf{w}$进行推断时，可以**在观察数据之前** ，以先验概率分布$p(\mathbf{w})$的形式来捕捉(capture)对$\mathbf{w}$的假设
+
+$$p(\mathbf{w} \mid \mathcal{D})=\frac{p(\mathcal{D} \mid \mathbf{w}) p(\mathbf{w})}{p(\mathcal{D})}$$
+
+**似然(likelihood)：** 贝叶斯右边的 $p(\mathcal{D} \mid \mathbf{w})$，因为他表达了在$\mathbf{w}$参数下，观察数据集$\mathcal{D}$的概率，可以认为是$\mathbf{w}$的一个函数。注意！似然不是$\mathbf{w}$上的概率分布，并且对于$\mathbf{w}$的积分不一定等于1
+
+因此，贝叶斯公式可以表达为下述：
+
+$$\text { posterior } \propto \text { likelihood } \times\text { prior }$$
+
+$$p(\mathbf{w} \mid \mathcal{D}) \propto p(\mathcal{D} \mid \mathbf{w}) \times p(\mathbf{w})$$
+
+
+$$\text { 后验 } \propto \text { 似然 } \times\text { 先验 }$$
+
+贝叶斯公式中的分母 $p(\mathcal{D})$是为了概率进行归一化的，可以表达为下面的这种形式：
+
+$$p(\mathcal{D})=\int p(\mathcal{D} \mid \mathbf{w}) p(\mathbf{w}) \mathrm{d} \mathbf{w}$$
+
+### 1.2.4 高斯分布
+
+单实值变量$x$的高斯分布定义为：
+
+$$\mathcal{N}\left(x \mid \mu, \sigma^{2}\right)=\frac{1}{\left(2 \pi \sigma^{2}\right)^{1 / 2}} \exp \left\\{-\frac{1}{2 \sigma^{2}}(x-\mu)^{2}\right\\}$$
+
+其中两个参数：$\mu$：均值；$\sigma^{2}$: 方差 
+
+$\sigma$称为标准差，$\beta=\frac{1}{\sigma^{2}}$方差的倒数称为精度(precision)
+
+可以看到高斯分布满足概率的条件：
+
+$$\int_{-\infty}^{\infty} \mathcal{N}\left(x \mid \mu, \sigma^{2}\right) \mathrm{d} x=1$$
+
+$$\mathcal{N}\left(x \mid \mu, \sigma^{2}\right)>0$$
+
+高斯的均值：
+
+$$\mathbb{E}[x]=\int_{-\infty}^{\infty} \mathcal{N}\left(x \mid \mu, \sigma^{2}\right) x \mathrm{~d} x=\mu$$
+
+$$\mathbb{E}\left[x^{2}\right]=\int_{-\infty}^{\infty} \mathcal{N}\left(x \mid \mu, \sigma^{2}\right) x^{2} \mathrm{~d} x=\mu^{2}+\sigma^{2}$$
+
+结合上式可得高斯的方差：
+
+$$\operatorname{var}[x]=\mathbb{E}\left[x^{2}\right]-\mathbb{E}[x]^{2}=\sigma^{2}$$
+
+
+------------------------
+
+对于包含着连续变量的 $D$ 维向量 $\mathbf{x}$ ，高斯分布以如下形式给出：
+
+$$\mathcal{N}(\mathrm{x} \mid \mu, \Sigma)=\frac{1}{(2 \pi)^{D / 2}} \frac{1}{|\Sigma|^{1 / 2}} \exp \left\\{-\frac{1}{2}(\mathrm{x}-\mu)^{\mathrm{T}} \Sigma^{-1}(\mathrm{x}-\mu)\right\\}$$
+
+$\mathbf{\mu}$称为均值，$D\times D$的矩阵$\Sigma$称为协方差，$|\Sigma|$表示$\Sigma$的行列式
 
 
