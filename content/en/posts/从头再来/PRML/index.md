@@ -1,34 +1,34 @@
 ---
-title: "PRML"
+title: "PRML-Introduction"
 date: 2021-06-18T15:01:38+08:00
 draft: false
 categories:
     - work
     - mathematics
-    - matrix
+    - machine learning
+
 tags:
     - math
-    - Linear Algebra
+    - PRML
+    - machine learning
+
 libraries:
     - katex
+
+enableTocContent: true
 ---
 
-- [前沿](#前沿)
-- [1. Introduction](#1-introduction)
-  - [1.2 概率论](#12-概率论)
-    - [联合概率、边缘概率和条件概率](#联合概率边缘概率和条件概率)
-    - [1.2.1 概率密度 (Probability densities)](#121-概率密度-probability-densities)
-    - [1.2.2 期望(Expectations)和协方差(Covariances)](#122-期望expectations和协方差covariances)
+
+
 
 ## 前沿
 
 2021.06.18 开始从头攻克PRML
 
-## 1. Introduction
 
-### 1.2 概率论
+## 1.2 概率论
 
-#### 联合概率、边缘概率和条件概率
+### 联合概率、边缘概率和条件概率
 
 对于两个随机变量$X$和$Y$
 
@@ -84,7 +84,7 @@ $$p(Y \mid X)=\frac{p(X \mid Y) p(Y)}{p(X)}$$
 
 $$p(X)=\sum_{Y} p(X \mid Y) p(Y)$$
 
-#### 1.2.1 概率密度 (Probability densities)
+### 1.2.1 概率密度 (Probability densities)
 
 **概率密度**
 
@@ -114,7 +114,7 @@ $$P(z)=\int_{-\infty}^{z} p(x) \mathrm{d} x$$
 
 多元概率密度必须满足
 
-$$\begin{array}{r} p(\mathbf{x}) \geqslant 0 \\\\ \int p(\mathbf{x}) \mathrm{d} \mathbf{x}=1\end{array}$$
+$$\begin{array}{r} p(\mathbf{x}) \geqslant 0 \\\\ \\\\ \int p(\mathbf{x}) \mathrm{d} \mathbf{x}=1\end{array}$$
 
 > 如果$\mathbf{x}$是一个离散变量，那么$p(\mathbf{x})$有时成为概率质量函数(probability mass function)；
 > 
@@ -122,18 +122,75 @@ $$\begin{array}{r} p(\mathbf{x}) \geqslant 0 \\\\ \int p(\mathbf{x}) \mathrm{d} 
 
 对于概率密度来说，求和、乘法法则、贝叶斯同样适用于**概率密度**
 
-$$ \begin{aligned} p(x) &=\int p(x, y) \mathrm{d} y \\ p(x, y) &=p(y \mid x) p(x) \end{aligned} $$
+$$ \begin{aligned} p(x) &=\int p(x, y) \mathrm{d} y \\\\ p(x, y) &=p(y \mid x) p(x) \end{aligned} $$
 
 
-#### 1.2.2 期望(Expectations)和协方差(Covariances)
+### 1.2.2 期望(Expectations)和协方差(Covariances)
 
 对于函数$f(x)$，在一个概率分配$p(x)$下的平均值成为期望(Expectations)，记为$\mathbb{E}[f]$
 
-- 对于离散型分布：
-    $$\mathbb{E}[f]=\sum_{x} p(x) f(x)$$
-    平均值由不同$x$对应的概率进行加权
+#### 离散型分布
+
+$$\mathbb{E}[f]=\sum_{x} p(x) f(x)$$
+平均值由不同$x$对应的概率进行加权
 
 
-- 对于连续性分布
+#### 连续性分布
 
-p19
+$$\mathbb{E}[f]=\int p(x) f(x) \mathrm{d} x$$
+
+如果从概率分布或者概率密度中取出有限数量的N个点，那么期望可以近似为:
+
+$$\mathbb{E}[f] \simeq \frac{1}{N} \sum_{n=1}^{N} f\left(x_{n}\right)$$
+
+这个结果在采样方法中特别有用，采样当中一般会$N\rightarrow \infty$
+
+#### 多元期望
+
+有时会考虑多变量函数的期望，但是在这个期望的计算过程中，**需要指明是根据哪个变量的分布进行的平均**，使用下标来进行指明
+
+$$\mathbb{E}_{x}[f(x, y)]$$
+
+表示函数$f(x,y)$相对于$x$分布的相对值，最后的结果是关于$y$的一个函数
+
+#### 条件期望(conditional expectation)
+
+对于一个条件分布，同样有相对应的条件期望
+
+$$\mathbb{E}_{x} [f \mid y]=\sum\_{x} p(x \mid y) $$
+
+
+---------------------------------
+
+下面讨论方差和协方差，$f(x)$的**方差**定义为：
+
+$$\operatorname{var}[f]=\mathbb{E}\left[(f(x)-\mathbb{E}[f(x)])^{2}\right]$$
+
+它更多评价$f(x)$围绕它均值的变化程度，一般在计算中写成$f(x)$和$f(x)^{2}$的期望形式方便计算：
+
+$$\operatorname{var}[f]=\mathbb{E}\left[f(x)^{2}\right]-\mathbb{E}[f(x)]^{2}$$
+
+特别的，对于随机变量$x$，他的方差是:
+
+$$\operatorname{var}[x]=\mathbb{E}\left[x^{2}\right]-\mathbb{E}[x]^{2}$$
+
+对于两个随机变量$x$和$y$，他们的**协方差(covariance)的**定义为：
+
+$$ \begin{aligned}  \operatorname{cov}[x, y]  &=\mathbb{E}_{x, y}[\{x-\mathbb{E}[x]\}\{y-\mathbb{E}[y]\}] \\\\ &=\mathbb{E}\_{x, y}[x y]-\mathbb{E}[x] \mathbb{E}[y] \end{aligned}  $$
+
+表达了$x$和$y$一起变换的程度
+
+对于两个由随机变量组成的向量$\mathbf{x}$和$\mathbf{y}$，他们的协方差以矩阵形式给出：
+
+
+$$ \begin{aligned} \operatorname{cov}[\mathrm{x}, \mathbf{y}] &=\mathbb{E}_{\mathbf{x}, \mathbf{y}} \left[\\{\mathbf{x}-\mathbb{E}[\mathbf{x}]\\}\left\\{\mathbf{y}^{\mathrm{T}}-\mathbb{E}\left[\mathbf{y}^{\mathrm{T}}\right]\right\\}\right] \\\\ &=\mathbb{E}\_{\mathbf{x}, \mathbf{y}}\left[\mathrm{xy}^{\mathrm{T}}\right]-\mathbb{E}[\mathrm{x}] \mathbb{E}\left[\mathbf{y}^{\mathrm{T}}\right] \end{aligned} $$
+
+
+### 1.2.3 贝叶斯概率 (Bayesoan probabilities)
+
+> 上面概率解释偏向经典的频率派(frequentist)解释，下面开始转换到贝叶斯的视角：概率其实提供了一种不确定性的量化
+> 
+> Now we turn to the more general Bayesian view, in which probabilities provide a quantification of uncertainty.
+
+
+
