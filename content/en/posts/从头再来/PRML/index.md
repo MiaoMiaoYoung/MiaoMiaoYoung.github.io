@@ -257,4 +257,15 @@ $$\mathcal{N}(\mathrm{x} \mid \mu, \Sigma)=\frac{1}{(2 \pi)^{D / 2}} \frac{1}{|\
 
 $\mathbf{\mu}$称为均值，$D\times D$的矩阵$\Sigma$称为协方差，$|\Sigma|$表示$\Sigma$的行列式
 
+-----------------------
+
+现在，假设我们有一个观察到的数据集$\bm{x}=\left(x_{1}, \ldots, x_{N}\right)^{\mathrm{T}}$，表示对一个变量$x$的$N$次观察
+
+> 注意，这里的$\bm{x}$和上面的多变量高斯中的$\mathbf{x}$不同，这里指的是对一个变量$x$(标量)的N次观察得到的数据集，多变量高斯中的$\mathbf{x}=\left(x_{1}, \ldots, x_{N}\right)^{\mathrm{D}}$ 指的是多个变量
+
+我们假设观测值独立于均值为$\mu$，方差为$\sigma^{2}$的高斯，并且希望从这个数据集中确定高斯的参数
+
+
+
+
 
