@@ -145,6 +145,7 @@ $$\mathbb{E}[f] \simeq \frac{1}{N} \sum_{n=1}^{N} f\left(x_{n}\right)$$
 
 这个结果在采样方法中特别有用，采样当中一般会$N\rightarrow \infty$
 
+
 #### 多元期望
 
 有时会考虑多变量函数的期望，但是在这个期望的计算过程中，**需要指明是根据哪个变量的分布进行的平均**，使用下标来进行指明
@@ -153,6 +154,11 @@ $$\mathbb{E}_{x}[f(x, y)]$$
 
 表示函数$f(x,y)$相对于$x$分布的相对值，最后的结果是关于$y$的一个函数
 
+期望服从线性性质：
+
+$$\mathbb{E}[ax+by+cz] = a\mathbb{E}[x]+b\mathbb{E}[y]+c\mathbb{E}[z]$$
+
+
 #### 条件期望(conditional expectation)
 
 对于一个条件分布，同样有相对应的条件期望
@@ -160,7 +166,7 @@ $$\mathbb{E}_{x}[f(x, y)]$$
 $$\mathbb{E}_{x} [f \mid y]=\sum\_{x} p(x \mid y) $$
 
 
----------------------------------
+#### 方差(variance)和协方差(covariance)
 
 下面讨论方差和协方差，$f(x)$的**方差**定义为：
 
@@ -224,6 +230,8 @@ $$p(\mathcal{D})=\int p(\mathcal{D} \mid \mathbf{w}) p(\mathbf{w}) \mathrm{d} \m
 
 ### 1.2.4 高斯分布
 
+#### 单实值变量高斯
+
 单实值变量$x$的高斯分布定义为：
 
 $$\mathcal{N}\left(x \mid \mu, \sigma^{2}\right)=\frac{1}{\left(2 \pi \sigma^{2}\right)^{1 / 2}} \exp \left\\{-\frac{1}{2 \sigma^{2}}(x-\mu)^{2}\right\\}$$
@@ -249,7 +257,7 @@ $$\mathbb{E}\left[x^{2}\right]=\int_{-\infty}^{\infty} \mathcal{N}\left(x \mid \
 $$\operatorname{var}[x]=\mathbb{E}\left[x^{2}\right]-\mathbb{E}[x]^{2}=\sigma^{2}$$
 
 
-------------------------
+#### 多元高斯
 
 对于包含着连续变量的 $D$ 维向量 $\mathbf{x}$ ，高斯分布以如下形式给出：
 
@@ -257,7 +265,7 @@ $$\mathcal{N}(\mathrm{x} \mid \mu, \Sigma)=\frac{1}{(2 \pi)^{D / 2}} \frac{1}{|\
 
 $\mathbf{\mu}$称为均值，$D\times D$的矩阵$\Sigma$称为协方差，$|\Sigma|$表示$\Sigma$的行列式
 
------------------------
+#### 单变量高斯的N次观察
 
 现在，假设我们有一个观察到的数据集$\bm{x}=\left(x_{1}, \ldots, x_{N}\right)^{\mathrm{T}}$，表示对一个变量$x$的$N$次观察
 
@@ -265,7 +273,55 @@ $\mathbf{\mu}$称为均值，$D\times D$的矩阵$\Sigma$称为协方差，$|\Si
 
 我们假设观测值独立于均值为$\mu$，方差为$\sigma^{2}$的高斯，并且希望从这个数据集中确定高斯的参数
 
+**独立同分布 (independent and identically distributed, i.i.d)**：从同一个分布中独立抽取的数据点
 
+> Data points that are drawn independently from the same distribution are said to be independent and identically distributed, which is often abbreviated to i.i.d.
 
+因为数据集是独立同分布的，所以他们的联合概率根据乘法法则就可以直接给出：
+
+$$p\left(\bm{x} \mid \mu, \sigma^{2}\right)=\prod_{n=1}^{N} \mathcal{N}\left(x_{n} \mid \mu, \sigma^{2}\right)$$
+
+> 这个时候，最重要的不是看数据点怎么样了，而是把$p\left(\bm{x} \mid \mu, \sigma^{2}\right)$看成是$\mu$和$\sigma$的函数，这也是贝叶斯派比较重要的一个观点，下面就是要怎么去求解这两个参数
+
+![](./images/1.jpg)
+
+书里面对于高斯的likelihood函数我觉得说的比较清楚，也就是在参数$\mu$，$\sigma$下，观察数据得到的概率，图中的公式(1.53)也就是上面的公式$p\left(\bm{x} \mid \mu, \sigma^{2}\right)$。
+
+#### 求解最大似然(MAP)
+
+所以，最大似然其实就是在求解 $\max{p\left(\bm{x} \mid \mu, \sigma^{2}\right)}$，非常容易理解
+
+因为高斯的形式当中有求积，所以取对数变成求和
+
+$$\ln p\left(\bm{x} \mid \mu, \sigma^{2}\right)=-\frac{1}{2 \sigma^{2}} \sum_{n=1}^{N}\left(x_{n}-\mu\right)^{2}-\frac{N}{2} \ln \sigma^{2}-\frac{N}{2} \ln (2 \pi)$$
+
+所以 $\max{\ln p\left(\bm{x} \mid \mu, \sigma^{2}\right)}$
+
+$$\mu_{\mathrm{ML}}=\frac{1}{N} \sum_{n=1}^{N} x_{n}$$
+
+$$\sigma_{\mathrm{ML}}^{2}=\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}-\mu_{\mathrm{ML}}\right)^{2}$$
+
+得到的 $\mu_{\mathrm{ML}}$ 和 $\sigma_{\mathrm{ML}}^{2}$ 被称作采样均值 (sample mean) 和 采样方差 (sample variance)。并且这个是有偏估计，可以通过计算$\mathbb{E}[\mu_{ML}]$和$\mathbb{E}[\sigma_{ML}^{2}]$得到
+
+$$\mathbb{E}\left[\mu_{\mathrm{ML}}\right]=\mu$$
+
+$$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]=\left(\frac{N-1}{N}\right) \sigma^{2}$$
+
+> 这里需要推导一下：
+> 
+> $$\mathbb{E}\left[\mu_{\mathrm{ML}}\right] =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N} x_{n}\right] =\frac{1}{N} \sum_{n=1}^{N} \mathbb{E}\left[ x_{n}\right] = \mu$$
+> 
+> 
+<!-- > $$\begin{aligned}
+    \mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]
+    & =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}-\mu_{\mathrm{ML}}\right)^{2}\right] \\\\
+    & =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}^{2}+\mu_{\mathrm{ML}}^{2}-2x_{n}\mu_{\mathrm{ML}}\right)\right] \\\\
+    & =\mathbb{E}\left[ 
+    \frac{1}{N}\sum_{n=1}^{N}{x_{n}^{2}}+
+    \frac{1}{N}\sum_{n=1}^{N}{\mu_{\mathrm{ML}}^{2}}-
+    \frac{1}{N}\sum_{n=1}^{N}{2x_{n}\mu_{\mathrm{ML}}}
+    \right] \\\\
+    &=\mathbb{E}[x^{2}]
+\end{aligned}$$ -->
 
 
