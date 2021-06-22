@@ -808,3 +808,82 @@ $$(Ax)^{T}(Ax)=0 \Rightarrow Ax=0$$
 
 因为$A$线性无关，所以$Ax=0$只有一个零解
 
+
+## 17. 正交基和正交矩阵
+
+### 标准正交基
+
+一组标准正交基(orthonormal vector)： $q_{1},q_{2},\cdots,q_{n}$，任意的$q$都和其他$q$正交，并且因为是“标准”的，所以他们的长度是1，即满足下面的条件
+
+$$   q_{i}^{T}q_{j} =  \begin{cases} 1, \text{if } i = j \\\\ 0, \text{if } i \quad!= j   \end{cases} $$
+
+> 上面的不等号渲染有问题，所以使用!=代替了
+
+### 标准正交矩阵
+
+标准正交矩阵（方阵）： $Q=\begin{bmatrix}  q_{1},q_{2},\cdots,q_{n}\end{bmatrix}$
+
+下面研究一下标准正交矩阵的性质：
+
+$$ Q^{T}Q = \begin{bmatrix}   q_{1}^{T} \\\\   q_{2}^{T} \\\\ \vdots \\\\ q_{n}^{T} \end{bmatrix} \begin{bmatrix}   q_{1}^{T} &q_{2}^{T} & \vdots & q_{n}^{T} \end{bmatrix}= \begin{bmatrix}   1 & 0 & \cdots & 0 \\\\   0 & 1 & \cdots & 0 \\\\   \vdots & \vdots & \ddots & \vdots  \\\\   0 & 0 & \cdots & 1 \\\\ \end{bmatrix} = I$$
+
+即：$Q^{T} = Q^{-1}$，但是$Q$必须是方阵
+
+> 对于投影矩阵$P$，他是 $P^{T} = P$
+
+对标准正交基举个例子：
+
+$$ \frac{1}{2} \begin{bmatrix}   1 &1  &1  &1  \\\\   1 &-1 &1  &-1 \\\\   1 &1  &-1 &-1 \\\\   1 &-1 &-1 &1  \\\\ \end{bmatrix}$$
+
+---------------------------------
+
+举几个标准正交基的好处：
+
+**投影**
+
+$Q$是标准正交基，现在要将向量投影到他的列空间中，投影矩阵：
+
+$$P = Q(Q^{T}Q)^{-1}Q^{T}= QQ^{T}$$
+
+当$Q$是方阵时，$Q$的列空间就是整个空间，所以投影矩阵是$I$；如果不是方阵，那么结果就是上述这个
+
+
+**最小二乘法**
+
+$$A^{T}A\hat{x} = A^{T}b \rightarrow Q^{T}Q\hat{x} = Q^{T}b \rightarrow \hat{x} = Q^{T}b$$
+
+### 线性无关向量标准正交化
+
+**格拉姆-施密特正交化法 (Gram-Schmidt)**
+
+> 其实就是逐个向量减去之前向量的分量(即之前向量在这个向量空间上的投影)
+
+对于两个向量 $a$ 和 $b$，标准正交化的向量 $q_{1}$ 和 $q_{2}$
+
+$$a' = a;\qquad b'=b-Pa'=b-\frac{a'^{T}b}{a'^{T}a'}a'$$
+
+$$q_{1} = \frac{a'}{||a'||};\qquad q_{2} = \frac{b'}{||b'||}$$
+
+下面验证一下分量$a'$和$b'$正交
+
+$$a'^{T}b' = a'^{T}(b-\frac{a'^{T}b}{a'^{T}a'}a') = 0$$
+
+> 所有，以后对于列空间的基，可以有了性质更好的描述，就是标准正交基
+
+-------------------------------
+
+重新用矩阵的角度审视消元法：
+
+$$A=LU \rightarrow A=Q^{T}R=QR$$
+
+$$ \begin{bmatrix}   a &b \end{bmatrix} = \begin{bmatrix}   q_{1} &q_{2} \end{bmatrix} \begin{bmatrix}   a_{1}^{T}q_{1} &\cdots \\\\ a_{1}^{T}q_{2} &\cdots \end{bmatrix} $$
+
+因为 $R$ 与 $A$ 的列空间一致，所以可以表达为每个分量
+
+$$ A = \left[\begin{array}{lll} a & b & c \end{array}\right]=\left[\begin{array}{lll}  q_{1} & q_{2} & q_{3} \end{array}\right]\left[\begin{array}{lll} q_{1}^{T} a & q_{1}^{T} b & q_{1}^{T} c \\\\\\\\ & q_{2}^{T} b & q_{2}^{T} c \\\\\\\\ & & q_{3}^{T} c \end{array}\right] = QR$$
+
+这个其实就相当于了格拉姆-施密特的正交过程了
+
+而 $R$ 为什么是上三角矩阵，因为每一个后面的 $q$ 都要与前面的列向量正交
+
+
