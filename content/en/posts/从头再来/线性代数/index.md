@@ -886,4 +886,167 @@ $$ A = \left[\begin{array}{lll} a & b & c \end{array}\right]=\left[\begin{array}
 
 而 $R$ 为什么是上三角矩阵，因为每一个后面的 $q$ 都要与前面的列向量正交
 
+## 18. 行列式及其性质
+
+接下来把重点放到了方阵上，行列式的目的是为了矩阵的**特征值**
+
+矩阵的 **行列式(determinant)** 记作 $\det{A}$ 或者 $|A|$
+
+行列式的**三个性质**定义了行列式是个什么东西：
+
+1. $\det{I} = 1$，使得单位矩阵的行列式为1，(定义基准)
+2. 交换行，行列式的值的符号会相反，(现在知道了置换矩阵的行列式)
+3. 行列式是一个线性函数，对每一行都成立
+  $$\begin{vmatrix}   ta &tb \\\\ c &d \end{vmatrix}= t \begin{vmatrix}   a &b \\\\ c &d     \end{vmatrix}$$
+
+  $$\begin{vmatrix}   a+a' &b+b' \\\\ c &d \end{vmatrix}=  \begin{vmatrix}   a &b \\\\ c &d     \end{vmatrix}+\begin{vmatrix}   a' &b' \\\\ c &d     \end{vmatrix}$$
+
+-----------------------
+
+由上面三个性质可以继续推导出下面的性质来：
+
+4. 两行相等使得行列式等于0 (可以由性质2得到)
+
+5. 从行$k$减去行1的$i$倍，行列式不变（性质3+性质2）
+
+6. 若有一行为0，那么行列式就是0 (性质3，$t=0$)
+
+7. 上三角矩阵的行列式等于对角线元素的乘积
+    $$\det{U}=\begin{vmatrix}   d_{1}  & \cdots & \cdots & \cdots \\\\          & d_{2}  & \cdots & \cdots \\\\          &        & \ddots & \vdots \\\\   \Huge0          &        &        &d_{n}   \\\\ \end{vmatrix}=d_{1}d_{2}\cdots d_{n}$$
+
+    因为上三角矩阵$U$和原矩阵$A$之间只经过了性质6的线性变换，所以原矩阵$A$的行列式就等于上三角矩阵$U$的行列式
+
+    如果其中一个对角线元素为0，那么将得到全0行，行列式为0
+
+8. $\det{A}=0$ 当且仅当 $A$ 是奇异矩阵，(不可逆)
+
+9. 两个方阵$A$和$B$的矩阵乘积的行列式等于他们行列式的乘积 $\det{AB}=\det{A}\times\det{B}$。所以可以推导出下面：
+    
+    $$\det{A^{-1}} = \frac{1}{\det{A}}$$
+
+    > 这个其实也说明，如果没有逆，$det{A}=0$，逆就没有意义
+
+    $$\det{A^{2}} = (\det{A})^{2}$$
+
+    $$\det{2A} = \det{2I}\det{A} = 2^{n}\det{A}$$
+
+10. 矩阵的行列式等于矩阵转置的行列式
+    
+    $$\det{A^{T}}=\det{A}$$
+
+    > 从这里其实就可以发现，对于行列式来说，行和列并没有什么区别，都是进行行变换/列变换要改变符号的
+
+    > 简单的证明一下：要证 $|A^{T}|=|A|\rightarrow |U^{T}L^{T}|=|LU|$
+    >
+    > $L$是一个下三角阵，并且对角线上全是1，所以$|L|=1$，同理，转置后的$L$对角线上也全是1，所以 $|U^{T}|=|U|$
+
+
+
+## 19. 行列式公式和代数余子式
+
+有了以上的性质，特别是性质7之后，可以给探究一下行列式的定义，即通过消元法来求行列式的值
+
+**首先对于2阶矩阵：**
+
+$$ \begin{bmatrix}   a &b \\\\ c &d \end{bmatrix} \rightarrow \begin{bmatrix}   a &b \\\\ 0 & d-\frac{c}{a}b \end{bmatrix} \rightarrow \det = a(d-\frac{c}{a}b) = ad-bc$$
+
+**对于3阶矩阵的行列式：**
+
+使用性质三，对一个三阶行列式进行分解：因为如果其中一行/列全是0则行列式等于0，所以分解结果得到的是6个有值的行列式
+
+$$ \begin{aligned}     \left|\begin{aligned}          & a_{11} & a_{12} && a_{13} \\\\          & a_{21} & a_{22} && a_{23} \\\\          & a_{31} & a_{32} && a_{33} \\\\     \end{aligned}\right|     &=     \left|\begin{aligned}          & a_{11} & 0      && 0      \\\\          & 0      & a_{22} && 0      \\\\          & 0      & 0      && a_{33} \\\\     \end{aligned}\right|     +     \left|\begin{aligned}          & a_{11} & 0      && 0      \\\\          & 0      & 0      && a_{23} \\\\          & 0      & a_{33} && 0      \\\\     \end{aligned}\right|     +     \left|\begin{aligned}          & 0      & a_{12} && 0      \\\\          & a_{21} & 0      && 0      \\\\          & 0      & 0      && a_{33} \\\\     \end{aligned}\right|     \\\\     &+     \left|\begin{aligned}          & 0      & a_{12} && 0      \\\\          & 0      & 0      && a_{23} \\\\          & a_{31} & 0      && 0      \\\\     \end{aligned}\right|     +     \left|\begin{aligned}          & 0      & 0      && a_{13} \\\\          & a_{21} & 0      && 0      \\\\          & 0      & a_{32} && 0      \\\\     \end{aligned}\right|     +     \left|\begin{aligned}          & 0      & 0      && a_{13} \\\\          & 0      & a_{22} && 0      \\\\          & a_{31} & 0      && 0      \\\\     \end{aligned}\right|     \\\\     &=a_{11}a_{22}a_{33} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33}     \\\\     &+a_{12}a_{23}a_{32} + a_{13}a_{21}a_{32} - a_{13}a_{22}a_{31} \end{aligned} $$
+
+而在这里其实就能发现：
+
+对于$n$阶矩阵($n\times n$)，他的行列式表达式中有 $n!$ 项，因为可以看出，如果其中一行/列全是0则行列式等于0，那么就是排列问题了，第一行有$n$中选择，第二行有$n-1$种可能，以此类推
+
+所以$n$阶行列式的形式应该是这种形式的：
+
+$$\det{A} = \sum{\pm a_{1\alpha}a_{2\beta}\cdots a_{n\gamma}}$$
+
+$a_{ij}$表达了$i$行$j$列的元素，那么$\alpha,\beta,\cdots,\gamma$其实就是$(1,2,\cdots,n)$的一种排列
+
+而前面的正负号其实取决于$(\alpha,\beta,\cdots,\gamma)\rightarrow (1,2,\cdots,n)$这两种排列需要进行变换的奇偶次数
+
+将上面的进行凝练，通过代数余子式来说明行列式的求解：
+
+### 代数余子式 (cofactors)
+
+首先还是考虑简单的三阶情况：
+
+$$ \begin{aligned}   \det    & =  a_{11}(a_{22}a_{33}-a_{23}a_{32}) \\\\   & +  a_{12}(\cdots) \\\\   & +  a_{13}(\cdots) \end{aligned} $$
+
+可以将行列式表达换成上面的这种形式，选定第一行中的一个数，然后由剩余因子组成的表达式就是代数余子式，即以$a_{11}$括号内的$(a_{22}a_{33}-a_{23}a_{32})$就是$a_{11}$的代数余子式
+
+$$\text{Cofactor}(a_{ij})=(-1)^{ij}\det(n-1\quad \text{matrix with}\begin{aligned}row_{i} \\\\ col_{j}\end{aligned} \text{earsed})$$
+
+
+通过代数余子式，就可以进行**扩展到n阶行列式的计算：**
+$$det\space A = \sum_{i}^{n}a_{1i}C_{1i}$$
+
+
+## 20. 行列式的应用：逆矩阵、克拉默法则、体积
+
+> 行列式引出的目的就是为了求解特征值，但是这不妨碍他还有一些其他的应用
+
+
+### 逆矩阵
+
+因为行列式关于矩阵逆的独特性质 $\det{A^{-1}} = \frac{1}{\det{A}}$
+
+首先还是考虑 $2\times2$ 的逆矩阵情况：
+
+$$ \begin{bmatrix}   a &b \\\\ c &d \end{bmatrix}^{-1}= \frac{1}{ad-bc} \begin{bmatrix}   d &b \\\\ -c &a \end{bmatrix} $$
+
+可以看到，归一化的 $\frac{1}{ad-bc}=\det(A)$
+
+右边的矩阵就是各个位置对应的代数余子式，即
+
+$$A^{-1}=\frac{1}{\det(A)}C^{T}$$
+
+其中，$C$是由代数余子式构成的矩阵，$C^{T}$一般称为伴随矩阵
+
+----------------------------
+
+下面简单证明一下：
+
+$$ \begin{aligned}     & A^{-1}=\frac{1}{det(A)}C^{T} \Rightarrow AC^{T}=det(A)I \\\\     &      A=\begin{bmatrix}       \color{blue}a_{11}  & \color{blue}a_{12} & \color{blue}\cdots & \color{blue}a_{1n}        \\\\       a_{21}  & a_{22} & \cdots & a_{2n} \\\\       \vdots  & \vdots & \ddots & \vdots \\\\       a_{n1}  & a_{n2} & \cdots & a_{nn} \\\\     \end{bmatrix}     C^{T}=\begin{bmatrix}       \color{blue}c_{11}  & c_{21} & \cdots & c_{n1} \\\\       \color{blue}c_{12}  & c_{22} & \cdots & c_{n2} \\\\       \color{blue}\vdots  & \vdots & \ddots & \vdots \\\\       \color{blue}c_{1n}  & c_{2n} & \cdots & c_{nn} \\\\     \end{bmatrix} \end{aligned} $$
+
+$AC^{T}$在对角线上的每一个值正好都是行列式的代数余子式表达，如果不在对角线，把他还原成对应矩阵，会有相同的两行，即奇异矩阵，$\det=0$
+
+$$ AC^{T}= \begin{bmatrix}     detA    &      &        & \Huge0 \\\\             & detA &        &        \\\\             &      & \ddots &        \\\\     \Huge0  &      &        & detA    \end{bmatrix} =det(A)\cdot I $$
+
+### 克拉默法则
+
+> 提供一种代数形式的表达，但不适合计算
+
+求解：$Ax=b$
+
+$$x=A^{-1}b=\frac{1}{\det{A}}C^{T}b$$
+
+
+其中，$x_{j}=\frac{det(B_{j})}{det(A)}$，$B_{j}$是$A$的第$j$列替换成$b$
+
+举个例子：
+$$ B_{1} =\begin{bmatrix}     b_{1}  & a_{12} & \cdots & a_{1n}  \\\\     b_{2}  & a_{22} & \cdots & a_{2n}  \\\\     \vdots  & \vdots & \ddots & \vdots \\\\     b_{n}  & a_{n2} & \cdots & a_{nn}  \\\\ \end{bmatrix} $$
+
+即矩阵$A$的第$j$列用$b$来代替$\Rightarrow$克拉默法则
+
+### 计算体积
+
+还是先从简单的来说，比如 $3\times 3$的情况：
+
+有3个向量：$(a_{11}, a_{12}, a_{13}); (a_{21}, a_{22}, a_{23}); (a_{31}, a_{32}, a_{33})$他们在空间中组成了一个“箱子”
+
+这个箱子的体积就等于这几个向量构成的矩阵的行列式的绝对值，即 $|\det A|$
+
+首先考虑最基本的情况：对于标准正交矩阵 $Q$，证明他的“箱子”的体积是1
+
+$$ Q^{T}Q = I \rightarrow \det{Q^{T}}\det{Q} = \det{I} = 1 \rightarrow (\det{Q})^{2} =1 \rightarrow \det{Q}=1$$
+
+在这个基础上，拓展成长方块也同样成立，接下来就是证明对于任意角度的向量都可以 [通过行列式的线性性质进行计算，也就是把平行四边形拆成一个长方形进行计算]
+
+
+
+
 

@@ -311,6 +311,24 @@ $$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]=\left(\frac{N-1}{N}\right) \si
 > 
 > $$\mathbb{E}\left[\mu_{\mathrm{ML}}\right] =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N} x_{n}\right] =\frac{1}{N} \sum_{n=1}^{N} \mathbb{E}\left[ x_{n}\right] = \mu$$
 > 
+$$
+\begin{aligned}
+    \mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right] 
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}-\mu_{\mathrm{ML}}\right)^{2}\right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}^{2}+\mu_{\mathrm{ML}}^{2}-2x_{n}\mu_{\mathrm{ML}}\right)\right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\frac{1}{N}\sum_{n=1}^{N}\left(2x_{n}\mu_{\mathrm{ML}}\right)+\mu_{\mathrm{ML}}^{2}\right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\frac{1}{N}2\mu_{\mathrm{ML}}\sum_{n=1}^{N}\left(x_{n}\right)+\mu_{\mathrm{ML}}^{2}\right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-2\mu_{\mathrm{ML}}^{2}+\mu_{\mathrm{ML}}^{2}\right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu_{\mathrm{ML}}^{2}\right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu^{2} - (\mu_{\mathrm{ML}}^{2}-\mu^{2}) \right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu^{2} - (\mu_{\mathrm{ML}}^{2}-\mu^{2}) \right] \\\\
+    & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu^{2} \right] - \mathbb{E}\left[(\mu_{\mathrm{ML}}^{2}-\mu^{2}) \right] \\\\
+    & = \mathbb{E}\left[ \sigma^{2} \right] - (\mathbb{E}\left[(-\mu^{2}) \right]) \\\\
+
+
+\end{aligned}
+$$
+
 > 
 <!-- > $$\begin{aligned}
     \mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]
