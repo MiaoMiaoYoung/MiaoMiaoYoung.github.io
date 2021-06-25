@@ -1046,7 +1046,60 @@ $$ Q^{T}Q = I \rightarrow \det{Q^{T}}\det{Q} = \det{I} = 1 \rightarrow (\det{Q})
 
 在这个基础上，拓展成长方块也同样成立，接下来就是证明对于任意角度的向量都可以 [通过行列式的线性性质进行计算，也就是把平行四边形拆成一个长方形进行计算]
 
+## 21. 特征值和特征向量
+
+> 特征值和特征向量还是针对方阵而言的
 
 
+给定矩阵$A$，作用在向量$x$，($A$就像是一个函数对$x$进行变换然后得到了一个新的向量)，得到的新的向量$Ax$与原向量$x$平行，即
+
+$$Ax=\lambda x$$
+
+其中，$\lambda$是一个系数，称为特征值(eigen value)，$x$是特征向量(eigen vector)
+
+首先还是来看两个例子
+
+**投影矩阵的特征值和特征向量**
+
+当$x$在平面上时(即投影矩阵$P=A(A^{T}A)^{-1}A^{T}$所要投影到的$A$的列空间上，即$C(A)$)，$Px=x$，所以特征值为$\lambda=1$
+
+当$x$垂直于平面是，$Px=0$，所以特征值为$\lambda=0$
+
+所以我们可以知道投影矩阵$P$的两个特征值，分别是$\lambda=0,1$
+
+**置换矩阵的特征值和特征向量**
+
+这里使用$A=\begin{bmatrix}  0 &1 \\\\ 1 &0\end{bmatrix}$来表示置换向量，避免与上面的投影矩阵$P$混淆
+
+他的一组特征向量和特征值可以是$x=\begin{bmatrix}  1 \\\\ 1\end{bmatrix}, \lambda = 1$；另一组可以是$x=\begin{bmatrix}  -1 \\\\ 1\end{bmatrix}, \lambda = -1$
+
+------------------------------------
+
+**如何求解特征值和特征向量，即$Ax=\lambda x$**
+
+将上式重写成： $(A-\lambda I)x=0$，即如果存在$x$使得这个式子成立，那么$A$进行$\lambda I$的偏移后必须是奇异的
+
+而奇异矩阵的行列式为0，所以 $\det(A-\lambda I)=0$，这个方程被称为**特征方程/特征值方程**
+
+举个例子：$A=\left|\begin{aligned}&3&1\\&1&3\end{aligned}\right|$
+
+$\therefore \det(A-\lambda I)=\left|\begin{aligned} &3-\lambda & 1 \\\\ &1 &3-\lambda \end{aligned}\right|=(3-\lambda)^{2}-1=\lambda^{2}-\color{blue}{6}\color{red}\lambda+\color{green}8$
+  
+> 这里的 $\color{blue}{6}$ 是矩阵$A$的迹， $\color{green}{8}$ 是矩阵A的行列式值，对于二阶行列式有这个性质
+
+$\therefore$ 有两个特征值：$\lambda_{1}=4$ $\lambda_{2}=2$
+
+$\lambda_{1}=4$时，$(A-\lambda I)=\begin{bmatrix}-1 &1 \\\\ 1 &-1\end{bmatrix}$， $x_{1}=\begin{bmatrix}1 \\\\1\end{bmatrix}$
+
+$\lambda_{2}=2$时，$(A-\lambda I)=\begin{bmatrix}1 &1 \\\\ 1 &1\end{bmatrix}$， $x_{2}=\begin{bmatrix}-1 \\\\1\end{bmatrix}$
+
+
+
+------------------------------------
+
+
+特征值的性质：
+
+1. 特征值的和($\sum\lambda$)等于矩阵A对角线元素之和，即**迹(trace)**：$a_{11}+...+a_{nn}$
 
 
