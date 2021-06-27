@@ -500,3 +500,74 @@ tags:
 ### 薰衣草
 
 ![薰衣草](images/day23/薰衣草.jpg)
+
+
+## DAY 30 (06.21)
+
+### 水萝卜
+
+![水萝卜.jpg](https://i.loli.net/2021/06/27/UIQiukZqhYdLx5C.jpg)
+
+### 向日葵
+
+![向日葵.jpg](https://i.loli.net/2021/06/27/ABSZKbEUgHQTalF.jpg)
+
+### 牵牛花
+
+![牵牛花-1.jpg](https://i.loli.net/2021/06/27/9Z35xshVI1iCzeM.jpg)
+
+![牵牛花-2.jpg](https://i.loli.net/2021/06/27/ur23QY1hIMXlUE9.jpg)
+
+### 西红柿
+
+![西红柿.jpg](https://i.loli.net/2021/06/27/2kTr1ZL8v9ClM3b.jpg)
+
+### 薄荷
+
+![薄荷.jpg](https://i.loli.net/2021/06/27/7cYEP2ap4VNAQ8m.jpg)
+
+### 紫苏
+
+![紫苏.jpg](https://i.loli.net/2021/06/27/QHJNrMzhUAsXjcn.jpg)
+
+### 薰衣草
+
+![薰衣草.jpg](https://i.loli.net/2021/06/27/mKwN8HjnbsY24x5.jpg)
+
+### 蒲公英
+
+![蒲公英.jpg](https://i.loli.net/2021/06/27/GpUDxj8QlIgcnP5.jpg)
+
+有一小株发出芽了，结果有消逝在了茫茫泥土之中，错过的爱情终究是错过了
+
+
+## DAY 33 (06.24)
+
+### 水萝卜
+
+![水萝卜.jpg](https://i.loli.net/2021/06/27/5vD7EH6JVT1lcKf.jpg)
+
+### 向日葵
+
+![向日葵.jpg](https://i.loli.net/2021/06/27/9vs7DXnUoTaPzFC.jpg)
+
+### 牵牛花
+
+![牵牛花-1.jpg](https://i.loli.net/2021/06/27/qZxpuL4R7KMm5IH.jpg)
+![牵牛花-2.jpg](https://i.loli.net/2021/06/27/vIz2aLDUmnZBYoi.jpg)
+
+### 西红柿
+
+![西红柿.jpg](https://i.loli.net/2021/06/27/dAmFK3QkloCb9v2.jpg)
+
+### 薄荷
+
+![薄荷.jpg](https://i.loli.net/2021/06/27/qVryXfoYF2SQusR.jpg)
+
+### 紫苏
+
+![紫苏.jpg](https://i.loli.net/2021/06/27/Dt73KjEMfkdobyA.jpg)
+
+### 薰衣草
+
+![薰衣草.jpg](https://i.loli.net/2021/06/27/9ulbanZOYJIhx8M.jpg)
