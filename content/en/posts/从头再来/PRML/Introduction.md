@@ -26,7 +26,7 @@ enableTocContent: true
 2021.06.18 开始从头攻克PRML
 
 
-## 1.2 概率论
+## 1.2 概率论 (Probability Theory)
 
 ### 联合概率、边缘概率和条件概率
 
@@ -353,4 +353,26 @@ $$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]=\left(\frac{N-1}{N}\right) \si
 > 
 > 综上：
 > $$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]=\sigma^{2}+\mu^{2} - (\frac{1}{N}\sigma^{2}+\mu^{2})=\frac{N-1}{N}\sigma^{2}$$
+
+## 1.5 决策论 (Decision Theory)
+
+> 决策论在于概率论相结合时，可以让我们在涉及不确定性的情况下做出最佳决策
+
+问题：给定一个向量$\mathbf{x}$与相应的目标$\mathbf{t}$，求对于$\mathbf{x}$中的一个新的值，预测得到的$\mathbf{t}$
+
+以检测X-ray的癌症病症为例，输入的$\mathbf{x}$是图像中像素值的集合，输出的变量$t$将代表是不是患有癌症 
+
+> 有癌症以$C_{1}$代表，没有癌症以$C_{2}$代表，同时可以使用数字来代替符号，即$t=0 \leftrightarrow C_{1};\quad t=0 \leftrightarrow C_{2}$
+
+我们现在关心的是，对于一副给定病人X-ray的图像，去判断病人患癌的概率，即$p(C_{k}|\mathbf{x})$，可以使用贝叶斯公式进行如下表达：
+
+$$p(C_{k}|\mathbf{x})=\frac{p(\mathbf{x}|C_{k})p(C_{k})}{p(\mathbf{x})}$$
+
+> 这里，$p(C_{k})$可以成为对类别$C_{k}$的先验（即在不做X-ray之前，判断一个人是否患癌的概率）；
+> 
+> $p(\mathbf{x}|C_{k})$成为相对应的后验
+
+### 1.5.1 最小误差
+
+
 
