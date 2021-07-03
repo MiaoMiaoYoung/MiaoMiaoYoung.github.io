@@ -154,10 +154,16 @@ $$\mathbb{E}_{x}[f(x, y)]$$
 
 表示函数$f(x,y)$相对于$x$分布的相对值，最后的结果是关于$y$的一个函数
 
-期望服从线性性质：
+**当多元变量相互独立时**，期望服从线性性质：
 
 $$\mathbb{E}[ax+by+cz] = a\mathbb{E}[x]+b\mathbb{E}[y]+c\mathbb{E}[z]$$
 
+$$\mathbb{E}[x_{1}x_{2}\cdots x_{n}]=\mathbb{E}[x_{1}]\mathbb{E}[x_{2}]\cdots\mathbb{E}[x_{n}]$$
+
+> 简要证明一下 (Exercise 1.10)
+> $$ \begin{aligned} \mathbb{E}[x+z] &=\iint(x+z) p(x) p(z) \mathrm{d} x \mathrm{~d} z \\ &=\int x p(x) \mathrm{d} x+\int z p(z) \mathrm{d} z \\ &=\mathbb{E}[x]+\mathbb{E}[z] \end{aligned} $$
+> 
+> 因为独立才有$p(x, z)=p(x) p(z)$
 
 #### 条件期望(conditional expectation)
 
@@ -180,16 +186,31 @@ $$\operatorname{var}[f]=\mathbb{E}\left[f(x)^{2}\right]-\mathbb{E}[f(x)]^{2}$$
 
 $$\operatorname{var}[x]=\mathbb{E}\left[x^{2}\right]-\mathbb{E}[x]^{2}$$
 
+当多变量相互独立是，方差服从性质：
+
+$$\operatorname{var}[nx]=n^{2}\operatorname{var}[x]$$
+
+$$\operatorname{var}[x_{1}x_{2}\cdots x_{n}]=\operatorname{var}[x_{1}]+\operatorname{var}[x_{2}]\cdots\operatorname{var}[x_{n}]$$
+
+> 简要证明一下 (Exercise 1.10)
+> $$ \begin{aligned} \operatorname{var}[x+z] &=\iint(x+z-\mathbb{E}[x+z])^{2} p(x) p(z) \mathrm{d} x \mathrm{~d} z \\ &=\int(x-\mathbb{E}[x])^{2} p(x) \mathrm{d} x+\int(z-\mathbb{E}[z])^{2} p(z) \mathrm{d} z \\ &=\operatorname{var}(x)+\operatorname{var}(z) \end{aligned} $$
+> 
+> 其中 $(x+z-\mathbb{E}[x+z])^{2}=(x-\mathbb{E}[x])^{2}+(z-\mathbb{E}[z])^{2}+2(x-\mathbb{E}[x])(z-\mathbb{E}[z])$，因为独立最后一项积分为0
+
+
 对于两个随机变量$x$和$y$，他们的**协方差(covariance)的**定义为：
 
 $$ \begin{aligned}  \operatorname{cov}[x, y]  &=\mathbb{E}_{x, y}[\{x-\mathbb{E}[x]\}\{y-\mathbb{E}[y]\}] \\\\ &=\mathbb{E}\_{x, y}[x y]-\mathbb{E}[x] \mathbb{E}[y] \end{aligned}  $$
 
-表达了$x$和$y$一起变换的程度
+表达了$x$和$y$ **一起变换** 的程度
 
 对于两个由随机变量组成的向量$\mathbf{x}$和$\mathbf{y}$，他们的协方差以矩阵形式给出：
 
 
 $$ \begin{aligned} \operatorname{cov}[\mathrm{x}, \mathbf{y}] &=\mathbb{E}_{\mathbf{x}, \mathbf{y}} \left[\\{\mathbf{x}-\mathbb{E}[\mathbf{x}]\\}\left\\{\mathbf{y}^{\mathrm{T}}-\mathbb{E}\left[\mathbf{y}^{\mathrm{T}}\right]\right\\}\right] \\\\ &=\mathbb{E}\_{\mathbf{x}, \mathbf{y}}\left[\mathrm{xy}^{\mathrm{T}}\right]-\mathbb{E}[\mathrm{x}] \mathbb{E}\left[\mathbf{y}^{\mathrm{T}}\right] \end{aligned} $$
+
+
+
 
 
 ### 1.2.3 贝叶斯概率 (Bayesoan probabilities)
@@ -307,23 +328,29 @@ $$\mathbb{E}\left[\mu_{\mathrm{ML}}\right]=\mu$$
 
 $$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]=\left(\frac{N-1}{N}\right) \sigma^{2}$$
 
-> 这里需要推导一下：
+> 这里需要推导一下，首先是$\mathbb{E}\left[\mu_{\mathrm{ML}}\right]$是无偏的：
 > 
 > $$\mathbb{E}\left[\mu_{\mathrm{ML}}\right] =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N} x_{n}\right] =\frac{1}{N} \sum_{n=1}^{N} \mathbb{E}\left[ x_{n}\right] = \mu$$
+>  
+> 其次，$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]$是有偏的
 > 
-> $$ \begin{aligned}     \mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]      & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}-\mu_{\mathrm{ML}}\right)^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}^{2}+\mu_{\mathrm{ML}}^{2}-2x_{n}\mu_{\mathrm{ML}}\right)\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\frac{1}{N}\sum_{n=1}^{N}\left(2x_{n}\mu_{\mathrm{ML}}\right)+\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\frac{1}{N}2\mu_{\mathrm{ML}}\sum_{n=1}^{N}\left(x_{n}\right)+\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-2\mu_{\mathrm{ML}}^{2}+\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu^{2} - (\mu_{\mathrm{ML}}^{2}-\mu^{2}) \right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu^{2} - (\mu_{\mathrm{ML}}^{2}-\mu^{2}) \right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu^{2} \right] - \mathbb{E}\left[(\mu_{\mathrm{ML}}^{2}-\mu^{2}) \right] \\\\     & = \mathbb{E}\left[ \sigma^{2} \right] - (\mathbb{E}\left[(-\mu^{2}) \right]) \end{aligned} $$
-
+> $$ \begin{aligned}     \mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]      & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}-\mu_{\mathrm{ML}}\right)^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}^{2}+\mu_{\mathrm{ML}}^{2}-2x_{n}\mu_{\mathrm{ML}}\right)\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\frac{1}{N}\sum_{n=1}^{N}\left(2x_{n}\mu_{\mathrm{ML}}\right)+\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\frac{1}{N}2\mu_{\mathrm{ML}}\sum_{n=1}^{N}\left(x_{n}\right)+\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-2\mu_{\mathrm{ML}}^{2}+\mu_{\mathrm{ML}}^{2}\right] \\\\     & = \mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}-\mu_{\mathrm{ML}}^{2}\right]  \end{aligned} $$
 > 
-<!-- > $$\begin{aligned}
-    \mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]
-    & =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}-\mu_{\mathrm{ML}}\right)^{2}\right] \\\\
-    & =\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}\left(x_{n}^{2}+\mu_{\mathrm{ML}}^{2}-2x_{n}\mu_{\mathrm{ML}}\right)\right] \\\\
-    & =\mathbb{E}\left[ 
-    \frac{1}{N}\sum_{n=1}^{N}{x_{n}^{2}}+
-    \frac{1}{N}\sum_{n=1}^{N}{\mu_{\mathrm{ML}}^{2}}-
-    \frac{1}{N}\sum_{n=1}^{N}{2x_{n}\mu_{\mathrm{ML}}}
-    \right] \\\\
-    &=\mathbb{E}[x^{2}]
-\end{aligned}$$ -->
-
+> 这里最好分开看容易理解
+> 
+>
+> 对于第一项 $\mathbb{E}\left[\frac{1}{N} \sum_{n=1}^{N}x_{n}^{2}\right] = \frac{1}{N} \sum_{n=1}^{N}\mathbb{E}\left[x_{n}^{2} \right]$,
+>
+> 其中，根据方差公式可以得到： $\mathbb{E}\left[x_{n}^{2}\right]=\sigma^{2}+\mu^{2}$
+> 
+> 对于第二项 $\mathbb{E}\left[\mu_{\mathrm{ML}}^{2}\right]$可以看做是对$\mu_{\mathrm{ML}}$的估计，即根据方差公式可以得到：
+> 
+> $$ \begin{aligned} \mathbb{E}\left[\mu_{\mathrm{ML}}^{2}\right]&=\mathbb{D}(\mu_{\mathrm{ML}})+\mathbb{E}\left[\mu_{\mathrm{ML}}\right]^{2}\\\\ &=\mathbb{D}\left[\frac{1}{N} \sum_{n=1}^{N} x_{n}\right] + \mathbb{E}\left[\mu\right]^{2} \\\\ &=\frac{1}{N^{2}}\sum_{n=1}^{N}\mathbb{D}\left[x_{n}\right] + \mathbb{E}\left[\mu\right]^{2} \\\\ &=\frac{1}{N}\mathbb{D}[x]+\mu^{2} \\\\ &=\frac{1}{N}\sigma^{2} + \mu^{2} \end{aligned} $$
+> 
+> 其中$\mathbb{D}$为方差符号
+> 
+> 上述都用到的一个概念：$x_{i}$是$\bm{x}$的一个实例，$\bm{x}$服从什么分布，$x_{i}$也服从，即$\mathbb{E}[x_{i}]=\mathbb{E}[\bm{x}]$, $\mathbb{D}[x_{i}]=\mathbb{D}[\bm{x}]$
+> 
+> 综上：
+> $$\mathbb{E}\left[\sigma_{\mathrm{ML}}^{2}\right]=\sigma^{2}+\mu^{2} - (\frac{1}{N}\sigma^{2}+\mu^{2})=\frac{N-1}{N}\sigma^{2}$$
 
