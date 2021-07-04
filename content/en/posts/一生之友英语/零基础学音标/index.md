@@ -43,3 +43,12 @@ $$Ff,\qquad Ll,\qquad Mm,\qquad Nn,\qquad Ss,\qquad Xx$$
 |$Ss$ |$/es/$ |{{< audio src="http://dict.youdao.com/dictvoice?audio=s&amp;type=1" width="150px">}} |$/s/$ |{{< audio src="//i.xiao84.com/en-yinbiao/phonemicchart/02/s.mp3" width="150px">}}|
 |$Xx$ |$/eks/$|{{< audio src="http://dict.youdao.com/dictvoice?audio=x&amp;type=1" width="150px">}} |$/ks/$||
 
+## 元音
+
+### Aa
+
+|音标|发音|举例||备注|
+|:--:|:--:|:--:|:--:|:--:|
+|\æ\ |{{< audio src="//i.xiao84.com/en-yinbiao/phonemicchart/02/æ.mp3" width="150px">}}|apple: /ˈæpl/|{{< audio src="http://dict.youdao.com/dictvoice?audio=apple&amp;type=1" width="150px">}}|咧大嘴|
+
+
