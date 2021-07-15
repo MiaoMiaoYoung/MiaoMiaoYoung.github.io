@@ -48,3 +48,25 @@ plt.ylim(ymin=-3, ymax=3)
 plt.grid(True)
 plt.show()
 ```
+
+### 去掉边框
+
+```python
+ax = plt.gca()  # get current axis 获得坐标轴对象
+ax.spines['right'].set_color('none')  # 将右边 边沿线颜色设置为空 其实就相当于抹掉这条边
+ax.spines['top'].set_color('none')
+ax.xaxis.set_ticks_position('bottom')
+ax.yaxis.set_ticks_position('left')
+```
+
+### 中心在(0,0)的坐标轴
+
+```python
+# 设置中心的为（0，0）的坐标轴
+ax.spines['bottom'].set_position(('data', 0))  # 指定 data 设置的bottom(也就是指定的x轴)绑定到y轴的0这个点上
+ax.spines['left'].set_position(('data', 0))
+# plt.xticks(rotation=45)#x轴数值倾斜45度显示
+plt.xlim(-4.0, 5.0) #x轴数值设置
+plt.ylim(-0.2, 0.5)
+```
+
