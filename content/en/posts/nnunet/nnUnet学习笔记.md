@@ -8,6 +8,7 @@ markup: "mmark"
 image: images/posts/nnunet.jpg
 categories:
     - work
+    - code
 tags:
     - 代码复现
     - 医学图像
