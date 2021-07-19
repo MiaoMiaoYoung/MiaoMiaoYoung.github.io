@@ -305,12 +305,152 @@ Folder
 
 ## 数据进行预处理
 
+```bash
+nnUNet_plan_and_preprocess -t XXX --verify_dataset_integrity
+```
 
+- 数据必须得放置在正确的文件夹：
 
+    nnUNet_raw_data_base/nnUNet_raw_data/TaskXXX_MYTASK
 
+- XXX标识了需要进行预处理的id
+
+    ```bash
+    nnUNet_plan_and_preprocess -t 099 --verify_dataset_integrity
+    ```
+
+预处理后的文件会放在文件夹nnUNet_preprocessed下：
+
+```bash
+Folder
+|-- nnUNet
+|   |--[Code]
+|   
+|-- nnUNet_preprocessed
+|   |
+|   `-- Task099_Pancreas
+|       |
+|       |-- dataset.json
+|       |
+|       |-- dataset_properties.pkl
+|       |
+|       |-- gt_segmentations
+|       |
+|       |   |-- pancreas_001.nii.gz
+|       |   |-- ...................
+|       |   `-- pancreas_899.nii.gz
+|       |
+|       |-- nnUNetData_plans_v2.1_2D_stage0
+|       |   |-- pancreas_001.npz
+|       |   |-- pancreas_001.pkl
+|       |   |-- ................
+|       |   |-- ................
+|       |   |-- pancreas_899.npz
+|       |   `-- pancreas_899.pkl
+|       |
+|       |-- nnUNetData_plans_v2.1_stage0
+|       |   |-- pancreas_001.npz
+|       |   |-- pancreas_001.pkl
+|       |   |-- ................
+|       |   |-- ................
+|       |   |-- pancreas_899.npz
+|       |   `-- pancreas_899.pkl
+|       |
+|       |-- nnUNetData_plans_v2.1_stage1
+|       |   |-- pancreas_001.npz
+|       |   |-- pancreas_001.pkl
+|       |   |-- ................
+|       |   |-- ................
+|       |   |-- pancreas_899.npz
+|       |   `-- pancreas_899.pkl
+|       |
+|       |-- nnUNetPlansv2.1_plans_2D.pkl
+|       |
+|       `-- nnUNetPlansv2.1_plans_3D.pkl
+|
+|-- nnUNet_raw_data_base
+|   |
+|   |-- nnUNet_cropped_data
+|   |   |
+|   |   `-- Task099_Pancreas
+|   |       |
+|   |       |-- dataset.json
+|   |       |
+|   |       |-- dataset_properties.pkl
+|   |       |
+|   |       |-- gt_segmentations
+|   |       |   |
+|   |       |   |-- pancreas_001.nii.gz
+|   |       |   |-- ...................
+|   |       |   `-- pancreas_024.nii.gz
+|   |       |
+|   |       |-- pancreas_001.npz
+|   |       |-- pancreas_001.pkl
+|   |       |-- ................
+|   |       |-- ................
+|   |       |-- pancreas_899.npz
+|   |       `-- pancreas_899.pkl
+|   |
+|   `-- nnUNet_raw_data
+|       |
+|       |-- Task099_Pancreas
+|       |   |
+|       |   |-- dataset.json
+|       |   |
+|       |   |-- imagesTr
+|       |   |   |
+|       |   |   |-- pancreas_001_0000.nii.gz
+|       |   |   |-- ........................
+|       |   |   `-- pancreas_899_0000.nii.gz
+|       |   |   
+|       |   |-- imagesTs
+|       |   |   |
+|       |   |   |-- pancreas_900_0000.nii.gz
+|       |   |   |-- ........................
+|       |   |   `-- pancreas_999_0000.nii.gz
+|       |   |
+|       |   `-- labelsTr
+|       |       |
+|       |       |-- pancreas_001.nii.gz
+|       |       |-- ...................
+|       |       `-- pancreas_899.nii.gz
+
+`-- nnUNet_trained_models
+    `-- nnUNet
+```
 
 ## 训练
 
 > 参考：https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/training_example_Hippocampus.md
 
+```bash
+nnUNet_train CONFIGURATION TRAINER_CLASS_NAME TASK_NAME_OR_ID FOLD  --npz (additional options)
+```
 
+### 2D U-Net
+
+```bash
+nnUNet_train 2d nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
+```
+
+### 3D full resolution U-Net
+
+```bash
+nnUNet_train 3d_fullres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
+```
+
+### 3D U-Net cascade
+
+```bash
+nnUNet_train 3d_lowres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
+
+#############################
+
+nnUNet_train 3d_lowres nnUNetTrainerV2 Task099_Pancreas 0 --npz
+```
+
+- FOLD：表示了第几折的交叉验证
+
+```bash
+nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
+```
