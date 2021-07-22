@@ -40,6 +40,7 @@ nvidia-docker run -it --name nnunet --shm-size 6G -p 8000:80 -p 10022:22 -p 5000
     ps -e |grep ssh
     ```
     如果看到sshd说明已经启动了
+
 - 允许root账户登录ssh
     ```bash
     vim /etc/ssh/sshd_config
@@ -62,47 +63,55 @@ nvidia-docker run -it --name nnunet --shm-size 6G -p 8000:80 -p 10022:22 -p 5000
 
 
 - 测试容器是否能与外部通信
+
     ```bash
     ssh root@127.0.0.1 -p 10022
     ```
-    ![连接成功结果](./image/1.jpg)
+
+    ![1.jpg](https://i.loli.net/2021/07/22/WaoA9JXpxOuQvHy.jpg)
 
 
 ## pycharm远程连接
 
 - 设置pycharm
-    ![](image/2.jpg)
+    ![2.jpg](https://i.loli.net/2021/07/22/4X6Lsb2tEzkavVx.jpg)
+
     Pycharm $\rightarrow$ Tools $\rightarrow$ Deployment $\rightarrow$  Configuration  
 
-- 配置SFTP远程服务器 
-    ![](image/5.jpg)
+- 配置SFTP远程服务器
+    ![5.jpg](https://i.loli.net/2021/07/22/1IFxy58D2GkNJaM.jpg) 
+    
     - host: 服务器地址
-    - Username: root (不是主机的user)
-    - Password: docker中root的密码
+    - Username: docker中的用户名 (不是主机的user)
+    - Password: docker中用户的密码
     - 端口：10022 (docker中的端口)
     
     点击Test Connection测试链接是否成功，测试成功如下图所示：
-    ![](image/4.jpg)
+    ![4.jpg](https://i.loli.net/2021/07/22/YXr9J4qkOdPpFNH.jpg)
+
 
 - 将本地代码与远程服务器代码连接
-    ![](image/6.jpg)
+    ![6.jpg](https://i.loli.net/2021/07/22/FcoM9BReS3b2AhG.jpg)
     Mappings中，Local path为本地项目地址，Deployment path为远程服务器地址，点击OK
 
 - 将代码上传到服务器进行调试测试
-    ![](image/8.jpg)
+    ![8.jpg](https://i.loli.net/2021/07/22/PWsa4Ylhw8U952S.jpg)
+
 
 ## pycharm配置docker服务
 
 - 配置Python编译器
-    ![](image/15.jpg)
+
+    ![15.jpg](https://i.loli.net/2021/07/22/SFrpvM86l3baCfJ.jpg)
+
     File $\rightarrow$ Settings，配置项目编译器（Project Interpreter），选择SSH Interpreter，选择现有服务器设定，Pycharm会自动选中之前STFP的设定。
     之后选择Move this server to IDE settings，之后Next。
 
-    ![](image/16.jpg)
+    ![16.jpg](https://i.loli.net/2021/07/22/6oBesWOAmLdwNCy.jpg)
     选择远程主机中Python的路径，然后Finish。
     （docker中可能没有sudo，就不需要选了）
 
-    ![](image/18.jpg)
+    ![18.jpg](https://i.loli.net/2021/07/22/OKnNbkJhsivBS35.jpg)
     可以看到，已经加入了远程的编译器了
 
     ![](image/20.jpg)

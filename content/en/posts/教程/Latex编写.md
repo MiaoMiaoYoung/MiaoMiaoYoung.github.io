@@ -1,5 +1,5 @@
 ---
-title: "Latex"
+title: "Latex编写指南"
 date: 2021-04-10T10:37:48+08:00
 draft: False
 categories:

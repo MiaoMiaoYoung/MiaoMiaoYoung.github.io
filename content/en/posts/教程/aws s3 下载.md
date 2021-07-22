@@ -14,38 +14,43 @@ tags:
 
 进入控制台：https://console.aws.amazon.com/
 
-![](images/1.jpg)
+![1.jpg](https://i.loli.net/2021/07/22/5AIPLRMyXkUSOBp.jpg)
+
 
 创建组
 
-![](images/2.jpg)
+![2.jpg](https://i.loli.net/2021/07/22/XjVkK13NInCAfy6.jpg)
+
 
 设置组名
 
-![](images/3.jpg)
+![3.jpg](https://i.loli.net/2021/07/22/beHQjXGOaMqR9LY.jpg)
 
 
 设置策略：s3-readonly和审核
 
-![](images/4.jpg)
+![4.jpg](https://i.loli.net/2021/07/22/VJIYnqivh1cRZUF.jpg)
 
-![](images/5.jpg)
+![5.jpg](https://i.loli.net/2021/07/22/Aj9l2G1R6NdUMhX.jpg)
 
 ## 创建用户
 
-![](images/6.jpg)
+![6.jpg](https://i.loli.net/2021/07/22/xEh6wqjKukJ5vNc.jpg)
 
 设置用户名，访问权限
 
-![](images/7.jpg)
+![7.jpg](https://i.loli.net/2021/07/22/n9GT5ivPA4oxeyU.jpg)
+
 
 将用户添加到组
 
-![](images/8.jpg)
+![8.jpg](https://i.loli.net/2021/07/22/usmWrP3Y25NnwLb.jpg)
+
 
 之后一路next，直到获得访问密钥
 
-![](images/9.jpg)
+![9.jpg](https://i.loli.net/2021/07/22/W7HtJ2XNVDypQZg.jpg)
+
 
 ## 安装CLI
 
@@ -55,13 +60,17 @@ https://awscli.amazonaws.com/AWSCLIV2.msi
 ## 配置CLI
 
 将前面的访问ID和私有访问密钥
-![](images/10.jpg)
+
+![10.jpg](https://i.loli.net/2021/07/22/nvogW2RzHVhEDjL.jpg)
 
 ## aws s3命令下载数据集
 
 ```bash
 aws s3 cp "s3://ml-inat-competition-datasets/2021/train.tar.gz" ./ --recursive
 ```
+
+![11.jpg](https://i.loli.net/2021/07/22/EaqGP4Mm3sBxgSW.jpg)
+
 
 ## 加速
 
