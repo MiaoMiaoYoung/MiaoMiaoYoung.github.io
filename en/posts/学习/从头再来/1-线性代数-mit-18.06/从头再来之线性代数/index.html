@@ -1,0 +1,1743 @@
+<!doctype html><html lang=en dir=ltr>
+<head prefix="og: http://ogp.me/ns#">
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta http-equiv=x-ua-compatible content="IE=edge">
+<title>从头再来之线性代数 – Hugo Zzo Theme</title>
+<script defer src=/js/fuse.min.32195737929df2c8096e855a5789cbb3f1331224d9169e8705493e7008f47df8.js></script>
+<script src=/js/enquire.min.dfb99dee1e029d51d6cfb672d847929890b1585402de17f5ed092edd72a688b4.js></script>
+<script defer src=/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js></script>
+<script defer src=/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js></script>
+<script defer src=/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js></script>
+<script defer src=/js/helper/closest.min.js></script>
+<script>"use strict";window.NodeList&&!NodeList.prototype.forEach&&(NodeList.prototype.forEach=Array.prototype.forEach),String.prototype.includes||(String.prototype.includes=function(b,a){'use strict';if(b instanceof RegExp)throw TypeError('first argument must not be a RegExp');return a===void 0&&(a=0),this.indexOf(b,a)!==-1}),Document.prototype.append=Element.prototype.append=function(){this.appendChild(_mutation(arguments))};function _mutation(a){if(!a.length)throw new Error('DOM Exception 8');if(a.length===1)return typeof a[0]=='string'?document.createTextNode(a[0]):a[0];for(var c=document.createDocumentFragment(),e=a.length,d=-1,b;++d<e;)b=a[d],c.appendChild(typeof b=='string'?document.createTextNode(b):b);return c}String.prototype.startsWith||(String.prototype.startsWith=function(b,a){return a=a||0,this.indexOf(b,a)===a}),document.addEventListener('DOMContentLoaded',function(){var z=document.querySelector('.navbar__burger'),J,F,G,N,U,f,d,V,r,ae,Z,Q,o,g,y,k,b,s,t,P,O,e,C,h,D,B,ai,A,aj,at,ar,ab,aq,E,ap,ao,ah,an,i,j,c,am,S,T,ak,w,W,X,ag,x,n,Y,q,av,au,a,aw,R,m,L,K,I,v,p,u;z?z.addEventListener('click',function(c){var a=document.querySelector('.navbarm__collapse'),b;a&&(b=a.getAttribute('data-open'),b==='true'?(a.setAttribute('data-open','false'),a.style.maxHeight=0,z.classList.remove('is-active')):(a.setAttribute('data-open','true'),a.style.maxHeight=a.scrollHeight+"px",z.classList.add('is-active')))}):null,J=document.querySelectorAll('.single__contents > table');for(let a=0;a<J.length;a++)F=J[a],G=document.createElement('div'),G.className='table-wrapper',F.parentElement.replaceChild(G,F),G.appendChild(F);N=document.querySelectorAll('.footnote-ref'),U=document.querySelectorAll('.footnote-backref'),N?N.forEach(function(a,c){a.onmouseenter=function(){b.classList.contains('scrolling')&&b.classList.remove('scrolling')},a.onmouseleave=function(){b.classList.contains('scrolling')||setTimeout(function(){b.classList.add('scrolling')},100)},a.onclick=function(){b.classList.contains('scrolling')||(b.classList.remove('navbar--show'),b.classList.remove('navbar--hide'),b.classList.add('navbar--hide'))}}):null,U?U.forEach(function(a,c){a.onmouseenter=function(){b.classList.contains('scrolling')&&b.classList.remove('scrolling')},a.onmouseleave=function(){b.classList.contains('scrolling')||setTimeout(function(){b.classList.add('scrolling')},100)},a.onclick=function(){b.classList.contains('scrolling')||(b.classList.remove('navbar--show'),b.classList.remove('navbar--hide'),b.classList.add('navbar--hide'))}}):null,f=document.querySelector('.summary__container'),d=document.querySelector('.search-result'),V=document.querySelector('.search-result__close'),V?V.addEventListener('click',function(a){d.setAttribute('data-display','none'),f.setAttribute('data-display','block')}):null,document.querySelectorAll('.tab')?document.querySelectorAll('.tab').forEach(function(a,d){var e=a.getAttribute('id'),f=a,b=a.querySelectorAll('.tab__link'),c=a.querySelectorAll('.tab__content'),g=[];b&&b.length>0?b.forEach(function(b,d,a){b.onclick=function(e){for(var b=0;b<a.length;b++)d===parseInt(b,10)?a[b].classList.contains('active')||(a[b].classList.add('active'),c[b].style.display='block'):(a[b].classList.remove('active'),c[b].style.display='none')}}):null}):null,document.querySelectorAll('.codetab')?document.querySelectorAll('.codetab').forEach(function(a,d){var e=a.getAttribute('id'),f=a,b=a.querySelectorAll('.codetab__link'),c=a.querySelectorAll('.codetab__content'),g=[];b&&b.length>0?b.forEach(function(b,d,a){b.onclick=function(e){for(var b=0;b<a.length;b++)d===parseInt(b,10)?a[b].classList.contains('active')||(a[b].classList.add('active'),c[b].style.display='block'):(a[b].classList.remove('active'),c[b].style.display='none')}}):null}):null,r=document.getElementById("gtt"),r.style.display="none",r.addEventListener('click',function(){window.document.documentMode?document.documentElement.scrollTop=0:af(250)});function af(a){var b=-window.scrollY/(a/15),c=setInterval(function(){window.scrollY!=0?window.scrollBy(0,b):clearInterval(c)},15)}ae=function(){document.body.scrollTop>250||document.documentElement.scrollTop>250?r.style.display="block":r.style.display="none"},Z=document.querySelectorAll('.expand__button');for(let a=0;a<Z.length;a++)Z[a].addEventListener("click",function(){var a=this.nextElementSibling;a.style.maxHeight?(a.style.maxHeight=null,this.querySelector('svg').classList.add('expand-icon__right'),this.querySelector('svg').classList.remove('expand-icon__down')):(a.style.maxHeight=a.scrollHeight+"px",this.querySelector('svg').classList.remove('expand-icon__right'),this.querySelector('svg').classList.add('expand-icon__down'))});Q=window.pageYOffset||document.documentElement.scrollTop,o=document.querySelector('.toc'),g=o?o.querySelector('#TableOfContents'):null,y=document.getElementById('toggle-toc'),k=document.querySelector('.single__contents'),b=document.querySelector('.navbar'),s=document.querySelector('.toc__flexbox'),t=document.querySelector('.toc__flexbox--outer'),P=document.querySelectorAll('.expand__content'),O=document.querySelectorAll('.box'),e=null,C=JSON.parse("true"),h=JSON.parse('["h2","h3","h4"]'),h?h=h.toString():h="h1, h2, h3, h4, h5, h6",k&&k.querySelectorAll(".tab")?k.querySelectorAll(".tab").forEach(function(a){a.querySelectorAll(h).forEach(function(a){e=Array.isArray(e)?e.concat(a.getAttribute('id')):[a.getAttribute('id')]})}):null,P?P.forEach(function(a){a.querySelectorAll(h).forEach(function(a){e=Array.isArray(e)?e.concat(a.getAttribute('id')):[a.getAttribute('id')]})}):null,O?O.forEach(function(a){a.querySelectorAll(h).forEach(function(a){e=Array.isArray(e)?e.concat(a.getAttribute('id')):[a.getAttribute('id')]})}):null,window.onscroll=function(){ae();var a=window.pageYOffset||document.documentElement.scrollTop;if(a>Q){if(a<250?r.style.display="none":r.style.display="block",a<45)return null;b.classList.contains('scrolling')&&(b.classList.contains('navbar--hide')?b.classList.contains('navbar--show')&&b.classList.remove('navbar--show'):b.classList.add('navbar--hide')),k&&(k.querySelectorAll(h).length>0?k.querySelectorAll(h).forEach(function(c){var b,a;if(y&&!y.checked)return null;if(e&&e.includes(c.getAttribute('id')))return null;document.documentElement.scrollTop>=c.offsetTop&&g&&(b=c.getAttribute('id'),o.querySelectorAll('a').forEach(function(a){a.classList.remove('active')}),o.querySelector('a[href="#'+b+'"]')?o.querySelector('a[href="#'+b+'"]').classList.add('active'):null,!1===C||(g.querySelectorAll('ul')?g.querySelectorAll('ul').forEach(function(a){a.querySelectorAll('li').forEach(function(a){a.querySelectorAll('ul').forEach(function(a){a.style.display='none'})})}):null),a=g.querySelector("[href='#"+b+"']"),a&&a.nextElementSibling&&(a.nextElementSibling.style.display='block'),getParents(a,'ul')?getParents(a,'ul').forEach(function(a){a.style.display='block'}):null)}):(s&&(s.setAttribute('data-position',''),s.classList.contains('hide')||s.classList.add('hide')),t&&(t.setAttribute('data-position',''),t.classList.contains('hide')||t.classList.add('hide'))))}else a<250&&(r.style.display="none"),b.classList.contains('scrolling')&&(b.classList.contains('navbar--hide')?b.classList.remove('navbar--hide'):b.classList.contains('navbar--show')||b.classList.add('navbar--show')),k&&(k.querySelectorAll(h).length>0?k.querySelectorAll(h).forEach(function(c){var b,a;if(y&&!y.checked)return null;if(e&&e.includes(c.getAttribute('id')))return null;document.documentElement.scrollTop>=c.offsetTop&&g&&(b=c.getAttribute('id'),o.querySelectorAll('a').forEach(function(a){a.classList.remove('active')}),o.querySelector('a[href="#'+b+'"]')?o.querySelector('a[href="#'+b+'"]').classList.add('active'):null,!1===C||(g.querySelectorAll('ul')?g.querySelectorAll('ul').forEach(function(a){a.querySelectorAll('li').forEach(function(a){a.querySelectorAll('ul').forEach(function(a){a.style.display='none'})})}):null),a=g.querySelector("[href='#"+b+"']"),a&&a.nextElementSibling&&(a.nextElementSibling.style.display='block'),getParents(a,'ul')?getParents(a,'ul').forEach(function(a){a.style.display='block'}):null)}):(s&&!s.classList.contains('hide')&&s.classList.add('hide'),t&&!t.classList.contains('hide')&&t.classList.add('hide'))),g&&document.documentElement.scrollTop<250&&(!1===C||(g.querySelector('ul')?g.querySelector('ul').querySelectorAll('li').forEach(function(a){a.querySelectorAll('ul').forEach(function(a){a.style.display='none'})}):null));Q=a<=0?0:a},D=localStorage.getItem('theme'),B=document.getElementById('root'),ai=document.querySelectorAll('.select-theme'),A=document.querySelectorAll('.select-theme__item'),aj=JSON.parse('"dark"'),at=JSON.parse('"light"'),ar=JSON.parse('"hacker"'),ab=JSON.parse('"solarized"'),aq=JSON.parse('"kimbie"'),E=function(a){var b=document.getElementsByName('msapplication-TileColor')[0],c=document.getElementsByName('theme-color')[0],d=document.getElementsByName('msapplication-navbutton-color')[0],e=document.getElementsByName('apple-mobile-web-app-status-bar-style')[0];a.includes('dark')?(b.setAttribute('content','#fcfcfa'),c.setAttribute('content','#403E41'),d.setAttribute('content','#403E41'),e.setAttribute('content','#403E41')):a.includes('light')?(b.setAttribute('content','#555'),c.setAttribute('content','#eee'),d.setAttribute('content','#eee'),e.setAttribute('content','#eee')):a.includes('hacker')?(b.setAttribute('content','#e3cd26'),c.setAttribute('content','#252526'),d.setAttribute('content','#252526'),e.setAttribute('content','#252526')):a.includes('solarized')?(b.setAttribute('content','#d3af86'),c.setAttribute('content','#51412c'),d.setAttribute('content','#51412c'),e.setAttribute('content','#51412c')):a.includes('kimbie')&&(b.setAttribute('content','#586e75'),c.setAttribute('content','#eee8d5'),d.setAttribute('content','#eee8d5'),e.setAttribute('content','#eee8d5'))},ap=function(a){if(a===aj)return'dark';if(a===at)return'light';if(a===ar)return'hacker';if(a===ab)return'solarized';if(a===aq)return'kimbie'},D?(A?A.forEach(function(a){a.text.trim()===D?a.classList.add('is-active'):a.classList.remove('is-active')}):null,E(D)):E(B.className),A?A.forEach(function(a,b){a.addEventListener('click',function(c){var a=ap(c.target.text.trim()),b,d;localStorage.setItem('theme',a),E(a),B.removeAttribute('class'),B.classList.add('theme__'+a),ai.forEach(function(b){b.querySelectorAll('a').forEach(function(b){b.classList&&(b.text.trim()===a?b.classList.contains('is-active')||b.classList.add('is-active'):b.classList.contains('is-active')&&b.classList.remove('is-active'))})}),window.mermaid&&(a==="dark"||a==="hacker"?(mermaid.initialize({theme:'dark'}),location.reload()):(mermaid.initialize({theme:'default'}),location.reload())),b=document.getElementById('utterances'),b&&b.querySelector('iframe').contentWindow.postMessage({type:'set-theme',theme:a==="dark"||a==="hacker"?'photon-dark':a==='kimbie'?'github-dark-orange':'github-light'},'https://utteranc.es'),d=document.querySelectorAll('.twitter-timeline'),d&&window.postMessage({type:'set-twitter-theme',theme:a==='light'||a==='solarized'?'light':'dark'})})}):null,ao=JSON.parse('"https://miaomiaoyoung.github.io/"'),ah=JSON.parse('"https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/"'),an=JSON.parse('"/en"'),i=null,j=null,c=null,am=JSON.parse("true"),S=JSON.parse("100"),T=JSON.parse("0.4"),ak=JSON.parse("true"),w=JSON.parse("true"),W=JSON.parse('"main"'),X=JSON.parse('"posts"'),ag=JSON.parse('"page"'),x=null,am&&function(){var a=new XMLHttpRequest;X==="publication"&&ag!=="page"?a.open('GET',ah+"index.json"):a.open('GET',ao+an+"/index.json"),a.setRequestHeader('Content-Type','application/json; charset=utf-8'),a.onload=function(){a.status===200?(x=new Fuse(JSON.parse(a.response.toString('utf-8')),{keys:X.includes('publication')?['title','abstract']:ak?['title','description','content']:['title','description'],includeMatches:w,shouldSort:!0,threshold:T||.4,location:0,distance:S||100,maxPatternLength:32,minMatchCharLength:1,isCaseSensitive:!1,findAllMatches:!1,useExtendedSearch:!1}),window.fuse=x):console.error('['+a.status+']Error:',a.statusText)},a.send()}();function ac(e,a){var b=document.createElement('li'),c,d;b.className='search-result__item',c=document.createElement('a'),c.innerHTML=a.item.title,c.setAttribute('class','search-result__item--title'),c.setAttribute('href',a.item.uri),d=document.createElement('div'),d.setAttribute('class','search-result__item--desc'),a.item.description?d.innerHTML=a.item.description:a.item.content&&(d.innerHTML=a.item.content.substring(0,225)),b.appendChild(c),b.appendChild(d),e.appendChild(b)}function al(f,a){var e=document.createElement('li'),b,d,c;if(e.className='search-result__item',b=null,d=document.createElement('a'),d.innerHTML=a.item.title,d.setAttribute('class','search-result__item--title'),d.setAttribute('href',a.item.uri),a.matches&&a.matches.length){for(c=0;c<a.matches.length;c++)'title'===a.matches[c].key&&(d=document.createElement('a'),d.innerHTML=l(a.matches[c].value,a.matches[c].indices),d.setAttribute('class','search-result__item--title'),d.setAttribute('href',a.item.uri)),'description'===a.matches[c].key?(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=l(a.item.description,a.matches[c].indices)):'content'===a.matches[c].key?b||(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=l(a.item.content.substring(0,150),a.matches[c].indices)):a.item.description?(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=a.item.description):(b=document.createElement('div'),b.setAttribute('class','search-result__item--desc'),b.innerHTML=a.item.content.substring(0,150));e.appendChild(d),b&&e.appendChild(b),e&&f.appendChild(e)}}function H(d,c){var a,b;for(i=document.getElementById('search-results'),j=document.getElementById('search-menu'),i.setAttribute('class','dropdown is-active'),a=document.createElement('ul'),a.setAttribute('class','dropdown-content search-content'),c.length?c.forEach(function(b){var e=document.createElement('li'),c=document.createElement('a'),f,d;c.setAttribute('href',b.uri),c.setAttribute('class','dropdown-item'),c.appendChild(e),f=document.createElement('div'),f.innerHTML=b.title,f.setAttribute('class','menu-item__title'),d=document.createElement('div'),d.setAttribute('class','menu-item__desc'),b.description?d.innerHTML=b.description:b.content&&(d.innerHTML=b.content.substring(0,150)),e.appendChild(f),e.appendChild(d),a.appendChild(c)}):(b=document.createElement('li'),b.setAttribute('class','dropdown-item'),b.innerText='No results found',a.appendChild(b));j.hasChildNodes();)j.removeChild(j.lastChild);j.appendChild(a)}function $(d,c){var a,b;for(i=document.getElementById('search-results'),j=document.getElementById('search-menu'),i.setAttribute('class','dropdown is-active'),a=document.createElement('ul'),a.setAttribute('class','dropdown-content search-content'),c.length?c.forEach(function(b){var g=document.createElement('li'),e=document.createElement('a'),c=null,f,d;if(e.setAttribute('href',b.item.uri),e.setAttribute('class','dropdown-item'),e.appendChild(g),f=document.createElement('div'),f.innerHTML=b.item.title,f.setAttribute('class','menu-item__title'),b.matches&&b.matches.length){for(d=0;d<b.matches.length;d++)'title'===b.matches[d].key&&(f.innerHTML=l(b.matches[d].value,b.matches[d].indices)),'description'===b.matches[d].key?(c=document.createElement('div'),c.setAttribute('class','menu-item__desc'),c.innerHTML=l(b.item.description,b.matches[d].indices)):'content'===b.matches[d].key?c||(c=document.createElement('div'),c.setAttribute('class','menu-item__desc'),c.innerHTML=l(b.item.content.substring(0,150),b.matches[d].indices)):b.item.description?(c=document.createElement('div'),c.setAttribute('class','menu-item__desc'),c.innerHTML=b.item.description):(c=document.createElement('div'),c.setAttribute('class','menu-item__desc'),c.innerHTML=b.item.content.substring(0,150));g.appendChild(f),c&&g.appendChild(c),a.appendChild(e)}}):(b=document.createElement('li'),b.setAttribute('class','dropdown-item'),b.innerText='No results found',a.appendChild(b));j.hasChildNodes();)j.removeChild(j.lastChild);j.appendChild(a)}function _(e,c){var a,d;i=document.getElementById('search-mobile-results'),a=document.createElement('div'),a.setAttribute('class','mobile-search__content'),c.length>0?c.forEach(function(b){var c=document.createElement('a');c.setAttribute('href',b.uri),c.innerHTML='<div class="mobile-search__item"><div class="mobile-search__item--title">📄 '+b.title+'</div><div class="mobile-search__item--desc">'+(b.description?b.description:b.content)+'</div></div>',a.appendChild(c)}):(d=document.createElement('span'),a.appendChild(d));let b=document.getElementById('search-mobile-results');while(b.firstChild)b.removeChild(b.firstChild);i.appendChild(a)}function ad(e,c){var a,d;i=document.getElementById('search-mobile-results'),a=document.createElement('div'),a.setAttribute('class','mobile-search__content'),c.length?c.forEach(function(b){var e=document.createElement('li'),g=document.createElement('a'),c=null,f,d;if(g.setAttribute('href',b.item.uri),g.appendChild(e),e.setAttribute('class','mobile-search__item'),f=document.createElement('div'),f.innerHTML=b.item.title,f.setAttribute('class','mobile-search__item--title'),b.matches&&b.matches.length){for(d=0;d<b.matches.length;d++)'title'===b.matches[d].key&&(f.innerHTML=l(b.matches[d].value,b.matches[d].indices)),'description'===b.matches[d].key?(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=l(b.item.description,b.matches[d].indices)):'content'===b.matches[d].key?c||(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=l(b.item.content.substring(0,150),b.matches[d].indices)):b.item.description?(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=b.item.description):(c=document.createElement('div'),c.setAttribute('class','mobile-search__item--desc'),c.innerHTML=b.item.content.substring(0,150));e.appendChild(f),c&&e.appendChild(c),a.appendChild(g)}}):(d=document.createElement('span'),a.appendChild(d));let b=document.getElementById('search-mobile-results');while(b.firstChild)b.removeChild(b.firstChild);i.appendChild(a)}function l(a,d){if(!d)return a;var b='',c=0;return d.forEach(function(d){if(d[0]===d[1])return null;b+=''+a.substring(c,d[0])+'<span class="search__highlight">'+a.substring(d[0],d[1]+1)+'</span>'+'',c=d[1]+1}),b+=a.substring(c),b}n=document.getElementById('search'),Y=document.getElementById('search-mobile'),q=document.getElementById('search-results'),n?n.addEventListener('input',function(b){var a,e;if(!b.target.value|window.innerWidth<770)return q?q.setAttribute('class','dropdown'):null,d?d.setAttribute('data-display','none'):null,f?f.setAttribute('data-display','block'):null,null;c=b.target.value,a=x.search(b.target.value),W==="main"?w?aa(c,a):M(c,a):(w?$(c,a):H(c,a),e=q.querySelectorAll('.dropdown-item'),e?e.forEach(function(a){a.addEventListener('mousedown',function(a){a.target.click()})}):null)}):null,n?n.addEventListener('blur',function(){if(window.innerWidth<770)return null;q?q.setAttribute('class','dropdown'):null}):null,n?n.addEventListener('click',function(b){var a,d;if(window.innerWidth<770)return null;if(!b.target.value)return q?q.setAttribute('class','dropdown'):null,null;c=b.target.value,a=x.search(b.target.value),W==="main"?w?aa(c,a):M(c,a):(w?$(c,a):H(c,a),d=q.querySelectorAll('.dropdown-item'),d?d.forEach(function(a){a.addEventListener('mousedown',function(a){a.target.click()})}):null)}):null,av=document.getElementById("search-menu"),au=document.querySelector('#search-menu .dropdown-item.is-active'),a=null,aw=null,R=350,n?n.addEventListener('keydown',function(c){var b,e;if(window.innerWidth<770)return null;if(c.key==='Escape'&&(d?d.setAttribute('data-display','none'):null,f?f.setAttribute('data-display','block'):null),b=document.querySelectorAll('#search-menu .dropdown-item'),e=c.which||c.keyCode,!b||!b.length)return null;if(c.key==='ArrowDown'||e===40){a===null?(a=0,b[a].classList.remove('is-active')):(b[a].classList.remove('is-active'),a=a===b.length-1?0:a+1),b[a].classList.add('is-active');let c=b[a].offsetTop+b[a].clientHeight-R;c>0?document.querySelector(".search-content").scrollTop+=b[a].getBoundingClientRect().height:a===0&&(document.querySelector(".search-content").scrollTop=0)}else if(c.key==='ArrowUp'||e===38){a===null?(a=b.length-1,b[a].classList.remove('is-active')):(b[a].classList.remove('is-active'),a=a===0?b.length-1:a-1),b[a].classList.add('is-active');let c=b[a].offsetTop+b[a].clientHeight-R;c<0?document.querySelector(".search-content").scrollTop-=b[a].getBoundingClientRect().height:document.querySelector(".search-content").scrollTop=c+b[a].getBoundingClientRect().height}else c.key==='Enter'||e===13?b[a]&&b[a].getAttribute('href')&&(location.href=b[a].getAttribute('href')):(c.key==='Escape'||e===27)&&(c.target.value=null,i&&i.classList.remove('is-active'))}):null,Y?Y.addEventListener('input',function(a){if(!a.target.value){let a=document.getElementById('search-mobile-results');while(a.firstChild)a.removeChild(a.firstChild);return null}c=a.target.value;var b=x.search(a.target.value);_(c,b),w?ad(c,b):_(c,b)}):null,m=document.querySelector('#search-mobile'),L=document.querySelector('.mobile-search'),K=document.querySelectorAll('.navbar-search'),I=document.querySelector('#search-mobile-close'),v=document.querySelector('#search-mobile-container'),p=document.querySelector('#search-mobile-results'),u=document.querySelector('html'),L&&(L.style.display='none'),K?K.forEach(function(a,b){a.addEventListener('click',function(){v&&(v.style.display='block'),m&&m.focus(),u&&(u.style.overflowY='hidden')})}):null,I?I.addEventListener('click',function(){if(v&&(v.style.display='none'),m&&(m.value=''),p)while(p.firstChild)p.removeChild(p.firstChild);u&&(u.style.overflowY='visible')}):null,m?m.addEventListener('keydown',function(a){var b=a.which||a.keyCode;if(a.key==='Escape'||b===27){if(v&&(v.style.display='none'),m&&(m.value=''),p)while(p.firstChild)p.removeChild(p.firstChild);u&&(u.style.overflowY='visible')}}):null;function M(e,a){var g=document.querySelector('.search-result__body'),b=g.querySelector('ul'),c=document.createElement('ul');e?a&&a&&a.length&&(a.forEach(function(a){ac(c,a)}),d?d.setAttribute('data-display','block'):null,f?f.setAttribute('data-display','none'):null):(d?d.setAttribute('data-display','none'):null,f?f.setAttribute('data-display','block'):null),b.parentNode.replaceChild(c,b)}function aa(e,a){var g=document.querySelector('.search-result__body'),b=g.querySelector('ul'),c=document.createElement('ul');e?a&&a&&a.length&&(a.forEach(function(a){al(c,a)}),d?d.setAttribute('data-display','block'):null,f?f.setAttribute('data-display','none'):null):(d?d.setAttribute('data-display','none'):null,f?f.setAttribute('data-display','block'):null),b.parentNode.replaceChild(c,b)}})</script>
+<link rel=stylesheet href=/css/main.min.css>
+<meta name=description content="For Life, for future">
+<meta name=keywords content="math,Linear Algebra,从头再来">
+<meta name=created content="2021-06-16T15:01:38+0800">
+<meta name=modified content="2021-06-16T15:01:38+0800">
+<meta property="article:published_time" content="2021-06-16T15:01:38+0800">
+<meta name=author content="MiaoMiaoYang">
+<meta property="og:site_name" content="Hugo Zzo Theme">
+<meta property="og:title" content="从头再来之线性代数">
+<meta property="og:url" content="https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/">
+<meta property="og:type" content="article">
+<meta property="og:description" content="For Life, for future">
+<meta name=generator content="Hugo 0.86.0">
+<meta name=msapplication-TileColor content="#fff">
+<meta name=theme-color content="#fff">
+<meta name=msapplication-navbutton-color content="#fff">
+<meta name=apple-mobile-web-app-status-bar-style content="#fff">
+<link rel=canonical href=https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/>
+<link rel=manifest href=/manifest.json>
+<link rel=apple-touch-icon sizes=57x57 href=/favicon/apple-icon-57x57.png>
+<link rel=apple-touch-icon sizes=60x60 href=/favicon/apple-icon-60x60.png>
+<link rel=apple-touch-icon sizes=72x72 href=/favicon/apple-icon-72x72.png>
+<link rel=apple-touch-icon sizes=76x76 href=/favicon/apple-icon-76x76.png>
+<link rel=apple-touch-icon sizes=114x114 href=/favicon/apple-icon-114x114.png>
+<link rel=apple-touch-icon sizes=120x120 href=/favicon/apple-icon-120x120.png>
+<link rel=apple-touch-icon sizes=144x144 href=/favicon/apple-icon-144x144.png>
+<link rel=apple-touch-icon sizes=152x152 href=/favicon/apple-icon-152x152.png>
+<link rel=apple-touch-icon sizes=180x180 href=/favicon/apple-icon-180x180.png>
+<link rel=icon type=image/png sizes=192x192 href=/favicon/android-icon-192x192.png>
+<link rel=icon type=image/png sizes=192x192 href=/favicon/android-icon-512x512.png>
+<link rel=icon type=image/png sizes=32x32 href=/favicon/favicon-32x32.png>
+<link rel=icon type=image/png sizes=96x96 href=/favicon/favicon-96x96.png>
+<link rel=icon type=image/png sizes=16x16 href=/favicon/favicon-16x16.png>
+<meta name=msapplication-TileColor content="#ffffff">
+<meta name=msapplication-TileImage content="/ms-icon-144x144.png">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebPage","headline":"从头再来之线性代数","datePublished":"2021-06-16T15:01:38+08:00","dateModified":"2021-06-16T15:01:38+08:00","url":"https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/","description":"前言 MIT 18.06，之前看过，但是都忘了，所以这回快速的复习一下，记好一些的笔记，要做题！ 重振小镇做题家之荣耀，我辈义不容辞！ https://mitmath.github.io/1806/ 贴一张老爷子的","keywords":["math","Linear Algebra","从头再来"],"mainEntityOfPage":{"@type":"WebPage","@id":"https://miaomiaoyoung.github.io/"},"publisher":{"@type":"Organization","name":"Hugo Zzo Theme","url":"https://miaomiaoyoung.github.io/"}}</script>
+</head>
+<body id=root class=theme__light>
+<script>var localTheme=localStorage.getItem('theme');localTheme&&(document.getElementById('root').className='theme__'+localTheme)</script>
+<div id=container>
+<div class=wrapper data-type=posts data-kind=page>
+<nav class="navbar scrolling" role=navigation aria-label="main navigation" data-dir=ltr>
+<div class=navbar__brand>
+<a href=/en/ title=Home rel=home class=navbar__logo-link>
+<img src=/logo.png alt=Home class=navbar__logo>
+</a>
+<a href=/en/ title=Home rel=home class=navbar__title-link>
+<h6 class=navbar__title>MiaoMiaoYang's BLOG</h6>
+</a>
+</div>
+<div class="theme theme-mobile" data-ani=true>
+<div class=dropdown>
+<button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" data-ani=true><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M24 0H0v24h24V0z"/><path fill="currentcolor" d="M6.34 7.93c-3.12 3.12-3.12 8.19.0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19.0-11.31l-4.95-4.95c-.39-.39-1.02-.39-1.41.0L6.34 7.93zM12 19.59c-1.6.0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/></svg>
+</button>
+<div class="dropdown-content select-theme">
+<a href=# class="dropdown-item select-theme__item is-active">
+light
+</a>
+<a href=# class="dropdown-item select-theme__item">
+dark
+</a>
+<a href=# class="dropdown-item select-theme__item">
+hacker
+</a>
+<a href=# class="dropdown-item select-theme__item">
+solarized
+</a>
+<a href=# class="dropdown-item select-theme__item">
+kimbie
+</a>
+</div>
+</div>
+</div>
+<div class="mobile-search__btn navbar-search" data-ani=true><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentcolor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49.0s.41-1.08.0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+</div>
+<div id=search-mobile-container class="mobile-search hide" data-dir=ltr>
+<div class=mobile-search__top>
+<input id=search-mobile type=text aria-label="Mobile Search" placeholder=Search class=mobile-search__top--input>
+<div id=search-mobile-close class=mobile-search__top--icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path opacity=".87" fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41.0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg>
+</div>
+</div>
+<div id=search-mobile-results class=mobile-search__body>
+</div>
+</div>
+<a role=button class=navbar__burger aria-label=menu aria-expanded=false data-ani=true>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+<span aria-hidden=true></span>
+</a>
+<div class=navbarm__collapse data-open=false>
+<ul dir=ltr>
+<li class=navbarm__menu--item>
+<a href=/en/about>About</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/archive>Archive</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/presentation>Pt</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/gallery>
+Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentcolor" d="M8.12 9.29 12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41.0s.39 1.02.0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41.0L6.7 10.7c-.39-.39-.39-1.02.0-1.41.39-.38 1.03-.39 1.42.0z"/></svg>
+</a>
+</li>
+<li class="navbarm__menu--item navbarm__menu--subitem">
+<a href=/en/gallery/cartoon>Cartoon</a>
+</li>
+<li class="navbarm__menu--item navbarm__menu--subitem">
+<a href=/en/gallery/flowers>Flowers</a>
+</li>
+<li class="navbarm__menu--item navbarm__menu--subitem">
+<a href=/en/gallery/photo>Photo</a>
+</li>
+<li class="navbarm__menu--item active">
+<a href=/en/posts>Posts</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/showcase>Showcase</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/publication>Pub</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/tags class=navbarm__menu--term data-index=0>
+Tags
+</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/categories class=navbarm__menu--term data-index=1>
+Categories
+</a>
+</li>
+<li class=navbarm__menu--item>
+<a href=/en/series class=navbarm__menu--term data-index=2>
+Series
+</a>
+</li>
+</ul>
+</div>
+<div class=navbar__menu>
+<div class=theme data-ani=true>
+<div class=dropdown>
+<button class="dropdown-trigger navbar__slide-down" aria-label="Select Theme Button" data-ani=true><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M24 0H0v24h24V0z"/><path fill="currentcolor" d="M6.34 7.93c-3.12 3.12-3.12 8.19.0 11.31C7.9 20.8 9.95 21.58 12 21.58s4.1-.78 5.66-2.34c3.12-3.12 3.12-8.19.0-11.31l-4.95-4.95c-.39-.39-1.02-.39-1.41.0L6.34 7.93zM12 19.59c-1.6.0-3.11-.62-4.24-1.76C6.62 16.69 6 15.19 6 13.59s.62-3.11 1.76-4.24L12 5.1v14.49z"/></svg>
+</button>
+<div class="dropdown-content select-theme">
+<a href=# class="dropdown-item select-theme__item is-active">
+light
+</a>
+<a href=# class="dropdown-item select-theme__item">
+dark
+</a>
+<a href=# class="dropdown-item select-theme__item">
+hacker
+</a>
+<a href=# class="dropdown-item select-theme__item">
+solarized
+</a>
+<a href=# class="dropdown-item select-theme__item">
+kimbie
+</a>
+</div>
+</div>
+</div>
+<a href=/en/about class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>About</a>
+<a href=/en/archive class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>Archive</a>
+<a href=/en/presentation class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>Pt</a>
+<div class="navbar__dropdown navbar__slide-down" data-ani=true>
+<a href=/en/gallery class=navbar__menu-item dir=ltr>
+Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"><path fill="currentcolor" d="M8.12 9.29 12 13.17l3.88-3.88c.39-.39 1.02-.39 1.41.0s.39 1.02.0 1.41l-4.59 4.59c-.39.39-1.02.39-1.41.0L6.7 10.7c-.39-.39-.39-1.02.0-1.41.39-.38 1.03-.39 1.42.0z"/></svg>
+</a>
+<div class=navbar__dropdown--content>
+<a href=/en/gallery/cartoon class=navbar__dropdown--item dir=ltr>Cartoon</a>
+<a href=/en/gallery/flowers class=navbar__dropdown--item dir=ltr>Flowers</a>
+<a href=/en/gallery/photo class=navbar__dropdown--item dir=ltr>Photo</a>
+</div>
+</div>
+<a href=/en/posts class="navbar__menu-item navbar__slide-down active" dir=ltr data-ani=true>Posts</a>
+<a href=/en/showcase class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>Showcase</a>
+<a href=/en/publication class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>Pub</a>
+</div>
+</nav>
+<main class="single__main main-main">
+<nav class="breadcrumb hide" aria-label=breadcrumbs>
+<script>document.querySelector('.breadcrumb').classList.remove('hide')</script>
+<ol>
+<li>
+<a href=https://miaomiaoyoung.github.io/en/ class=capitalize>Post section</a>
+</li>
+<li>
+<a href=https://miaomiaoyoung.github.io/en/posts/ class=capitalize>Posts</a>
+</li>
+<li class=is-active>
+<span>从头再来之线性代数</span>
+</li>
+</ol>
+</nav>
+<div class=single>
+<div class=single__nojs>This page looks best with JavaScript enabled</div>
+<script>document.querySelector('.single').classList.remove('hide'),document.querySelector('.single__nojs').classList.add('hide')</script>
+<h2 class=single__title data-ani=true>从头再来之线性代数</h2>
+<h3 class=single__subtitle></h3>
+<div class=single__meta>
+<div class=single__infos>
+<time class=single__info title="Written At">📅&nbsp;Jun 16, 2021 </time>
+&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;42&nbsp;min read </span>
+<span class=single__info>
+</span>
+</div>
+<ul class="single__tags caption">
+🏷️
+<li><a href=https://miaomiaoyoung.github.io/en/tags/math/ class=single__tag title=math>#math</a></li>
+<li><a href=https://miaomiaoyoung.github.io/en/tags/linear-algebra/ class=single__tag title="Linear Algebra">#Linear Algebra</a></li>
+<li><a href=https://miaomiaoyoung.github.io/en/tags/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/ class=single__tag title=从头再来>#从头再来</a></li>
+</ul>
+</div>
+<article class=single__contents data-dir=ltr data-ani=true>
+<div class=expand>
+<button type=button class=expand__button aria-label="Expand Button">
+<span class="expand-icon expand-icon__right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg>
+</span>
+What's on this Page
+</button>
+<div class="expand__content expand__content--toc">
+<nav id=TableOfContents>
+<ul>
+<li><a href=#前言>前言</a></li>
+<li><a href=#1-方程组的集合解释>1. 方程组的集合解释</a>
+<ul>
+<li><a href=#行图像-row-picture>行图像 (Row picture)</a></li>
+<li><a href=#列图像-column-picture>列图像 (Column picture)</a></li>
+<li><a href=#矩阵>矩阵</a></li>
+</ul>
+</li>
+<li><a href=#2-消元法求解线性方程组>2. 消元法求解线性方程组</a>
+<ul>
+<li><a href=#消元得到上三角矩阵>消元得到上三角矩阵</a></li>
+<li><a href=#消元法失效>消元法失效</a></li>
+<li><a href=#回代>回代</a></li>
+<li><a href=#矩阵形式描述消元法>矩阵形式描述消元法</a>
+<ul>
+<li><a href=#使用行进行计算>使用行进行计算</a></li>
+<li><a href=#消元矩阵>消元矩阵</a></li>
+</ul>
+</li>
+<li><a href=#置换矩阵-pemutation>置换矩阵 (pemutation)</a></li>
+<li><a href=#矩阵的逆>矩阵的逆</a></li>
+</ul>
+</li>
+<li><a href=#3-矩阵的乘法和逆>3. 矩阵的乘法和逆</a>
+<ul>
+<li><a href=#矩阵乘法>矩阵乘法</a>
+<ul>
+<li><a href=#点乘法>点乘法</a></li>
+<li><a href=#列向量法>列向量法</a></li>
+<li><a href=#行向量法>行向量法</a></li>
+<li><a href=#列-x-行>列 X 行</a></li>
+<li><a href=#分块乘法>分块乘法</a></li>
+</ul>
+</li>
+<li><a href=#矩阵的逆-inverse>矩阵的逆 (Inverse)</a>
+<ul>
+<li><a href=#逆是否存在>逆是否存在</a></li>
+<li><a href=#奇异矩阵>奇异矩阵</a></li>
+<li><a href=#可逆矩阵>可逆矩阵</a></li>
+<li><a href=#矩阵乘积的逆>矩阵乘积的逆</a></li>
+<li><a href=#逆和转置>逆和转置</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=#4-矩阵a的lu分解>4. 矩阵A的LU分解</a></li>
+<li><a href=#5-置换转置与向量空间>5. 置换、转置与向量空间</a>
+<ul>
+<li><a href=#置换-permutation-p>置换 (Permutation, $P$)</a></li>
+<li><a href=#转置-transpose>转置 (Transpose)</a></li>
+<li><a href=#对称矩阵-symmetric>对称矩阵 (symmetric)</a></li>
+<li><a href=#向量空间>向量空间</a>
+<ul>
+<li><a href=#列空间>列空间</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=#6-列空间和零空间>6. 列空间和零空间</a>
+<ul>
+<li><a href=#列空间-1>列空间</a></li>
+<li><a href=#零空间>零空间</a></li>
+</ul>
+</li>
+<li><a href=#7-求解零空间ax0>7. 求解零空间Ax=0</a></li>
+<li><a href=#8-求解axb>8. 求解Ax=b</a>
+<ul>
+<li><a href=#可解性>可解性</a></li>
+<li><a href=#求axb的所有解>求Ax=b的所有解</a></li>
+<li><a href=#使用秩讨论axb的求解>使用秩讨论Ax=b的求解</a>
+<ul>
+<li><a href=#列满秩-rnm>列满秩 (r=n&lt;m)</a></li>
+<li><a href=#行满秩-rmn>行满秩 (r=m&lt;n)</a></li>
+<li><a href=#满秩-rmn>满秩 (r=m=n)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=#9-线性相关向量空间的基和维数>9. 线性相关、向量空间的基和维数</a>
+<ul>
+<li><a href=#线性无关>线性无关</a></li>
+<li><a href=#向量空间-1>向量空间</a></li>
+</ul>
+</li>
+<li><a href=#10-矩阵的四个基本子空间>10. 矩阵的四个基本子空间</a></li>
+<li><a href=#11-矩阵空间和秩1矩阵>11. 矩阵空间和秩1矩阵</a>
+<ul>
+<li><a href=#矩阵空间>矩阵空间</a></li>
+<li><a href=#秩1矩阵>秩1矩阵</a></li>
+</ul>
+</li>
+<li><a href=#12-线性代数的应用图和网络>12. 线性代数的应用：图和网络</a></li>
+<li><a href=#14-正交向量与正交子空间>14. 正交向量与正交子空间</a></li>
+<li><a href=#15-子空间投影>15. 子空间投影</a>
+<ul>
+<li><a href=#一维空间>一维空间</a></li>
+<li><a href=#高维空间>高维空间</a></li>
+</ul>
+</li>
+<li><a href=#16-投影矩阵和最小二乘>16. 投影矩阵和最小二乘</a>
+<ul>
+<li><a href=#投影矩阵>投影矩阵</a></li>
+<li><a href=#最小二乘法>最小二乘法</a></li>
+</ul>
+</li>
+<li><a href=#17-正交基和正交矩阵>17. 正交基和正交矩阵</a>
+<ul>
+<li><a href=#标准正交基>标准正交基</a></li>
+<li><a href=#标准正交矩阵>标准正交矩阵</a></li>
+<li><a href=#线性无关向量标准正交化>线性无关向量标准正交化</a></li>
+</ul>
+</li>
+<li><a href=#18-行列式及其性质>18. 行列式及其性质</a></li>
+<li><a href=#19-行列式公式和代数余子式>19. 行列式公式和代数余子式</a>
+<ul>
+<li><a href=#代数余子式-cofactors>代数余子式 (cofactors)</a></li>
+</ul>
+</li>
+<li><a href=#20-行列式的应用逆矩阵克拉默法则体积>20. 行列式的应用：逆矩阵、克拉默法则、体积</a>
+<ul>
+<li><a href=#逆矩阵>逆矩阵</a></li>
+<li><a href=#克拉默法则>克拉默法则</a></li>
+<li><a href=#计算体积>计算体积</a></li>
+</ul>
+</li>
+<li><a href=#21-特征值和特征向量>21. 特征值和特征向量</a></li>
+<li><a href=#22-对角化和幂>22. 对角化和幂</a></li>
+<li><a href=#23-微分方程和expat>23. 微分方程和exp(At)</a></li>
+<li><a href=#24-马尔科夫矩阵和傅里叶级数>24. 马尔科夫矩阵和傅里叶级数</a>
+<ul>
+<li><a href=#马尔科夫矩阵>马尔科夫矩阵</a></li>
+<li><a href=#傅里叶级数>傅里叶级数</a></li>
+</ul>
+</li>
+<li><a href=#26-对称矩阵>26. 对称矩阵</a></li>
+<li><a href=#27-复数矩阵和快速傅里叶变换>27. 复数矩阵和快速傅里叶变换</a></li>
+<li><a href=#28-正定矩阵和最小值>28. 正定矩阵和最小值</a></li>
+<li><a href=#29-相似矩阵和若尔当形>29. 相似矩阵和若尔当形</a></li>
+<li><a href=#30-奇异值分解svd>30. 奇异值分解(SVD)</a></li>
+<li><a href=#31-线性变换及对应矩阵>31. 线性变换及对应矩阵</a></li>
+</ul>
+</nav>
+</div>
+</div>
+<h2 id=前言>前言</h2>
+<p>MIT 18.06，之前看过，但是都忘了，所以这回快速的复习一下，记好一些的笔记，要做题！</p>
+<p>重振小镇做题家之荣耀，我辈义不容辞！</p>
+<p><a href=https://mitmath.github.io/1806/>https://mitmath.github.io/1806/</a></p>
+<p><img src=./images/Gilbert%20Strang.jpg alt></p>
+<p>贴一张老爷子的照片，感谢！</p>
+<hr>
+<h2 id=1-方程组的集合解释>1. 方程组的集合解释</h2>
+<blockquote>
+<p><strong>线性代数：求解方程组</strong></p>
+</blockquote>
+<p>$$\begin{cases}& 2x - y =0 \\ &-x + 2y = 3 \end{cases} \rightarrow \begin{bmatrix} 2 &-1 \\ -1 &2 \end{bmatrix} \begin{bmatrix}\bold{x} \\\bold{y} \end{bmatrix} = \begin{bmatrix} 0 \\ 3 \end{bmatrix} \rightarrow AX=B $$</p>
+<h3 id=行图像-row-picture>行图像 (Row picture)</h3>
+<p><img src=./images/1.jpg alt></p>
+<p>两条直线的交点就是这个方程组的解</p>
+<h3 id=列图像-column-picture>列图像 (Column picture)</h3>
+<p>$$ \begin{bmatrix} 2 &-1 \\ -1 &2 \end{bmatrix} \begin{bmatrix} \bold{x} \\ \bold{y} \end{bmatrix} = \begin{bmatrix} 0 \\ 3 \end{bmatrix}\rightarrow x \begin{bmatrix} 2 \\ -1 \end{bmatrix} + y \begin{bmatrix} -1 \\ 2 \end{bmatrix} = \begin{bmatrix} 0 \\ 3 \end{bmatrix} \rightarrow Ax=b$$</p>
+<p>这个方程的目的就是找到合适的$x$和$y$使得前两个向量组合可以得到后一个向量 <strong>[也就是找到正确的线性组合]</strong>，这里是列向量的线性组合</p>
+<p><img src=./images/2.png alt></p>
+<p>新的问题：<strong>对于任意的b(右侧向量)，是否都能求解$Ax=b$</strong><br>
+也就是：列的线性组合能否覆盖整个空间？</p>
+<h3 id=矩阵>矩阵</h3>
+<p>方程的矩阵形式：</p>
+<p>$$Ax=b$$</p>
+<p>矩阵A乘以向量x得到右侧的向量b</p>
+<p>矩阵和向量的乘法的两种解：</p>
+<ul>
+<li>
+<p>使用列图像进行乘法（推荐）</p>
+<p>矩阵的每一列都看成是一列向量，外部的向量b其实就是每一列向量的系数</p>
+<p>或者可以将矩阵的每一列看成一个空间的基地，外部的向量b就是根据这个基地在每个方向上的长度</p>
+</li>
+</ul>
+<p>$$ \begin{bmatrix} 2 &5 \\ 1 & 3 \end{bmatrix} \begin{bmatrix} 1\\2 \end{bmatrix} = 1 \begin{bmatrix} 2\\ 1 \end{bmatrix} + 2 \begin{bmatrix} 5\\ 3 \end{bmatrix} =\begin{bmatrix} 12\\ 7 \end{bmatrix} $$</p>
+<ul>
+<li>使用行图像进行计算</li>
+</ul>
+<p>$$ \begin{bmatrix} 2 &5 \end{bmatrix} \begin{bmatrix} 1 \\ 2 \end{bmatrix} =12 $$</p>
+<h2 id=2-消元法求解线性方程组>2. 消元法求解线性方程组</h2>
+<h3 id=消元得到上三角矩阵>消元得到上三角矩阵</h3>
+<p>$$ \begin{cases} x+ &2y+ &z &=2 \\ 3x+ &8y+ &z &=12 \\ &4y+ &z &=2 \end{cases} \rightarrow Ax=b \qquad A=\begin{bmatrix} 1 &2 &1 \\ 3 &8 &1 \\ 0 &4 &1 \end{bmatrix} $$</p>
+<p>按顺序进行消元，对角线上的元素称为主元(pivot)，因为需要使用对角线上的元素迭代的消去下面等式中的对应元素。但是0不能作为主元</p>
+<p>$$ A= \begin{bmatrix} 1 &2 &1 \\ 3 &8 &1 \\ 0 &4 &1 \end{bmatrix} \stackrel{(2,1)}{\rightarrow} \begin{bmatrix} 1 &2 &1 \\ 0 &2 &-2 \\ 0 &4 &1 \end{bmatrix} \stackrel{(3,2)}{\rightarrow} \begin{bmatrix} 1 &2 &1 \\ 0 &2 &-2 \\ 0 &0 &5 \end{bmatrix} = U$$</p>
+<blockquote>
+<p>箭头上方表示想要消去的元素的位置</p>
+</blockquote>
+<p>这里消元的目的就是为了从$A$得到上三角矩阵$U$.</p>
+<h3 id=消元法失效>消元法失效</h3>
+<p>如果主元是0的时候，需要进行行交换，让非0元素占据主元的位置。</p>
+<p>如果行交换无法使主元是非0元素，那么这个方程就没有解，这个矩阵也就是不可逆的。</p>
+<h3 id=回代>回代</h3>
+<p>当使用消元法从$A$得到$U$之后，就需要把右侧向量$b$带入，引入$b$作为新的一列向量加入到矩阵中，也就是<strong>增广矩阵</strong></p>
+<p>$$ \begin{bmatrix} 1 &2 &1 &2 \\ 3 &8 &1 &12 \\ 0 &4 &1 &2 \end{bmatrix} $$</p>
+<p>因为对左侧矩阵进行变化的同时，右侧向量也会跟着做同样的变化，所以按照上面的消元法：</p>
+<p>$$ \begin{bmatrix} 1 &2 &1 &2 \\ 3 &8 &1 &12\\ 0 &4 &1 &2 \end{bmatrix} \stackrel{(2,1)}{\rightarrow} \begin{bmatrix} 1 &2 &1 &2 \\ 0 &2 &-2 &6 \\ 0 &4 &1 &2 \end{bmatrix} \stackrel{(3,2)}{\rightarrow} \begin{bmatrix} 1 &2 &1 &2 \\ 0 &2 &-2 &6 \\ 0 &0 &5 &-10 \end{bmatrix} \rightarrow c=\begin{bmatrix} 2 \\ 6 \\ -10\end{bmatrix}$$</p>
+<p>所以最终方程的形式是这样的：</p>
+<p>$$\begin{cases} x+ &2y+ &z &=2 \\ &2y- &2z &=6 \\ & &5z &=-10\end{cases}\rightarrow Ux=c$$</p>
+<p>接下来进行回代求解：$z=-2; y=1; x=2$</p>
+<h3 id=矩阵形式描述消元法>矩阵形式描述消元法</h3>
+<h4 id=使用行进行计算>使用行进行计算</h4>
+<p>$$ \begin{bmatrix} 1 &2 &7 \end{bmatrix} \begin{bmatrix} 2 & 3 & 4 \\ 1 & 3 & 4 \\ 2 & 3 & 5 \end{bmatrix} = \begin{bmatrix}2 &3 &4\end{bmatrix}\times 1 + &mldr; + \begin{bmatrix}2 &3 &5\end{bmatrix}\times 7 = \begin{bmatrix}18 &30 &47\end{bmatrix} $$</p>
+<p><strong>左行右列，左乘行变换，右乘列变换</strong></p>
+<ul>
+<li>列向量是乘在矩阵的<strong>右边</strong>，对矩阵的每一列进行线性合并，得到的是<strong>列向量</strong></li>
+<li>行向量是乘在矩阵的<strong>左边</strong>，对矩阵的每一行进行线性合并，得到的是<strong>行向量</strong></li>
+</ul>
+<h4 id=消元矩阵>消元矩阵</h4>
+<p>$$\begin{bmatrix} 1 &2 &1 \\ 3 &8 &1 \\ 0 &4 &1 \end{bmatrix} \stackrel{(2,1)}{\rightarrow} \begin{bmatrix} 1 &2 &1 \\ 0 &2 &-2 \\ 0 &4 &1 \end{bmatrix} \Rightarrow \begin{bmatrix} 1 &0 &0 \\ -3 &1 &0 \\ 0 &0 &1 \end{bmatrix} \begin{bmatrix} 1 &2 &1 \\ 3 &8 &1 \\ 0 &4 &1 \end{bmatrix} = \begin{bmatrix} 1 &2 &1 \\ 0 &2 &-2 \\ 0 &4 &1 \end{bmatrix}$$</p>
+<p>原来的消元法就变成了一个特定的矩阵：<strong>消元矩阵</strong></p>
+<p>$$E_{21} = \begin{bmatrix} 1 &0 &0 \\ -3 &1 &0 \\ 0 &0 &1 \end{bmatrix}$$</p>
+<p>他的每一行都是对矩阵的行变换，同时也被称为<strong>初等矩阵$E$</strong>，因为是对(2,1)位置上进行消元，所以可以写成$E_{21}$</p>
+<p>所以，整个过程使用矩阵形式表达：</p>
+<p>$$E_{32}(E_{21}A)=U$$</p>
+<p>矩阵乘法满足结合律，所以可以将括号移动，变成一个矩阵，来实现所有的消元任务。但是矩阵乘法不满足交换律，不可轻易调换他们的顺序</p>
+<p>$$(E_{32}E_{21})A=U$$</p>
+<h3 id=置换矩阵-pemutation>置换矩阵 (pemutation)</h3>
+<p>对行进行调换：</p>
+<p>$$ \begin{bmatrix} 0 &1 \\ 1 &0 \end{bmatrix} \begin{bmatrix} a &b \\ c &d \end{bmatrix} = \begin{bmatrix} c &d \\ a &b \end{bmatrix} $$</p>
+<p>其中，$P=\begin{bmatrix} 0 &1 \\ 1 &0\end{bmatrix}$就是<strong>置换矩阵</strong>，将两行进行位置的调换</p>
+<p>同理，如果想对列进行置换，那么需要将矩阵进行右乘，<strong>左行右列</strong></p>
+<p>可以看到，因为想要消除置换矩阵带来的影响，那就是把它再置换回去，那么置换矩阵的逆就是置换矩阵的转置</p>
+<p>$$P^{-1}=P^{T}$$</p>
+<p>分清<strong>转置(T，是一个操作)</strong> 和 <strong>置换(P，是一个矩阵)</strong>，两个不一样的东西</p>
+<h3 id=矩阵的逆>矩阵的逆</h3>
+<p>$$\begin{bmatrix} 1 &0 &0 \\ -3 &1 &0 \\ 0 &0 &1 \end{bmatrix} \begin{bmatrix} 1 &2 &1 \\ 3 &8 &1 \\ 0 &4 &1 \end{bmatrix} = \begin{bmatrix} 1 &2 &1 \\ 0 &2 &-2 \\ 0 &4 &1 \end{bmatrix}$$</p>
+<p>初等矩阵$E_{21} = \begin{bmatrix} 1 &0 &0 \\ -3 &1 &0 \\ 0 &0 &1 \end{bmatrix}$，从行2中减去了三倍的行1，现在我想回做这一步，也就是找到某一个矩阵取消这次消元（左乘），即两者相成为单位阵$I$：</p>
+<p>$$E^{-1}_{21}E_{21}=I$$</p>
+<p>那么对于$E_{21}$来说，他的含义相当于是从行2减去了三倍的行1，那么想消去这个行变换的影响，就应该让行2加回来三倍的行1，所以</p>
+<p>$$E^{-1}_{21}=\begin{bmatrix} 1 &0 &0 \\ 3 &1 &0 \\ 0 &0 &1 \end{bmatrix}$$</p>
+<h2 id=3-矩阵的乘法和逆>3. 矩阵的乘法和逆</h2>
+<h3 id=矩阵乘法>矩阵乘法</h3>
+<p>矩阵乘法：$AB=C$</p>
+<h4 id=点乘法>点乘法</h4>
+<p>其中矩阵$C$的3行4列的元素$C_{34}=A_{row-3}\cdot B_{col-4}=\sum_{k=1}^{n}{a_{3k}b_{k4}}$</p>
+<h4 id=列向量法>列向量法</h4>
+<p>$$A_{m\times n}B_{n\times p} = C_{m\times p}$$</p>
+<p>可以将乘法考虑成一个矩阵右乘以一个列向量，得到一个列向量。也就是<strong>矩阵A</strong>右乘矩阵B中的<strong>每一个列向量</strong></p>
+<p>那么，<strong>矩阵C的各列是矩阵A中各列的线性组合</strong></p>
+<h4 id=行向量法>行向量法</h4>
+<p>与列向量法类似，可以将乘法考虑成矩阵B左乘矩阵A中的行向量，</p>
+<p><strong>矩阵C的各行是矩阵B中各行的线性组合</strong></p>
+<h4 id=列-x-行>列 X 行</h4>
+<p>常规方法中，是A的行$\times$B的列，得到是相对应位置的标量</p>
+<p>但是这里可以是A的列$\times$B的行</p>
+<p>$AB$是A的各列$\times$B的各行的矩阵的和</p>
+<h4 id=分块乘法>分块乘法</h4>
+<p>将矩阵进行分块，对每一个分块进行乘法</p>
+<p>$$ \begin{bmatrix} A_{1} & A_{2} \\ A_{3} & A_{4} \end{bmatrix} \begin{bmatrix} B_{1} & B_{2} \\ B_{3} & B_{4} \end{bmatrix} = \begin{bmatrix} A_{1}B_{1} + A_{2}B_{3} & A_{1}B_{2}+A_{2}B_{4} \\ A_{3}B_{1} + A_{4}B_{3} & A_{3}B_{2}+A+{4}B_{4} \end{bmatrix} $$</p>
+<h3 id=矩阵的逆-inverse>矩阵的逆 (Inverse)</h3>
+<p>只考虑方阵(square matrix) $A$</p>
+<h4 id=逆是否存在>逆是否存在</h4>
+<p>如果存在，可以成立：$A^{-1}A=I$，$I$为单位阵</p>
+<p>其中，这里的是左逆，也可以有右逆，表达为：$AA^{-1}=I$</p>
+<p>对于方阵，左逆=右逆，即$A^{-1}A=I=AA^{-1}$</p>
+<p>如果逆存在，那么矩阵A是可逆的，也就是<strong>非奇异</strong>的(non-singular)</p>
+<h4 id=奇异矩阵>奇异矩阵</h4>
+<p>如果存在非0向量$x$使得$Ax=0$，那么这个矩阵$A$是奇异的</p>
+<p>也就是其实在矩阵A中的列向量，最少有一对向量是共平面的</p>
+<h4 id=可逆矩阵>可逆矩阵</h4>
+<p>求矩阵的逆：</p>
+<p>$$ \begin{bmatrix} 1 & 3 \\ 2 &7 \end{bmatrix} \begin{bmatrix} a & c \\ b &d \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 &1 \end{bmatrix} \rightarrow AA^{-1}=I $$</p>
+<blockquote>
+<p>Gauss-Jordan：同时处理两个方程组</p>
+</blockquote>
+<p>对增广矩阵($[AI]$)进行消元，得到$E[A|I]=[EA|EI]=[I|E]$，那么$E$就是$A^{-1}$</p>
+<p>$$ \begin{bmatrix} \begin{array}{cc|cc} 1 & 3 & 1 & 0 \\ 2 &7 & 0 & 1 \end{array} \end{bmatrix} \rightarrow \begin{bmatrix} \begin{array}{cc|cc} 1 & 3 & 1 & 0 \\ 0 &1 & -2 & 1 \end{array} \end{bmatrix} \rightarrow \begin{bmatrix} \begin{array}{cc|cc} 1 & 0 & 7 & -3 \\ 0 &1 & -2 & 1 \end{array} \end{bmatrix} $$</p>
+<h4 id=矩阵乘积的逆>矩阵乘积的逆</h4>
+<p>$A$和$B$都是可逆矩阵，那么他们乘积的逆是$(AB)^{-1}=B^{-1}A^{-1}$</p>
+<h4 id=逆和转置>逆和转置</h4>
+<p>对于单个方阵，转置和逆可互换操作</p>
+<p>$$(A^{-1})^{T} = (A^{T})^{-1}$$</p>
+<h2 id=4-矩阵a的lu分解>4. 矩阵A的LU分解</h2>
+<p>考虑三维矩阵，对A进行消元得到U，即</p>
+<p>$$E_{32}E_{31}E_{21}A=U$$</p>
+<p>可以写成$A=LU$形式，即：</p>
+<p>$$A=E_{21}^{-1}E_{31}^{-1}E_{32}^{-1}U$$</p>
+<p>其中U表示的上三角矩阵，L表示的下三角矩阵</p>
+<p>$$ \begin{cases} A = LU \\ EA=U \end{cases} $$</p>
+<p>下面讨论这两种形式，为什么要变成$A=LU$的形式</p>
+<p>对于$A=LU$如果不存在行互换，消元乘数可以直接写进$L$里面</p>
+<p><strong>举个例子</strong></p>
+<p>$$ E_{32}=\begin{bmatrix} 1 &0 &0 \\ 0 &1 &0 \\ 0 & -5 &1 \end{bmatrix} E_{31} = I \quad E_{21}=\begin{bmatrix} 1 &0 &0 \\ -2 &1 &0 \\ 0 &0 &1 \end{bmatrix} $$</p>
+<p>对矩阵进行消元，进行上述消元变化：$E_{21}$和$E_{32}$</p>
+<p>$$ E=E_{32}E_{31}E_{21} = \begin{bmatrix} 1 &0 &0 \\ -2 &1 &0 \\ 10 &-5 &1 \end{bmatrix} $$<br>
+这种形式下可以看到行1通过行2影响到了行3，在(1,3)位置出现了10</p>
+<p>$$ L = E_{21}^{-1}E_{32}^{-1}= \begin{bmatrix} 1 &0 &0 \\ 2 &1 &0 \\ 0 &0 &1 \end{bmatrix} \begin{bmatrix} 1 &0 &0 \\ 0 &1 &0 \\ 0 & 5 &1 \end{bmatrix} = \begin{bmatrix} 1 &0 &0 \\ 2 &1 &0 \\ 0 &5 &1 \end{bmatrix} $$</p>
+<p>在这种形势下，2和5不会冲突产生10，也就是消元乘数可以直接写到$L$里</p>
+<h2 id=5-置换转置与向量空间>5. 置换、转置与向量空间</h2>
+<h3 id=置换-permutation-p>置换 (Permutation, $P$)</h3>
+<p>置换矩阵是行重新排列了的单位矩阵，是用来完成行互换的矩阵</p>
+<p>对于需要进行置换操作的消元，$A=LU$就会变成了$PA=LU$</p>
+<p>所有的置换矩阵都是可逆的，并且$P^{T} = P^{-1}$</p>
+<p>对于n维方阵，共有$n!$个置换矩阵</p>
+<h3 id=转置-transpose>转置 (Transpose)</h3>
+<p>$(A^{T})_{ij}=A_{ji}$</p>
+<h3 id=对称矩阵-symmetric>对称矩阵 (symmetric)</h3>
+<p>对称矩阵：转置变换以后，没有变化的矩阵 $A^{T}=A$</p>
+<p>所有的矩阵R转置乘以R都是对称的</p>
+<p>$$ \begin{bmatrix} 1 &3 \\ 2 &3 \\ 4 &1 \end{bmatrix} \begin{bmatrix} 1 &2 &4 \\ 3 &3 &1 \end{bmatrix} = \begin{bmatrix} 10 &11 &7 \\ 11 &13 &11 \\ 7 &11 &17 \end{bmatrix} $$</p>
+<p>证明：</p>
+<p>$$(R^{T}R)^{T} = R^{T}R$$</p>
+<h3 id=向量空间>向量空间</h3>
+<p>空间：满足加法和数乘（即可以进行线性运算），比如： $\mathbb{R}^{2}$，表示所有的二维实向量。(二维：即向量用两个实数表述)</p>
+<p>$$ \begin{bmatrix} 3 \\ 2 \end{bmatrix}, \begin{bmatrix} 0 \\ 0 \end{bmatrix}, \begin{bmatrix} \pi \\ e \end{bmatrix}, \cdots $$</p>
+<p>$\mathbb{R}^{n}$包含所有的n维实向量</p>
+<p>子空间：需要满足线性运算，但同时又是空间的子集，比如$\mathbb{R}^{2}$的子空间：</p>
+<ul>
+<li>$\mathbb{R}^{2}$本身</li>
+<li>所有经过原点的直线</li>
+<li>(0,0)点</li>
+</ul>
+<h4 id=列空间>列空间</h4>
+<p>从矩阵中构造一个子空间：</p>
+<p>$$A=\begin{bmatrix} 1 &3 \\ 2 &3 \\ 4 &1 \end{bmatrix}$$</p>
+<p>矩阵A的所有列都在$\mathbb{R}^{3}$空间中，他的列的所有线性组合都成一个子空间：<strong>列空间</strong>，记作$C(A)$</p>
+<h2 id=6-列空间和零空间>6. 列空间和零空间</h2>
+<p>向量空间：一些向量组成的空间，对加法和数乘运算封闭</p>
+<p>有子空间$S$和$T$，他们的交集$S\cap T$仍是子空间</p>
+<h3 id=列空间-1>列空间</h3>
+<p>$$ A=\begin{bmatrix} 1 &1 &2 \\ 2 &1 &3 \\ 3 &1 &4 \\ 4 &1 &5 \\ \end{bmatrix} $$</p>
+<p>矩阵A的列看做向量，那么矩阵A的列空间是$\mathbb{R}^{4}$的子空间，记作$C(A)$</p>
+<p>$C(A)$由这三个列向量线性组合的所有向量构成，因为矩阵A的三个列向量不是线性无关的，所以$C(A)$是$\mathbb{R}^{4}$中的二维子空间</p>
+<p>下面开始讨论这个子空间有“多大”，并将它和线性方程组$Ax=b$联系起来，即</p>
+<p>$Ax=b$是否对任意的$b$都有解，<strong>满足什么条件的$b$可以满足$Ax=b$</strong></p>
+<p>$Ax=b$有解当且仅当$b\in C(A)$</p>
+<h3 id=零空间>零空间</h3>
+<p>$A$的零空间包含$Ax=0$中所有的解$x=\begin{bmatrix} x_{1} \\ x_{2} \\ x_{3}\end{bmatrix}$，对于矩阵$A$，他的零空间属于$\mathbb{R}^{3}$</p>
+<p>$Ax=0$的特解：</p>
+<p>$$ \begin{bmatrix} 0 \\ 0 \\ 0 \end{bmatrix}, \begin{bmatrix} 1 \\ 1 \\ -1 \end{bmatrix} $$</p>
+<p>所以A的零空间包含了$c\begin{bmatrix} 1 \\ 1 \\ -1\end{bmatrix}$</p>
+<p>所以A的零空间就是$\mathbb{R}^{3}$中的一条直线</p>
+<h2 id=7-求解零空间ax0>7. 求解零空间Ax=0</h2>
+<p>之前讲过了列空间和零空间的基本概念，现在主要关注的是如何去求解列空间和零空间</p>
+<p>$$ A=\begin{bmatrix} 1 &2 &2 &2 \\ 2 &4 &6 &8 \\ 3 &6 &8 &10 \end{bmatrix} $$</p>
+<p>下面通过消元来求解$Ax=0$，消元并不会改变$Ax=0$的解</p>
+<p>$$ A=\begin{bmatrix} 1 &2 &2 &2 \\ 2 &4 &6 &8 \\ 3 &6 &8 &10 \end{bmatrix} \rightarrow \begin{bmatrix} 1 &2 &2 &2 \\ 0 &0 &2 &4 \\ 0 &0 &2 &4 \end{bmatrix} \rightarrow \begin{bmatrix} \colorbox{yellow}{\color{red}{1}} &2 &\colorbox{yellow}{2} &2 \\ \colorbox{yellow}{0} &0 &\colorbox{yellow}{\color{red}{2}} &4 \\ \colorbox{yellow}{0} &0 &\colorbox{yellow}{0} &0 \end{bmatrix}=U $$</p>
+<p>最终得到了这种矩阵的阶梯形式(echelon form)，非零元素以一种阶梯形式出现。其中红色表示的就是矩阵的<strong>主元(pivots)</strong></p>
+<p>矩阵主元的个数称为该矩阵的<strong>秩(rank)</strong></p>
+<p>现在从$Ax=0$变换到了$Ux=0$，他的解没有变，也就是零空间没有变</p>
+<p>所以下面通过$U$来求解$A$的零空间</p>
+<p>主元所在列称为<strong>主列(pivot column)</strong>，也就是矩阵中的黄色部分；其他的列称为<strong>自由列(free columns)</strong></p>
+<blockquote>
+<p>自由列表示可以任意、自由的分配数值；列2和列4的乘数是任意的，即可以任意的分配$x_{2}$和$x_{4}$。当$x_{2}$和$x_{4}$固定下来，$x_{1}$和$x_{3}$随之固定</p>
+</blockquote>
+<p>所以需要任意假定一个$x_{2}$和$x_{4}$数值，但是因为零向量肯定是零空间中的一个解，所以把自由列所对应的元素全假定成0没有意义，这里一般是采用one-hot想法，逐一假设成1来进行求解(这里的解应该是零空间的特解)</p>
+<p>$$ x_{2}=1,x_{4}=0 \Rightarrow \begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix};x_{2}=0,x_{4}=1 \Rightarrow \begin{bmatrix} 2 \\ 0 \\ -2 \\ 1 \end{bmatrix} $$</p>
+<p>所以，$Ax=0$的解就是</p>
+<p>$$ c_{1}\begin{bmatrix} 2 \\ 0 \\ -2 \\ 1 \end{bmatrix}+ c_{2}\begin{bmatrix} -2 \\ 1 \\ 0 \\ 0 \end{bmatrix} $$</p>
+<p>如果矩阵$A_{m\times n}$的秩$r=2$，表示只有r个方程起作用。他的自由列、自由变量就有$n-r$个，可以采用one-hot形式进行取值，得到特解</p>
+<blockquote>
+<p>可以看到，<strong>使用列向量来理解</strong>整个矩阵、方程组的求解，理解将会变得非常的顺畅</p>
+</blockquote>
+<hr>
+<p>下面继续对行阶梯形式的$U$进行再一次的简化，得到的简化行阶梯形式记为$R$ (Reduced row echelon form)。而简化行阶梯形式主元上下全是0，主元为1</p>
+<p>$$U=\begin{bmatrix} 1 & 2 & 2 & 2 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 0 & 0 \end{bmatrix} \rightarrow \begin{bmatrix} 1 & 2 & 0 & -2 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \end{bmatrix}=R$$</p>
+<p>简化行阶梯形式$R$中包含了这些信息：</p>
+<p>$$ R=\begin{bmatrix} \colorbox{yellow}{1} & 2 & \colorbox{yellow}{0} & -2 \\ \colorbox{yellow}{0} & 0 & \colorbox{yellow}{1} & 2 \\ 0 & 0 & 0 & 0 \end{bmatrix} \stackrel{col2\iff col3}{\longrightarrow} \begin{array}{l} \begin{bmatrix} \colorbox{yellow}{1} & \colorbox{yellow}{0} &\colorbox{pink}{2} & \colorbox{pink}{-2} \\ \colorbox{yellow}{0} & \colorbox{yellow}{1} &\colorbox{pink}{0} & \colorbox{pink}{2} \\ \colorbox{orange}{0} & \colorbox{orange}{0} &\colorbox{orange}{0} &\colorbox{orange}{0} \end{bmatrix}\\ \quad c_{1} \quad c_{3} \quad c_{2} \quad c_{4} \end{array} \rightarrow \begin{bmatrix} \colorbox{yellow}{I} \colorbox{pink}{F} \\ \colorbox{orange}{0\quad 0} \end{bmatrix} $$</p>
+<p>其中$I_{r\times r}$，自由列$F_{r\times n-r}$</p>
+<p>在经过列变换后，我们再求$Rx=0$的解</p>
+<p>构造<strong>零空间矩阵</strong>：他的各列由特解组成，记为$N$，即满足$RN=0$</p>
+<p>那么通过上面列变换之后的简化行阶梯形式，我们可以很容易得到</p>
+<p>$$N=\begin{bmatrix} -F \\ I\end{bmatrix}=\begin{bmatrix} -2 & 2 \\ 0 & -2 \\ 1 &0 \\ 0 &1\end{bmatrix}$$</p>
+<p>再把相应的行2和行3调换回去就可以了，就得到了之前得到的特解</p>
+<h2 id=8-求解axb>8. 求解Ax=b</h2>
+<blockquote>
+<p>有了前面的铺垫，现在正是进入到求解线性方程组。</p>
+<p>线性代数的根本目的就是为了求解线性方程组</p>
+</blockquote>
+<p>$$ A=\begin{bmatrix} 1 &2 &2 &2 \\ 2 &4 &6 &8 \\ 3 &6 &8 &10 \end{bmatrix} \Rightarrow \begin{cases} x_{1} +&2x_{2}+&2x_{3}+&2x_{4} = b_{1} \\ 2x_{1}+&4x_{2}+&6x_{3}+&8x_{4} = b_{2} \\ 3x_{1}+&6x_{2}+&8x_{3}+&10x_{4} = b_{3} \end{cases} $$</p>
+<p>考虑$Ax=b$的增广矩阵$[A|b]$：</p>
+<p>$$ \begin{bmatrix} \begin{array}{cccc|c} 1 &2 &2 &2 &b_{1} \\ 2 &4 &6 &8 &b_{2} \\ 3 &6 &8 &10 &b_{3} \end{array} \end{bmatrix} $$</p>
+<p>同上进行消元</p>
+<p>$$ \begin{bmatrix} \begin{array}{cccc|c} 1 &2 &2 &2 &b_{1} \\ 0 &0 &2 &4 &b_{2}-2b_{1} \\ 0 &0 &0 &0 &b_{3}-b_{2}-b_{1} \end{array} \end{bmatrix} $$</p>
+<p>所以有解的条件就是$b_{3}-b_{2}-b_{1}=0$，因为第三个方程左边全是0</p>
+<h3 id=可解性>可解性</h3>
+<p>$Ax=b$有解，当且仅当$b$属于$A$的列空间时</p>
+<p>由上面的$Ax=b$的求解过程可知，换一种表述为：</p>
+<p>如果$A$各行的线性组合得到零行，那么$b$中元素的同样组合必然也是零，就像$b_{3}-b_{2}-b_{1}$</p>
+<h3 id=求axb的所有解>求Ax=b的所有解</h3>
+<ol>
+<li>
+<p>第一步只求一个特定的解，即特解(particular solution)</p>
+<p>其中一个方法就是，把所有的<strong>自由变量</strong>设为0，求出$Ax=b$的主变量</p>
+<p>按照上面进行举例: $x_{2}=0, x_{4}=0$可以得到</p>
+<p>$$\begin{cases} x_{1} +2x_{3} =1 \\ 2x_{3}=3 \end{cases} $$</p>
+<p>可得：$x_{1}=-2, \quad x_{3}=\frac{3}{2}$，特解向量为$x_{p}=\begin{bmatrix}-2 \\ 0 \\ \frac{3}{2} \\ 0 \end{bmatrix}$</p>
+</li>
+<li>
+<p>第二步，求解$A$的零空间$x_{n}$</p>
+</li>
+<li>
+<p>最终的解就是特解加上零空间中的任意向量$x=x_{p}+x_{n}$</p>
+<p>因为$Ax_{p}=b$，$Ax_{n}=0$</p>
+</li>
+</ol>
+<h3 id=使用秩讨论axb的求解>使用秩讨论Ax=b的求解</h3>
+<p>对于$m\times n$的矩阵$A_{m\times n}$，他的秩是$r$ ($r\le m, r\le n$)</p>
+<h4 id=列满秩-rnm>列满秩 (r=n&lt;m)</h4>
+<p>每一列都有主元，没有自由变量。</p>
+<p>这个时候$A$的零空间只有零向量$N(A) = \{ 0\}$</p>
+<p>如果$Ax=b$有解，只存在一个解，就是特解，即$x=x_{p}$</p>
+<h4 id=行满秩-rmn>行满秩 (r=m&lt;n)</h4>
+<p>这种情况下，将会得到$m$个主元，这个时候通过消元法我们可知不会出现零行，所以对于任意的$b$，$Ax=b$都有解</p>
+<p>自由变量为$n-r$个</p>
+<p>举个例子，有点不好理解</p>
+<p>$$A=\begin{bmatrix} 1 &2 &6 &5 \\ 3 &1 &1 &1\end{bmatrix}$$</p>
+<p>矩阵的秩是2，得到的简化阶梯型：</p>
+<p>$$R=\begin{bmatrix} 1 &0 &\_ &\_ \\ 0 &1 &\_ &\_ \end{bmatrix}$$</p>
+<p>$R$中没有零行，左边是单位阵，右边就是自由变量组成的矩阵$F$，可以任意设定</p>
+<h4 id=满秩-rmn>满秩 (r=m=n)</h4>
+<p>这种矩阵肯定是方阵，他是可逆矩阵，简化阶梯型$R=I$，零空间只有0向量，$Ax=b$有且只有唯一解</p>
+<blockquote>
+<p>矩阵的秩决定了方程组解的数目</p>
+</blockquote>
+<h2 id=9-线性相关向量空间的基和维数>9. 线性相关、向量空间的基和维数</h2>
+<p>“向量组”是线性相关、无关；“向量组”生成一个空间；“向量组”作为一组基</p>
+<p><strong>他们都是针对的向量组进行讨论，而不是矩阵</strong></p>
+<h3 id=线性无关>线性无关</h3>
+<blockquote>
+<p>什么条件下，向量$x_{1}, x_{2}, \cdots, x_{n}$是线性无关的？</p>
+</blockquote>
+<p>如果不存在结果为零向量的组合，则向量组线性无关（除非系数全0）</p>
+<p>当向量$x_{1}, x_{2}, \cdots, x_{n}$是矩阵$A$的列向量，如果矩阵$A$的零空间只存在零空间，那么这个向量组线性无关，即这个矩阵$A$的秩$r=n$</p>
+<h3 id=向量空间-1>向量空间</h3>
+<p>设向量组$v_{1},v_{2},\cdots,v_{l}$生成(span)了一个向量空间，表示这个空间包含了这些向量的所有线性组合</p>
+<p>向量空间的<strong>基</strong>：指一系列的向量$v_{1},v_{2},\cdots,v_{d}$，他们线性无关、可以生成整个向量空间</p>
+<p>对于给定空间，$\mathbb{R}^{2},\mathbb{R}^{n},&mldr;$,空间中基的个数是相等的，即空间的<strong>维度</strong></p>
+<p>$$ A=\begin{bmatrix} 1 &2 &3 &1 \\ 1 &1 &2 &1 \\ 1 &2 &3 &1 \end{bmatrix} $$</p>
+<p>他的列空间$C(A)$，前两列向量就是这个列空间的基，那么这个<strong>列空间的维数</strong>就是矩阵$A$的秩。</p>
+<p>(注意，这里说的不是矩阵$A$的维度，而是矩阵$A$的列空间的维度！)</p>
+<p>零空间表达是这些向量组怎么线性相关的，零空间的维度是$dim N(A) = n-r$</p>
+<h2 id=10-矩阵的四个基本子空间>10. 矩阵的四个基本子空间</h2>
+<p>对于矩阵$A_{m\times n}$</p>
+<ol>
+<li>
+<p>列空间$C(A)\in \mathbb{R}^{m}$</p>
+</li>
+<li>
+<p>零空间$N(A)\in \mathbb{R}^{n}$</p>
+</li>
+<li>
+<p>行空间$C(A^{T}) \in \mathbb{R}^{n}$: 矩阵$A$转置的列的所有线性组合</p>
+</li>
+</ol>
+<blockquote>
+<p>因为一般不太喜欢处理行向量，所以进行转置之后处理列向量。爱的魔力转圈圈~~~</p>
+</blockquote>
+<ol start=4>
+<li>左零空间$N(A^{T})\in \mathbb{R}^{m}$</li>
+</ol>
+<p>关心这些空间的<strong>一组基</strong>，以及他们的<strong>维数</strong></p>
+<table>
+<thead>
+<tr>
+<th>子空间</th>
+<th align=center>维度</th>
+<th align=center>一组基</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>列空间</td>
+<td align=center>矩阵$A$的秩$rank(A)$</td>
+<td align=center>矩阵$A$的r个主列<br>(注意这里是矩阵$A$，不是$U$或是$R$)</td>
+</tr>
+<tr>
+<td>行空间</td>
+<td align=center>矩阵$A$的秩$rank(A)$</td>
+<td align=center>行最简矩阵$R$的前r行</td>
+</tr>
+<tr>
+<td>零空间</td>
+<td align=center>$n-r$</td>
+<td align=center>$Ax=0$得到的特殊解<br>(每个自由变量都可以得到一个特殊解)</td>
+</tr>
+<tr>
+<td>左零空间</td>
+<td align=center>$m-r$</td>
+<td align=center>对$A$进行初等行变换到$R$的<strong>矩阵$E$的</strong>最后$m-r$行</td>
+</tr>
+</tbody>
+</table>
+<p><strong>关于行空间的一组基：</strong></p>
+<p>$$A=\begin{bmatrix} 1 &2 &3 &1 \\ 1 &1 &2 &1 \\ 1 &2 &3 &1\end{bmatrix} \rightarrow \begin{bmatrix} 1 &0 & 1 &1 \\ 0 &1 &1 &0 \\ 0 &0 &0 &0\end{bmatrix}$$</p>
+<p>因为在化成最简行阶梯形式$R$的过程中经历了行变化，此时$C(A)\neq C(R)$，但是他们的行空间却是相等的，所以行空间的一组基就是最简行阶梯形式$R$的前r行</p>
+<p><strong>关于左零空间：</strong></p>
+<p>$A^{T}y=0$，$y$就在$A$转置矩阵的零空间中</p>
+<p>对两边进行转置，可得：$y^{T}A=0$，这个时候$y_{T}$对$A$进行左乘，所以得名左零空间</p>
+<p>使用高斯-若当法(就是之前求逆的那个方法)，来求左零空间</p>
+<p>$$ E\begin{bmatrix} A_{m\times n}| I_{m\times m}\end{bmatrix} \rightarrow \begin{bmatrix} R_{m\times n} | E_{m\times m}\end{bmatrix} $$</p>
+<p>因为最简行阶梯矩阵$R$的形式是酱紫的：</p>
+<p>$$E_{m\times m}A_{m\times n}=R_{m\times n}=\begin{bmatrix} \colorbox{yellow}{I} \colorbox{pink}{F} \\ \colorbox{orange}{0\quad 0} \end{bmatrix}$$</p>
+<p>$R$的下面$m-r$行都是0，所以对应于$E_{m\times m}$的最后$m-r$行就是左零空间的基</p>
+<blockquote>
+<p>左乘是行变换(左行右列)，$E_{m\times m}$最后几行，左乘$A$得到的行都是0，所以是左零空间的基</p>
+</blockquote>
+<h2 id=11-矩阵空间和秩1矩阵>11. 矩阵空间和秩1矩阵</h2>
+<h3 id=矩阵空间>矩阵空间</h3>
+<blockquote>
+<p>把矩阵当做向量，满足加法和数乘</p>
+</blockquote>
+<p>这里讨论所有的3x3矩阵组成的空间$M$</p>
+<p>对于$M$，他的一组基是</p>
+<p>$$ \begin{bmatrix} 1 &0 &0 \\ 0 &0 &0 \\ 0 &0 &0 \end{bmatrix} \begin{bmatrix} 0 &1 &0 \\ 0 &0 &0 \\ 0 &0 &0 \end{bmatrix} \cdots \begin{bmatrix} 0 &0 &0 \\ 0 &0 &0 \\ 0 &0 &1 \end{bmatrix} $$</p>
+<p>所以$M$的维度是9，(维度的定义即需要至少九组线性无关的基来生成整个空间)</p>
+<p>$M$的子空间：所有的上三角矩阵、对称矩阵、对角矩阵，&mldr;.</p>
+<table>
+<thead>
+<tr>
+<th align=center></th>
+<th align=center>维度</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align=center>对称矩阵$S$</td>
+<td align=center>6</td>
+<td align=center>对称矩阵不是对角矩阵</td>
+</tr>
+<tr>
+<td align=center>上三角矩阵$U$</td>
+<td align=center>6</td>
+<td></td>
+</tr>
+<tr>
+<td align=center>对角矩阵$D$</td>
+<td align=center>3</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id=秩1矩阵>秩1矩阵</h3>
+<p>所有的秩1矩阵都可以写成䘝列向量乘以一个行向量的形式，即$A=uv^{T}$</p>
+<p>$$A = \begin{bmatrix} 1 &4 &5 \\ 2 &8 &10 \end{bmatrix}=\begin{bmatrix} 1 \\2\end{bmatrix}\begin{bmatrix} 1 &4 &5\end{bmatrix}$$</p>
+<p>通过秩1矩阵，可以搭建出来任何矩阵，比如秩4矩阵通过4个秩1矩阵进行线性组合就可以搭建出来</p>
+<p>举个例子：</p>
+<p>$S$表示所有4维空间中的向量$v=\begin{bmatrix} v_{1}\\v_{2}\\v_{3}\\v_{4} \end{bmatrix}\in \mathbb{R}^{4}$，并且满足$v_{1}+v_{2}+v_{3}+v_{4}=0$</p>
+<p>首先$S$是$\mathbb{R}^{4}$中的一个子空间，因为向量$v$满足加法和数乘的封闭</p>
+<p>其次，$S$空间的基向量和维数：</p>
+<p>令$Av=0$，可得到一个符合条件的矩阵$A=\begin{bmatrix} 1 &1 &1 &1\end{bmatrix}$，那么$S=N(A)$，$S$其实就是$A$的零空间，所以他的维数是3</p>
+<p>同理，$S$的一组基是</p>
+<p>$$ \begin{bmatrix} -1 \\ 1 \\ 0 \\ 0 \end{bmatrix}, \quad \begin{bmatrix} -1 \\ 0 \\ 1 \\ 0 \end{bmatrix}, \quad \begin{bmatrix} -1 \\ 0 \\ 0 \\ 1 \end{bmatrix} $$</p>
+<p>矩阵$A$的列空间是$\mathbb{R}^{1}$，矩阵$A$的转置零空间$N(A^{T})$是零维的，这个子空间只有一个空集，没有基</p>
+<h2 id=12-线性代数的应用图和网络>12. 线性代数的应用：图和网络</h2>
+<h2 id=14-正交向量与正交子空间>14. 正交向量与正交子空间</h2>
+<p><img src=https://i.loli.net/2021/07/09/JIfZV6FbD2EP4QA.png alt=3.png></p>
+<p><strong>正交向量(orthogonal vectors)：</strong> 在n为空间中，这些向量的夹角是90° (垂直的另一种说法)。即 $x^{T}y=0$</p>
+<p>简单的一种证明（从直角公式开始推）：</p>
+<p>$$||x||^{2}+||y||^{2} = ||x+y||^{2}$$</p>
+<p>$$\begin{array}{c} x^{T}x+y^{T}y&=(x+y)^{T}(x+y) \\\\ &\quad =x^{T}x+y^{T}y + 2x^{T}y \end{array}$$</p>
+<p><strong>正交子空间(orthogonal subspace)：</strong> 子空间$S$和子空间$T$正交，表示$S$中的每个向量都和$T$中的每个向量正交</p>
+<ul>
+<li>
+<p>行空间正交于零空间 $\because Ax=0$，$x$与$A$中的所有行都正交，同时垂直于他们的线性组合（即行空间）</p>
+<p>他们两个是$\mathbb{R}^{n}$空间的正交补(orthogonal complements) [补集]</p>
+</li>
+<li>
+<p>同理，列空间正交于左零空间</p>
+</li>
+</ul>
+<hr>
+<p>如何求一个误解方程组的解，即当 $Ax=b$ 无解的时候，如何去解这个方程组(特别是$m>n$情况下)：<strong>最小二乘法</strong></p>
+<p>对矩阵$A_{m \times n}$来说，一个特别好的矩阵: $A^{T}A$</p>
+<ul>
+<li>$A^{T}A$是$n\times n$的方阵</li>
+<li>$A^{T}A$是对称阵</li>
+<li>$N(A^{T}A) = N(A)$， $rank(A^{T}A)=rank(A)$，所以$A^{T}A$可逆当且仅当$A$的各列线性无关，零空间只有一个零向量</li>
+</ul>
+<p>$Ax=A^{T}b$ 无解时， 可以通过 $A^{T}A\hat{x}=A^{T}b$ 求最优解， 但是 $A^{T}A\hat{x}=A^{T}b$ 和 $Ax=A^{T}b$ 的解是不一样的，所以加个小帽子以区分</p>
+<h2 id=15-子空间投影>15. 子空间投影</h2>
+<h3 id=一维空间>一维空间</h3>
+<p><img src=https://i.loli.net/2021/07/09/LODiShKNG3ysj6J.png alt=4.png></p>
+<p>$a$ 是一维空间，想要了解到在空间$a$上离向量$b$最近的一点</p>
+<p>$a$ 上离 $b$ 最近的一点是 $p$，$p$ 和 $b$ 正交，$p$ 和 $b$ 之间的误差是 $e=b-p$</p>
+<p>投影 $p$ 在空间 $a$ 上，是 $a$ 的 $x$ 倍 （$x$是一个标量，而$a$和$b$是向量），所以关键就是怎么求 $x$</p>
+<p>$$a^{T}(b-xa) = 0$$</p>
+<p>$$\therefore x=\frac{a^{T}b}{a^{T}a}$$</p>
+<p>最终，$b$ 在 $a$ 上的 <strong>投影</strong> 就是</p>
+<p>$$p=a\frac{a^{T}b}{a^{T}a}$$</p>
+<p>由上式可知，投影是通过一个 <strong>投影矩阵(projection matrix)</strong> $P$ 完成的：</p>
+<p>$$p=Pb, \qquad P_{n\times n} = \frac{aa^{T}}{a^{T}a}$$</p>
+<p>下面主要来分析投影矩阵的一些性质：</p>
+<ul>
+<li>投影矩阵的列空间 $C(P)$ 是通过 $a$ 的一条线，$rank(P)=1$</li>
+<li>这个矩阵是对称的 $P^{T}=P$</li>
+<li>投影矩阵的平方还是自己 $P^{2}=P$， (相当于投影两次)</li>
+</ul>
+<h3 id=高维空间>高维空间</h3>
+<blockquote>
+<p>为什么需要投影？</p>
+<p>$Ax=b$可能会误解，只能求解最接近这个解的解，所以通过投影来微调$b$，即 $A\hat{x}=p$， $p$ 是 $b$ 在列空间上的投影</p>
+<p>$A\hat{x} = p = A(A^{T}A)^{-1} A^{T} b$</p>
+<p>$\therefore A^{T}A\hat{x} = A^{T}b$</p>
+</blockquote>
+<p>现在有一个向量 $b$ 想要投影到 $A$ 的列空间上，得到投影向量 $p$</p>
+<p>令 $A$ 的列空间中两个基向量为 $a_{1}, a_{2}$</p>
+<p>那么投影向量的表达为： $p = \hat{x_{1}}a_{1} + \hat{x_{2}}a_{2} = A\hat{x}$</p>
+<p>同一维中的推理，需要通过垂直来辅助：</p>
+<p>$$e = (b-p) = (b-A\hat{x}) \quad \bot \quad C(A)$$</p>
+<p>$$ \therefore \begin{cases} a_{1}^{T}(b-A\hat{x}) = 0 \\ a_{2}^{T}(b-A\hat{x}) = 0 \end{cases} $$</p>
+<p>$$\therefore A^{T}(b-A\hat{x})=0$$</p>
+<p>$e$ 在 $N(A^{T})$ 的空间中，即 $e\bot C(A)$，殊途同归。最终希望得到的 $\hat{x}$ 如下表达：</p>
+<p>$$A^{T}A\hat{x} = A^{T}b$$</p>
+<hr>
+<p><strong>下面就是最重要的投影三个公式：</strong></p>
+<p>系数 $\hat{x}$：</p>
+<p>$$\hat{x} = (A^{T}A)^{-1} A^{T} b$$</p>
+<p>投影 $p$：</p>
+<p>$$p=A\hat{x}=A(A^{T}A)^{-1} A^{T} b$$</p>
+<p>投影矩阵 $P$:</p>
+<p>$$P = A(A^{T}A)^{-1} A^{T}$$</p>
+<p>如果 $A$ 是一个可逆的方阵，那么他的列空间是整个$n$维空间，那么 $P=I$，相当于我投我自己，就没有用，所以上面是唯一一种形式</p>
+<p>同一维情况一样</p>
+<ul>
+<li>这个矩阵是对称的 $P^{T}=P$</li>
+<li>投影矩阵的平方还是自己 $P^{2}=P$</li>
+</ul>
+<h2 id=16-投影矩阵和最小二乘>16. 投影矩阵和最小二乘</h2>
+<h3 id=投影矩阵>投影矩阵</h3>
+<p>如果 $b$ 在列空间 $C(A)$ 中，$Pb = b$<br>
+如果 $b$ 垂直于列空间 $C(A)$ 中，$Pb = 0$</p>
+<p><img src=https://i.loli.net/2021/07/09/7LKHiec6QXvwTOm.png alt=5.png></p>
+<p>在几何上表示：列空间垂直于左零空间。对于一个典型的$b$，投影到列空间得到$p=Pb$</p>
+<p>投影部分和误差部分加起来其实就是向量 $b$ ，即 $p+e = b$</p>
+<p>而误差部分 $e=b-p=b-Pb = b(I-P)$ 其实相当于 $b$ 在左零空间上的投影</p>
+<p>因为投影不管投影多少次都不会在变，所以平方的性质仍然存在 $(I-P)^{2} = (I-P)$</p>
+<h3 id=最小二乘法>最小二乘法</h3>
+<p>举个例子：$(1,1); (2,2); (3,2)$ 拟合出来一条直线</p>
+<p>设最优的直线是 $b = C+Dt$，需要确定 $C$ 和 $D$ 的参数。</p>
+<p>带入上面三个点的参数，得到方程：</p>
+<p>$$ \begin{cases} C + D = 1 \\ C + 2D = 2 \\ C + 3D = 2 \\ \end{cases} $$</p>
+<p>$$ \begin{bmatrix} 1 &1 \\ 1 &2 \\ 1 &3 \end{bmatrix} \begin{bmatrix} C \\ D \end{bmatrix} = \begin{bmatrix} 1 \\ 2 \\ 3\end{bmatrix} \rightarrow Ax = b$$</p>
+<p>这个方程是无解的，但是他可以有最优解，最优意味着最小化他的误差</p>
+<p>$$\min{||e||^{2}}\rightarrow \min{||Ax-b||^{2}} = \min{(e_{1}^{2}+e_{2}^{2}+e_{3}^{2})}$$</p>
+<p>$$\min{[(C+D-1)^{2}+(C+2D-2)^{2}+(c+3D-2)^{2}]}$$</p>
+<p>所以可以通过对$C$和$D$求偏导进行求最优解</p>
+<p>但是使用投影的方法可以利用线性方程组很快</p>
+<p>$$\begin{bmatrix} 1 &1 &1 \\ 1 &2 &3 \end{bmatrix} \left[\begin{array}{cc|c} 1 &1 &1 \\ 1 &2 &2 \\ 1 &3 &2 \end{array}\right] = \left[\begin{array}{cc|c} 3 &6 &5 \\ 6 &14 &11 \end{array}\right]$$</p>
+<blockquote>
+<p>这里还有一个小技巧，就是求解$A^{T}Ax=A^{T}b$的时候可以直接对$A^{T}[A|b]$进行计算</p>
+</blockquote>
+<p>$$ \begin{cases} 3C + 6D = 5 \\ 6C + 14D = 11 \end{cases} $$</p>
+<hr>
+<p>下面对于最小二乘法只有一个难题，就是需要证明$A$是线性无关的时候，$A^{T}A$是可逆的</p>
+<p>即$A^{T}Ax=0$只有一个零解</p>
+<p>两边都点乘$x^{T}$，得到 $x^{T}A^{T}Ax=0$</p>
+<p>$$(Ax)^{T}(Ax)=0 \Rightarrow Ax=0$$</p>
+<blockquote>
+<p>$x^{T}x$ 转置乘本身相当于求$x$的长度的平方</p>
+</blockquote>
+<p>因为$A$线性无关，所以$Ax=0$只有一个零解</p>
+<h2 id=17-正交基和正交矩阵>17. 正交基和正交矩阵</h2>
+<h3 id=标准正交基>标准正交基</h3>
+<p>一组标准正交基(orthonormal vector)： $q_{1},q_{2},\cdots,q_{n}$，任意的$q$都和其他$q$正交，并且因为是“标准”的，所以他们的长度是1，即满足下面的条件</p>
+<p>$$ q_{i}^{T}q_{j} = \begin{cases} 1, \text{if } i = j \\ 0, \text{if } i \quad!= j \end{cases} $$</p>
+<blockquote>
+<p>上面的不等号渲染有问题，所以使用!=代替了</p>
+</blockquote>
+<h3 id=标准正交矩阵>标准正交矩阵</h3>
+<p>标准正交矩阵（方阵）： $Q=\begin{bmatrix} q_{1},q_{2},\cdots,q_{n}\end{bmatrix}$</p>
+<p>下面研究一下标准正交矩阵的性质：</p>
+<p>$$ Q^{T}Q = \begin{bmatrix} q_{1}^{T} \\ q_{2}^{T} \\ \vdots \\ q_{n}^{T} \end{bmatrix} \begin{bmatrix} q_{1} &q_{2} & \vdots & q_{n} \end{bmatrix}= \begin{bmatrix} 1 & 0 & \cdots & 0 \\ 0 & 1 & \cdots & 0 \\ \vdots & \vdots & \ddots & \vdots \\ 0 & 0 & \cdots & 1 \\ \end{bmatrix} = I$$</p>
+<p>即：$Q^{T} = Q^{-1}$，但是$Q$必须是方阵</p>
+<blockquote>
+<p>对于投影矩阵$P$，他是 $P^{T} = P$</p>
+</blockquote>
+<p>对标准正交基举个例子：</p>
+<p>$$ \frac{1}{2} \begin{bmatrix} 1 &1 &1 &1 \\ 1 &-1 &1 &-1 \\ 1 &1 &-1 &-1 \\ 1 &-1 &-1 &1 \\ \end{bmatrix}$$</p>
+<hr>
+<p>举几个标准正交基的好处：</p>
+<p><strong>投影</strong></p>
+<p>$Q$是标准正交基，现在要将向量投影到他的列空间中，投影矩阵：</p>
+<p>$$P = Q(Q^{T}Q)^{-1}Q^{T}= QQ^{T}$$</p>
+<p>当$Q$是方阵时，$Q$的列空间就是整个空间，所以投影矩阵是$I$；如果不是方阵，那么结果就是上述这个</p>
+<p><strong>最小二乘法</strong></p>
+<p>$$A^{T}A\hat{x} = A^{T}b \rightarrow Q^{T}Q\hat{x} = Q^{T}b \rightarrow \hat{x} = Q^{T}b$$</p>
+<h3 id=线性无关向量标准正交化>线性无关向量标准正交化</h3>
+<p><strong>格拉姆-施密特正交化法 (Gram-Schmidt)</strong></p>
+<blockquote>
+<p>其实就是逐个向量减去之前向量的分量(即之前向量在这个向量空间上的投影)</p>
+</blockquote>
+<p>对于两个向量 $a$ 和 $b$，标准正交化的向量 $q_{1}$ 和 $q_{2}$</p>
+<p>$$a' = a;\qquad b'=b-Pa'=b-\frac{a'^{T}b}{a'^{T}a'}a'$$</p>
+<p>$$q_{1} = \frac{a'}{||a'||};\qquad q_{2} = \frac{b'}{||b'||}$$</p>
+<p>下面验证一下分量$a'$和$b'$正交</p>
+<p>$$a'^{T}b' = a'^{T}(b-\frac{a'^{T}b}{a'^{T}a'}a') = 0$$</p>
+<blockquote>
+<p>所有，以后对于列空间的基，可以有了性质更好的描述，就是标准正交基</p>
+</blockquote>
+<hr>
+<p>重新用矩阵的角度审视消元法：</p>
+<p>$$A=LU \rightarrow A=Q^{T}R=QR$$</p>
+<p>$$ \begin{bmatrix} a &b \end{bmatrix} = \begin{bmatrix} q_{1} &q_{2} \end{bmatrix} \begin{bmatrix} a_{1}^{T}q_{1} &\cdots \\ a_{1}^{T}q_{2} &\cdots \end{bmatrix} $$</p>
+<p>因为 $R$ 与 $A$ 的列空间一致，所以可以表达为每个分量</p>
+<p>$$ A = \left[\begin{array}{lll} a & b & c \end{array}\right]=\left[\begin{array}{lll} q_{1} & q_{2} & q_{3} \end{array}\right]\left[\begin{array}{lll} q_{1}^{T} a & q_{1}^{T} b & q_{1}^{T} c \\\\ & q_{2}^{T} b & q_{2}^{T} c \\\\ & & q_{3}^{T} c \end{array}\right] = QR$$</p>
+<p>这个其实就相当于了格拉姆-施密特的正交过程了</p>
+<p>而 $R$ 为什么是上三角矩阵，因为每一个后面的 $q$ 都要与前面的列向量正交</p>
+<h2 id=18-行列式及其性质>18. 行列式及其性质</h2>
+<p>接下来把重点放到了方阵上，行列式的目的是为了矩阵的<strong>特征值</strong></p>
+<p>矩阵的 <strong>行列式(determinant)</strong> 记作 $\det{A}$ 或者 $|A|$</p>
+<p>行列式的<strong>三个性质</strong>定义了行列式是个什么东西：</p>
+<ol>
+<li>$\det{I} = 1$，使得单位矩阵的行列式为1，(定义基准)</li>
+<li>交换行，行列式的值的符号会相反，(现在知道了置换矩阵的行列式)</li>
+<li>行列式是一个线性函数，对每一行都成立<br>
+$$\begin{vmatrix} ta &tb \\ c &d \end{vmatrix}= t \begin{vmatrix} a &b \\ c &d \end{vmatrix}$$</li>
+</ol>
+<p>$$\begin{vmatrix} a+a' &b+b' \\ c &d \end{vmatrix}= \begin{vmatrix} a &b \\ c &d \end{vmatrix}+\begin{vmatrix} a' &b' \\ c &d \end{vmatrix}$$</p>
+<hr>
+<p>由上面三个性质可以继续推导出下面的性质来：</p>
+<ol start=4>
+<li>
+<p>两行相等使得行列式等于0 (可以由性质2得到)</p>
+</li>
+<li>
+<p>从行$k$减去行1的$i$倍，行列式不变（性质3+性质2）</p>
+</li>
+<li>
+<p>若有一行为0，那么行列式就是0 (性质3，$t=0$)</p>
+</li>
+<li>
+<p>上三角矩阵的行列式等于对角线元素的乘积<br>
+$$\det{U}=\begin{vmatrix} d_{1} & \cdots & \cdots & \cdots \\ & d_{2} & \cdots & \cdots \\ & & \ddots & \vdots \\ \Huge0 & & &d_{n} \\ \end{vmatrix}=d_{1}d_{2}\cdots d_{n}$$</p>
+<p>因为上三角矩阵$U$和原矩阵$A$之间只经过了性质6的线性变换，所以原矩阵$A$的行列式就等于上三角矩阵$U$的行列式</p>
+<p>如果其中一个对角线元素为0，那么将得到全0行，行列式为0</p>
+</li>
+<li>
+<p>$\det{A}=0$ 当且仅当 $A$ 是奇异矩阵，(不可逆)</p>
+</li>
+<li>
+<p>两个方阵$A$和$B$的矩阵乘积的行列式等于他们行列式的乘积 $\det{AB}=\det{A}\times\det{B}$。所以可以推导出下面：</p>
+<p>$$\det{A^{-1}} = \frac{1}{\det{A}}$$</p>
+<blockquote>
+<p>这个其实也说明，如果没有逆，$det{A}=0$，逆就没有意义</p>
+</blockquote>
+<p>$$\det{A^{2}} = (\det{A})^{2}$$</p>
+<p>$$\det{2A} = \det{2I}\det{A} = 2^{n}\det{A}$$</p>
+</li>
+<li>
+<p>矩阵的行列式等于矩阵转置的行列式</p>
+<p>$$\det{A^{T}}=\det{A}$$</p>
+<blockquote>
+<p>从这里其实就可以发现，对于行列式来说，行和列并没有什么区别，都是进行行变换/列变换要改变符号的</p>
+</blockquote>
+<blockquote>
+<p>简单的证明一下：要证 $|A^{T}|=|A|\rightarrow |U^{T}L^{T}|=|LU|$</p>
+<p>$L$是一个下三角阵，并且对角线上全是1，所以$|L|=1$，同理，转置后的$L$对角线上也全是1，所以 $|U^{T}|=|U|$</p>
+</blockquote>
+</li>
+</ol>
+<h2 id=19-行列式公式和代数余子式>19. 行列式公式和代数余子式</h2>
+<p>有了以上的性质，特别是性质7之后，可以给探究一下行列式的定义，即通过消元法来求行列式的值</p>
+<p><strong>首先对于2阶矩阵：</strong></p>
+<p>$$ \begin{bmatrix} a &b \\ c &d \end{bmatrix} \rightarrow \begin{bmatrix} a &b \\ 0 & d-\frac{c}{a}b \end{bmatrix} \rightarrow \det = a(d-\frac{c}{a}b) = ad-bc$$</p>
+<p><strong>对于3阶矩阵的行列式：</strong></p>
+<p>使用性质三，对一个三阶行列式进行分解：因为如果其中一行/列全是0则行列式等于0，所以分解结果得到的是6个有值的行列式</p>
+<p>$$ \begin{aligned} \left|\begin{aligned} & a_{11} & a_{12} && a_{13} \\ & a_{21} & a_{22} && a_{23} \\ & a_{31} & a_{32} && a_{33} \\ \end{aligned}\right| &= \left|\begin{aligned} & a_{11} & 0 && 0 \\ & 0 & a_{22} && 0 \\ & 0 & 0 && a_{33} \\ \end{aligned}\right| + \left|\begin{aligned} & a_{11} & 0 && 0 \\ & 0 & 0 && a_{23} \\ & 0 & a_{33} && 0 \\ \end{aligned}\right| + \left|\begin{aligned} & 0 & a_{12} && 0 \\ & a_{21} & 0 && 0 \\ & 0 & 0 && a_{33} \\ \end{aligned}\right| \\ &+ \left|\begin{aligned} & 0 & a_{12} && 0 \\ & 0 & 0 && a_{23} \\ & a_{31} & 0 && 0 \\ \end{aligned}\right| + \left|\begin{aligned} & 0 & 0 && a_{13} \\ & a_{21} & 0 && 0 \\ & 0 & a_{32} && 0 \\ \end{aligned}\right| + \left|\begin{aligned} & 0 & 0 && a_{13} \\ & 0 & a_{22} && 0 \\ & a_{31} & 0 && 0 \\ \end{aligned}\right| \\ &=a_{11}a_{22}a_{33} - a_{11}a_{23}a_{32} - a_{12}a_{21}a_{33} \\ &+a_{12}a_{23}a_{32} + a_{13}a_{21}a_{32} - a_{13}a_{22}a_{31} \end{aligned} $$</p>
+<p>而在这里其实就能发现：</p>
+<p>对于$n$阶矩阵($n\times n$)，他的行列式表达式中有 $n!$ 项，因为可以看出，如果其中一行/列全是0则行列式等于0，那么就是排列问题了，第一行有$n$中选择，第二行有$n-1$种可能，以此类推</p>
+<p>所以$n$阶行列式的形式应该是这种形式的：</p>
+<p>$$\det{A} = \sum{\pm a_{1\alpha}a_{2\beta}\cdots a_{n\gamma}}$$</p>
+<p>$a_{ij}$表达了$i$行$j$列的元素，那么$\alpha,\beta,\cdots,\gamma$其实就是$(1,2,\cdots,n)$的一种排列</p>
+<p>而前面的正负号其实取决于$(\alpha,\beta,\cdots,\gamma)\rightarrow (1,2,\cdots,n)$这两种排列需要进行变换的奇偶次数</p>
+<p>将上面的进行凝练，通过代数余子式来说明行列式的求解：</p>
+<h3 id=代数余子式-cofactors>代数余子式 (cofactors)</h3>
+<p>首先还是考虑简单的三阶情况：</p>
+<p>$$ \begin{aligned} \det & = a_{11}(a_{22}a_{33}-a_{23}a_{32}) \\ & + a_{12}(\cdots) \\ & + a_{13}(\cdots) \end{aligned} $$</p>
+<p>可以将行列式表达换成上面的这种形式，选定第一行中的一个数，然后由剩余因子组成的表达式就是代数余子式，即以$a_{11}$括号内的$(a_{22}a_{33}-a_{23}a_{32})$就是$a_{11}$的代数余子式</p>
+<p>$$\text{Cofactor}(a_{ij})=(-1)^{ij}\det(n-1\quad \text{matrix with}\begin{aligned}row_{i} \\ col_{j}\end{aligned} \text{earsed})$$</p>
+<p>通过代数余子式，就可以进行<strong>扩展到n阶行列式的计算：</strong><br>
+$$det\space A = \sum_{i}^{n}a_{1i}C_{1i}$$</p>
+<h2 id=20-行列式的应用逆矩阵克拉默法则体积>20. 行列式的应用：逆矩阵、克拉默法则、体积</h2>
+<blockquote>
+<p>行列式引出的目的就是为了求解特征值，但是这不妨碍他还有一些其他的应用</p>
+</blockquote>
+<h3 id=逆矩阵>逆矩阵</h3>
+<p>因为行列式关于矩阵逆的独特性质 $\det{A^{-1}} = \frac{1}{\det{A}}$</p>
+<p>首先还是考虑 $2\times2$ 的逆矩阵情况：</p>
+<p>$$ \begin{bmatrix} a &b \\ c &d \end{bmatrix}^{-1}= \frac{1}{ad-bc} \begin{bmatrix} d &b \\ -c &a \end{bmatrix} $$</p>
+<p>可以看到，归一化的 $\frac{1}{ad-bc}=\det(A)$</p>
+<p>右边的矩阵就是各个位置对应的代数余子式，即</p>
+<p>$$A^{-1}=\frac{1}{\det(A)}C^{T}$$</p>
+<p>其中，$C$是由代数余子式构成的矩阵，$C^{T}$一般称为伴随矩阵</p>
+<hr>
+<p>下面简单证明一下：</p>
+<p>$$ \begin{aligned} & A^{-1}=\frac{1}{det(A)}C^{T} \Rightarrow AC^{T}=det(A)I \\ & A=\begin{bmatrix} \color{blue}a_{11} & \color{blue}a_{12} & \color{blue}\cdots & \color{blue}a_{1n} \\ a_{21} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ a_{n1} & a_{n2} & \cdots & a_{nn} \\ \end{bmatrix} C^{T}=\begin{bmatrix} \color{blue}c_{11} & c_{21} & \cdots & c_{n1} \\ \color{blue}c_{12} & c_{22} & \cdots & c_{n2} \\ \color{blue}\vdots & \vdots & \ddots & \vdots \\ \color{blue}c_{1n} & c_{2n} & \cdots & c_{nn} \\ \end{bmatrix} \end{aligned} $$</p>
+<p>$AC^{T}$在对角线上的每一个值正好都是行列式的代数余子式表达，如果不在对角线，把他还原成对应矩阵，会有相同的两行，即奇异矩阵，$\det=0$</p>
+<p>$$ AC^{T}= \begin{bmatrix} detA & & & \Huge0 \\ & detA & & \\ & & \ddots & \\ \Huge0 & & & detA \end{bmatrix} =det(A)\cdot I $$</p>
+<h3 id=克拉默法则>克拉默法则</h3>
+<blockquote>
+<p>提供一种代数形式的表达，但不适合计算</p>
+</blockquote>
+<p>求解：$Ax=b$</p>
+<p>$$x=A^{-1}b=\frac{1}{\det{A}}C^{T}b$$</p>
+<p>其中，$x_{j}=\frac{det(B_{j})}{det(A)}$，$B_{j}$是$A$的第$j$列替换成$b$</p>
+<p>举个例子：<br>
+$$ B_{1} =\begin{bmatrix} b_{1} & a_{12} & \cdots & a_{1n} \\ b_{2} & a_{22} & \cdots & a_{2n} \\ \vdots & \vdots & \ddots & \vdots \\ b_{n} & a_{n2} & \cdots & a_{nn} \\ \end{bmatrix} $$</p>
+<p>即矩阵$A$的第$j$列用$b$来代替$\Rightarrow$克拉默法则</p>
+<h3 id=计算体积>计算体积</h3>
+<p>还是先从简单的来说，比如 $3\times 3$的情况：</p>
+<p>有3个向量：$(a_{11}, a_{12}, a_{13}); (a_{21}, a_{22}, a_{23}); (a_{31}, a_{32}, a_{33})$他们在空间中组成了一个“箱子”</p>
+<p>这个箱子的体积就等于这几个向量构成的矩阵的行列式的绝对值，即 $|\det A|$</p>
+<p>首先考虑最基本的情况：对于标准正交矩阵 $Q$，证明他的“箱子”的体积是1</p>
+<p>$$ Q^{T}Q = I \rightarrow \det{Q^{T}}\det{Q} = \det{I} = 1 \rightarrow (\det{Q})^{2} =1 \rightarrow \det{Q}=1$$</p>
+<p>在这个基础上，拓展成长方块也同样成立，接下来就是证明对于任意角度的向量都可以 [通过行列式的线性性质进行计算，也就是把平行四边形拆成一个长方形进行计算]</p>
+<h2 id=21-特征值和特征向量>21. 特征值和特征向量</h2>
+<blockquote>
+<p>特征值和特征向量还是针对方阵而言的</p>
+</blockquote>
+<p>给定矩阵$A$，作用在向量$x$，($A$就像是一个函数对$x$进行变换然后得到了一个新的向量)，得到的新的向量$Ax$与原向量$x$平行，即</p>
+<p>$$Ax=\lambda x$$</p>
+<p>其中，$\lambda$是一个系数，称为<strong>特征值(eigen value)</strong>，$x$是<strong>特征向量(eigen vector)</strong></p>
+<p>首先还是来看两个例子</p>
+<p><strong>投影矩阵的特征值和特征向量</strong></p>
+<p>当$x$在平面上时(即投影矩阵$P=A(A^{T}A)^{-1}A^{T}$所要投影到的$A$的列空间上，即$C(A)$)，$Px=x$，所以特征值为$\lambda=1$</p>
+<p>当$x$垂直于平面是，$Px=0$，所以特征值为$\lambda=0$</p>
+<p>所以我们可以知道投影矩阵$P$的两个特征值，分别是$\lambda=0,1$</p>
+<p><strong>置换矩阵的特征值和特征向量</strong></p>
+<p>这里使用$A=\begin{bmatrix} 0 &1 \\ 1 &0\end{bmatrix}$来表示置换向量，避免与上面的投影矩阵$P$混淆</p>
+<p>他的一组特征向量和特征值可以是$x=\begin{bmatrix} 1 \\ 1\end{bmatrix}, \lambda = 1$；另一组可以是$x=\begin{bmatrix} -1 \\ 1\end{bmatrix}, \lambda = -1$</p>
+<hr>
+<p><strong>如何求解特征值和特征向量，即$Ax=\lambda x$</strong></p>
+<p>将上式重写成： $(A-\lambda I)x=0$，即如果存在$x$使得这个式子成立，那么$A$进行$\lambda I$的偏移后必须是奇异的</p>
+<p>奇异矩阵的行列式为0，所以 $\det(A-\lambda I)=0$，这个方程被称为<strong>特征方程/特征值方程</strong></p>
+<p><strong>举个例子</strong>：$A=\left|\begin{aligned}&3&1 \\ &1&3\end{aligned}\right|$</p>
+<p>$\therefore \det(A-\lambda I)=\left|\begin{aligned} &3-\lambda & 1 \\ &1 &3-\lambda \end{aligned}\right|=(3-\lambda)^{2}-1=\lambda^{2}-\color{blue}{6}\color{red}\lambda+\color{green}8$</p>
+<blockquote>
+<p>这里的 $\color{blue}{6}$ 是矩阵$A$的迹， $\color{green}{8}$ 是矩阵A的行列式值，对于二阶行列式有这个性质</p>
+</blockquote>
+<p>$\therefore$ 有两个特征值：$\lambda_{1}=4$ $\lambda_{2}=2$</p>
+<p>$\lambda_{1}=4$时，$(A-\lambda I)=\begin{bmatrix}-1 &1 \\ 1 &-1\end{bmatrix}$， $x_{1}=\begin{bmatrix}1 \\1\end{bmatrix}$</p>
+<p>$\lambda_{2}=2$时，$(A-\lambda I)=\begin{bmatrix}1 &1 \\ 1 &1\end{bmatrix}$， $x_{2}=\begin{bmatrix}-1 \\1\end{bmatrix}$</p>
+<p><strong>还有另一个例子</strong>：$A=\left|\begin{aligned}&1&0 \\ &0&1\end{aligned}\right|$</p>
+<p>得到他的两组特征值和特征向量是：</p>
+<p>$\lambda_{1}=1$时， $x_{1}=\begin{bmatrix}1 \\1\end{bmatrix}$</p>
+<p>$\lambda_{2}=-1$时， $x_{2}=\begin{bmatrix}-1 \\1\end{bmatrix}$</p>
+<p>从这两个例子看出来，第一个例子的矩阵成为$A_{1}$，第二个例子的矩阵称为$A_{2}$，<br>
+$A_{1} = A_{2} + 3I$。对于特征值来说其实就是相应的＋3，对于特征向量来说其实不变。<br>
+所以特征值和特征向量反应了一个矩阵的另一个属性。</p>
+<hr>
+<p><strong>特征值\特征向量比较糟糕的情况</strong></p>
+<p><strong>1. 出现复数</strong></p>
+<p>记旋转矩阵$Q$为使矩阵中每个向量旋转90°的矩阵，二维即：</p>
+<p>$$Q=\begin{bmatrix} \cos{90^{\circ}} & -\sin{90^{\circ}}\\ \sin{90^{\circ}} & \cos{90^{\circ}} \end{bmatrix} =\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}$$</p>
+<p>通过刚才可以知道：</p>
+<p>$$ \begin{cases} \text{trace} = 0+0 = \lambda_{1} + \lambda_{2} \\ \det = 1 = \lambda_{1}\lambda_{2} \end{cases} $$</p>
+<p>$\lambda_{1}$和$\lambda_{2}$没有实数解，有复数解：$\lambda_{1}=i$ 和 $\lambda_{2}=-i$</p>
+<blockquote>
+<p>解释其实就是，对向量旋转90°，除非是零向量，否则不可能出现$Ax=\lambda x$中平行的情况</p>
+</blockquote>
+<p><strong>2. 出现重根</strong></p>
+<p>上三角矩阵： $A=\begin{bmatrix} 3 &1 \\ 0&3\end{bmatrix}$</p>
+<blockquote>
+<p>顺带一提，上三角矩阵的特征值就是对角线上的元素</p>
+</blockquote>
+<p>他的两个特征值都是： $\lambda_{1} = \lambda_{2} = 3$</p>
+<p>所以这个矩阵的特征向量是：</p>
+<p>$$ (A-\lambda I)x = \begin{bmatrix} 0 &1 \\ 0 &0 \end{bmatrix}x = 0 \rightarrow x_{1} = \begin{bmatrix} 1 \\ 0\end{bmatrix} $$</p>
+<p>只有一个特征向量，没有第二个无关的特征向量</p>
+<hr>
+<p>特征值的性质：</p>
+<ol>
+<li>特征值的和($\sum\lambda$)等于矩阵A对角线元素之和，即<strong>迹(trace)</strong>：$a_{11}+&mldr;+a_{nn}$</li>
+</ol>
+<h2 id=22-对角化和幂>22. 对角化和幂</h2>
+<p>特征向量矩阵$S$：将矩阵$A$的n个线性无关的特征向量按列组成的矩阵（即可逆）<br>
+特征值矩阵$\Lambda$：矩阵$A$的n个特征值构成的矩阵，特征值在矩阵的对角线上</p>
+<p>$$S^{-1}AS = \Lambda$$</p>
+<p>$$AS=S\Lambda$$</p>
+<p>$$A=S\Lambda S^{-1}$$</p>
+<p>对上式进行一个推导：</p>
+<p>$$ \begin{aligned} AS & = A\begin{bmatrix} x_{1} &x_{2} & \cdots &x_{n}\end{bmatrix} \\ & = \begin{bmatrix}\lambda_{1}x_{1} &\lambda_{2}x_{2} &\cdots &\lambda_{n}x_{n}\end{bmatrix} \\ & = \begin{bmatrix} x_{1} &x_{2} & \cdots &x_{n}\end{bmatrix}\begin{bmatrix} \lambda_{1} &0 &\cdots &0 \\ 0 &\lambda_{2} &\cdots &0 \\ \vdots &\vdots &\ddots &\vdots \\ 0 &0 &\cdots &\lambda_{n} \end{bmatrix} \end{aligned} =S\Lambda $$</p>
+<blockquote>
+<p>这个就是矩阵的对角化方法，最后得到矩阵$\Lambda$</p>
+</blockquote>
+<hr>
+<p>$$A=S\Lambda S^{-1}$$</p>
+<p>一种新的矩阵分解，可以拓展原来的思考，比如计算矩阵的平方$A^{2}$：</p>
+<p>$$Ax = \lambda x \rightarrow A^{2}x = \lambda Ax = \lambda^{2}x$$</p>
+<p>$$A^{2} = S\Lambda S^{-1}S\Lambda S^{-1} = S\Lambda^{2}S^{-1}$$</p>
+<p>上面两个式子说明了同一件事：$A^{2}$的特征值是$A$的平方，$A$的特征向量和$A^{2}$一样，对角化提供了一种以矩阵形式思考的解决方法。</p>
+<p>同理，可拓展到$K$次幂：</p>
+<p>$$A^{k} = S\Lambda^{k}S^{-1}$$</p>
+<blockquote>
+<p>但是对于$A=LU$分解这是不可用的</p>
+</blockquote>
+<hr>
+<p><strong>进行对角化的条件：</strong></p>
+<p>矩阵$A$没有重复的特征值（充分不必要）。如果存在重复的特征值，可能但不一定存在n个线性无关特征向量（比如n维的单位向量，特征值只有1，但是特征向量是每一列），只要没有重复的特征向量就行。</p>
+<hr>
+<p><strong>求解差分方程：</strong></p>
+<p>$$ \begin{cases} \text{初始向量 } u_{0} \\ \text{差分方程 } u_{k+1} = Au_{k} \end{cases} $$</p>
+<p>$$u_{k} = A^{k}u_{0}$$</p>
+<p>其中，初始矩阵$u_{0}$可以写成$A$的特征向量的线性组合形式 (因为特征向量之间线性无关，$A$非奇异不会产生重复的特征向量看，所以特征向量矩阵的列空间铺满了整个空间)</p>
+<p>$$u_{0} = c_{1}x_{1} + c_{2}x_{2} + \cdots + c_{n}x_{n}$$</p>
+<p>$$Au_{0} = c_{1}\lambda_{1} x_{1} + c_{2}\lambda_{2}x_{2} + \cdots + c_{n}\lambda_{n}x_{n}$$</p>
+<p>$$A^{100}u_{0} = c_{1}\lambda_{1}^{100} x_{1} + c_{2}\lambda_{2}^{100}x_{2} + \cdots + c_{n}\lambda_{n}^{100}x_{n}$$</p>
+<p><strong>举个例子：斐波那契数列</strong></p>
+<p>$$F_{k+2}=F_{k+1}+F_{k}\qquad [0, 1, 1, 2, 3, 5, 8, 13, 21, &mldr;]$$</p>
+<p>定义向量：$u_{k}=\begin{bmatrix}F_{k+1}\\F_{k}\end{bmatrix}\therefore\left\{\begin{aligned} &F_{k+2} = F_{k+1} + F_{k} \\ &F_{k+1} = F_{k+1} \end{aligned}\right.\Rightarrow u_{k+1}=Au_{k};A=\begin{bmatrix} 1 &1 \ 1 &0 \end{bmatrix}$</p>
+<p>A的特征值：$\lambda=\frac{1\pm \sqrt{5}}{2}$</p>
+<p>因为斐波那契数列是增长的，所以增长速度应该是 $\lambda_{1}=\frac{1+\sqrt{5}}{2}$</p>
+<p>从$u_{0}=\begin{bmatrix}F_{1}\\F_{0}\end{bmatrix}=\begin{bmatrix}1\\0\end{bmatrix}=c_{1}x_{1}+c_{2}x_{2}$ 可以求得 $c_{1}=\frac{1}{\sqrt{5}}$，$c_{2}=-\frac{1}{\sqrt{5}}$</p>
+<p>所以，$\begin{bmatrix}F_{100}\\F_{99}\end{bmatrix}=A^{99}\begin{bmatrix}F_{1}\\F_{0}\end{bmatrix}$，$F_{100}=c_{1}\lambda_{1}^{100}+c_{2}\lambda_{2}^{100}$</p>
+<p>所以，$F_{100}\approx c_{1}\lambda_{1}^{100}$</p>
+<h2 id=23-微分方程和expat>23. 微分方程和exp(At)</h2>
+<p>这一部分看不太懂，看常微分方程的时候再回过头来看</p>
+<h2 id=24-马尔科夫矩阵和傅里叶级数>24. 马尔科夫矩阵和傅里叶级数</h2>
+<blockquote>
+<p>特征值和特征矩阵的应用</p>
+</blockquote>
+<h3 id=马尔科夫矩阵>马尔科夫矩阵</h3>
+<p>马尔科夫矩阵，<strong>满足两条性质</strong>：1. 每个元素大于等于0； 2. 每一列相加都等于0 (与概率有着非常紧密的联系)</p>
+<p>假设使用马尔科夫矩连续乘以一个正的向量$u_{0}$，即</p>
+<p>$$u_{1} = Au_{0}; \qquad u_{2} = Au_{1}; \quad \cdots;\quad u_{n} = Au_{n-1}$$</p>
+<p>k步之后我们可以得到$A^{k}u$，这些向量会最终接近一个稳定状态，比如：</p>
+<p>$$A=\begin{bmatrix} .8 & .3 \\ .2 & .7\end{bmatrix}$$</p>
+<p>对于<strong>每一个</strong>$u_{0}=(a,1-a)$，都可以收敛到稳定的状态：$u_{\infty}=(0.6,0.4)$</p>
+<hr>
+<p>现在来讨论能到达稳态的条件：</p>
+<ol>
+<li>$\lambda=1$是马尔科夫矩阵$A$的特征值</li>
+<li>马尔科夫矩阵$A$的其他特征值都绝对值小于1，即 $|\lambda|&lt;1$</li>
+</ol>
+<p>在遇到矩阵连乘时，根据特征值分解，我们可以得到：</p>
+<p>$$u_{k} = A^{k}u_{0} = u_{0}(c_{1}\lambda_{1}^{k} x_{1} + c_{2}\lambda_{2}^{k}x_{2} + \cdots + c_{n}\lambda_{n}^{k}x_{n})$$</p>
+<p>所以，要想$u_{\infty}$到达稳态，必须有一个特征值为1，其他特征值项逐渐消失才行</p>
+<hr>
+<p>现在要判断马尔科夫矩阵一定有一个特征值等于一，所以判断$A-I$是不是奇异的：</p>
+<p>当$A-I$所有列相加得到0，就说明$A-I$是奇异的</p>
+<p>因为马尔科夫矩阵每一列和为1，所以$A-I$每一列和为0，所以用行向量$(1,1,1)$左乘$A-I$可以得到0，即$(0,0,0)A=0$，说明(1,1,1)在$A-I$的左零空间中，行向量线性相关，矩阵是奇异的</p>
+<blockquote>
+<p>这里其实就拓展出来好多，因为对于行列式来说行列是无关的$\det(A)=\det(A^{T})$，而只要 $\det=0$ 矩阵就奇异，所以只要零空间/左零空间有非0向量，那么这个矩阵就是奇异的</p>
+</blockquote>
+<blockquote>
+<p>还有特征值的一个性质：矩阵和其转置的特征值是一样的</p>
+<p>证明：$\det(A-\lambda I)=0 \rightarrow \det(A^{T}-\lambda I)=0$</p>
+</blockquote>
+<h3 id=傅里叶级数>傅里叶级数</h3>
+<blockquote>
+<p>讨论一下带有标准正交基的投影问题</p>
+</blockquote>
+<p>给定标准正交基 $q_{1},\cdots,q_{n}$，任意向量可以以标准正交基的一个组合进行表达：</p>
+<p>$$v=x_{1}q_{1}+x_{2}q_{2}+\cdots+x_{n}q_{n}$$</p>
+<p>现在想要知道，对于$v$，标准正交基的组合数$x_{1},x_{2},\cdots,x_{n}$是多少</p>
+<p>那么标准正交基在这里就非常有用了，例如想求$x_{1}$，则左右两边都对$q_{1}$做内积，因为是正交的，所以除了$x_{1}$这一项，其他都是0</p>
+<p>$$q^{T}_{1}v=x_{1}q^{T}_{1}q_{1}+0+\cdots+0$$</p>
+<p>因为是<strong>标准</strong>正交基，所以$q^{T}_{1}q_{1}=1$，即$x_{1}=q^{T}_{1}v$</p>
+<hr>
+<p>使用矩阵形式可以得知：</p>
+<p>$$v=Qx,\qquad Q=\begin{bmatrix} q_{1} &q_{2} &\cdots &q_{n} \end{bmatrix},\qquad x=\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \end{bmatrix}$$</p>
+<p>可得：$x = Q^{-1}v$，因为$Q$是标准正交矩阵，所以$x=Q^{T}v$</p>
+<hr>
+<blockquote>
+<p>现在代入傅里叶级数</p>
+</blockquote>
+<p>已知函数$f(x)$，我们想把它写成组合的形式，包含常数项，也包含$\cos$，$\sin$项等，即：</p>
+<p>$$f(x) = a_{0} + a_{1}\cos{x}+b_{1}\sin{x}+a_{2}\cos{2x}+b_{2}\sin{2x}+\cdots$$</p>
+<p>这个就是傅里叶级数，无穷维，并且$\cos$和$\sin$还正交，它作用在函数空间上，可以用函数$f(x)$来代替$v$，可以使用正交函数$\cos,\sin,\cdots$来代替正交向量$q_{1},q_{2},\cdots$</p>
+<blockquote>
+<p><strong>函数的正交</strong>类比于向量的正交：</p>
+<p>向量的正交：两个向量的点积为0，即 $v^{T}w=v_{1}w_{1}+\cdots+v_{n}w_{n}$</p>
+<p>函数的正交：给定两个函数，记为$f$和$g$，类比于向量的正交取点积，即对于取值积$f(x)g(x)$的和为0，即 $f^{T}g=\int{f(x)g(x)}\mathrm{d}x$</p>
+</blockquote>
+<p>现在我们关心如何求$a_{0},a_{1},\cdots$，以$a_{1}$为例，同刚才投影一样，两边对$\cos{x}$进行正交</p>
+<p>$$\int_{0}^{2\pi}{f(x)\cos{x}\mathrm{d}x}=a_{1}\int^{2\pi}_{0}(\cos{x})^{2}=\pi a_{1}$$</p>
+<h2 id=26-对称矩阵>26. 对称矩阵</h2>
+<p>对称矩阵(实数) $A=A^{T}$：</p>
+<ol>
+<li>
+<p>特征值是实数；</p>
+</li>
+<li>
+<p>特征向量是垂直的(正交)</p>
+</li>
+</ol>
+<p>所以，特征值分解在对称矩阵情况下：</p>
+<p>$$A=S\Lambda S^{-1} \rightarrow A=Q\Lambda Q^{-1}=Q\Lambda Q^{T}$$</p>
+<blockquote>
+<p>这个等式称为“谱定理”</p>
+<p>谱：矩阵特征值的集合</p>
+</blockquote>
+<hr>
+<p>下面简要推导一下：特征值都是实数</p>
+<p>取式子的共轭复数，同时因为指定对称矩阵是实矩阵：<br>
+$$Ax=\lambda x \rightarrow \overline{A}\overline{x} = \overline{\lambda}\overline{x} \rightarrow A\overline{x} = \overline{\lambda}\overline{x}$$</p>
+<p>对两边取转置，右乘$x$：</p>
+<p>$$ \overline{x}^{T}A^{T} = \overline{x}^{T}\overline{\lambda} \rightarrow \overline{x}^{T}A = \overline{x}^{T}\overline{\lambda} \rightarrow \overline{x}^{T}Ax = \overline{x}^{T}\overline{\lambda}x $$</p>
+<p>对原矩阵两边左乘$\overline{x}^{T}$，得到：</p>
+<p>$$\overline{x}^{T}Ax = \overline{x}^{T}\lambda x$$</p>
+<p>结合上面两式可得：</p>
+<p>$$\overline{x}^{T}\overline{\lambda}x = \overline{x}^{T}\lambda x$$</p>
+<p>所以 $\lambda=\overline{\lambda}$，特征值为实数</p>
+<blockquote>
+<p>如果是复矩阵，上述性质如实现，仍需要满足共轭条件，即$A=\overline{A}^{T}$</p>
+</blockquote>
+<hr>
+<p>下面再推到一下特征向量都是正交的，即：</p>
+<p>若$x_{1}$，$x_{2}$是对称矩阵$A$的两个特征向量，$Ax_{1}=\lambda_{1}x_{1}$，$Ax_{2}=\lambda_{2}x_{2}$，如果$\lambda_{1}!=\lambda_{2}$，则$x_{1}^{T}x_{2}=0$</p>
+<p>令$z=x^{T}_{1}Ax_{2}$，因为$z$是标量，所以$z^{T}=z$，即</p>
+<p>$$x_{2}^{T}A^{T}x_{1} = x^{T}_{1}Ax_{2}$$</p>
+<p>因为$A$是对称的，所以有：</p>
+<p>$$x_{2}^{T}Ax_{1} = x^{T}_{1}Ax_{2}$$</p>
+<p>$$x_{2}^{T}\lambda_{1}x_{1} = x^{T}_{1}\lambda_{2}x_{2}$$</p>
+<p>$$\lambda_{1}x_{2}^{T}x_{1} = \lambda_{2}x^{T}_{1}x_{2}$$</p>
+<p>因为：$z^{T}=z$，所以：</p>
+<p>$$x^{T}_{1}\lambda_{2}x_{2} = x_{2}^{T}\lambda_{2} x_{1}$$</p>
+<p>$$\lambda_{2}x^{T}_{1}x_{2} = \lambda_{2}x_{2}^{T}x_{1}$$</p>
+<p>结合上述两式，得到：</p>
+<p>$$\lambda_{1}x_{2}^{T}x_{1} = \lambda_{2}x_{2}^{T}x_{1}$$</p>
+<p>$$(\lambda_{1}-\lambda_{2})x_{2}^{T}x_{1} = 0$$</p>
+<p>因为 $\lambda_{1}$ 不等于 $\lambda_{2}$</p>
+<p>所以：$x_{2}^{T}x_{1} = 0$</p>
+<hr>
+<p>对$A=Q\Lambda Q^{T}$继续探索：</p>
+<p>$$ \begin{aligned} A=Q\Lambda Q^{T} &=\begin{bmatrix} q_{1} &q_{2} &\cdots\end{bmatrix} \begin{bmatrix} &\lambda_{1} && \\ &&\lambda_{2}& \\ &&&\ddots \end{bmatrix} \begin{bmatrix} q_{1}^{T} \\q_{2}^{T} \\ \vdots \end{bmatrix}\\\\ &=\lambda_{1}q_{1}q_{1}^{T}+\lambda_{2}q_{2}q_{2}^{T}+\cdots \end{aligned} $$</p>
+<p>$q_{1}q_{1}^{T}$ 是投影矩阵，是对称的</p>
+<p>所以每一个对称矩阵都是由一些互相垂直的投影矩阵的组合</p>
+<hr>
+<p>对对称矩阵来说，主元与特征值的符号个数一致 （正主元的个数=正特征值的个数）</p>
+<h2 id=27-复数矩阵和快速傅里叶变换>27. 复数矩阵和快速傅里叶变换</h2>
+<h2 id=28-正定矩阵和最小值>28. 正定矩阵和最小值</h2>
+<p><strong>正定矩阵(postive definite matrix)</strong>：所有特征值为正数的<strong>对称矩阵</strong></p>
+<p>对于正定矩阵的几种判定方法，以$A=\begin{bmatrix} a &b \\ c &d\end{bmatrix}$为例：</p>
+<ol>
+<li>所有的特征值为正：$\lambda_{1}>0, \lambda_{2}>0$</li>
+<li>所有主子矩阵（即西雅图子矩阵，Seattle submatrices）的行列式都是正的：$a>0, ac-b^{2}>0$</li>
+<li>所有的主元都是正的： $a>0, \frac{ac-b^{2}}{a}>0$</li>
+<li>$x^{T}Ax>0$</li>
+</ol>
+<hr>
+<p>举个例子：</p>
+<p>$$A=\begin{bmatrix} 2 &6 \\ 6 &18\end{bmatrix}$$</p>
+<p>这个是半正定矩阵，因为是奇异矩阵，所以可以得到一个特征值$\lambda_{1}=0$（所以被称为“半正定”），另一个特征值为$\lambda_{2}=20$。矩阵只有一个主元2。</p>
+<p>对于判定方法4：</p>
+<p>$$ \begin{bmatrix} x_{1}&x_{2}\end{bmatrix} \begin{bmatrix} 2 &6 \\ 6 &18\end{bmatrix} \begin{bmatrix} x_{1} \\ x_{2}\end{bmatrix} =2x_{1}^{2} + 12x_{1}x_{2} + 18x_{2}^{2} $$</p>
+<p>对于任意的$x$，如果$x^{T}Ax$总是正的，那么$A$是一个正定矩阵</p>
+<p>但是对于这个矩阵$\begin{bmatrix} 2 &6 \\ 6 &18\end{bmatrix}$，$x^{2}Ax\ge 0$，所以他是半正定的</p>
+<p>如果稍加修改，对矩阵$\begin{bmatrix} 2 &6 \\ 6 &7\end{bmatrix}$来说，$x^{T}Ax=2x_{1}^{2}+12x_{1}x_{2}+7x_{2}^{2}$是一个马鞍面，存在一点小于0，所以不是正定矩阵</p>
+<p>对矩阵$\begin{bmatrix} 2 &6 \\ 6 &20\end{bmatrix}$来说，$x^{T}Ax=2x_{1}^{2}+12x_{1}x_{2}+20x_{2}^{2}>0$是一个碗面，对所有不等于0的$x$都成立。</p>
+<p>再进一步，对得到的$x^{T}Ax$进行配方，得到$x^{T}Ax=2x_{1}^{2}+12x_{1}x_{2}+20x_{2}^{2}=2(x_{1}+3x_{2})^{2}+2x_{2}^{2}$。而矩阵进行LU分解后得到：$\begin{bmatrix} 2 &6 \\ 6 &20\end{bmatrix}=\begin{bmatrix} 1 &0 \\ 3 &1 \end{bmatrix}\begin{bmatrix} 2 &6 \\ 0 &2\end{bmatrix}$配方的本质其实就是消元，可以看到两个主元分别是两个平方的系数，$L$中的3就是配方的系数</p>
+<blockquote>
+<p>正定可以检查函数是否存在最小值：<br>
+对于微积分来说，如果$\frac{\mathrm{d}^{2}u}{\mathrm{x}^{2}}>0$，则存在极小值<br>
+那么采用矩阵形式，则是$f(x_{1},x_{2},\cdots)$组成的矩阵是正定的</p>
+</blockquote>
+<hr>
+<ul>
+<li>正定矩阵的逆也是正定的，因为特征值是原矩阵特征值的倒数，所以都是正的</li>
+<li>矩阵$A, B$都是正定的， $A+B$也是正定的，因为$x^{T}(A+B)x>0$</li>
+<li>对于长方矩阵$S_{m\times n}$，$S^{T}S$是正定的，$x^{T}A^{T}Ax=(Ax)^{T}Ax$，等于$Ax$的长度的平方$\ge 0$</li>
+</ul>
+<h2 id=29-相似矩阵和若尔当形>29. 相似矩阵和若尔当形</h2>
+<p><strong>相似矩阵</strong>：$A$和$B$是$n\times n$相似矩阵，意味着存在一个可逆矩阵$M$使得：$B=M^{-1}AM$</p>
+<p>举个例子：特征值分解 $S^{-1}AS = \Lambda$，即$A$和$\Lambda$是相似的</p>
+<p><strong>相似矩阵的共同点：</strong> 他们具有相同的特征值，无关特征向量的数目也一样</p>
+<blockquote>
+<p>简单证明一下：</p>
+<p>$$ \begin{aligned} & Ax=\lambda x \\ & AMM^{-1}x = \lambda x \\ & M^{-1}AMM^{-1}x = \lambda M^{-1}x \\ & BM^{-1}x = \lambda M^{-1}x \end{aligned} $$<br>
+即，$\lambda$也是矩阵$B$的特征值</p>
+</blockquote>
+<hr>
+<p><strong>对于存在相等特征值的情况</strong>：</p>
+<p>例如两个特征值相等为4： $\lambda_{1}=\lambda_{2}=4$，可以分别是如下两种矩阵：</p>
+<p>$$ \begin{bmatrix} 4 &0 \\ 0&4\end{bmatrix},\quad \begin{bmatrix} 4 &1 \\ 0&4\end{bmatrix} $$</p>
+<p>但是这两种情况并不一样</p>
+<p>$\begin{bmatrix} 4 &0 \\ 0&4\end{bmatrix}$只和自己相似，$M^{-1}4IM=4I$,</p>
+<p>$\begin{bmatrix} 4 &1 \\ 0&4\end{bmatrix}$可以代表一个大家族，称为若尔当标准型，即最简单，最接近对角阵的一个(但他不能对角化，如果能的话，他就和上面的这个矩阵相似了)</p>
+<p>再举一个特例：</p>
+<p>$$\begin{bmatrix} 0 &1 &0 &0 \\ 0 &0 &1 &0 \\ 0 &0 &0 &0 \\ 0 &0 &0 &0\end{bmatrix},\quad\begin{bmatrix} 0 &1 &0 &0 \\ 0 &0 &0 &0 \\ 0 &0 &0 &1 \\ 0 &0 &0 &0\end{bmatrix}$$</p>
+<p>这两个矩阵的特征值$\lambda_{1}=\lambda_{2}=\lambda_{3}=\lambda_{4}=0$，但是很明显他们不是相似的</p>
+<p>若尔当解释他们的分块是不一样的，第一个矩阵的分块是$\begin{bmatrix} 0 &1 &0 \\ 0 &0 &1 \\ 0 &0 &0\end{bmatrix}$和$[0]$，第二个矩阵的分块是$\begin{bmatrix} 0 &1 \\ 0 &0\end{bmatrix}$ 和$\begin{bmatrix} 0 &1 \\ 0 &0\end{bmatrix}$，所以他们是不相似的</p>
+<p><strong>若尔当定理：</strong> 每个方阵$A$都相似于一个若尔当阵$J$，若尔当阵即由若干个若尔当块都成的矩阵：</p>
+<p>$$J=\begin{bmatrix} J_{1} &&& \\ &J_{2} && \\ &&\ddots& \\ &&&J_{d} \end{bmatrix}$$</p>
+<p>若尔当块：特征值位于方阵的对角线上，若尔当块的数量等于特征向量的数量</p>
+<h2 id=30-奇异值分解svd>30. 奇异值分解(SVD)</h2>
+<blockquote>
+<p>矩阵最终和最好的分解</p>
+</blockquote>
+<p>$$A=U\Sigma V^{T}$$</p>
+<ul>
+<li>$\Sigma$是对角矩阵</li>
+<li>$U$ 和 $V$ 都是正交矩阵</li>
+</ul>
+<p>任何矩阵都可以有奇异值分解，中间是一个对角矩阵，两边是两个正交矩阵</p>
+<hr>
+<p><strong>Motivation</strong></p>
+<p>行空间 $\in\mathbb{R}^{n}$ 中的标准正交基$v_{1},v_{2},\cdots$，寻找一个变换$A_{m\times n}$，使之变换成列空间 $\in\mathbb{R}^{m}$ 中的一组正交基$u_{1}=Av_{1},u_{2}=Av_{2},\cdots$，即</p>
+<p>$$Av_{1} = \sigma_{1}u_{1} \\Av_{2} = \sigma_{2}u_{2}\\ \cdots$$</p>
+<p>其中，$\sigma$是伸缩向量，目的是为了是使得$v$也是归一化后的标准正交基</p>
+<p>化成矩阵形式即：</p>
+<p>$$ A\begin{bmatrix} v_{1} &v_{2} &\cdots &v_{r} \end{bmatrix} = \begin{bmatrix} u_{1} &u_{2} &\cdots \end{bmatrix} \begin{bmatrix} \sigma_{1} && \\ &\sigma_{2} & \\ &&\ddots \end{bmatrix} $$</p>
+<p>即</p>
+<p>$$AV = U\Sigma$$</p>
+<p>$$A = U\Sigma V^{-1}$$</p>
+<p>$$AV = U\Sigma V^{T}$$</p>
+<blockquote>
+<p>$V$ 是标准正交的</p>
+</blockquote>
+<hr>
+<p>举个例子，对于矩阵$A=\begin{bmatrix} 4 &4 \\ -3 &3 \end{bmatrix}$</p>
+<ul>
+<li>要寻找行空间中的$v_{1},v_{2} \in \mathbb{R}^{2}$</li>
+<li>要寻找空间中的$v_{1},v_{2} \in \mathbb{R}^{2}$</li>
+<li>找出归一化系数$\sigma_{1}>0, \sigma_{2}>0$</li>
+</ul>
+<p>同时求 $U$ 和 $V$ 太困难了，所以我们想办法消去$U$，先求 $V$</p>
+<p>$$ \begin{aligned} A^{T}A &= V\Sigma^{T}U^{T}U\Sigma V^{T} \\\\ &= V\Sigma^{T}\Sigma V^{T} \\\\ &= V\begin{bmatrix} \sigma_{1}^{2} && \\ &\sigma_{2}^{2}& \\ &&\ddots \end{bmatrix} V^{T} \end{aligned} $$</p>
+<p>这里最后化简成了对称矩阵$A^{T}A$的对角化形式(特征值分解)$Q\Sigma Q^{T}$，其中$\begin{bmatrix} \sigma_{1}^{2} && \\ &\sigma_{2}^{2}& \\ &&\ddots \end{bmatrix}$是$A^{T}A$的特征值矩阵，$V$是$A^{T}A$的特征向量矩阵</p>
+<blockquote>
+<p><strong>所以如何求 $V$ 和 $U$:</strong></p>
+<ul>
+<li>$A^{T}A$的特征值向量就是$V$</li>
+<li><del>$AA^{T}$的特征值向量就是$U$</del></li>
+<li>$A^{T}A$的特征值就是$\sigma$的平方</li>
+</ul>
+<p>这里需要注意的是，通过上述我们无法确定特征向量的符号，在求出$V$后，只能根据$V$的符号来对应$U$的符号，即$Av_{i}=\sigma_{i}u_{i}$</p>
+</blockquote>
+<p>下面来针对上面的矩阵$A=\begin{bmatrix} 4 &4 \\ -3 &3 \end{bmatrix}$实践一下</p>
+<p>$$ A^{T}A = \begin{bmatrix} 4 &-3 \\ 4 &3 \end{bmatrix} \begin{bmatrix} 4 &4 \\ -3 &3 \end{bmatrix}= \begin{bmatrix} 25 &7 \\ 7 &25\end{bmatrix} $$</p>
+<p>标准化后的特征向量是</p>
+<p>$$\begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{bmatrix};\quad \begin{bmatrix} \frac{1}{\sqrt{2}} \\ -\frac{1}{\sqrt{2}}\end{bmatrix}$$</p>
+<p>得到的特征值是：</p>
+<p>$$\lambda_{1} = 32; \quad \lambda_{2} = 18$$</p>
+<p>所以可以得到SVD分解中的 $\Sigma$ 和 $V$:</p>
+<p>$$ \Sigma = \begin{bmatrix} \sqrt{32} &0 \\ 0 &\sqrt{18}\end{bmatrix};\qquad V=\begin{bmatrix} \frac{1}{\sqrt{2}} & \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}} & -\frac{1}{\sqrt{2}} \\ \end{bmatrix} $$</p>
+<blockquote>
+<p>下面用相同的方法去求$U$</p>
+<p>$$ AA^{T} = \begin{bmatrix} 4 &4 \\ -3 &3 \end{bmatrix}\begin{bmatrix} 4 &-3 \\ 4 &3 \end{bmatrix} = \begin{bmatrix} 32 &0 \\ 0 &28 \end{bmatrix} $$</p>
+<p>标准化后的特征向量：</p>
+<p>$$\begin{bmatrix} 1 \\ 0 \end{bmatrix};\quad\begin{bmatrix} 0 \\ 1 \end{bmatrix}$$</p>
+<p>得到 $U=\begin{bmatrix} 1 &0 \\ 0&1 \end{bmatrix}$</p>
+<p>但是这个$U$是不对的</p>
+<p>$AV=\Sigma U$验算不回去，因为同样是特征向量，符号是可以不确定的，而这里选择正的特征向量刚刚好是错误的，所以在指定$V$的特征向量后，对应的$Av_{i}=\sigma_{i}u_{i}$的特征向量符号就出来了</p>
+</blockquote>
+<p>所以这里计算$U$，应该使用$Av_{i}=\sigma_{i}u_{i}$,即：</p>
+<p>$$ Av_{1} = \begin{bmatrix} 4 &4 \\ -3 &3 \end{bmatrix} \begin{bmatrix} \frac{1}{\sqrt{2}} \\ \frac{1}{\sqrt{2}}\end{bmatrix} = \begin{bmatrix} 4\sqrt{2}\\ 0 \end{bmatrix} =\sigma_{1}u_{1}=\sqrt{32}u_{1} $$</p>
+<p>$$ Av_{2} = \begin{bmatrix} 4 &4 \\ -3 &3 \end{bmatrix} \begin{bmatrix} \frac{1}{\sqrt{2}} \\ -\frac{1}{\sqrt{2}}\end{bmatrix} = \begin{bmatrix} 0 \\ -3\sqrt{2} \end{bmatrix} =\sigma_{2}u_{2}=\sqrt{18}u_{1} $$</p>
+<p>$$ u_{1} = \begin{bmatrix} 1 \\ 0 \end{bmatrix};\qquad u_{2} = \begin{bmatrix} 0 \\ -1 \end{bmatrix};\qquad U=\begin{bmatrix} 1 &0 \\ 0&-1 \end{bmatrix} $$</p>
+<blockquote>
+<p>和上面的错误结果只有符号的差异</p>
+</blockquote>
+<hr>
+<p>再举一个特殊的例子，秩1矩阵$\begin{bmatrix} 4 &3 \\ 8 &6\end{bmatrix}$</p>
+<p>矩阵的行空间就是$\begin{bmatrix} 4 \\ 3\end{bmatrix}$的倍数，即所在所在的直线，在这个空间中选择标准基，即$v_{1}=\begin{bmatrix} 0.8 \\ 0.6\end{bmatrix}$</p>
+<p>矩阵的列空间就是$\begin{bmatrix} 4 \\ 8\end{bmatrix}$的倍数，即所在所在的直线，在这个空间中选择标准基，即$u_{1}=\frac{1}{\sqrt{5}}\begin{bmatrix} 1 \\ 2\end{bmatrix}$</p>
+<p>$$A^{T}A = \begin{bmatrix} 80 &60 \\ 60 &45\end{bmatrix}$$</p>
+<p>得到$\lambda_{1}=0,\quad \lambda_{2}=125$</p>
+<p>因为秩1，所以选择零空间和左零空间中的标准正交基来构成$U$和$V$</p>
+<p>所以最后得到：</p>
+<p>$$ A= \begin{bmatrix} 4 &3 \\ 8 &6\end{bmatrix}= \frac{1}{\sqrt{5}}\begin{bmatrix} 1 &2 \\ 2 &-1\end{bmatrix} \begin{bmatrix} \sqrt{125} &0 \\ 0 &0 \end{bmatrix} \begin{bmatrix} 0.8 &0.6 \\ 0.6 &-0.8 \end{bmatrix} =U\Sigma V^{T}$$</p>
+<h2 id=31-线性变换及对应矩阵>31. 线性变换及对应矩阵</h2>
+<p><strong>线性变换</strong>：加法和数乘，线性变换应该保证这两种运算的不变形，即：</p>
+<p>$$ \begin{aligned} T(v+w) &= T(v) + T(w) \\\\ T(cv) &= cT(v) \end{aligned} $$</p>
+<p>等同于判断：</p>
+<p>$$T(cv+dw) = cT(v) + dT(w)$$</p>
+<p>举个例子：投影就是线性变换</p>
+<blockquote>
+<p>如果想要了解线性变换对输入空间的影响，只需要了解线性变换对这个输入空间的一组基进行的变换即可</p>
+</blockquote>
+<hr>
+<p><strong>坐标</strong>：源自于一组基，$v$的坐标是一组数字：$c_{1},c_{2},\cdots$，表示了$v$由多少个基向量组成，即$v=c_{1}v_{1}+c_{2}v_{2}+\cdots$</p>
+<p>平时的话是因为默认存在了标准正交基，即$v=\begin{bmatrix} 3 \\ 2 \\ 4\end{bmatrix}$，但是里面的含义其实是：</p>
+<p>$$ v = 3\begin{bmatrix}1 \\ 0 \\ 0\end{bmatrix} + 2\begin{bmatrix}1 \\ 1 \\ 0\end{bmatrix} + 4\begin{bmatrix}1 \\ 0 \\ 1\end{bmatrix} $$</p>
+</article>
+<script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
+<script defer src=/js/helper/prev.min.js></script>
+<script defer src=/js/helper/prop.min.js></script>
+<script>'use strict';document.addEventListener('DOMContentLoaded',function(){var a=!1,b=document.querySelectorAll('pre.chroma'),c=document.querySelectorAll('.language-code'),d=document.querySelectorAll('div.language-\\$'),e=document.querySelectorAll('div.language-\\>'),f=function(c){var k=c,b=c.textContent,j,g,h,i,d,f,e;if(b.length>15){a||(j=new ClipboardJS('.copy-to-clipboard',{text:function(a){var c=prev(a).querySelectorAll('code');return c.length>1?b=prev(a).querySelector('code[class^="language-"]').textContent:b=prev(a).querySelector('code').textContent,b.replace(/^\$\s/gm,'')}}),j.on('success',function(a){a.clearSelection(),g=prop(a.trigger.parentNode,'tagName')=='PRE',a.trigger.setAttribute('aria-label','Copied to clipboard!'),a.trigger.classList.add('tooltipped'),a.trigger.classList.add('tooltipped-w')}),j.on('error',function(a){g=prop(a.trigger.parentNode,'tagName')=='PRE',a.trigger.setAttribute('aria-label',a.action.toString()),a.trigger.classList.add('tooltipped'),a.trigger.classList.add('tooltipped-w')}),a=!0),h=['language-mermaid','language-viz','language-wave','language-chart','language-msc','language-flowchart'],i=!1,d=k.getAttribute('class');for(f=0;f<h.length;f++)if(d&&d.startsWith(h[f])){i=!0;break}i||d&&(e=document.createElement('span'),e.setAttribute('class','copy-to-clipboard'),e.setAttribute('title','Copy to clipboard'),c.parentNode.parentNode.insertBefore(e,c.parentNode.nextElementSibling))}},g=function(b){var a=document.createElement('span');a.setAttribute('class','copy-to-clipboard'),a.setAttribute('title','Copy to clipboard'),b.parentNode.parentNode.insertBefore(a,b.parentNode.nextElementSibling)};b?b.forEach(function(a){a.querySelectorAll('code').forEach(function(a){f(a)})}):null,c?c.forEach(function(a){a.querySelectorAll('code').forEach(function(a){f(a)})}):null,d?d.forEach(function(a){a.querySelectorAll('code').forEach(function(a){g(a)})}):null,e?e.forEach(function(a){a.querySelectorAll('code').forEach(function(a){g(a)})}):null})</script>
+<script>'use strict';var langCodeElem,dollarCodeElem,gtCodeElem;function wrap(a,b){a.parentNode.insertBefore(b,a),b.appendChild(a)}(function(){var a=document.querySelector('.single__contents');a?a.querySelectorAll('pre > code').forEach(function(b){var a=b.getAttribute('data-lang'),c=document.createElement('div'),e=null,d=null;a&&a.includes(':')?(e=a.split(':')[0],d=a.split(':')[1],c.className='language-'+e,c.setAttribute('data-lang',d),b.className='language-'+e,b.setAttribute('data-lang',d),b.setAttribute('id',d)):a||(c.setAttribute('data-lang','Code'),c.className='language-code'),(!a||d)&&wrap(b.parentNode,c)}):null})(),langCodeElem=document.querySelectorAll('.language-code'),langCodeElem?langCodeElem.forEach(function(b){var a=document.createElement('span');a.className='copy-to-clipboard',a.setAttribute('title','Copy to clipboard'),b.append(a)}):null,dollarCodeElem=document.querySelectorAll('div.language-\\$'),gtCodeElem=document.querySelectorAll('div.language-\\>'),dollarCodeElem?dollarCodeElem.forEach(function(a){var b=a.parentNode.parentNode?a.parentNode.parentNode.querySelectorAll('.lnt'):null;b?b.forEach(function(a){a.innerHTML='$<br/>'}):null}):null,gtCodeElem?gtCodeElem.forEach(function(a){var b=a.parentNode.parentNode?a.parentNode.parentNode.querySelectorAll('.lnt'):null;b?b.forEach(function(a){a.innerHTML='><br/>'}):null}):null</script>
+<div class=donation>
+<div class=donation__message>
+Share on
+</div>
+<div class=donation__icons>
+<a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmiaomiaoyoung.github.io%2fen%2fposts%2f%25E5%25AD%25A6%25E4%25B9%25A0%2f%25E4%25BB%258E%25E5%25A4%25B4%25E5%2586%258D%25E6%259D%25A5%2f1-%25E7%25BA%25BF%25E6%2580%25A7%25E4%25BB%25A3%25E6%2595%25B0-mit-18.06%2f%25E4%25BB%258E%25E5%25A4%25B4%25E5%2586%258D%25E6%259D%25A5%25E4%25B9%258B%25E7%25BA%25BF%25E6%2580%25A7%25E4%25BB%25A3%25E6%2595%25B0%2f" title=Facebook aria-label="Facebook Share Button" class=donation__item target=_blank rel=noreferrer data-type=share><svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191V.169c-.378-.052-1.678-.169-3.192-.169-3.159.0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z"/></svg>
+</a>
+<a href="https://twitter.com/intent/tweet?text=%e4%bb%8e%e5%a4%b4%e5%86%8d%e6%9d%a5%e4%b9%8b%e7%ba%bf%e6%80%a7%e4%bb%a3%e6%95%b0&url=https%3a%2f%2fmiaomiaoyoung.github.io%2fen%2fposts%2f%25E5%25AD%25A6%25E4%25B9%25A0%2f%25E4%25BB%258E%25E5%25A4%25B4%25E5%2586%258D%25E6%259D%25A5%2f1-%25E7%25BA%25BF%25E6%2580%25A7%25E4%25BB%25A3%25E6%2595%25B0-mit-18.06%2f%25E4%25BB%258E%25E5%25A4%25B4%25E5%2586%258D%25E6%259D%25A5%25E4%25B9%258B%25E7%25BA%25BF%25E6%2580%25A7%25E4%25BB%25A3%25E6%2595%25B0%2f&hashtags=math%2cLinear%20Algebra%2c%e4%bb%8e%e5%a4%b4%e5%86%8d%e6%9d%a5&via=" title=Twitter aria-label="Twitter Share Button" class=donation__item target=_blank rel=noreferrer data-type=share><svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentcolor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113C22.51 6.42 23.331 5.555 24 4.559v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724.0-4.917 2.211-4.917 4.921.0.39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487.0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315.0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403.0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683.0 14.342-7.244 13.986-14.637z"/></svg>
+</a>
+</div>
+</div>
+<div class=whoami__gutter></div>
+<hr class="hr-slash whoami-hr">
+<section class=whoami>
+<div class=whoami__image-wrapper>
+<img data-src=/images/whoami/avatar.jpg src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" alt=MiaoMiaoYang class="lazyload whoami__image">
+</div>
+<div class=whoami__contents>
+<div class=whoami__written-by>
+WRITTEN BY
+</div>
+<div class=whoami__title>
+MiaoMiaoYang
+</div>
+<div class=whoami__desc>
+</div>
+<div class=whoami__social>
+<a href=miaomiaoyangyxy@gmail.com title=email aria-label=email><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M20 4H4c-1.1.0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1.0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25-7.07 4.42c-.32.2-.74.2-1.06.0L4.4 8.25c-.25-.16-.4-.43-.4-.72.0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72.0.29-.15.56-.4.72z"/></svg>
+</a>
+<a href=http://example.org/ title=facebook aria-label=facebook><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 24 24"><g id="surface2747"><path fill="currentcolor" d="M11.664062 2.003906C6.621094 2.171875 2.375 6.25 2.023438 11.289062c-.367188 5.328126 3.445312 9.832032 8.484374 10.589844V14.648438H8.890625C8.164062 14.648438 7.578125 14.0625 7.578125 13.335938c0-.726563000000001.585937-1.3125 1.3125-1.3125h1.613281v-1.75c0-2.894532 1.410156-4.167969 3.820313-4.167969C14.679688 6.105469 14.984375 6.113281 15.242188 6.128906 15.878906 6.15625 16.371094 6.6875 16.371094 7.324219c0 .664062-.535155999999999 1.199219-1.199219 1.199219H14.730469c-1.019531.0-1.378907.96875-1.378907 2.0625v1.4375h1.871094c.589843999999999.0 1.042969.527343.953125 1.109374L16.066406 13.835938C15.992188 14.304688 15.589844 14.652344 15.113281 14.652344H13.351562v7.246094C18.234375 21.234375 22 17.0625 22 12c0-5.632812-4.660156-10.179688-10.335938-9.996094zm0 0"/></g></svg>
+</a>
+<a href=https://github.com/MiaoMiaoYoung/ title=github aria-label=github><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 24 24"><g id="surface3680"><path fill="currentcolor" d="M10.898438 2.101562c-4.597657.5-8.296876 4.199219-8.796876 8.699219-.5 4.699219 2.199219 8.898438 6.296876 10.5C8.699219 21.398438 9 21.199219 9 20.800781V19.199219S8.601562 19.300781 8.101562 19.300781c-1.402343.0-2-1.199219-2.101562-1.902343C5.898438 17 5.699219 16.699219 5.398438 16.398438 5.101562 16.300781 5 16.300781 5 16.199219 5 16 5.300781 16 5.398438 16 6 16 6.5 16.699219 6.699219 17c.5.800781000000001 1.101562 1 1.402343 1C8.5 18 8.800781 17.898438 9 17.800781 9.101562 17.101562 9.398438 16.398438 10 16c-2.300781-.5-4-1.800781-4-4 0-1.101562.5-2.199219 1.199219-3C7.101562 8.800781 7 8.300781 7 7.601562c0-.402343.0-1 .300781-1.601562.0.0 1.398438.0 2.800781 1.300781C10.601562 7.101562 11.300781 7 12 7s1.398438.101562 2 .300781C15.300781 6 16.800781 6 16.800781 6 17 6.601562 17 7.199219 17 7.601562 17 8.398438 16.898438 8.800781 16.800781 9 17.5 9.800781 18 10.800781 18 12c0 2.199219-1.699219 3.5-4 4 .601562.5 1 1.398438 1 2.300781v2.597657C15 21.199219 15.300781 21.5 15.699219 21.398438 19.398438 19.898438 22 16.300781 22 12.101562c0-6-5.101562-10.703124-11.101562-10zm0 0"/></g></svg>
+</a>
+<a href=http://example.org/ title=twitter aria-label=twitter><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 32 32"><g id="surface676"><path fill="currentcolor" d="M28 8.558594C27.117188 8.949219 26.167969 9.214844 25.171875 9.332031c1.015625-.609375 1.796875-1.574219 2.164063-2.722656-.949218999999999.5625-2.003907.972656-3.125 1.195313C23.3125 6.847656 22.03125 6.246094 20.617188 6.246094c-2.71875.0-4.925782 2.207031-4.925782 4.925781C15.691406 11.558594 15.734375 11.933594 15.820312 12.292969c-4.09375-.203125-7.722656-2.164063-10.148437-5.144531C5.246094 7.875 5.003906 8.722656 5.003906 9.625c0 1.707031.867188000000001 3.214844 2.191406 4.097656C6.386719 13.695312 5.628906 13.476562 4.964844 13.105469c0 .0234370000000013.0.0429690000000011.0.0625.0 2.386719 1.695312 4.378906 3.949218 4.828125C8.5 18.109375 8.066406 18.171875 7.617188 18.171875c-.316407.0-.628907-.03125-.925782-.0898439999999994.625 1.957031 2.445313 3.378907 4.597656 3.421875-1.683593 1.320313-3.808593 2.105469-6.113281 2.105469C4.777344 23.609375 4.386719 23.585938 4 23.539062c2.179688 1.398438 4.765625 2.214844 7.546875 2.214844 9.058594.0 14.011719-7.503906 14.011719-14.011718C25.558594 11.53125 25.550781 11.316406 25.542969 11.105469 26.503906 10.410156 27.339844 9.542969 28 8.558594zm0 0"/></g></svg>
+</a>
+</div>
+</div>
+</section>
+<hr class="hr-slash whoami-hr">
+<section class=related>
+<h1 class=related__title>
+<hr class=hr-dots>
+<div>
+See Also
+</div>
+<hr class=hr-dots>
+</h1>
+<ul class=related-ul>
+<li>
+<a href=/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E6%80%BB%E7%BB%93/ class=related__link>从头再来之线性代数（总结）</a>
+</li>
+</ul>
+</section>
+<div class=grow></div>
+<nav class=pagination-single>
+<a href=https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E6%80%BB%E7%BB%93/ class=pagination-single__left>
+<div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03.0-1.42s-1.02-.39-1.41.0l-6.59 6.59c-.39.39-.39 1.02.0 1.41l6.59 6.59c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L7.83 13H19c.55.0 1-.45 1-1s-.45-1-1-1z"/></svg>
+</div>
+<div class=pagination-single__left-title>从头再来之线性代数（总结）</div>
+</a>
+<div class=grow></div>
+<a href=https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/prml/probability/ class=pagination-single__right>
+<div class=pagination-single__right-title>PRML-Probability Distributions</div>
+<div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03.0 1.42.39.39 1.02.39 1.41.0l6.59-6.59c.39-.39.39-1.02.0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L16.17 11H5c-.55.0-1 .45-1 1s.45 1 1 1z"/></svg>
+</div>
+</a>
+</nav>
+<div class="modal micromodal-slide" id=modal aria-hidden=true>
+<div class=modal__overlay tabindex=-1 data-micromodal-close>
+<div class=modal__container role=dialog aria-modal=true aria-labelledby=modal-title>
+<div class=modal__content id=modal-content>
+<div id=mySwipe class=swipe>
+<div class=swipe-wrap>
+</div>
+</div>
+</div>
+<span class=modal__items>
+<span class=modal__header>
+<div class=modal__paging title="Page Info" aria-label="Current Page">
+</div>
+<div class="modal__icon modal__toolbar modal__toolbar--close" title=Close aria-label="Close Button" data-micromodal-close><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="25" height="25"><path fill="currentcolor" d="M21.734375 19.640625l-2.097656 2.09375C19.253906 22.121094 18.628906 22.121094 18.242188 21.734375L13 16.496094 7.761719 21.734375C7.375 22.121094 6.746094 22.121094 6.363281 21.734375l-2.097656-2.09375c-.386719-.386718999999999-.386719-1.011719.0-1.398437L9.503906 13 4.265625 7.761719c-.382812-.390625-.382812-1.019531.0-1.398438L6.363281 4.265625C6.746094 3.878906 7.375 3.878906 7.761719 4.265625L13 9.507813l5.242188-5.242188c.386718000000002-.386719 1.015625-.386719 1.394531.0l2.097656 2.09375C22.121094 6.746094 22.121094 7.375 21.738281 7.761719L16.496094 13l5.238281 5.242188C22.121094 18.628906 22.121094 19.253906 21.734375 19.640625z"/></svg>
+</div>
+<div class="modal__icon modal__toolbar modal__toolbar--full" title="Full Screen" aria-label="Full Screen Button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="25" height="25"><path fill="currentcolor" d="M5 3C3.9069372 3 3 3.9069372 3 5V8A1.0001 1.0001.0 105 8V5H8A1.0001 1.0001.0 108 3H5zM16 3a1.0001 1.0001.0 100 2h3V8a1.0001 1.0001.0 102 0V5C21 3.9069372 20.093063 3 19 3H16zM3.984375 14.986328A1.0001 1.0001.0 003 16v3c0 1.093063.9069372 2 2 2H8a1.0001 1.0001.0 100-2H5V16A1.0001 1.0001.0 003.984375 14.986328zm16 0A1.0001 1.0001.0 0019 16v3H16a1.0001 1.0001.0 100 2h3C20.093063 21 21 20.093063 21 19V16a1.0001 1.0001.0 00-1.015625-1.013672z"/></svg>
+</div>
+<div class="modal__icon modal__toolbar modal__toolbar--normal" title="Normal Screen" aria-label="Normal Screen Button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25" height="25"><path fill="currentcolor" d="M16.96875 4.972656C15.867188 4.988281 14.984375 5.894531 15 7v8H7C6.277344 14.988281 5.609375 15.367188 5.246094 15.992188 4.878906 16.613281 4.878906 17.386719 5.246094 18.007813 5.609375 18.632813 6.277344 19.011719 7 19H19V7C19.007813 6.460938 18.796875 5.941406 18.414063 5.558594 18.03125 5.175781 17.511719 4.964844 16.96875 4.972656zm16 0c-1.046875.015625-1.90625.839844-1.964844 1.886719C31 6.90625 31 6.953125 31 7V19H43C43.066406 19 43.132813 19 43.199219 18.992188 44.269531 18.894531 45.070313 17.972656 45.015625 16.902344 44.964844 15.828125 44.074219 14.988281 43 15H35V7C35.007813 6.460938 34.796875 5.941406 34.414063 5.558594 34.03125 5.175781 33.511719 4.964844 32.96875 4.972656zM7 31C6.277344 30.988281 5.609375 31.367188 5.246094 31.992188 4.878906 32.613281 4.878906 33.386719 5.246094 34.007813 5.609375 34.632813 6.277344 35.011719 7 35h8v8C14.988281 43.722656 15.367188 44.390625 15.992188 44.753906 16.613281 45.121094 17.386719 45.121094 18.007813 44.753906 18.632813 44.390625 19.011719 43.722656 19 43V31zm24 0V43C30.988281 43.722656 31.367188 44.390625 31.992188 44.753906 32.613281 45.121094 33.386719 45.121094 34.007813 44.753906 34.632813 44.390625 35.011719 43.722656 35 43V35h8C43.722656 35.011719 44.390625 34.632813 44.753906 34.007813 45.121094 33.386719 45.121094 32.613281 44.753906 31.992188 44.390625 31.367188 43.722656 30.988281 43 31z"/></svg>
+</div>
+</span>
+<div class="modal__icon modal__arrow modal__arrow--left" title="Arrow Left" aria-label="Arrow Left Button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="28" height="28"><path fill="currentcolor" d="M23.28125 11 10 10V6.851563C10 6.523438 9.839844 6.277344 9.519531 6.03125 9.199219 5.949219 8.878906 5.949219 8.640625 6.113281c-3.28125 2.296875-6.402344 6.144532-6.480469 6.308594-.078125.15625-.152343.390625-.15625.554688000000001C2.003906 12.980469 2 12.988281 2 12.992188 2 13.15625 2.078125 13.402344 2.160156 13.484375 2.238281 13.648438 5.28125 17.507813 8.640625 19.804688 8.960938 19.96875 9.28125 20.050781 9.519531 19.886719 9.839844 19.722656 10 19.476563 10 19.148438V16l13.28125-1C23.679688 14.679688 24 13.875 24 12.992188 24 12.195313 23.761719 11.320313 23.28125 11z"/></svg>
+</div>
+<div class="modal__icon modal__arrow modal__arrow--right" title="Arrow Right" aria-label="Arrow Right Button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 26" width="28" height="28"><path fill="currentcolor" d="M2.71875 11.023438l13.28125-1V6.875C16 6.546875 16.160156 6.300781 16.480469 6.054688 16.800781 5.972656 17.121094 5.972656 17.359375 6.136719c3.28125 2.296875 6.402344 6.144531 6.480469 6.308594.078125.15625.152343999999999.390625.15625.554687C23.996094 13.003906 24 13.011719 24 13.015625 24 13.179688 23.921875 13.425781 23.839844 13.507813 23.761719 13.671875 20.71875 17.53125 17.359375 19.828125 17.039063 19.992188 16.71875 20.074219 16.480469 19.910156 16.160156 19.746094 16 19.5 16 19.171875V16.023438L2.71875 15.023438C2.320313 14.703125 2 13.898438 2 13.015625c0-.796875.238281-1.671875.71875-1.992187z"/></svg>
+</div>
+<div class=modal__caption>
+<div class=modal__caption--text>
+</div>
+</div>
+</span>
+</div>
+</div>
+</div>
+<script defer src=/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js></script>
+<script defer src=/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js></script>
+<script defer src=/js/helper/fadeinout.min.js></script>
+<script>document.addEventListener('DOMContentLoaded',function(){var d=document.documentElement,g,f,s,r,m,o,l,b,c,i,n,e,h,j,a,p,q;function t(){d.requestFullscreen?d.requestFullscreen():d.mozRequestFullScreen?d.mozRequestFullScreen():d.webkitRequestFullscreen?d.webkitRequestFullscreen():d.msRequestFullscreen&&d.msRequestFullscreen()}function k(){(document.fullscreenElement||document.webkitFullscreenElement||document.mozFullScreenElement)&&(document.exitFullscreen?document.exitFullscreen():document.mozCancelFullScreen?document.mozCancelFullScreen():document.webkitExitFullscreen?document.webkitExitFullscreen():document.msExitFullscreen&&document.msExitFullscreen())}g=document.getElementById('modal'),f=document.querySelector('.gallery__container'),s=document.querySelector('.swipe-wrap'),r=document.getElementById('mySwipe'),m=document.querySelector('.modal__arrow--left'),o=document.querySelector('.modal__arrow--right'),l=document.querySelector('.modal__toolbar--close'),b=document.querySelector('.modal__toolbar--full'),c=document.querySelector('.modal__toolbar--normal'),i=document.querySelector('.modal__caption'),n=document.querySelector('.modal__paging'),e=document.querySelector('.modal__items'),h=null,j=null,a=null,p=function(b){b.key==='ArrowRight'?g&&g.classList.contains('is-open')&&a.next():b.key==='ArrowLeft'&&g&&g.classList.contains('is-open')&&a.prev()},f?h=f.querySelectorAll('img').length:(f=document.querySelector('.single__contents'),h=f.querySelectorAll('img').length),MicroModal.init({onClose:function(){a&&(a.kill(),a=null,k()),window.removeEventListener('keydown',p)},disableScroll:!0,disableFocus:!0,awaitOpenAnimation:!1,awaitCloseAnimation:!1,debugMode:!1}),q=function(a){return new Promise(function(c,d){var b=new Image;b.onload=function(){c(b)},b.onerror=d,b.src=a})},f.querySelectorAll('img').forEach(function(g,k){var f,d;g.style.cursor='pointer',f=g.cloneNode(!0),f.style.maxHeight='100%',f.style.maxWidth='100%',f.onclick=function(a){a.stopPropagation()},d=document.createElement('div'),d.style.width='100%',d.style.height='100vh',d.setAttribute('data-micromodal-close',''),d.onclick=function(){a&&(a.kill(),a=null)},d.onmouseenter=function(){clearTimeout(j),fadeIn(e,200)},d.onmouseleave=function(){j=setTimeout(function(){fadeOut(e,200)},2500)},d.ontouchstart=function(){fadeIn(e,200)},d.append(f),s.append(d),g.addEventListener('click',async function(d){var m,l,g;MicroModal.show('modal'),a&&(a.kill(),a=null),m=d.target.getAttribute('data-src')||d.target.getAttribute('src'),l=await q(m),f.style.width=l.width+'px',f.style.height=l.height+'px',a=new Swipe(r,{startSlide:k,draggable:!0,autoRestart:!1,continuous:!1,disableScroll:!0,stopPropagation:!0,callback:async function(d,f){var a=f.querySelector('img'),g=a.getAttribute('data-src')||a.getAttribute('src'),c=await q(g),b;a.style.width=c.width+'px',a.style.height=c.height+'px',i&&a&&(b=null,a.getAttribute('data-caption')?b=a.getAttribute('data-caption'):a.getAttribute('title')?b=a.getAttribute('title'):a.getAttribute('alt')?b=a.getAttribute('alt'):b=a.getAttribute('src'),i.querySelector('.modal__caption--text').innerText=b,n.innerText=d+1+' / '+h,clearTimeout(j),fadeIn(e,200))}}),fadeIn(e),i&&(g=null,d.target.getAttribute('data-caption')?g=d.target.getAttribute('data-caption'):d.target.getAttribute('title')?g=d.target.getAttribute('title'):d.target.getAttribute('alt')?g=d.target.getAttribute('alt'):g=d.target.getAttribute('src'),i.querySelector('.modal__caption--text').innerText=g,n.innerText=k+1+' / '+h),c&&b&&(c.style.zIndex=-1,c.style.opacity=0,b.style.zIndex=25,b.style.opacity=1)}),window.addEventListener('keydown',p)}),m?m.addEventListener('click',function(b){a&&a.prev()}):null,o?o.addEventListener('click',function(b){a&&a.next()}):null,l?l.addEventListener('click',function(){a&&(a.kill(),a=null),k(),MicroModal.close('modal')}):null,b?b.addEventListener('click',function(a){t(),c&&(c.style.zIndex=25,c.style.opacity=1,b.style.zIndex=-1,b.style.opacity=0)}):null,c?c.addEventListener('click',function(a){k(),b&&(b.style.zIndex=25,b.style.opacity=1,c.style.zIndex=-1,c.style.opacity=0)}):null})</script>
+<div class=hide>
+<div class=search>
+<span class=icon><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentcolor" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path d="M15.5 14h-.79l-.28-.27c1.2-1.4 1.82-3.31 1.48-5.34-.47-2.78-2.79-5-5.59-5.34-4.23-.52-7.79 3.04-7.27 7.27.34 2.8 2.56 5.12 5.34 5.59 2.03.34 3.94-.28 5.34-1.48l.27.28v.79l4.25 4.25c.41.41 1.08.41 1.49.0s.41-1.08.0-1.49L15.5 14zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+</span>
+<input id=search aria-label="Site Search" class=input type=text placeholder=Search autocomplete=off>
+<div id=search-results class=dropdown>
+<div id=search-menu class=dropdown-menu role=menu>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<aside class="single__side main-side">
+<section class="sidebar hide">
+<script>document.querySelector('.sidebar').classList.remove('hide')</script>
+<div class=toc__flexbox data-position=fixed>
+<h6 class=toc__title data-ani=true>What's on this Page</h6>
+<label class=switch data-ani=true>
+<input id=toggle-toc aria-label="Toggle TOC" type=checkbox checked>
+<span class="slider round"></span>
+</label>
+</div>
+<div class=toc data-dir=ltr data-folding=true data-ani=true>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#前言>前言</a></li>
+<li><a href=#1-方程组的集合解释>1. 方程组的集合解释</a>
+<ul>
+<li><a href=#行图像-row-picture>行图像 (Row picture)</a></li>
+<li><a href=#列图像-column-picture>列图像 (Column picture)</a></li>
+<li><a href=#矩阵>矩阵</a></li>
+</ul>
+</li>
+<li><a href=#2-消元法求解线性方程组>2. 消元法求解线性方程组</a>
+<ul>
+<li><a href=#消元得到上三角矩阵>消元得到上三角矩阵</a></li>
+<li><a href=#消元法失效>消元法失效</a></li>
+<li><a href=#回代>回代</a></li>
+<li><a href=#矩阵形式描述消元法>矩阵形式描述消元法</a>
+<ul>
+<li><a href=#使用行进行计算>使用行进行计算</a></li>
+<li><a href=#消元矩阵>消元矩阵</a></li>
+</ul>
+</li>
+<li><a href=#置换矩阵-pemutation>置换矩阵 (pemutation)</a></li>
+<li><a href=#矩阵的逆>矩阵的逆</a></li>
+</ul>
+</li>
+<li><a href=#3-矩阵的乘法和逆>3. 矩阵的乘法和逆</a>
+<ul>
+<li><a href=#矩阵乘法>矩阵乘法</a>
+<ul>
+<li><a href=#点乘法>点乘法</a></li>
+<li><a href=#列向量法>列向量法</a></li>
+<li><a href=#行向量法>行向量法</a></li>
+<li><a href=#列-x-行>列 X 行</a></li>
+<li><a href=#分块乘法>分块乘法</a></li>
+</ul>
+</li>
+<li><a href=#矩阵的逆-inverse>矩阵的逆 (Inverse)</a>
+<ul>
+<li><a href=#逆是否存在>逆是否存在</a></li>
+<li><a href=#奇异矩阵>奇异矩阵</a></li>
+<li><a href=#可逆矩阵>可逆矩阵</a></li>
+<li><a href=#矩阵乘积的逆>矩阵乘积的逆</a></li>
+<li><a href=#逆和转置>逆和转置</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=#4-矩阵a的lu分解>4. 矩阵A的LU分解</a></li>
+<li><a href=#5-置换转置与向量空间>5. 置换、转置与向量空间</a>
+<ul>
+<li><a href=#置换-permutation-p>置换 (Permutation, $P$)</a></li>
+<li><a href=#转置-transpose>转置 (Transpose)</a></li>
+<li><a href=#对称矩阵-symmetric>对称矩阵 (symmetric)</a></li>
+<li><a href=#向量空间>向量空间</a>
+<ul>
+<li><a href=#列空间>列空间</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=#6-列空间和零空间>6. 列空间和零空间</a>
+<ul>
+<li><a href=#列空间-1>列空间</a></li>
+<li><a href=#零空间>零空间</a></li>
+</ul>
+</li>
+<li><a href=#7-求解零空间ax0>7. 求解零空间Ax=0</a></li>
+<li><a href=#8-求解axb>8. 求解Ax=b</a>
+<ul>
+<li><a href=#可解性>可解性</a></li>
+<li><a href=#求axb的所有解>求Ax=b的所有解</a></li>
+<li><a href=#使用秩讨论axb的求解>使用秩讨论Ax=b的求解</a>
+<ul>
+<li><a href=#列满秩-rnm>列满秩 (r=n&lt;m)</a></li>
+<li><a href=#行满秩-rmn>行满秩 (r=m&lt;n)</a></li>
+<li><a href=#满秩-rmn>满秩 (r=m=n)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href=#9-线性相关向量空间的基和维数>9. 线性相关、向量空间的基和维数</a>
+<ul>
+<li><a href=#线性无关>线性无关</a></li>
+<li><a href=#向量空间-1>向量空间</a></li>
+</ul>
+</li>
+<li><a href=#10-矩阵的四个基本子空间>10. 矩阵的四个基本子空间</a></li>
+<li><a href=#11-矩阵空间和秩1矩阵>11. 矩阵空间和秩1矩阵</a>
+<ul>
+<li><a href=#矩阵空间>矩阵空间</a></li>
+<li><a href=#秩1矩阵>秩1矩阵</a></li>
+</ul>
+</li>
+<li><a href=#12-线性代数的应用图和网络>12. 线性代数的应用：图和网络</a></li>
+<li><a href=#14-正交向量与正交子空间>14. 正交向量与正交子空间</a></li>
+<li><a href=#15-子空间投影>15. 子空间投影</a>
+<ul>
+<li><a href=#一维空间>一维空间</a></li>
+<li><a href=#高维空间>高维空间</a></li>
+</ul>
+</li>
+<li><a href=#16-投影矩阵和最小二乘>16. 投影矩阵和最小二乘</a>
+<ul>
+<li><a href=#投影矩阵>投影矩阵</a></li>
+<li><a href=#最小二乘法>最小二乘法</a></li>
+</ul>
+</li>
+<li><a href=#17-正交基和正交矩阵>17. 正交基和正交矩阵</a>
+<ul>
+<li><a href=#标准正交基>标准正交基</a></li>
+<li><a href=#标准正交矩阵>标准正交矩阵</a></li>
+<li><a href=#线性无关向量标准正交化>线性无关向量标准正交化</a></li>
+</ul>
+</li>
+<li><a href=#18-行列式及其性质>18. 行列式及其性质</a></li>
+<li><a href=#19-行列式公式和代数余子式>19. 行列式公式和代数余子式</a>
+<ul>
+<li><a href=#代数余子式-cofactors>代数余子式 (cofactors)</a></li>
+</ul>
+</li>
+<li><a href=#20-行列式的应用逆矩阵克拉默法则体积>20. 行列式的应用：逆矩阵、克拉默法则、体积</a>
+<ul>
+<li><a href=#逆矩阵>逆矩阵</a></li>
+<li><a href=#克拉默法则>克拉默法则</a></li>
+<li><a href=#计算体积>计算体积</a></li>
+</ul>
+</li>
+<li><a href=#21-特征值和特征向量>21. 特征值和特征向量</a></li>
+<li><a href=#22-对角化和幂>22. 对角化和幂</a></li>
+<li><a href=#23-微分方程和expat>23. 微分方程和exp(At)</a></li>
+<li><a href=#24-马尔科夫矩阵和傅里叶级数>24. 马尔科夫矩阵和傅里叶级数</a>
+<ul>
+<li><a href=#马尔科夫矩阵>马尔科夫矩阵</a></li>
+<li><a href=#傅里叶级数>傅里叶级数</a></li>
+</ul>
+</li>
+<li><a href=#26-对称矩阵>26. 对称矩阵</a></li>
+<li><a href=#27-复数矩阵和快速傅里叶变换>27. 复数矩阵和快速傅里叶变换</a></li>
+<li><a href=#28-正定矩阵和最小值>28. 正定矩阵和最小值</a></li>
+<li><a href=#29-相似矩阵和若尔当形>29. 相似矩阵和若尔当形</a></li>
+<li><a href=#30-奇异值分解svd>30. 奇异值分解(SVD)</a></li>
+<li><a href=#31-线性变换及对应矩阵>31. 线性变换及对应矩阵</a></li>
+</ul>
+</nav>
+</div>
+</section>
+</aside>
+<script>var enableToc=JSON.parse("true"),toc=JSON.parse("null"),tocPosition=JSON.parse('"inner"'),singleMainElem=document.querySelector('.single__main'),singleSideElem=document.querySelector('.single__side');enquire.register("screen and (max-width: 769px)",{match:function(){(enableToc||toc)&&tocPosition!=="outer"?singleMainElem&&singleSideElem&&(singleMainElem.classList.remove('main-main'),singleMainElem.classList.add('main'),singleSideElem.classList.remove('main-side'),singleSideElem.classList.add('hide')):tocPosition==="outer"&&(singleMainElem&&!singleMainElem.classList.contains('main-main')&&(singleMainElem.classList.remove('main-main'),singleMainElem.classList.add('main')),singleSideElem&&!singleSideElem.classList.contains('hide')&&singleSideElem.classList.add('hide'))},unmatch:function(){var b,a;(enableToc||toc)&&tocPosition!=="outer"?(singleMainElem.classList.remove('main'),singleMainElem.classList.add('main-main'),singleSideElem.classList.remove('hide'),singleSideElem.classList.add('main-side')):tocPosition==="outer"&&(singleMainElem&&!singleMainElem.classList.contains('main-main')&&(singleMainElem.classList.remove('main-main'),singleMainElem.classList.add('main')),singleSideElem&&!singleSideElem.classList.contains('hide')&&singleSideElem.classList.add('hide')),b=document.querySelector('.navbar__burger'),a=document.getElementsByClassName('navbarm__collapse')[0],a&&(a.setAttribute('data-open',!1),a.style.maxHeight=0,b.classList.remove('is-active')),document.getElementsByClassName('navbar__menu')[0].classList.remove('is-active'),document.getElementsByClassName('mobile-search')[0].classList.add('hide')},setup:function(){},deferSetup:!0,destroy:function(){}})</script>
+<script defer src=/js/helper/getParents.min.js></script>
+<script defer src=/js/helper/closest.min.js></script>
+<script defer src=/js/helper/prev.min.js></script>
+<script defer src=/js/helper/prop.min.js></script>
+<script defer src=/js/helper/fadeinout.min.js></script>
+<script defer src=/js/helper/throttle.min.js></script>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin=anonymous>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin=anonymous></script>
+<script defer src=https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js integrity="sha256-90d2pnfw0r4K8CZAWPko4rpFXQsZvJhTBGYNkipDprI=" crossorigin=anonymous></script>
+<script>'use strict';window.onload=function(){var f=document.querySelector('.navbar'),D=document.querySelector('.single__contents'),E=JSON.parse("false"),J=JSON.parse("true"),s,H,F,L,k,j,A,g,u,x,d,e,l,i,I,C,K,v,N,y,r,z,b,w,t,M,h,c,G,a,m,n,o,p,B,q;E&&J&&(s=document.querySelector('#busuanzi_value_page_pv'),s.textContent=s.textContent.replace(/(\d)(?=(\d\d\d)+(?!\d))/g,"$1,")),H=JSON.parse("true"),F=JSON.parse("null"),L=JSON.parse("false"),k=document.querySelector('.toc__flexbox'),j=document.querySelector('.toc__flexbox--outer'),A=JSON.parse("true"),(H||F)&&document.querySelector('.toc')&&(g=document.querySelector('.toc').querySelector('#TableOfContents'),g.onmouseenter=function(){f.classList.contains('scrolling')&&f.classList.remove('scrolling')},g.onmouseleave=function(){f.classList.contains('scrolling')||f.classList.add('scrolling')},!1===A||(g.querySelectorAll('ul')?g.querySelectorAll('ul').forEach(function(a){a.querySelectorAll('li').forEach(function(a){a.querySelectorAll('ul').forEach(function(a){a.style.display='none'})})}):null),g&&(g.querySelectorAll('a').length>0?g.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){var c=a.getAttribute('id'),b;f.classList.contains('scrolling')||(f.classList.remove('navbar--show'),f.classList.remove('navbar--hide'),f.classList.add('navbar--hide')),document.querySelector('.toc').querySelectorAll('a').forEach(function(a){a.classList.remove('active')}),a.classList.add('active'),b=g.querySelector('[href="#'+c+'"]'),b&&b.nextElementSibling&&(b.nextElementSibling.style.display='block'),b&&(getParents(b,'ul')?getParents(b,'ul').forEach(function(a){a.style.display='block'}):null)})}):(k&&(k.setAttribute('data-position',''),k.classList.contains('hide')||k.classList.add('hide')),j&&(j.setAttribute('data-position',''),j.classList.contains('hide')||j.classList.add('hide')))),u=document.getElementById("toggle-toc"),x=document.getElementById('visible-toc'),d=document.querySelector('.toc'),e=document.querySelector('main'),l=document.querySelector('side'),i=document.querySelector('.toc__flexbox'),u?u.addEventListener('change',function(a){a.target.checked?(d&&fadeIn(d,200),i&&i.setAttribute('data-position','fixed'),e&&(e.classList.remove('main-main'),e.classList.remove('main'),e.classList.add('main-main')),l&&l.classList.remove('main-side')):(d&&fadeOut(d,200),i&&i.setAttribute('data-position','absolute'),e&&(e.classList.remove('main-main'),e.classList.remove('main'),e.classList.add('main')),l&&l.classList.remove('main-side'))}):null,x?x.addEventListener('change',function(a){a.target.checked?d&&fadeIn(d,200):d&&fadeOut(d,200)}):null),I=120,C=70,K=function(){d&&(d.style.maxHeight=window.innerHeight-I-C+'px')},v=throttle(K,300),v(),window.addEventListener('resize',v),y=new ClipboardJS('.anchor'),r=D.querySelectorAll("h1, h2, h3, h4"),z=JSON.parse('"ltr"'),r?r.forEach(function(c){var d=parseInt(c.tagName.substr(1),10)*2,e=encodeURI(document.location.origin+document.location.pathname),f=e+"#"+c.getAttribute('id'),b=document.createElement('span'),a;b.classList.add('anchor'),b.classList.add('hide'),b.setAttribute('data-clipboard-text',decodeURI(f)),b.style.position='relative',a=document.createElement('span'),a.style.position='absolute',a.style.top='50%',a.style.left='0.75rem',a.style.transform='translateY(-50%)',a.innerHTML=`
+<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${32-d}px" height="${32-d}px"><path d="M 5.5625 0 C 4.136719 0 2.707031 0.542969 1.625 1.625 C -0.539063 3.789063 -0.539063 7.335938 1.625 9.5 L 5.28125 13.15625 C 5.667969 13.554688 6.304688 13.558594 6.703125 13.171875 C 7.101563 12.785156 7.105469 12.148438 6.71875 11.75 L 3.03125 8.0625 C 1.632813 6.664063 1.632813 4.429688 3.03125 3.03125 C 4.429688 1.632813 6.664063 1.632813 8.0625 3.03125 L 12.96875 7.9375 C 14.367188 9.335938 14.367188 11.570313 12.96875 12.96875 C 12.804688 13.132813 12.621094 13.25 12.4375 13.375 C 11.980469 13.6875 11.859375 14.308594 12.171875 14.765625 C 12.484375 15.222656 13.105469 15.34375 13.5625 15.03125 C 13.847656 14.835938 14.125 14.625 14.375 14.375 C 16.539063 12.210938 16.539063 8.664063 14.375 6.5 L 9.5 1.625 C 8.417969 0.542969 6.988281 0 5.5625 0 Z M 10.78125 8.875 C 10.738281 8.882813 10.695313 8.894531 10.65625 8.90625 C 10.507813 8.9375 10.371094 9 10.25 9.09375 C 10.039063 9.253906 9.820313 9.429688 9.625 9.625 C 7.460938 11.789063 7.460938 15.335938 9.625 17.5 L 14.5 22.375 C 16.664063 24.539063 20.210938 24.539063 22.375 22.375 C 24.539063 20.210938 24.539063 16.664063 22.375 14.5 L 18.71875 10.875 C 18.476563 10.578125 18.089844 10.441406 17.714844 10.527344 C 17.34375 10.613281 17.050781 10.90625 16.964844 11.277344 C 16.878906 11.652344 17.015625 12.039063 17.3125 12.28125 L 20.96875 15.9375 C 22.367188 17.335938 22.367188 19.570313 20.96875 20.96875 C 19.570313 22.367188 17.335938 22.367188 15.9375 20.96875 L 11.03125 16.0625 C 9.632813 14.664063 9.632813 12.429688 11.03125 11.03125 C 11.152344 10.90625 11.300781 10.820313 11.4375 10.71875 C 11.839844 10.472656 12.015625 9.976563 11.855469 9.53125 C 11.699219 9.085938 11.25 8.8125 10.78125 8.875 Z"/></svg>`,z==="rtl"?a.style.left='-2rem':a.style.right='-2rem',b.append(a),c.append(b),c.addEventListener('mouseenter',function(){this.querySelector('.anchor').classList.remove('hide')}),c.addEventListener('mouseleave',function(){this.querySelector('.anchor').classList.add('hide')})}):null,document.querySelectorAll('.anchor').forEach(function(a){a.addEventListener('mouseleave',function(){a.setAttribute('aria-label',null),a.classList.remove('tooltipped'),a.classList.remove('tooltipped-s'),a.classList.remove('tooltipped-w')})}),y.on('success',function(a){a.clearSelection(),a.trigger.setAttribute('aria-label','Link copied to clipboard!'),a.trigger.classList.add('tooltipped'),a.trigger.classList.add('tooltipped-s')}),b=JSON.parse('["katex"]'),b&&b.includes('mermaid')&&(w=localStorage.getItem('theme')||JSON.parse('"light"'),w==="dark"||w==="hacker"?mermaid.initialize({theme:'dark'}):mermaid.initialize({theme:'default'}),t=[],[].push.apply(t,document.getElementsByClassName('language-mermaid')),t.forEach(function(b){var a=b.parentNode,c;a!==document.body&&(a.parentNode.insertBefore(b,a),a.parentNode.removeChild(a)),c=document.createElement('div'),c.classList.add('mermaid'),c.style.padding='34px 4px 6px',c.innerHTML=b.innerHTML,b.replaceWith(c)})),b&&b.includes('katex')&&(M=document.getElementsByClassName('math'),h={delimiters:[{left:"$$",right:"$$",display:!0},{left:"\\[",right:"\\]",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1}]},renderMathInElement(document.querySelector('.single__contents'),h)),b&&b.includes('flowchartjs')&&(h=JSON.parse('{"arrow-end":"block","element-color":"black","fill":"white","flowstate":{"approved":{"fill":"#58C4A3","font-size":12,"no-text":"n/a","yes-text":"APPROVED"},"current":{"fill":"yellow","font-color":"red","font-weight":"bold"},"future":{"fill":"#FFFF99"},"invalid":{"fill":"#444444"},"past":{"fill":"#CCCCCC","font-size":12},"rejected":{"fill":"#C45879","font-size":12,"no-text":"REJECTED","yes-text":"n/a"},"request":{"fill":"blue"}},"font-color":"black","font-size":14,"line-color":"black","line-length":50,"line-width":3,"no-text":"no","scale":1,"symbols":{"end":{"class":"end-element"},"start":{"element-color":"green","fill":"yellow","font-color":"red"}},"text-margin":10,"x":0,"y":0,"yes-text":"yes"}'),c=null,G="language-flowchart",a=0,Array.prototype.forEach.call(document.querySelectorAll("[class^="+G+"]"),function(b){var d,e;b.style.display='none',b.parentNode.style.backgroundColor="transparent",c=b.innerText,d=document.createElement('div'),d.id='flowchart'+a,b.parentNode.insertBefore(d,b),e=flowchart.parse(c),e.drawSVG("flowchart"+a,h),a+=1})),document.querySelectorAll("mjx-container").forEach(function(a){a.parentElement.classList+='has-jax'}),b&&b.includes('msc')&&(h=JSON.parse('{"theme":"hand"}'),c=null,a=0,m="language-msc",Array.prototype.forEach.call(document.querySelectorAll("[class^="+m+"]"),function(b){var d,e;b.style.display='none',b.parentNode.style.backgroundColor="transparent",c=b.innerText,d=document.createElement('div'),d.id='msc'+a,b.parentNode.insertBefore(d,b),e=Diagram.parse(c),e.drawSVG("msc"+a,h),a+=1})),b&&b.includes('chart')&&(n="#666",o="#ddd",p=2,Chart.defaults.global.elements.rectangle.borderWidth=p,Chart.defaults.global.elements.rectangle.borderColor=n,Chart.defaults.global.elements.rectangle.backgroundColor=o,Chart.defaults.global.elements.line.borderWidth=p,Chart.defaults.global.elements.line.borderColor=n,Chart.defaults.global.elements.line.backgroundColor=o,Chart.defaults.global.elements.point.borderWidth=p,Chart.defaults.global.elements.point.borderColor=n,Chart.defaults.global.elements.point.backgroundColor=o,m="language-chart",a=0,c=null,Array.prototype.forEach.call(document.querySelectorAll("[class^="+m+"]"),function(b){var d,e,f,g;b.style.display='none',b.parentNode.style.backgroundColor="transparent",c=b.innerText,d=document.createElement('canvas'),e=null,d.height=200,d.style.height=200,d.id='myChart'+a,e=JSON.parse(c),b.parentNode.insertBefore(d,b),f=document.getElementById('myChart'+a).getContext('2d'),g=new Chart(f,e),a+=1})),b&&b.includes('wavedrom')&&(B="language-wave",a=0,c=null,Array.prototype.forEach.call(document.querySelectorAll("[class^="+B+"]"),function(b){var d,e;b.style.display='none',b.parentNode.style.backgroundColor="transparent",c=b.innerText,d=document.createElement('div'),e=null,d.id='WaveDrom_Display_'+a,e=JSON.parse(c),b.parentNode.insertBefore(d,b),WaveDrom.RenderWaveForm(a,e,"WaveDrom_Display_"),a+=1})),b&&b.includes('viz')&&(q="language-viz-",Array.prototype.forEach.call(document.querySelectorAll("[class^="+q+"]"),function(a){var b,c;a.style.display='none',a.parentNode.style.backgroundColor="transparent",a.getAttribute("class").split(" ").forEach(function(a){a.startsWith(q)&&(b=a.substr(q.length))}),c=new Viz,c.renderSVGElement(a.innerText,{engine:b}).then(function(b){b.style.width="100%",a.parentNode.insertBefore(b,a)})}))}</script>
+<footer class=footer>
+<div class=dropdown>
+<button class=dropdown-trigger aria-label="Select Language Button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M12.65 15.67c.14-.36.05-.77-.23-1.05l-2.09-2.06.03-.03c1.74-1.94 2.98-4.17 3.71-6.53h1.94c.54.0.99-.45.99-.99v-.02c0-.54-.45-.99-.99-.99H10V3c0-.55-.45-1-1-1s-1 .45-1 1v1H1.99c-.54.0-.99.45-.99.99.0.55.45.99.99.99h10.18C11.5 7.92 10.44 9.75 9 11.35c-.81-.89-1.49-1.86-2.06-2.88-.16-.29-.45-.47-.78-.47-.69.0-1.13.75-.79 1.35.63 1.13 1.4 2.21 2.3 3.21L3.3 16.87c-.4.39-.4 1.03.0 1.42.39.39 1.02.39 1.42.0L9 14l2.02 2.02c.51.51 1.38.32 1.63-.35zM17.5 10c-.6.0-1.14.37-1.35.94l-3.67 9.8c-.24.61.22 1.26.87 1.26.39.0.74-.24.88-.61l.89-2.39h4.75l.9 2.39c.14.36.49.61.88.61.65.0 1.11-.65.88-1.26l-3.67-9.8c-.22-.57-.76-.94-1.36-.94zm-1.62 7 1.62-4.33L19.12 17h-3.24z"/></svg>
+</button>
+<div class=dropdown-content>
+<a href=https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/ data-lang=en class="dropdown-item is-active">English</a>
+</div>
+</div>
+<div class=footer__social>
+<div class=social>
+<a href=miaomiaoyangyxy@gmail.com title=email aria-label=email><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M20 4H4c-1.1.0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1.0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25-7.07 4.42c-.32.2-.74.2-1.06.0L4.4 8.25c-.25-.16-.4-.43-.4-.72.0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72.0.29-.15.56-.4.72z"/></svg>
+</a>
+<a href=http://example.org/ title=facebook aria-label=facebook><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 24 24"><g id="surface2747"><path fill="currentcolor" d="M11.664062 2.003906C6.621094 2.171875 2.375 6.25 2.023438 11.289062c-.367188 5.328126 3.445312 9.832032 8.484374 10.589844V14.648438H8.890625C8.164062 14.648438 7.578125 14.0625 7.578125 13.335938c0-.726563000000001.585937-1.3125 1.3125-1.3125h1.613281v-1.75c0-2.894532 1.410156-4.167969 3.820313-4.167969C14.679688 6.105469 14.984375 6.113281 15.242188 6.128906 15.878906 6.15625 16.371094 6.6875 16.371094 7.324219c0 .664062-.535155999999999 1.199219-1.199219 1.199219H14.730469c-1.019531.0-1.378907.96875-1.378907 2.0625v1.4375h1.871094c.589843999999999.0 1.042969.527343.953125 1.109374L16.066406 13.835938C15.992188 14.304688 15.589844 14.652344 15.113281 14.652344H13.351562v7.246094C18.234375 21.234375 22 17.0625 22 12c0-5.632812-4.660156-10.179688-10.335938-9.996094zm0 0"/></g></svg>
+</a>
+<a href=https://github.com/MiaoMiaoYoung/ title=github aria-label=github><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 24 24"><g id="surface3680"><path fill="currentcolor" d="M10.898438 2.101562c-4.597657.5-8.296876 4.199219-8.796876 8.699219-.5 4.699219 2.199219 8.898438 6.296876 10.5C8.699219 21.398438 9 21.199219 9 20.800781V19.199219S8.601562 19.300781 8.101562 19.300781c-1.402343.0-2-1.199219-2.101562-1.902343C5.898438 17 5.699219 16.699219 5.398438 16.398438 5.101562 16.300781 5 16.300781 5 16.199219 5 16 5.300781 16 5.398438 16 6 16 6.5 16.699219 6.699219 17c.5.800781000000001 1.101562 1 1.402343 1C8.5 18 8.800781 17.898438 9 17.800781 9.101562 17.101562 9.398438 16.398438 10 16c-2.300781-.5-4-1.800781-4-4 0-1.101562.5-2.199219 1.199219-3C7.101562 8.800781 7 8.300781 7 7.601562c0-.402343.0-1 .300781-1.601562.0.0 1.398438.0 2.800781 1.300781C10.601562 7.101562 11.300781 7 12 7s1.398438.101562 2 .300781C15.300781 6 16.800781 6 16.800781 6 17 6.601562 17 7.199219 17 7.601562 17 8.398438 16.898438 8.800781 16.800781 9 17.5 9.800781 18 10.800781 18 12c0 2.199219-1.699219 3.5-4 4 .601562.5 1 1.398438 1 2.300781v2.597657C15 21.199219 15.300781 21.5 15.699219 21.398438 19.398438 19.898438 22 16.300781 22 12.101562c0-6-5.101562-10.703124-11.101562-10zm0 0"/></g></svg>
+</a>
+<a href=http://example.org/ title=twitter aria-label=twitter><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"><g id="surface676"><path fill="currentcolor" d="M28 8.558594C27.117188 8.949219 26.167969 9.214844 25.171875 9.332031c1.015625-.609375 1.796875-1.574219 2.164063-2.722656-.949218999999999.5625-2.003907.972656-3.125 1.195313C23.3125 6.847656 22.03125 6.246094 20.617188 6.246094c-2.71875.0-4.925782 2.207031-4.925782 4.925781C15.691406 11.558594 15.734375 11.933594 15.820312 12.292969c-4.09375-.203125-7.722656-2.164063-10.148437-5.144531C5.246094 7.875 5.003906 8.722656 5.003906 9.625c0 1.707031.867188000000001 3.214844 2.191406 4.097656C6.386719 13.695312 5.628906 13.476562 4.964844 13.105469c0 .0234370000000013.0.0429690000000011.0.0625.0 2.386719 1.695312 4.378906 3.949218 4.828125C8.5 18.109375 8.066406 18.171875 7.617188 18.171875c-.316407.0-.628907-.03125-.925782-.0898439999999994.625 1.957031 2.445313 3.378907 4.597656 3.421875-1.683593 1.320313-3.808593 2.105469-6.113281 2.105469C4.777344 23.609375 4.386719 23.585938 4 23.539062c2.179688 1.398438 4.765625 2.214844 7.546875 2.214844 9.058594.0 14.011719-7.503906 14.011719-14.011718C25.558594 11.53125 25.550781 11.316406 25.542969 11.105469 26.503906 10.410156 27.339844 9.542969 28 8.558594zm0 0"/></g></svg>
+</a>
+<a href=https://miaomiaoyoung.github.io/en/posts/index.xml type=application/rss+xml title=RSS aria-label="RSS Feed Link"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><circle fill="currentcolor" cx="6.18" cy="17.82" r="2.18"/><path fill="currentcolor" d="M5.59 10.23c-.84-.14-1.59.55-1.59 1.4.0.71.53 1.28 1.23 1.4 2.92.51 5.22 2.82 5.74 5.74.12.7.69 1.23 1.4 1.23.85.0 1.54-.75 1.41-1.59-.68-4.2-3.99-7.51-8.19-8.18zm-.03-5.71C4.73 4.43 4 5.1 4 5.93c0 .73.55 1.33 1.27 1.4 6.01.6 10.79 5.38 11.39 11.39.07.73.67 1.28 1.4 1.28.84.0 1.5-.73 1.42-1.56-.73-7.34-6.57-13.19-13.92-13.92z"/></svg>
+</a>
+</div>
+</div>
+<div id=gtt>
+<div class=gtt><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="currentcolor" d="M8.12 14.71 12 10.83l3.88 3.88c.39.39 1.02.39 1.41.0s.39-1.02.0-1.41L12.7 8.71c-.39-.39-1.02-.39-1.41.0L6.7 13.3c-.39.39-.39 1.02.0 1.41.39.38 1.03.39 1.42.0z"/></svg>
+</div>
+</div>
+<hr>
+<div class="basicflex flexwrap">
+</div>
+<div class=footer__poweredby>
+<p class=caption>
+©2021, All Rights Reserved
+</p>
+<p class=caption>Powered by <a href=https://gohugo.io/ target=_blank rel=noreferrer>Hugo</a> and the <a href=https://github.com/zzossig/hugo-theme-zzo target=_blank rel=noreferrer>Zzo theme</a></p>
+</div>
+</footer>
+</div>
+<div class="wrapper__right hide" data-pad=true dir=ltr>
+<script>document.querySelector('.wrapper__right').classList.remove('hide')</script>
+</div>
+</div>
+</body>
+</html>
