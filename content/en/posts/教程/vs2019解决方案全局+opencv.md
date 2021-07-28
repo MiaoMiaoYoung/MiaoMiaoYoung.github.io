@@ -3,8 +3,7 @@ title: "opencv：vs2019下的全局配置"
 date: 2021-03-11T11:02:33+08:00
 draft: false
 categories:
-    - work
-    - code
+    - 教程
 tags:
     - vs2019
     - code
@@ -18,28 +17,28 @@ tags:
 
 2. 双击运行安装包，选择安装目录，点击Extract进行下一步。(其实就是解压)
 
-![](./images/1.png)
-![](./images/2.png)
+![1.png](https://i.loli.net/2021/07/24/K9mHI5fxk2ezipX.png)
+![2.png](https://i.loli.net/2021/07/24/lOESZWBgIb7urGJ.png)
 
 提取之后，目标文件夹文件如图所示：
 
-![](images/3.png)
+![3.png](https://i.loli.net/2021/07/24/vnz24T6eGWx1yCh.png)
 
 3. 配置环境变量
 
 右键单击“我的电脑” → 属性 → 高级系统设置 → 环境变量，（win10系统可直接在搜索框中输入“环境变量”）
 
-![](./images/4.png)
+![4.png](https://i.loli.net/2021/07/24/qNglLKTsjRbhtSi.png)
 
 > 库巴鸭桑！
 
 找到环境变量，选中Path变量，单击编辑
 
-![](./images/5.jpg)
+![5.jpg](https://i.loli.net/2021/07/24/P4CxYw9BqZLhUkl.jpg)
 
 单击浏览，选中” (opencv在你电脑中的安装位置)/opencv/build/x64/vc15/bin”，点击确定
 
-![](./images/6.jpg)
+![6.jpg](https://i.loli.net/2021/07/24/iApHf1NJLoMrCq3.jpg)
 
 **配置完成**
 
@@ -49,7 +48,7 @@ tags:
 
 ### 创建一个空项目
 
-![](./images/7.jpg)
+![7.jpg](https://i.loli.net/2021/07/24/7JUl95aRAijsPo6.jpg)
 
 创建一个空项目，不赘述了
 
@@ -57,11 +56,11 @@ tags:
 
 “视图” → “属性管理器”
 
-![](./images/8.jpg)
+![8.jpg](https://i.loli.net/2021/07/24/ZgSkTHFQBOqWvYa.jpg)
 
 打开之后如下图所示：
 
-![](./images/9.jpg)
+![9.jpg](https://i.loli.net/2021/07/24/iYs6LkXKnSQ8vAO.jpg)
 
 如果是对某一个项目进行设置，可以直接对项目名右键属性，进行设置。
 
@@ -71,7 +70,7 @@ tags:
 
 但是我们现在想的对所有的项目进行设置，所以点击上面的黑色小扳手图标进行全局设置
 
-![](./images/10.jpg)
+![10.jpg](https://i.loli.net/2021/07/24/DKZMVu8XtCvyTkm.jpg)
 
 ### Opencv的配置
 

@@ -3,9 +3,9 @@ title: "AWS s3 下载"
 date: 2021-03-29T14:06:50+08:00
 draft: False
 categories:
-    - work
+    - 教程
 tags:
-    - aws下载
+    - aws s3 下载
 ---
 
 ## 创建AWS账户

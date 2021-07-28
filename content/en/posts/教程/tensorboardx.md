@@ -3,8 +3,7 @@ title: "TensorboardX"
 date: 2021-04-12T14:36:46+08:00
 draft: False
 categories:
-    - work
-    - code
+    - 教程
 tags:
     - python
     - pycharm
@@ -60,7 +59,7 @@ for i in range(10):
 tensorboard --logdir=runs
 ```
 
-![](images/1.jpg)
+![1.jpg](https://i.loli.net/2021/07/24/QMhuoptJZjkTLRF.jpg)
 
 可以看到，runs下文件夹所有的相同指标的都被放到了同一张图表下进行展示，以方便横向对比
 
@@ -132,7 +131,8 @@ for index, (image,label) in enumerate(dataset):
 
 ```
 
-![](images/2.jpg)
+![2.jpg](https://i.loli.net/2021/07/24/evIjZix1YQMObUu.jpg)
+
 
 可以在image栏中看到随着step变化的图像变化
 
@@ -163,17 +163,17 @@ writer.add_histogram('normal_centered', np.random.normal(0, 3, 1000), global_ste
 
 可以看到生成了两种图像可以看到数据的分布，一个是DISTRIBUTIONS，一个是HISTOGRAMS。
 
-![](images/3.jpg)
+![3.jpg](https://i.loli.net/2021/07/24/VcoZn59uWdaKJ6q.jpg)
 
 在表达直方图时，可以选择两种模式，一种是OFFSET，会展示每一个梯度下他的直方图，如上图。另一种是OVERLAY，会展示叠加在一起的直方图，如下图。
 
-![](images/4.jpg)
+![4.jpg](https://i.loli.net/2021/07/24/x9ygB7P1sbwUEYm.jpg)
 
 而DISTRIBUTION以另一种方式进行数据的展示，横轴是STEP，纵轴的五个点分别表示着数值的 [max, 93％, 84％, 69％, 50％, 31％, 16％, 7％, min]。
 
 这些百分位数也可以看作标准偏差的正态分布：[max, μ+1.5σ, μ+σ, μ+0.5σ, μ, μ-0.5σ, μ-σ, μ-1.5σ, min]，使得从内侧读到外侧的着色区域分别具有宽度[σ，2σ，3σ]。
 
-![](images/5.jpg)
+![5.jpg](https://i.loli.net/2021/07/24/Ad3rZeGcis7jotH.jpg)
 
 ### 向量 (embedding)
 
@@ -205,5 +205,6 @@ writer.add_embedding(
 
 选择PROJECTOR进行查看向量空间。可以选择2D/3D空间进行可视化。可视化的方法可以是t-SNE/PCA或其他。
 
-![](images/6.jpg)
+![6.jpg](https://i.loli.net/2021/07/24/52LWipUGbJoXHVR.jpg)
+
 

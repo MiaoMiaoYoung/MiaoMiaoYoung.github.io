@@ -3,15 +3,12 @@ title: "Dockerfile"
 date: 2021-04-15T12:24:19+08:00
 draft: False
 categories:
-    - work
-    - code
+    - 教程
 tags:
     - linux
     - ubuntu
     - docker
 ---
-
-
 
 ## 编写Dockerfile
 

@@ -3,12 +3,15 @@ title: "linux"
 date: 2021-03-11T11:02:33+08:00
 draft: false
 categories:
-    - work
+    - 教程
 tags:
     - linux
-    - ubuntu
     - docker
-    - 综合
+    - tar
+    - 传输文件
+    - 中文编码
+    - 多显卡
+    - 镜像服务站
 ---
 
 

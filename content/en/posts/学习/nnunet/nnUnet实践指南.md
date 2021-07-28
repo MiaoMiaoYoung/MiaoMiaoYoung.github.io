@@ -4,8 +4,7 @@ date: 2021-07-19T21:57:22+08:00
 draft: False
 image: images/posts/nnunet.jpg
 categories:
-    - work
-    - code
+    - 学习
 tags:
     - 代码复现
     - 医学图像
@@ -427,6 +426,8 @@ Folder
 nnUNet_train CONFIGURATION TRAINER_CLASS_NAME TASK_NAME_OR_ID FOLD  --npz (additional options)
 ```
 
+选择相对应的模型进行训练:
+
 ### 2D U-Net
 
 ```bash
@@ -454,3 +455,15 @@ nnUNet_train 3d_lowres nnUNetTrainerV2 Task099_Pancreas 0 --npz
 ```bash
 nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
 ```
+
+## 测试
+
+```bash
+nnUNet_predict -i nnUNet_raw_data_base/nnUNet_raw_data/Task005_Prostate/imagesTs/ -o OUTPUT_DIRECTORY -t Task005_Prostate -m 3d_fullres -f 0
+```
+
+- '-i': 输入图像路径，需要经过数据的预处理
+- '-o': 生成label的输出文件夹
+- '-t': 任务标号，可全称，如:Task005_Prostate
+- '-m': 模型种类
+- '-f': [可选]，制定交叉验证的折进行预测

@@ -4,9 +4,10 @@ date: 2021-03-09T11:09:34+08:00
 draft: false
 image: images/posts/python.jpg
 categories:
-    - work
+    - 教程
 tags:
-    - python
+    - 文件操作
+    - cv2
 ---
 
 ## 文件操作

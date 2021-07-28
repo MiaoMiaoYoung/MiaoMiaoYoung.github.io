@@ -4,10 +4,9 @@ date: 2021-06-04T15:01:38+08:00
 draft: false
 image: images/posts/git.jpg
 categories:
-    - work
+    - 教程
 tags:
     - git
-    - code
 ---
 
 ## 建立仓库

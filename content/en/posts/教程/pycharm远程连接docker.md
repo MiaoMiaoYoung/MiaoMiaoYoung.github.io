@@ -114,5 +114,5 @@ nvidia-docker run -it --name nnunet --shm-size 6G -p 8000:80 -p 10022:22 -p 5000
     ![18.jpg](https://i.loli.net/2021/07/22/OKnNbkJhsivBS35.jpg)
     可以看到，已经加入了远程的编译器了
 
-    ![](image/20.jpg)
+    ![20.jpg](https://i.loli.net/2021/07/22/fTdSMhOFQYP3xrX.jpg)
     配置Python运行设置
