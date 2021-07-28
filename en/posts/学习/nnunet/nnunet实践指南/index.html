@@ -266,6 +266,7 @@ What's on this Page
 <li><a href=#3d-u-net-cascade>3D U-Net cascade</a></li>
 </ul>
 </li>
+<li><a href=#测试>测试</a></li>
 </ul>
 </nav>
 </div>
@@ -986,7 +987,8 @@ What's on this Page
 <pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>nnUNet_train CONFIGURATION TRAINER_CLASS_NAME TASK_NAME_OR_ID FOLD  --npz <span class=o>(</span>additional options<span class=o>)</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id=2d-u-net>2D U-Net</h3>
+</div><p>选择相对应的模型进行训练:</p>
+<h3 id=2d-u-net>2D U-Net</h3>
 <div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt>1
@@ -1032,7 +1034,22 @@ nnUNet_train 3d_lowres nnUNetTrainerV2 Task099_Pancreas <span class=m>0</span> -
 <pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
 </code></pre></td></tr></table>
 </div>
+</div><h2 id=测试>测试</h2>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>nnUNet_predict -i nnUNet_raw_data_base/nnUNet_raw_data/Task005_Prostate/imagesTs/ -o OUTPUT_DIRECTORY -t Task005_Prostate -m 3d_fullres -f <span class=m>0</span>
+</code></pre></td></tr></table>
 </div>
+</div><ul>
+<li>&lsquo;-i&rsquo;: 输入图像路径，需要经过数据的预处理</li>
+<li>&lsquo;-o&rsquo;: 生成label的输出文件夹</li>
+<li>&lsquo;-t&rsquo;: 任务标号，可全称，如:Task005_Prostate</li>
+<li>&lsquo;-m&rsquo;: 模型种类</li>
+<li>&lsquo;-f&rsquo;: [可选]，制定交叉验证的折进行预测</li>
+</ul>
 </article>
 <script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
@@ -1100,6 +1117,11 @@ See Also
 <div class=pagination-single__left-title>从头再来之单变量微积分</div>
 </a>
 <div class=grow></div>
+<a href=https://miaomiaoyoung.github.io/en/posts/%E6%95%99%E7%A8%8B/windows-terminal/ class=pagination-single__right>
+<div class=pagination-single__right-title>Windows Terminal调教指南</div>
+<div class=pagination-single__icon><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentcolor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03.0 1.42.39.39 1.02.39 1.41.0l6.59-6.59c.39-.39.39-1.02.0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41.0s-.39 1.02.0 1.41L16.17 11H5c-.55.0-1 .45-1 1s.45 1 1 1z"/></svg>
+</div>
+</a>
 </nav>
 <div class="modal micromodal-slide" id=modal aria-hidden=true>
 <div class=modal__overlay tabindex=-1 data-micromodal-close>
@@ -1185,6 +1207,7 @@ See Also
 <li><a href=#3d-u-net-cascade>3D U-Net cascade</a></li>
 </ul>
 </li>
+<li><a href=#测试>测试</a></li>
 </ul>
 </nav>
 </div>

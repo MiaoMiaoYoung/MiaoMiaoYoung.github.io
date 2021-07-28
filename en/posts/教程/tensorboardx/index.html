@@ -306,7 +306,7 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>tensorboard --logdir<span class=o>=</span>runs
 </code></pre></td></tr></table>
 </div>
-</div><p><img src=images/1.jpg alt></p>
+</div><p><img src=https://i.loli.net/2021/07/24/QMhuoptJZjkTLRF.jpg alt=1.jpg></p>
 <p>可以看到，runs下文件夹所有的相同指标的都被放到了同一张图表下进行展示，以方便横向对比</p>
 <h3 id=指定端口>指定端口</h3>
 <p>在启动tensorboard时添加端口号：</p>
@@ -413,7 +413,7 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 
 </code></pre></td></tr></table>
 </div>
-</div><p><img src=images/2.jpg alt></p>
+</div><p><img src=https://i.loli.net/2021/07/24/evIjZix1YQMObUu.jpg alt=2.jpg></p>
 <p>可以在image栏中看到随着step变化的图像变化</p>
 <blockquote>
 <p>add_image一次只能添加一张图片，可以使用torchvision中的<a href=https://pytorch.org/docs/stable/torchvision/utils.html>make_grid</a>方法将多张图片拼接成一张图片，在使用add_image进行展示。或者使用<a href=https://tensorboardx.readthedocs.io/en/latest/tensorboard.html#tensorboardX.SummaryWriter.add_images>add_images</a>。</p>
@@ -456,12 +456,12 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 </code></pre></td></tr></table>
 </div>
 </div><p>可以看到生成了两种图像可以看到数据的分布，一个是DISTRIBUTIONS，一个是HISTOGRAMS。</p>
-<p><img src=images/3.jpg alt></p>
+<p><img src=https://i.loli.net/2021/07/24/VcoZn59uWdaKJ6q.jpg alt=3.jpg></p>
 <p>在表达直方图时，可以选择两种模式，一种是OFFSET，会展示每一个梯度下他的直方图，如上图。另一种是OVERLAY，会展示叠加在一起的直方图，如下图。</p>
-<p><img src=images/4.jpg alt></p>
+<p><img src=https://i.loli.net/2021/07/24/x9ygB7P1sbwUEYm.jpg alt=4.jpg></p>
 <p>而DISTRIBUTION以另一种方式进行数据的展示，横轴是STEP，纵轴的五个点分别表示着数值的 [max, 93％, 84％, 69％, 50％, 31％, 16％, 7％, min]。</p>
 <p>这些百分位数也可以看作标准偏差的正态分布：[max, μ+1.5σ, μ+σ, μ+0.5σ, μ, μ-0.5σ, μ-σ, μ-1.5σ, min]，使得从内侧读到外侧的着色区域分别具有宽度[σ，2σ，3σ]。</p>
-<p><img src=images/5.jpg alt></p>
+<p><img src=https://i.loli.net/2021/07/24/Ad3rZeGcis7jotH.jpg alt=5.jpg></p>
 <h3 id=向量-embedding>向量 (embedding)</h3>
 <div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
@@ -509,7 +509,7 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 </code></pre></td></tr></table>
 </div>
 </div><p>选择PROJECTOR进行查看向量空间。可以选择2D/3D空间进行可视化。可视化的方法可以是t-SNE/PCA或其他。</p>
-<p><img src=images/6.jpg alt></p>
+<p><img src=https://i.loli.net/2021/07/24/52LWipUGbJoXHVR.jpg alt=6.jpg></p>
 </article>
 <script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
@@ -566,9 +566,6 @@ See Also
 <ul class=related-ul>
 <li>
 <a href=/en/posts/%E6%95%99%E7%A8%8B/pycharm%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5docker/ class=related__link>Pycharm远程连接Docker容器</a>
-</li>
-<li>
-<a href=/en/posts/%E6%95%99%E7%A8%8B/python%E6%8A%80%E5%B7%A7/ class=related__link>Python</a>
 </li>
 </ul>
 </section>
