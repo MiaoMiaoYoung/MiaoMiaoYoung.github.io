@@ -39,3 +39,25 @@ apt-get install libglib2.0
 ```
 
 
+## 创建虚拟环境
+
+https://docs.python.org/zh-cn/3/library/venv.html
+
+```bash
+python3 -m venv /path/to/new/virtual/environment
+```
+
+**Optional:**
+
+- system-site-packages: Give the virtual environment access to the system site-packages dir.
+
+    ```bash
+    python -m venv ./venv --system-site-packages
+    ```
+
+## 忽略警告
+
+```python
+import warnings
+warnings.filterwarnings("ignore")
+```
