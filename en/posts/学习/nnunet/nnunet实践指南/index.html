@@ -29,7 +29,7 @@
 <meta name=twitter:app:name:iphone content="Hugo Zzo Theme">
 <meta property="twitter:title" content="nnunet实践指南">
 <meta property="twitter:description" content="For Life, for future">
-<meta name=generator content="Hugo 0.86.1">
+<meta name=generator content="Hugo 0.88.1">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -222,7 +222,7 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <div class=single__meta>
 <div class=single__infos>
 <time class=single__info title="Written At">📅&nbsp;Jul 19, 2021 </time>
-&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
+&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;6&nbsp;min read </span>
 <span class=single__info>
 </span>
 </div>
@@ -267,6 +267,7 @@ What's on this Page
 </ul>
 </li>
 <li><a href=#测试>测试</a></li>
+<li><a href=#修改nnunet损失函数>修改nnUNet损失函数</a></li>
 </ul>
 </nav>
 </div>
@@ -1010,25 +1011,6 @@ What's on this Page
 <div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span></code></pre></td>
-<td class=lntd>
-<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>nnUNet_train 3d_lowres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
-
-<span class=c1>#############################</span>
-
-nnUNet_train 3d_lowres nnUNetTrainerV2 Task099_Pancreas <span class=m>0</span> --npz
-</code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>FOLD：表示了第几折的交叉验证</li>
-</ul>
-<div class=highlight><div class=chroma>
-<table class=lntable><tr><td class=lntd>
-<pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td>
 <td class=lntd>
 <pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
@@ -1050,6 +1032,17 @@ nnUNet_train 3d_lowres nnUNetTrainerV2 Task099_Pancreas <span class=m>0</span> -
 <li>&lsquo;-m&rsquo;: 模型种类</li>
 <li>&lsquo;-f&rsquo;: [可选]，制定交叉验证的折进行预测</li>
 </ul>
+<hr>
+<h2 id=修改nnunet损失函数>修改nnUNet损失函数</h2>
+<blockquote>
+<p><a href=https://github.com/MIC-DKFZ/nnUNet/tree/master/documentation/extending_nnunet.md>https://github.com/MIC-DKFZ/nnUNet/tree/master/documentation/extending_nnunet.md</a></p>
+</blockquote>
+<ul>
+<li>在"nnUNet\nnunet\training\loss_functions"添加新的损失函数</li>
+</ul>
+<p>&ldquo;nnUNet\nnunet\training\network_training"中保留了许多的训练策略，比如 &ldquo;nnUNetTrainerV2CascadeFullRes&rdquo;</p>
+<p>其中的继承关系：nnUNetTrainerV2CascadeFullRes → nnUNetTrainerV2 → nnUNetTrainer</p>
+<p>可以看到，这个里面使用的损失函数是：&ldquo;from nnunet.training.loss_functions.dice_loss import DC_and_CE_loss&rdquo;</p>
 </article>
 <script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
@@ -1208,6 +1201,7 @@ See Also
 </ul>
 </li>
 <li><a href=#测试>测试</a></li>
+<li><a href=#修改nnunet损失函数>修改nnUNet损失函数</a></li>
 </ul>
 </nav>
 </div>

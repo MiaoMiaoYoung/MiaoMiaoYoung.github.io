@@ -29,7 +29,7 @@
 <meta name=twitter:app:name:iphone content="Hugo Zzo Theme">
 <meta property="twitter:title" content="Tikz学习笔记">
 <meta property="twitter:description" content="For Life, for future">
-<meta name=generator content="Hugo 0.86.1">
+<meta name=generator content="Hugo 0.88.1">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -1125,11 +1125,11 @@ box/.style =<span class=nb>{</span>
 </div>
 </div><p><img src=image/ex4-2.jpg alt=节点-流程图></p>
 <h4 id=插入外部图片>插入外部图片</h4>
-<pre><code>\begin{tikzpicture}
+<pre tabindex=0><code>\begin{tikzpicture}
 \node at (0,0) {\includegraphics[width=5cm,height=2cm]{pass.png}};
 \end{tikzpicture}
 </code></pre><h3 id=绘制函数>绘制函数</h3>
-<pre><code>\begin{tikzpicture}
+<pre tabindex=0><code>\begin{tikzpicture}
     \draw[-&gt;] (-0.2,0) --(6,0) node[right] {$x$};
     \draw[-&gt;] (0,-0.2) --(0,6) node[above] {$f(x)$};
     \draw[domain=0:4] plot (\x,{0.1* exp(\x)}) node[right] {$f(x)=\frac{1}{10}e^x$};
