@@ -37,7 +37,18 @@ ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file o
 apt-get install -y libgl1-mesa-dev
 apt-get install libglib2.0
 ```
+## pip pyradiomics
 
+在使用pytorch官方docker镜像时，安装pyradiomics时会报错
+
+1. 首先是镜像中没有gcc编译器，而pyradiomics是需要gcc来进行编译的
+2. ERROR: Cannot uninstall 'ruamel-yaml'
+    
+    这个是因为原先的镜像中已经有了ruamel.yaml和ruamel.yaml.clib，如果单独卸载ruamel.yaml会报错："It is a distutils installed project and thus we cannot accurately determine which files belong to it which would lead to only a partial uninstall."
+
+    - 通过pip -V找到site-packages的路径
+    - 删除site-packages文件夹内所有ruamel的文件
+    - 再次进行pip install pyradiomics的安装
 
 ## 创建虚拟环境
 

@@ -443,16 +443,6 @@ nnUNet_train 3d_fullres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
 ### 3D U-Net cascade
 
 ```bash
-nnUNet_train 3d_lowres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
-
-#############################
-
-nnUNet_train 3d_lowres nnUNetTrainerV2 Task099_Pancreas 0 --npz
-```
-
-- FOLD：表示了第几折的交叉验证
-
-```bash
 nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
 ```
 
@@ -467,3 +457,20 @@ nnUNet_predict -i nnUNet_raw_data_base/nnUNet_raw_data/Task005_Prostate/imagesTs
 - '-t': 任务标号，可全称，如:Task005_Prostate
 - '-m': 模型种类
 - '-f': [可选]，制定交叉验证的折进行预测
+
+-----------------------------------------------------------
+
+## 修改nnUNet损失函数
+
+> https://github.com/MIC-DKFZ/nnUNet/tree/master/documentation/extending_nnunet.md
+
+- 在"nnUNet\nnunet\training\loss_functions"添加新的损失函数
+
+
+"nnUNet\nnunet\training\network_training"中保留了许多的训练策略，比如 "nnUNetTrainerV2CascadeFullRes"
+
+其中的继承关系：nnUNetTrainerV2CascadeFullRes → nnUNetTrainerV2 → nnUNetTrainer
+
+可以看到，这个里面使用的损失函数是："from nnunet.training.loss_functions.dice_loss import DC_and_CE_loss"
+
+
