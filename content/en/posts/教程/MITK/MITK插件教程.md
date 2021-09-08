@@ -40,10 +40,10 @@ Example:
 ```
 MitkPluginGenerator.exe ^
 -plugin-symbolic-name org.commontk.organ.cad ^
--view-name "Tooth CAD" ^
--project-name "ToothCAD" ^
--project-app-name "ToothCAD" ^
--o D:\
+-view-name "Medical CAD" ^
+-project-name "MITKs" ^
+-project-app-name "MITKs" ^
+-o E:\Works
 ```
 
 ![1.png](https://i.loli.net/2021/09/05/Ofb3LvU7IPF8BXq.png)
