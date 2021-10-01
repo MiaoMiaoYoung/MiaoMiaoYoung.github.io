@@ -249,6 +249,26 @@ $$\text { 后验 } \propto \text { 似然 } \times\text { 先验 }$$
 
 $$p(\mathcal{D})=\int p(\mathcal{D} \mid \mathbf{w}) p(\mathbf{w}) \mathrm{d} \mathbf{w}$$
 
+-------------------------------------------------
+
+**共轭先验：**
+
+如果后验概率$p(\mathbf{w} \mid \mathcal{D})$和先验概率$p(\mathbf{w})$满足同样的分布律，那么先验分布和后验分布被称作共轭分布。先验分布叫做似然函数的共轭先验分布。
+
+$$p(\mathbf{w} \mid \mathcal{D}) = \frac{p(\mathbf{w} , \mathcal{D})}{p(\mathcal{D})}$$
+
+举个例子：
+
+Beta分布是二项式分布的共轭先验分布。
+
+Dirichlet分布是多项式分布的共轭分布。
+
+常见的共轭分布可以在[wikipedia](https://en.wikipedia.org/wiki/Conjugate_prior)上查到
+
+> 共轭的意思就是，以Beta分布和二项式分布为例，**数据**符合二项式分布时，**参数**的先验分布和后验分布都能保持Beta分布的形式
+> 
+> 这种能够在先验分布中赋予参数明确的物理意义，这个物理意义可以延续到后续分布中进行解释
+
 ### 1.2.4 高斯分布
 
 #### 单实值变量高斯
