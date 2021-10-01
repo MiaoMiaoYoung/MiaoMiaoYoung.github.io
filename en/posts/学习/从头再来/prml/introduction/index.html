@@ -216,7 +216,7 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <div class=single__meta>
 <div class=single__infos>
 <time class=single__info title="Written At">📅&nbsp;Jun 18, 2021 </time>
-&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;10&nbsp;min read </span>
+&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;11&nbsp;min read </span>
 <span class=single__info>
 </span>
 </div>
@@ -396,6 +396,18 @@ $$ \begin{aligned} \operatorname{var}[x+z] &=\iint(x+z-\mathbb{E}[x+z])^{2} p(x)
 </blockquote>
 <p>贝叶斯公式中的分母 $p(\mathcal{D})$是为了概率进行归一化的，可以表达为下面的这种形式：</p>
 <p>$$p(\mathcal{D})=\int p(\mathcal{D} \mid \mathbf{w}) p(\mathbf{w}) \mathrm{d} \mathbf{w}$$</p>
+<hr>
+<p><strong>共轭先验：</strong></p>
+<p>如果后验概率$p(\mathbf{w} \mid \mathcal{D})$和先验概率$p(\mathbf{w})$满足同样的分布律，那么先验分布和后验分布被称作共轭分布。先验分布叫做似然函数的共轭先验分布。</p>
+<p>$$p(\mathbf{w} \mid \mathcal{D}) = \frac{p(\mathbf{w} , \mathcal{D})}{p(\mathcal{D})}$$</p>
+<p>举个例子：</p>
+<p>Beta分布是二项式分布的共轭先验分布。</p>
+<p>Dirichlet分布是多项式分布的共轭分布。</p>
+<p>常见的共轭分布可以在<a href=https://en.wikipedia.org/wiki/Conjugate_prior>wikipedia</a>上查到</p>
+<blockquote>
+<p>共轭的意思就是，以Beta分布和二项式分布为例，<strong>数据</strong>符合二项式分布时，<strong>参数</strong>的先验分布和后验分布都能保持Beta分布的形式</p>
+<p>这种能够在先验分布中赋予参数明确的物理意义，这个物理意义可以延续到后续分布中进行解释</p>
+</blockquote>
 <h3 id=124-高斯分布>1.2.4 高斯分布</h3>
 <h4 id=单实值变量高斯>单实值变量高斯</h4>
 <p>单实值变量$x$的高斯分布定义为：</p>
