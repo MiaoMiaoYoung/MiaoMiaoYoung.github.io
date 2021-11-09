@@ -74,3 +74,24 @@ The letter A is shown in \autoref{A}
 
 
 
+
+
+
+## ERROR
+
+### IEEE Template Xlatex 字体警告
+
+最开始没发现这个问题，论文初稿也是这么提交的。结果文章中了之后在提交Camera Ready的时候感觉模板中的标题和自己文章的标题总感觉不是一个字体，这才发现了这个警告：
+
+```
+Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
+```
+
+原因是xelatex缺少了某些字体，导致编译后的文章出现了字体错误
+
+网上的解决办法大多是使用pdflatex，但是这里因为字符编码原因没办法使用pdflatex
+
+然后找到了原因和解决办法，上述报错的这个字体是pdflatex中独有的，所以换成xelatex的就可以了
+
+> https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016
+

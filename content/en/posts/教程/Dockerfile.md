@@ -105,6 +105,9 @@ nvidia-docker run -itd --name nnunet --shm-size 6G -p 8000:80 -p 10022:22 -p 500
     ## 维护者信息
     LABEL maintainer "MiaoMiaoYang"
 
+    ARG DEBIAN_FRONTEND=noninteractive
+    ENV TZ=Asia/Shanghai
+
     ## 换源，将sources.list/requirements.txt放在    Dockerfile同目录下
     ADD sources.list /etc/apt/
     ADD requirements.txt /installer/
@@ -126,6 +129,12 @@ nvidia-docker run -itd --name nnunet --shm-size 6G -p 8000:80 -p 10022:22 -p 500
     EXPOSE  22
     CMD     ["/usr/sbin/sshd", "-D"]
     ```
+
+```
+ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Shanghai
+```
+原因是ubuntu 18.04后没有默认的系统时区，装一些包的时候会让我们选择默认时区
 
 - requirement.txt
     ```bash
