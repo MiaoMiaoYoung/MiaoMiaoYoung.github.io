@@ -23,7 +23,7 @@
 <meta property="og:url" content="https://miaomiaoyoung.github.io/en/posts/%E6%95%99%E7%A8%8B/latex%E7%BC%96%E5%86%99/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="For Life, for future">
-<meta name=generator content="Hugo 0.88.1">
+<meta name=generator content="Hugo 0.89.2">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -337,7 +337,16 @@ The letter A is shown in <span class=k>\autoref</span><span class=nb>{</span>A<s
 <span class=k>\end</span><span class=nb>{</span>document<span class=nb>}</span>
 </code></pre></td></tr></table>
 </div>
-</div>
+</div><h2 id=error>ERROR</h2>
+<h3 id=ieee-template-xlatex-字体警告>IEEE Template Xlatex 字体警告</h3>
+<p>最开始没发现这个问题，论文初稿也是这么提交的。结果文章中了之后在提交Camera Ready的时候感觉模板中的标题和自己文章的标题总感觉不是一个字体，这才发现了这个警告：</p>
+<pre tabindex=0><code>Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
+</code></pre><p>原因是xelatex缺少了某些字体，导致编译后的文章出现了字体错误</p>
+<p>网上的解决办法大多是使用pdflatex，但是这里因为字符编码原因没办法使用pdflatex</p>
+<p>然后找到了原因和解决办法，上述报错的这个字体是pdflatex中独有的，所以换成xelatex的就可以了</p>
+<blockquote>
+<p><a href=https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016>https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016</a></p>
+</blockquote>
 </article>
 <script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
@@ -479,6 +488,11 @@ See Also
 <li><a href=#trick>Trick</a>
 <ul>
 <li><a href=#引用子图片>引用子图片</a></li>
+</ul>
+</li>
+<li><a href=#error>ERROR</a>
+<ul>
+<li><a href=#ieee-template-xlatex-字体警告>IEEE Template Xlatex 字体警告</a></li>
 </ul>
 </li>
 </ul>

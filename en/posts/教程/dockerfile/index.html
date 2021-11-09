@@ -23,7 +23,7 @@
 <meta property="og:url" content="https://miaomiaoyoung.github.io/en/posts/%E6%95%99%E7%A8%8B/dockerfile/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="For Life, for future">
-<meta name=generator content="Hugo 0.88.1">
+<meta name=generator content="Hugo 0.89.2">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -216,7 +216,7 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <div class=single__meta>
 <div class=single__infos>
 <time class=single__info title="Written At">📅&nbsp;Apr 15, 2021 </time>
-&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;2&nbsp;min read </span>
+&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time"> ☕&nbsp;3&nbsp;min read </span>
 <span class=single__info>
 </span>
 </div>
@@ -352,8 +352,7 @@ docker build -t miaomiaoyang/pytorch:test .
 </div>
 </div><h2 id=pytorch-示例>Pytorch 示例</h2>
 <ul>
-<li>
-<p>Dockerfile</p>
+<li>Dockerfile
 <div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt> 1
@@ -380,11 +379,17 @@ docker build -t miaomiaoyang/pytorch:test .
 </span><span class=lnt>22
 </span><span class=lnt>23
 </span><span class=lnt>24
+</span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
 </span></code></pre></td>
 <td class=lntd>
 <pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>FROM pytorch/pytorch:latest
 <span class=c1>## 维护者信息</span>
 LABEL maintainer <span class=s2>&#34;MiaoMiaoYang&#34;</span>
+
+ARG <span class=nv>DEBIAN_FRONTEND</span><span class=o>=</span>noninteractive
+ENV <span class=nv>TZ</span><span class=o>=</span>Asia/Shanghai
 
 <span class=c1>## 换源，将sources.list/requirements.txt放在    Dockerfile同目录下</span>
 ADD sources.list /etc/apt/
@@ -409,8 +414,12 @@ CMD     <span class=o>[</span><span class=s2>&#34;/usr/sbin/sshd&#34;</span>, <s
 </code></pre></td></tr></table>
 </div>
 </div></li>
-<li>
-<p>requirement.txt</p>
+</ul>
+<pre tabindex=0><code>ARG DEBIAN_FRONTEND=noninteractive
+ENV TZ=Asia/Shanghai
+</code></pre><p>原因是ubuntu 18.04后没有默认的系统时区，装一些包的时候会让我们选择默认时区</p>
+<ul>
+<li>requirement.txt
 <div class=highlight><div class=chroma>
 <table class=lntable><tr><td class=lntd>
 <pre tabindex=0 class=chroma><code><span class=lnt> 1

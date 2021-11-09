@@ -23,7 +23,7 @@
 <meta property="og:url" content="https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/2-%E5%8D%95%E5%8F%98%E9%87%8F%E5%BE%AE%E7%A7%AF%E5%88%86-mit-18.01/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E5%8D%95%E5%8F%98%E9%87%8F%E5%BE%AE%E7%A7%AF%E5%88%86/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="For Life, for future">
-<meta name=generator content="Hugo 0.88.1">
+<meta name=generator content="Hugo 0.89.2">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -477,7 +477,7 @@ $x&lt;x_{0}$</p>
 <h3 id=连续>连续</h3>
 <p><strong>定义</strong>：$x\rightarrow x_{0}$时，$f(x)$的极限等于$f(x_{0})$，则称：$f$在$x_{0}$点的连续。即：</p>
 <ol>
-<li>要求$\lim_{x \rightarrow x_{0}} f(x)$这一极限必须存在，**左极限=右极限**</li>
+<li>要求$\lim_{x \rightarrow x_{0}} f(x)$这一极限必须存在，<strong>左极限=右极限</strong></li>
 <li>$f(x_{0})$必须有定义</li>
 <li>函数值和极限相等：$\lim_{x \rightarrow x_{0}} f(x)=f\left(x_{0}\right)$</li>
 </ol>
@@ -764,7 +764,7 @@ $$\frac{d}{d x}(u v)=\frac{d u}{d x} v+\frac{d v}{d x} u$$</p>
 <hr>
 <p>下面从导数的定义来解释这个线性近似：</p>
 <p>导数的定义是：</p>
-<p>$$f^{\prime}\left(x_{0}\right)=\lim _{x \rightarrow x_{0}} \frac{\Delta f(x)}{\Delta x}$$</p>
+<p>$$f^{\prime}\left(x_{0}\right)=\lim <em>{x \rightarrow x</em>{0}} \frac{\Delta f(x)}{\Delta x}$$</p>
 <p>逆向看待就是：</p>
 <p>$$\lim_{x \rightarrow x_{0}} \frac{\Delta f(x)}{\Delta x} = f^{\prime}\left(x_{0}\right)$$</p>
 <p>当$\Delta x\rightarrow 0$时，$\frac{\Delta f(x)}{\Delta x} \approx f^{\prime}\left(x_{0}\right)$</p>
@@ -1469,7 +1469,7 @@ $$\min{F'(x)\Delta x}\le \Delta F = F'(c) \Delta x\le \max{F'(x)\Delta x}$$<br>
 <p>而计算圆环上，$r_{1}\rightarrow r_{2}$的半径内，被击中的概率实际上就是计算在这个环内被击中的次数占整个平面被击中次数的比。</p>
 <p>而该比例，就是$f(x) = e^{-r^{2}}$这个函数图像绕$Y$轴旋转所形成的旋转体中，阴影部分体积所占整个体积的比值</p>
 <p>采用层壳法：</p>
-<p>$$\int_{r_{1}}^{r_{2}}{(2\pi t)e^{-t^{2}}\mathrm{d}t}=-\pi e^{-t^{2}}\big|_{r_{1}}^{r_{2}}=e^{-r_{1}^{2}}-e^{-r_{2}^{2}}$$</p>
+<p>$$\int_{r_{1}}^{r_{2}}{(2\pi t)e^{-t^{2}}\mathrm{d}t}=-\pi e^{-t^{2}}\big|<em>{r</em>{1}}^{r_{2}}=e^{-r_{1}^{2}}-e^{-r_{2}^{2}}$$</p>
 <p>整个区域被击中的次数为：</p>
 <p>$$C\pi$$</p>
 <p>而半径$r_{1}\rightarrow r_{2}$的区域中，被击中的次数：</p>
@@ -1587,7 +1587,7 @@ $$\min{F'(x)\Delta x}\le \Delta F = F'(c) \Delta x\le \max{F'(x)\Delta x}$$<br>
 <p>可以划分为两段来计算面积，但是这样有些麻烦，所以在$y$轴上使用一个积分解决：</p>
 <p>$$\text{Area} = \int{x\mathrm{d}y} = \int_{0}^{b}{\sqrt{a^{2}-y^{2}}\mathrm{d}y}$$</p>
 <p>因为：$x=a\cos{\theta}$；$y=a\sin{\theta}$，所以：</p>
-<p>$$ \begin{aligned} \int x \mathrm{d} y=\int_{0}^{b} \sqrt{a^{2}-y^{2}} d y &=\int a \cos \theta \mathrm{d} a \sin \theta \\\\ &=\int a^{2} \cos ^{2} \theta \mathrm{d} \theta \\\\ &=\left.a^{2}\left(\frac{\theta}{2}+\frac{\sin 2 \theta}{4}\right)\right|_{0} ^{\arcsin \frac{b}{a}} \\\\ &=\left.a^{2}\left(\frac{\theta}{2}+\frac{\sin \theta \cos \theta}{2}\right)\right|_{0} ^{\arcsin \frac{b}{a}} \\\\ &=\frac{b \sqrt{a^{2}-b^{2}}}{2}+\frac{1}{2} a^{2} \arcsin \left(\frac{b}{a}\right) \end{aligned} $$</p>
+<p>$$ \begin{aligned} \int x \mathrm{d} y=\int_{0}^{b} \sqrt{a^{2}-y^{2}} d y &=\int a \cos \theta \mathrm{d} a \sin \theta \\\\ &=\int a^{2} \cos ^{2} \theta \mathrm{d} \theta \\\\ &=\left.a^{2}\left(\frac{\theta}{2}+\frac{\sin 2 \theta}{4}\right)\right|<em>{0} ^{\arcsin \frac{b}{a}} \\\\ &=\left.a^{2}\left(\frac{\theta}{2}+\frac{\sin \theta \cos \theta}{2}\right)\right|</em>{0} ^{\arcsin \frac{b}{a}} \\\\ &=\frac{b \sqrt{a^{2}-b^{2}}}{2}+\frac{1}{2} a^{2} \arcsin \left(\frac{b}{a}\right) \end{aligned} $$</p>
 <p>重点在于将具有平方和开方的被积函数形式转化为三角函数的形式。此外，在注意积分上下限的同时，还需要注意为了回代方便，要避免使用$2\theta$的形式。</p>
 <p>总结一下适用于三角替换的函数形式：</p>
 <table>
@@ -1680,7 +1680,7 @@ $$(x+2)\frac{4x-1}{(x-1)(x+2)}=(x+2)\frac{A}{x-1}+\frac{B}{x+2} = B+\frac{(x+2)B
 <blockquote>
 <p>解决一些导数很好求，但是积分很难求的函数；或者是一些阶数特别高的函数，可以进行降阶。利用了乘法法则</p>
 </blockquote>
-<p>乘法的求导法则为：$(uv)'=u&rsquo;v+uv'$，所以有$uv' = (uv)'-u&rsquo;v$，对两边求积分可以得到：$\int u v^{\prime} d x=u v-\int u^{\prime} v d x$, 或者写作 $\int_{a}^{b} u v^{\prime} d x=\left.u v\right|_{a} ^{b}-\int_{a}^{b} u^{\prime} v d x$</p>
+<p>乘法的求导法则为：$(uv)'=u&rsquo;v+uv'$，所以有$uv' = (uv)'-u&rsquo;v$，对两边求积分可以得到：$\int u v^{\prime} d x=u v-\int u^{\prime} v d x$, 或者写作 $\int_{a}^{b} u v^{\prime} d x=\left.u v\right|<em>{a} ^{b}-\int</em>{a}^{b} u^{\prime} v d x$</p>
 <p>例1. $$ \begin{aligned} \int \ln x d x &=\ln x \cdot x-\int x d(\ln x) \\\\ &=\ln x \cdot x-\int x \cdot \frac{1}{x} d x \\\\ &=\ln x \cdot x-x+C \end{aligned} $$</p>
 <hr>
 <p>$$ \begin{aligned} \int(\ln x)^{2} d x &=(\ln x)^{2} x-\int x d(\ln x)^{2} \\\\ &=(\ln x)^{2} x-\int x \cdot 2 \ln x \cdot \frac{1}{x} d x \\\\ &=(\ln x)^{2} x-2 \int \ln x d x \\\\ &=(\ln x)^{2} x-2 \ln x \cdot x+2 x+C \end{aligned} $$</p>
@@ -1689,7 +1689,7 @@ $$(x+2)\frac{4x-1}{(x-1)(x+2)}=(x+2)\frac{A}{x-1}+\frac{B}{x+2} = B+\frac{(x+2)B
 <p>例2. 同上，$$ \begin{aligned} \int x^{n} e^{x} d x &=\int x^{n} d e^{x} \ &=x^{n} e^{x}-\int e^{x} d x^{n} \ &=x^{n} e^{x}-n \int e^{x} x^{n-1} d x \end{aligned} $$</p>
 <p>形象的解释分部积分就是：</p>
 <p><img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Integration_by_parts_v2.svg/1024px-Integration_by_parts_v2.svg.png alt=图片44.png></p>
-<p>$$\int_{x_{1}}^{x_{2}} y \mathrm{d} x+\int_{y_{1}}^{y_{2}} x \mathrm{d} y=\left.x y(x)\right|_{x_{1}} ^{x_{2}}$$</p>
+<p>$$\int_{x_{1}}^{x_{2}} y \mathrm{d} x+\int_{y_{1}}^{y_{2}} x \mathrm{d} y=\left.x y(x)\right|<em>{x</em>{1}} ^{x_{2}}$$</p>
 <h2 id=26-参数方程弧长和表面积>26. 参数方程、弧长和表面积</h2>
 <blockquote>
 <p>从积分再次回到了几何问题上</p>
@@ -1749,10 +1749,10 @@ See Also
 </h1>
 <ul class=related-ul>
 <li>
-<a href=/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/prml/introduction/ class=related__link>PRML-Introduction</a>
+<a href=/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/prml/probability/ class=related__link>PRML-Probability Distributions</a>
 </li>
 <li>
-<a href=/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/prml/probability/ class=related__link>PRML-Probability Distributions</a>
+<a href=/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/prml/introduction/ class=related__link>PRML-Introduction</a>
 </li>
 <li>
 <a href=/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/1-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-mit-18.06/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5%E4%B9%8B%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/ class=related__link>从头再来之线性代数</a>

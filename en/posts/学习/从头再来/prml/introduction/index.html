@@ -23,7 +23,7 @@
 <meta property="og:url" content="https://miaomiaoyoung.github.io/en/posts/%E5%AD%A6%E4%B9%A0/%E4%BB%8E%E5%A4%B4%E5%86%8D%E6%9D%A5/prml/introduction/">
 <meta property="og:type" content="article">
 <meta property="og:description" content="For Life, for future">
-<meta name=generator content="Hugo 0.88.1">
+<meta name=generator content="Hugo 0.89.2">
 <meta name=msapplication-TileColor content="#fff">
 <meta name=theme-color content="#fff">
 <meta name=msapplication-navbutton-color content="#fff">
@@ -384,7 +384,7 @@ $$ \begin{aligned} \operatorname{var}[x+z] &=\iint(x+z-\mathbb{E}[x+z])^{2} p(x)
 </ol>
 <p>转自：https://zhuanlan.zhihu.com/p/365934431</p>
 </blockquote>
-<p>假设我们观察到的变量是$t_{n}$，我们对一些参数$\mathbf{w}$进行推断时，可以**在观察数据之前** ，以先验概率分布$p(\mathbf{w})$的形式来捕捉(capture)对$\mathbf{w}$的假设</p>
+<p>假设我们观察到的变量是$t_{n}$，我们对一些参数$\mathbf{w}$进行推断时，可以<strong>在观察数据之前</strong> ，以先验概率分布$p(\mathbf{w})$的形式来捕捉(capture)对$\mathbf{w}$的假设</p>
 <p>$$p(\mathbf{w} \mid \mathcal{D})=\frac{p(\mathcal{D} \mid \mathbf{w}) p(\mathbf{w})}{p(\mathcal{D})}$$</p>
 <p><strong>似然(likelihood)：</strong> 贝叶斯右边的 $p(\mathcal{D} \mid \mathbf{w})$，因为他表达了在$\mathbf{w}$参数下，观察数据集$\mathcal{D}$的概率，可以认为是$\mathbf{w}$的一个函数。注意！似然不是$\mathbf{w}$上的概率分布，并且对于$\mathbf{w}$的积分不一定等于1</p>
 <p>因此，贝叶斯公式可以表达为下述：</p>
