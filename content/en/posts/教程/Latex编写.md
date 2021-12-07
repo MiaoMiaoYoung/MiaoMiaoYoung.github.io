@@ -91,7 +91,11 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 
 网上的解决办法大多是使用pdflatex，但是这里因为字符编码原因没办法使用pdflatex
 
-然后找到了原因和解决办法，上述报错的这个字体是pdflatex中独有的，所以换成xelatex的就可以了
+然后找到了原因和解决办法，上述报错的这个字体是pdflatex中独有的，所以换成xelatex的就可以了，使用库：
+
+'''
+\usepackage[OT1]{fontenc}
+'''
 
 > https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016
 
