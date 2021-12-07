@@ -325,6 +325,36 @@ Gallery<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0
 <span class=n>plt</span><span class=o>.</span><span class=n>ylim</span><span class=p>(</span><span class=o>-</span><span class=mf>0.2</span><span class=p>,</span> <span class=mf>0.5</span><span class=p>)</span>
 </code></pre></td></tr></table>
 </div>
+</div><h2 id=设置字体>设置字体</h2>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=kn>from</span> <span class=nn>matplotlib</span> <span class=kn>import</span> <span class=n>font_manager</span> <span class=k>as</span> <span class=n>fm</span><span class=p>,</span> <span class=n>rcParams</span>
+<span class=n>rcParams</span><span class=p>[</span><span class=s1>&#39;font.sans-serif&#39;</span><span class=p>]</span> <span class=o>=</span> <span class=p>[</span><span class=s1>&#39;Times New Roman&#39;</span><span class=p>]</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id=坐标轴科学计数法>坐标轴科学计数法</h2>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span><span class=lnt>6
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=kn>from</span> <span class=nn>matplotlib.ticker</span> <span class=kn>import</span> <span class=n>FuncFormatter</span>
+<span class=k>def</span> <span class=nf>formatnum</span><span class=p>(</span><span class=n>x</span><span class=p>,</span> <span class=n>pos</span><span class=p>):</span>
+    <span class=k>return</span> <span class=s1>&#39;</span><span class=si>%.2f</span><span class=s1>×10$^</span><span class=si>{4}</span><span class=s1>$&#39;</span> <span class=o>%</span> <span class=p>(</span><span class=n>x</span><span class=o>/</span><span class=mf>1e4</span><span class=p>)</span>
+<span class=n>formatter</span> <span class=o>=</span> <span class=n>FuncFormatter</span><span class=p>(</span><span class=n>formatnum</span><span class=p>)</span>
+<span class=c1># 设置坐标轴格式</span>
+<span class=n>plt</span><span class=o>.</span><span class=n>gca</span><span class=p>()</span><span class=o>.</span><span class=n>yaxis</span><span class=o>.</span><span class=n>set_major_formatter</span><span class=p>(</span><span class=n>formatter</span><span class=p>)</span>
+</code></pre></td></tr></table>
+</div>
 </div>
 </article>
 <script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
@@ -458,6 +488,8 @@ MiaoMiaoYang
 <li><a href=#中心在00的坐标轴>中心在(0,0)的坐标轴</a></li>
 </ul>
 </li>
+<li><a href=#设置字体>设置字体</a></li>
+<li><a href=#坐标轴科学计数法>坐标轴科学计数法</a></li>
 </ul>
 </nav>
 </div>
