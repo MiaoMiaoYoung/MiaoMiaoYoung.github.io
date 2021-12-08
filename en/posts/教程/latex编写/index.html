@@ -344,10 +344,8 @@ The letter A is shown in <span class=k>\autoref</span><span class=nb>{</span>A<s
 </code></pre><p>原因是xelatex缺少了某些字体，导致编译后的文章出现了字体错误</p>
 <p>网上的解决办法大多是使用pdflatex，但是这里因为字符编码原因没办法使用pdflatex</p>
 <p>然后找到了原因和解决办法，上述报错的这个字体是pdflatex中独有的，所以换成xelatex的就可以了，使用库：</p>
-<p>'''<br>
-\usepackage[OT1]{fontenc}<br>
-'''</p>
-<blockquote>
+<pre tabindex=0><code>\usepackage[OT1]{fontenc}
+</code></pre><blockquote>
 <p><a href=https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016>https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016</a></p>
 </blockquote>
 </article>
