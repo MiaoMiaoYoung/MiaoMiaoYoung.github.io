@@ -12,21 +12,11 @@ tags:
     - 中文编码
     - 多显卡
     - 镜像服务站
+    - 终端代理
+enableTocContent: true
 ---
 
 
-- [docker创建容器](#docker创建容器)
-- [中文编码](#中文编码)
-- [多显卡运行程序](#多显卡运行程序)
-- [ubuntu 镜像服务站](#ubuntu-镜像服务站)
-- [pip 镜像服务站](#pip-镜像服务站)
-- [linux 文件数](#linux-文件数)
-- [linux 传输文件](#linux-传输文件)
-- [ubuntu 版本](#ubuntu-版本)
-- [显示网速](#显示网速)
-- [tar](#tar)
-  - [tar 仅打包](#tar-仅打包)
-  - [tar.gz 压缩打包](#targz-压缩打包)
 
 
 ## docker创建容器
@@ -110,5 +100,22 @@ tar -zxvf code.tar.gz
 ```
 
 
+### 终端代理
 
+教程：
 
+> https://zhuanlan.zhihu.com/p/46973701
+
+![V2rayN.png](https://s2.loli.net/2021/12/08/ZuCBp9U6GVwFvML.png)
+
+在本机上打开代理，打开局域网连接的选项，找到代理的地址：SOCKS5，找到本机在局域网的ip地址
+
+![V2rayN-1.png](https://s2.loli.net/2021/12/08/Yfte4p9vJdD5Z6u.png)
+
+![http_proxy.png](https://s2.loli.net/2021/12/08/m6BOd1qDJtHQYLa.png)
+
+通过http_proxy命令进行ip终端代理
+
+```bash
+all_proxy="socks5://192.168.31.79:10808" make -j4
+```
