@@ -13,6 +13,7 @@ tags:
     - 多显卡
     - 镜像服务站
     - 终端代理
+    - 开机自启
 enableTocContent: true
 ---
 
@@ -37,7 +38,7 @@ source /etc/profile
 
 CUDA_VISIBLE_DEVICES=0,1 XXX
 
-## ubuntu 镜像服务站
+## Ubuntu 镜像服务站
 
 ```bash
 cp   /etc/apt/sources.list   /etc/apt/sources.list.bak
@@ -53,20 +54,20 @@ apt-get update
 
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
-## linux 文件数
+## Ubuntu 文件数
 
 ```bash
 ls -l | grep -c '^-'
 ```
 
-## linux 传输文件
+## Ubuntu 传输文件
 
 ```bash
 scp    local_file   remote_username@remote_ip:remote_file 
 scp -r local_folder remote_username@remote_ip:remote_folder 
 ```
 
-## ubuntu 版本
+## Ubuntu 版本
 
 ```bash
 cat /proc/version
@@ -119,3 +120,66 @@ tar -zxvf code.tar.gz
 ```bash
 all_proxy="socks5://192.168.31.79:10808" make -j4
 ```
+
+## Ubuntu 应用开机自启
+
+> <https://zhuanlan.zhihu.com/p/98804785>
+
+Ubuntu 18.04之后使用systemd管理系统，systemd默认读取[/etc/systemd/system]目录下的配置文件，并链接到[/lib/systemd/system/]目录下的脚本文件
+
+1. 所以想要设置开机自启动，就需要修改启动脚本：
+
+```bash
+cd /lib/systemd/system
+ls -lh
+sudo vim rc.local.service
+```
+
+在末尾添加[Install]字段 (rc.local.service文件没有的话就新建一个)：
+
+```json
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+# This unit gets pulled automatically into multi-user.target by
+# systemd-rc-local-generator if /etc/rc.local is executable.
+[Unit]
+Description=/etc/rc.local Compatibility
+ConditionFileIsExecutable=/etc/rc.local
+After=network.target
+
+[Service]
+Type=forking
+ExecStart=/etc/rc.local start
+TimeoutSec=0
+RemainAfterExit=yes
+
+[Install]  
+WantedBy=multi-user.target  
+Alias=rc-local.service
+```
+
+2. 创建rc.local监本，并添加执行权限
+
+```bash
+sudo touch /etc/rc.local
+# 重要！！
+sudo chmod a+x /etc/rc.local
+```
+
+3.  在[/etc/systemd/system]目录下创建软链接
+
+```bash
+ln -s /lib/systemd/system/rc.local.service /etc/systemd/system/
+```
+
+4. 在rc.local脚本中添加开机自启动的内容
+
+
+5. 测试reboot
+
+

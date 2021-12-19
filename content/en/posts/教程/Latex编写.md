@@ -99,3 +99,26 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 
 > https://tex.stackexchange.com/questions/358261/latex-font-warning-after-updating-to-texlive-2016
 
+
+
+
+### IEEE hyperref 无法链接参考文献
+
+编写Trans.文章的过程中法线，即使添加了hyperref的库，引用仍然是黑色的，并且没有链接
+
+找到原因 <https://blog.csdn.net/nkhgl/article/details/100108833>， 发生在ieeeconf.cls下
+
+解决办法：<https://tex.stackexchange.com/questions/247104/hyperref-doesnt-link-cite-command>
+
+```latex
+\makeatletter
+\let\NAT@parse\undefined
+\makeatother
+```
+
+加在\usepackage[colorlinks,citecolor=green]{hyperref}之前
+
+
+
+
+
