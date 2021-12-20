@@ -17,7 +17,7 @@ viewportSize = "normal" # widest, wider, wide, normal, narrow
 enableUiAnimation = true
 hideSingleContentsWhenJSDisabled = false
 enablePinnedPosts = true
-minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
+minItemsToShowInTagCloud = 3 # Minimum items to show in tag cloud
 
 # appbar
 enableAppbarSearchIcon = false
@@ -42,13 +42,14 @@ searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
 enableBreadcrumb = true
 enableGoToTop = true
 enableWhoami = true
-summaryShape = "classic" # card, classic, compact
+summaryShape = "compact" # card, classic, compact
 archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13
+archivePaginate = 15
 paginateWindow = 1
 talksPaginate = 5
 talksGroupByDate = "2006"
 pubPaginate = 20
+
 writtenTimeIcon = "📅"
 modifiedTimeIcon = "📝"
 readingTimeIcon = "☕"

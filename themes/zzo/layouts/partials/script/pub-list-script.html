@@ -47,7 +47,7 @@
       if (obj.publishDate) {
         var dateSpan = document.createElement('span');
         dateSpan.className = 'caption pub__meta';
-        dateSpan.innerText = '{{ ($.Site.Params.writtenTimeIcon | safeHTML) | default "📅" }} ' + obj.publishDate.slice(0, 10);
+        dateSpan.innerText = '{{ ($.Site.Params.writtenTimeIcon | safeHTML) | default "😊" }} ' + obj.publishDate.slice(0, 10);
         metaDiv.appendChild(dateSpan);
       }
 

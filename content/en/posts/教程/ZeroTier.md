@@ -7,11 +7,15 @@ categories:
 tags:
     - 内网穿透
     - Linux
+
+Author: MiaoMiaoYang
+
 ---
 
 > 注意：不是Zotero文献管理软件！
 >
 > **ZeroTier**是无公网IP的内网穿透的一种解决办法
+
 
 ## 注册账户
 
