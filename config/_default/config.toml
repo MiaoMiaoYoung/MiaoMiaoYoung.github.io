@@ -18,6 +18,7 @@ rssLimit = 100
 enableGitInfo = false
 googleAnalytics = ""
 
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
