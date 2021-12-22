@@ -365,6 +365,18 @@ The letter A is shown in <span class=k>\autoref</span><span class=nb>{</span>A<s
 </code></pre></td></tr></table>
 </div>
 </div><p>加在\usepackage[colorlinks,citecolor=green]{hyperref}之前</p>
+<h3 id=subfigure-错误>Subfigure 错误</h3>
+<p>IEEE 模板中想要添加子图，使用了\subfigure，想当然的添加了\usepackage{subfigure}，结果导致了下述错误：</p>
+<div class=highlight><div class=chroma>
+<table class=lntable><tr><td class=lntd>
+<pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td>
+<td class=lntd>
+<pre tabindex=0 class=chroma><code class=language-bash data-lang=bash>Missing number, treated as zero. &lt;to be <span class=nb>read</span> again&gt; 
+</code></pre></td></tr></table>
+</div>
+</div><p><a href=https://xovee.blog.csdn.net/article/details/106600220>https://xovee.blog.csdn.net/article/details/106600220</a></p>
+<p>导致的原因貌似是因为<em>subfigure</em>包太过久远，解决办法就是把*\usepackage{subfigure}<em>替换成最新的</em>\usepackage{subcaption}*就可以了</p>
 </article>
 <script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
@@ -512,6 +524,7 @@ See Also
 <ul>
 <li><a href=#ieee-template-xlatex-字体警告>IEEE Template Xlatex 字体警告</a></li>
 <li><a href=#ieee-hyperref-无法链接参考文献>IEEE hyperref 无法链接参考文献</a></li>
+<li><a href=#subfigure-错误>Subfigure 错误</a></li>
 </ul>
 </li>
 </ul>
