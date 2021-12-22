@@ -122,3 +122,16 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 
 
 
+
+### Subfigure 错误
+
+IEEE 模板中想要添加子图，使用了\subfigure，想当然的添加了\usepackage{subfigure}，结果导致了下述错误：
+
+```bash
+Missing number, treated as zero. <to be read again> 
+```
+
+<https://xovee.blog.csdn.net/article/details/106600220>
+
+导致的原因貌似是因为*subfigure*包太过久远，解决办法就是把*\usepackage{subfigure}*替换成最新的*\usepackage{subcaption}*就可以了
+
