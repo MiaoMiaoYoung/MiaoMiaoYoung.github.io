@@ -24,10 +24,10 @@ header:
     paddingX: 50
     paddingY: 0
     align: center
-    title:
-      - HELLO WORLD !
-    subtitle:
-      - 心有猛虎，细嗅蔷薇
+    # title:
+    #   - HELLO WORLD !
+    # subtitle:
+    #   - 心有猛虎，细嗅蔷薇
     titleColor: 
     titleShadow: true
     titleFontSize: 44
