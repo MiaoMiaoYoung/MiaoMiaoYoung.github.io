@@ -10,6 +10,11 @@ tags:
     - 读书笔记
 ---
 
+曾经的我也是挺爱读书的...
+
+![3.jpg](https://s2.loli.net/2022/01/09/T5cSBqnfrjMD6OI.jpg)
+![4.png](https://s2.loli.net/2022/01/09/RfIATLGehldaQxp.png)
+
 
 # Read Plan
 
