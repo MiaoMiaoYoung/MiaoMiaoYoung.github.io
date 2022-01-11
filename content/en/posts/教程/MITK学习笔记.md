@@ -531,7 +531,7 @@ int main(int argc, char *argv[])
     ds->Add(view2.GetRenderer()->GetCurrentWorldPlaneGeometryNode());
     ```
   
-### Step5
+## Step5
 
 在 <a href=".\MITK-4.md">Step4</a> 多个不同的视图（轴向及矢向）的基础上，增加人机交互
 
@@ -575,7 +575,7 @@ int main(int argc, char *argv[])
     ```
 
 
-### Step6
+## Step6
 
 在 <a href=".\MITK-5.md">Step5</a> 人机交互的基础上，使用区域增长
 
