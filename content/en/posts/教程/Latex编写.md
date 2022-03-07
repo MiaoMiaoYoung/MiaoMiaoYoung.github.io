@@ -125,10 +125,16 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 
 ### Subfigure 错误
 
+
+
 IEEE 模板中想要添加子图，使用了\subfigure，想当然的添加了\usepackage{subfigure}，结果导致了下述错误：
 
 ```bash
 Missing number, treated as zero. <to be read again> 
+```
+
+```bash
+Illegal unit of measure (pt inserted).
 ```
 
 <https://xovee.blog.csdn.net/article/details/106600220>
