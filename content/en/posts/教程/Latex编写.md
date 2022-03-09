@@ -141,3 +141,15 @@ Illegal unit of measure (pt inserted).
 
 导致的原因貌似是因为*subfigure*包太过久远，解决办法就是把*\usepackage{subfigure}*替换成最新的*\usepackage{subcaption}*就可以了
 
+
+### ACM Reference Format
+
+ACM 的 Latex 模板会有ACM Reference的信息，所以需要去掉
+
+在 \documentclass[sigconf]{acmart} 下面添加以下字段：
+
+```latex
+\settopmatter{printacmref=false} % Removes citation information below abstract
+\renewcommand\footnotetextcopyrightpermission[1]{} % removes footnote with conference information in first column
+\pagestyle{plain} % removes running headers
+```
