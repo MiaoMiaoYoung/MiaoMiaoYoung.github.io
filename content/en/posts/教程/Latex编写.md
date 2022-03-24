@@ -73,7 +73,33 @@ The letter A is shown in \autoref{A}
 ```
 
 
+### 表格的大小
 
+1. 调整宽度：设置列间距
+
+```latex
+\setlength{\tabcolsep}{7mm}{
+    Tabular...
+}
+```
+
+2. 调整高度：设置行间距
+
+```latex
+\begin{table}
+    \renewcommand\arraystretch{1.2}
+    \begin{tabular}
+    \end{tabular}
+\end{table}
+```
+
+不建议使用，效果不太好，会好多东西挤在一块，字体也会一块缩放
+
+```latex
+\begin{adjustbox}{width=.48\textwidth}{
+
+}
+```
 
 
 
