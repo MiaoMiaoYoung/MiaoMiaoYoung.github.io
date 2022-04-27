@@ -119,7 +119,7 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 
 然后找到了原因和解决办法，上述报错的这个字体是pdflatex中独有的，所以换成xelatex的就可以了，使用库：
 
-```
+```latex
 \usepackage[OT1]{fontenc}
 ```
 
@@ -147,6 +147,26 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 
 
 
+
+### IEEE 摘要对齐错误
+
+> https://blog.csdn.net/weixin_42998214/article/details/120048716
+
+需要对文本进行两端对齐时：
+
+```latex
+\usepackage{ragged2e}
+```
+
+
+在需要对齐的文字前面添加 **\justifying**，如：
+
+```latex
+\justifying
+\begin{abstract}
+...
+\end{abstract}
+```
 
 
 ### Subfigure 错误
