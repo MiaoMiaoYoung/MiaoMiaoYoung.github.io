@@ -444,3 +444,52 @@ Visual Studio 现在统一由安装包进行管理，下载之后点击之后，
 ![80.png](https://i.loli.net/2021/09/05/SnWEVLxvfP8Jq6c.png)
 
 就是将之前的DEBUG x64改为了Release x64，其中的报错和之前一样，这里就不重复了
+
+---------------------------------------------------------------------------------
+
+### 其他可能遇到的错误
+
+#### MSB806 自定义生成已退出，代码3
+
+![87.png](https://s2.loli.net/2022/05/30/kgKanjECB6Ity7Z.png)
+
+这个是看不出来任何问题的，双击这一条目，会在输出中看到具体的问题
+
+#### Assertion failed: hunk, file ../patch-2.5.9-src/patch.c, line 354
+
+![88.png](https://s2.loli.net/2022/05/30/6NU4mWKyeQ8VZs1.png)
+
+所以这里面其实显示的问题是
+
+```
+patching file Modules/Video/BridgeOpenCV/include/itkOpenCVVideoIO.h
+Assertion failed: hunk, file ../patch-2.5.9-src/patch.c, line 354
+```
+
+所以在网上查找发现问题：
+
+> https://blog.csdn.net/Victor_Ink/article/details/106925744
+
+> https://sourceforge.net/p/mitk/mailman/mitk-users/thread/ec274fa7935548f5a13edb7e74b98976%40dkfzex02n2.ad.dkfz-heidelberg.de/
+
+因为文件中的换行字符在Linux和Windows表现不同导致。（在git上下载的时候的问题）
+
+由于依赖项的patch、diff文件中，存在行尾换行字符不一致，所以导致了Assertion failed: hunk, file ../patch-2.5.9-src/patch.c, line 354错误的出现。
+
+所以解决办法，
+
+This can occur when using git. To solve it permanently, configure git with
+
+```bash
+git config –global core.autocrlf true
+```
+
+或者：
+
+As a quick fix you can run
+```bash
+find . –name "*" –exec unix2dos {} \; (from git bash)
+```
+within E:/MITK/CMakeExternals/
+
+找到了所有的LR结尾的文件，然后把他们改成CRLF就行

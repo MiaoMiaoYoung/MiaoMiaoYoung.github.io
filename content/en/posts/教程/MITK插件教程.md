@@ -18,7 +18,7 @@ enableTocContent: true
 
 ## 生成MITK插件
 
-> (不知道为啥现在的MITK不编译生成 MitkPluginGenerator.exe 了，但是不要紧，我们有以前的MitkPluginGenerator还可以用
+> (不知道为啥现在的MITK不编译生成 MitkPluginGenerator.exe 了，但是不要紧，我们有以前的[MitkPluginGenerator](https://miaomiaoyoung.github.io/en/posts/%E6%95%99%E7%A8%8B/MitkPluginGenerator.exe)还可以用
 
 ```bash
 MitkPluginGenerator.exe ^
