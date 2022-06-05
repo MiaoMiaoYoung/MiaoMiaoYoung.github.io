@@ -1,5 +1,5 @@
 ---
-title: "MITK插件教程 21.09.05"
+title: "MITK插件教程 22.06.01"
 date: 2021-09-05T11:02:33+08:00
 draft: false
 categories:
