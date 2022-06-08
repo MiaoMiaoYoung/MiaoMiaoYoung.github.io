@@ -1,5 +1,5 @@
 ---
-title: "群晖折腾指北"
+title: "群晖折腾指北-22.06.07"
 date: 2022-01-04T15:01:38+08:00
 draft: false
 categories:
@@ -89,3 +89,71 @@ https://dockerhub.azk8s.cn
 5. 设置 -> 控制台 -> 媒体库 -> [电影] -> 管理媒体库
 
 将 "启用实时监控"、"电影院数据下载器"全部取消勾选，重新扫描一下媒体库，就可以了
+
+## 意外断电
+
+家里意外断电之后，有一块硬盘正在读写数据，导致了群晖的报警，**此硬盘处于严重状态**
+
+![15.png](https://s2.loli.net/2022/06/07/uPo7GXJ4TAEYbvw.png)
+
+> https://kb.synology.cn/zh-cn/DSM/tutorial/Drive_in_abnormal_statuses
+
+后来根据上面的指导，停用了硬盘，但是存储空间出现了堪用的警告，于是暑期回家后，想着怎么解决这个问题
+
+首先想的就是一次停电会造成影响，但是损失一块硬盘觉得太难过了，于是看看硬盘是不是真的损坏了
+
+> https://kb.synology.cn/zh-cn/DSM/tutorial/What_do_I_do_when_a_volume_crashes
+
+首先在群晖上，执行了完整的SMART测试和IronWolf测试，显示都是正常和良好
+
+
+![17.png](https://s2.loli.net/2022/06/07/dSbspHtPgXl7DWj.png)
+
+然后又在diskgenius上进行了检测，发现健康状态也是良好
+
+![16.png](https://s2.loli.net/2022/06/07/DUfi6YLFt8swXl9.png)
+
+在diskgenius上检测了坏道，发现只有一个坏块，进行修复了一下，应该说硬盘状态还是不错的，但是在插到群晖上时发现群晖还是认为这块硬盘处于严重状态，不让使用
+
+![18.png](https://s2.loli.net/2022/06/07/Zyvw1iPN43ltFUX.png)
+
+很多文章说可以考虑重新初始化一下SMART信息，但是这个操作还是比较复杂的，而且我看了一下我的硬盘SMART的信息基本显示出来这块硬盘还是非常好的，没有严重的状态
+
+然后就看到了这个博客：
+
+> https://serverfault.com/questions/1095545/synology-storage-manager-rejects-healthy-disks-as-critical-because-of-reset-c
+
+发现了群晖中的日志系统会记录每个硬盘的状况和操作，于是在群晖里打开了这个硬盘的日志
+
+![14.png](https://s2.loli.net/2022/06/07/NYyQX26CLiAvadD.png)
+
+
+发现确实这个硬盘的所有动作都被群晖记录了下来，然后每回这个硬盘重新连接到NAS上，群晖就会检测到这个硬盘曾经出现过问题，所以不让用，那么接下来解决办法就比较清楚了，找到这个日志，并且删除它，看看能不能成功
+
+```bash
+root@diskstation:/# grep -r ZR52AGQE /var/*
+...
+Binary file /var/log/synolog/.SYNODISKDB matches
+Binary file /var/log/synolog/.SYNODISKHEALTHDB matches
+Binary file /var/log/synolog/.SYNODISKTESTDB matches
+...
+```
+
+**ZR52AGQE**为硬盘的序列号，不是机器的序列号，这个可以找出硬盘日志的位置，一般是在 /var/log/synolog 中，注意，这里要管理员权限，可以sudo su一下
+
+在/var/log/synolog中可以看到数据库文件.SYNODISKDB记录了硬盘的动作和操作信息，使用sqlite3命令行对这个数据库进行操作
+
+![13.png](https://s2.loli.net/2022/06/07/so2LZ6tUp8WxXDQ.png)
+
+首先查看一下日志，发现确实很多关于这个硬盘的错误信息，然后将这个硬盘的日志全部删去
+
+```SQL
+SELECT * FROM logs WHERE serial = 'ZR52AGQE';
+DELETE FROM logs WHERE serial = 'ZR52AGQE';
+DELETE FROM logs WHERE serial ='ZR52AGQE';
+```
+操作完之后，重启NAS，发现问题解决了
+
+接下来就是把这块“崭新”的硬盘，重新加入到存储池就好，修复一下存储空间就好
+
+后面为了防止再次断电的意外发生，还是鼓捣了一台UPS对群晖进行意外断电的保护
