@@ -77,9 +77,13 @@ tags:
 
     ![6.jpg](https://i.loli.net/2021/07/22/9kRXbMidF6qNxoH.jpg)
 
-2. 将本机的SSH Key放到用户目录的~/.ssh目录下，目录权限为700
+2. 将本机的SSH Key放到用户目录的~/.ssh目录下，.ssh目录权限为700 (chmod 700 .ssh)
 
-3. 将id_rsa.pub文件改名为：authorized_keys
+3. 将id_rsa.pub文件改名为：authorized_keys，authorized_keys权限为600 
+
+[注意，这里的权限是严格的700和600不能放松或者收紧，不然就还是需要密码登陆]
+
+>https://www.androiddev.net/ssh-public-key-authentication-error/
 
 ## 拆分窗口
 
