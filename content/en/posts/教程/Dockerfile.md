@@ -97,6 +97,11 @@ docker build -t miaomiaoyang/pytorch:test .
 nvidia-docker run -itd --name nnunet --shm-size 6G -p 8000:80 -p 10022:22 -p 5000:5000 -v /home/MiaoMiaoYang:/MiaoMiaoYang miaomiaoyang/pytorch:test /bin/bash
 ```
 
+```bash 
+docker run --gpus all -itd --name miao --shm-size 15G -p 8000:80 -p 10022:22 -p 5000:5000 -v ~/MiaoMiaoYang:/MiaoMiaoYang miaomiaoyang/pytorch:medical /bin/bash
+```
+
+
 ## Pytorch 示例
 
 - Dockerfile
