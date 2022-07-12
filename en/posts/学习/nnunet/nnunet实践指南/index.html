@@ -84,24 +84,48 @@
 </span></span><span class=line><span class=cl>    <span class=n>label</span><span class=p>[</span><span class=n>tumor</span> <span class=o>==</span> <span class=mi>1</span><span class=p>]</span> <span class=o>=</span> <span class=mi>2</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl>    <span class=n>save_medical_image</span><span class=p>(</span><span class=n>label</span><span class=p>,</span> <span class=n>label_path</span><span class=p>,</span> <span class=n>param</span><span class=p>)</span>
-</span></span></code></pre></td></tr></table></div></div></li><li><p>图像文件</p><p>图像文件夹需要拆分训练集和测试集，分别命名为（最好）：</p><p>训练集：imageTr；测试集：imageTs</p></li><li><p>文件命名</p><p>需要修改每一个文件的命名，格式为：Organ_XXX.nii.gz</p><p>Organ为器官名称，如:Pancreas</p><p>XXX表示三位不同的标识数字、</p><p>图像格式最好是.nii.gz</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
-</span><span class=lnt>2
-</span><span class=lnt>3
-</span><span class=lnt>4
-</span><span class=lnt>5
-</span><span class=lnt>6
-</span><span class=lnt>7
-</span><span class=lnt>8
-</span><span class=lnt>9
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=k>for</span> <span class=n>index</span><span class=p>,</span><span class=n>file</span> <span class=ow>in</span> <span class=n>tqdm</span><span class=p>(</span><span class=nb>enumerate</span><span class=p>(</span><span class=n>files</span><span class=p>),</span><span class=n>total</span><span class=o>=</span><span class=nb>len</span><span class=p>(</span><span class=n>files</span><span class=p>)):</span>
-</span></span><span class=line><span class=cl>    <span class=n>image_path</span> <span class=o>=</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>image_dire</span><span class=p>,</span> <span class=n>file</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>label_path</span> <span class=o>=</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>label_dire</span><span class=p>,</span> <span class=n>file</span><span class=p>)</span>
+</span></span></code></pre></td></tr></table></div></div></li><li><p>图像文件</p><p>图像文件夹需要拆分训练集和测试集，分别命名为（最好）：</p><p>训练集：imageTr；测试集：imageTs</p></li><li><p>文件命名</p><p>需要修改每一个文件的命名，格式为：Organ_XXX.nii.gz</p><p>Organ为器官名称，如:Pancreas</p><p>XXX表示三位不同的标识数字、</p><p>图像格式最好是.nii.gz</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
+</span><span class=lnt> 2
+</span><span class=lnt> 3
+</span><span class=lnt> 4
+</span><span class=lnt> 5
+</span><span class=lnt> 6
+</span><span class=lnt> 7
+</span><span class=lnt> 8
+</span><span class=lnt> 9
+</span><span class=lnt>10
+</span><span class=lnt>11
+</span><span class=lnt>12
+</span><span class=lnt>13
+</span><span class=lnt>14
+</span><span class=lnt>15
+</span><span class=lnt>16
+</span><span class=lnt>17
+</span><span class=lnt>18
+</span><span class=lnt>19
+</span><span class=lnt>20
+</span><span class=lnt>21
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>src_image_dire</span> <span class=o>=</span> <span class=s1>&#39;../../data/22.06.28/image&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>src_label_dire</span> <span class=o>=</span> <span class=s1>&#39;../../data/22.06.28/label&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>files</span> <span class=o>=</span> <span class=n>get_files_name</span><span class=p>(</span><span class=n>dire</span><span class=o>=</span><span class=n>src_image_dire</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>image</span><span class=p>,</span><span class=n>param</span> <span class=o>=</span> <span class=n>get_medical_image</span><span class=p>(</span><span class=n>image_path</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>label</span><span class=p>,</span><span class=n>_</span> <span class=o>=</span> <span class=n>get_medical_image</span><span class=p>(</span><span class=n>label_path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>dst_imageTr_dire</span> <span class=o>=</span> <span class=s1>&#39;./data/imagesTr&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>dst_imageTs_dire</span> <span class=o>=</span> <span class=s1>&#39;./data/imagesTs&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>dst_label_dire</span> <span class=o>=</span> <span class=s1>&#39;./data/labelsTr&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>os</span><span class=o>.</span><span class=n>makedirs</span><span class=p>(</span><span class=n>dst_imageTr_dire</span><span class=p>,</span> <span class=n>exist_ok</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>os</span><span class=o>.</span><span class=n>makedirs</span><span class=p>(</span><span class=n>dst_imageTs_dire</span><span class=p>,</span> <span class=n>exist_ok</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=n>os</span><span class=o>.</span><span class=n>makedirs</span><span class=p>(</span><span class=n>dst_label_dire</span><span class=p>,</span> <span class=n>exist_ok</span><span class=o>=</span><span class=kc>True</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=n>save_medical_image</span><span class=p>(</span><span class=n>image</span><span class=p>,</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>image_dire</span><span class=p>,</span><span class=s1>&#39;pancreas_</span><span class=si>{0:03d}</span><span class=s1>.nii.gz&#39;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>index</span><span class=o>+</span><span class=mi>1</span><span class=p>)),</span><span class=n>param</span><span class=p>)</span>
-</span></span><span class=line><span class=cl>    <span class=n>save_medical_image</span><span class=p>(</span><span class=n>label</span><span class=p>,</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>label_dire</span><span class=p>,</span><span class=s1>&#39;pancreas_</span><span class=si>{0:03d}</span><span class=s1>.nii.gz&#39;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>index</span><span class=o>+</span><span class=mi>1</span><span class=p>)),</span><span class=n>param</span><span class=p>)</span>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>index</span><span class=p>,</span> <span class=n>file</span> <span class=ow>in</span> <span class=n>tqdm</span><span class=p>(</span><span class=nb>enumerate</span><span class=p>(</span><span class=n>files</span><span class=p>),</span> <span class=n>total</span><span class=o>=</span><span class=nb>len</span><span class=p>(</span><span class=n>files</span><span class=p>)):</span>
+</span></span><span class=line><span class=cl>    <span class=n>image_path</span> <span class=o>=</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>src_image_dire</span><span class=p>,</span> <span class=n>file</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>label_path</span> <span class=o>=</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>src_label_dire</span><span class=p>,</span> <span class=n>file</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>image</span><span class=p>,</span> <span class=n>param</span> <span class=o>=</span> <span class=n>get_medical_image</span><span class=p>(</span><span class=n>image_path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>label</span><span class=p>,</span> <span class=n>_</span> <span class=o>=</span> <span class=n>get_medical_image</span><span class=p>(</span><span class=n>label_path</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=n>save_medical_image</span><span class=p>(</span><span class=n>image</span><span class=p>,</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>dst_imageTr_dire</span> <span class=k>if</span> <span class=n>index</span> <span class=o>&lt;</span> <span class=mi>60</span> <span class=k>else</span> <span class=n>dst_imageTs_dire</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>                                           <span class=s1>&#39;LAA_</span><span class=si>{0:03d}</span><span class=s1>.nii.gz&#39;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>index</span> <span class=o>+</span> <span class=mi>1</span><span class=p>)),</span> <span class=n>param</span><span class=p>)</span>
+</span></span><span class=line><span class=cl>    <span class=n>save_medical_image</span><span class=p>(</span><span class=n>label</span><span class=p>,</span> <span class=n>os</span><span class=o>.</span><span class=n>path</span><span class=o>.</span><span class=n>join</span><span class=p>(</span><span class=n>dst_label_dire</span><span class=p>,</span> <span class=s1>&#39;LAA_</span><span class=si>{0:03d}</span><span class=s1>.nii.gz&#39;</span><span class=o>.</span><span class=n>format</span><span class=p>(</span><span class=n>index</span> <span class=o>+</span> <span class=mi>1</span><span class=p>)),</span> <span class=n>param</span><span class=p>)</span>
 </span></span></code></pre></td></tr></table></div></div></li></ol><hr><p>整理完成的数据集文件夹应该是（dataset.json文件后续生成）：</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
 </span><span class=lnt> 3
