@@ -81,15 +81,27 @@ data
     图像格式最好是.nii.gz
 
     ```python 
-    for index,file in tqdm(enumerate(files),total=len(files)):
-        image_path = os.path.join(image_dire, file)
-        label_path = os.path.join(label_dire, file)
+    src_image_dire = '../../data/22.06.28/image'
+    src_label_dire = '../../data/22.06.28/label'
+    files = get_files_name(dire=src_image_dire)
 
-        image,param = get_medical_image(image_path)
-        label,_ = get_medical_image(label_path)
+    dst_imageTr_dire = './data/imagesTr'
+    dst_imageTs_dire = './data/imagesTs'
+    dst_label_dire = './data/labelsTr'
+    os.makedirs(dst_imageTr_dire, exist_ok=True)
+    os.makedirs(dst_imageTs_dire, exist_ok=True)
+    os.makedirs(dst_label_dire, exist_ok=True)
 
-        save_medical_image(image, os.path.join(image_dire,'pancreas_{0:03d}.nii.gz'.format(index+1)),param)
-        save_medical_image(label, os.path.join(label_dire,'pancreas_{0:03d}.nii.gz'.format(index+1)),param)
+    for index, file in tqdm(enumerate(files), total=len(files)):
+        image_path = os.path.join(src_image_dire, file)
+        label_path = os.path.join(src_label_dire, file)
+
+        image, param = get_medical_image(image_path)
+        label, _ = get_medical_image(label_path)
+
+        save_medical_image(image, os.path.join(dst_imageTr_dire if index < 60 else dst_imageTs_dire,
+                                               'LAA_{0:03d}.nii.gz'.format(index + 1)), param)
+        save_medical_image(label, os.path.join(dst_label_dire, 'LAA_{0:03d}.nii.gz'.format(index + 1)), param)
     ```
 
 -------------------------------------
