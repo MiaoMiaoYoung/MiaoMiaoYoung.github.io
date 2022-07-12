@@ -40,3 +40,15 @@ tags:
 ![7.png](https://s2.loli.net/2021/12/15/jPilBSr1EqexDmO.png)
 
 > 使用了ZotFile对文件名进行重设置，但是好像暂时没有发现它的真实用处，这里暂时不讲，到此坚果云也可以同步Zotero的文件
+
+## 标签设计
+
+1. 任务： Segmentation, Classificaion, Generation ...
+2. 器官： Skin, Liver, Pancreas, Protast ...
+    - 包含肿瘤： Tumor
+3. 方法： Geometry / Pixel / Multi-Annotation ...
+4. 数据： CT / MR / Ultrasound / JPG
+5. 包含了数据集： dataset
+6. 包含了代码： code
+7. 特定数据集上的任务： ImageNet-LT, Cifar-100-LT, MSD
+
