@@ -226,3 +226,14 @@ pl.show()
 但是不知道为啥，这个库demo可以跑，但是用在我项目里就会段错误segment fault，不过例子还是很好看的
 
 
+## Mesh IO
+
+### pymeshlab
+
+```python
+import pymeshlab
+ms = pymeshlab.MeshSet()
+ms.load_new_mesh('airplane.obj')
+ms.generate_convex_hull()
+ms.save_current_mesh('convex_hull.ply')
+```
