@@ -1,0 +1,29 @@
+<!--Embeds an HTML5 audio control widget into the webpage
+	See documentation for more details.
+		'docs/shortcodes/audio.md'
+-->
+<audio controls
+	class="audio_controls {{ .Get "class" }}"
+	{{ with .Get "id" }}id="{{ . }}"{{ end }}
+	{{ with .Get "preload" }}preload="{{ . }}"{{ else }}preload="none"{{ end }}
+	
+	style="{{ with .Get "style" }}{{ . | safeCSS }}; {{ end }}
+		{{ with .Get "width" }}width:{{ . }}; {{ end }}
+		{{ with .Get "height" }}height:{{ . }};{{ end }}"
+	{{ with .Get "title" }}data-info-title="{{ . }}"{{ end }}
+	{{ with .Get "attr" }}data-info-attr="{{ . }}"{{ end }}
+	{{ with .Get "attr_link" }}data-info-attr-link="{{ . }}"{{ end }}
+	{{ with .Get "year" }}data-info-year="{{ . }}"{{ end }}
+	{{ with .Get "artist" }}data-info-artist="{{ . }}"{{ end }}
+	{{ with .Get "album_title" }}data-info-album-title="{{ . }}"{{ end }}
+	{{ with .Get "album_art" }}data-info-album-art="{{ . }}"{{ end }}
+	{{ with .Get "label" }}data-info-label="{{ . }}"{{ end }}
+>
+	{{ if .Get "id" }}
+	<source {{ with .Get "id" }}src="https://drive.google.com/u/0/uc?id={{ . }}&amp;export=download"{{ end }}
+		{{ with .Get "type" }}type="audio/{{ . }}"{{ end }}>
+	{{ end }}
+	Your browser does not support the audio element
+</audio>
+
+
