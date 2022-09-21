@@ -40,7 +40,7 @@ normals = np.cross(p1 - p0, p2 - p0)
 
 
 
-### pymeshlab
+### PyMeshlab
 
 [Import Mesh From Arrays](https://github.com/cnr-isti-vclab/PyMeshLab/blob/main/pymeshlab/tests/example_import_mesh_from_arrays.py)
 
@@ -120,34 +120,25 @@ return mesh.vertex_matrix(), mesh.face_matrix()
 
 这里如果直接返回mesh不知道为啥返回不成功，所以就返回点、面的array，然后在上一级使用pymeshlab.Mesh(verts, faces)再重构出来
 
-### numpy-stl
+### Numpy-STL
+
+> https://numpy-stl.readthedocs.io/en/latest/usage.html#creating-mesh-objects-from-a-list-of-vertices-and-faces
 
 ```python
 from stl import mesh
+import numpy
 import stl
 
-data = numpy.zeros(6, dtype=Mesh.dtype)
-data['vectors'][0] = numpy.array([[1, 0, 0],
-                                  [0, 0, 0],
-                                  [0, 0, 0]])
-data['vectors'][1] = numpy.array([[2, 0, 0],
-                                  [0, 0, 0],
-                                  [0, 0, 0]])
-data['vectors'][2] = numpy.array([[0, 0, 0],
-                                  [0, 0, 0],
-                                  [0, 0, 0]])
-data['vectors'][3] = numpy.array([[2, 0, 0],
-                                  [0, 0, 0],
-                                  [0, 0, 0]])
-data['vectors'][4] = numpy.array([[1, 0, 0],
-                                  [0, 0, 0],
-                                  [0, 0, 0]])
-data['vectors'][5] = numpy.array([[0, 0, 0],
-                                  [0, 0, 0],
-                                  [0, 0, 0]])
+data = numpy.zeros(2, dtype=mesh.Mesh.dtype)
+data['vectors'][0] = numpy.array([[-1, -1, -1],
+                                  [+1, -1, -1],
+                                  [+1, +1, -1]])
+data['vectors'][1] = numpy.array([[-1, +1, -1],
+                                  [-1, -1, +1],
+                                  [+1, -1, +1]])
 
-mesh = Mesh(data)
-mesh.save(save_path, mode=stl.Mode.ASCII)
+mesh = mesh.Mesh(data)
+mesh.save('./test.stl', mode=stl.Mode.ASCII)
 ```
 
 多个mesh进行拼接：
@@ -160,6 +151,44 @@ def combined_stl(meshes, save_path="./combined.stl"):
     # print(combined.is_closed())
     combined.save(save_path, mode=stl.Mode.ASCII)
 ```
+
+
+
+### PyVista
+
+> https://docs.pyvista.org/examples/00-load/create-poly.html
+
+
+需要注意，Pyvista和其他略微不同，Pyvista的face需要指定是几个点构成一个面，可能出现由4个点构成的一个面，而其他库大都以三角面片为准
+
+```python
+# mesh points
+vertices = np.array([[0, 0, 0], [1, 0, 0], [1, 1, 0], [0, 1, 0], [0.5, 0.5, -1]])
+
+# mesh faces
+faces = np.hstack(
+    [
+        [4, 0, 1, 2, 3],  # square
+        [3, 0, 1, 4],  # triangle
+        [3, 1, 2, 4],  # triangle
+    ]
+)
+
+surf = pv.PolyData(vertices, faces)
+
+# plot each face with a different color
+surf.plot(
+    scalars=np.arange(3),
+    cpos=[-1, 1, 0.5],
+    show_scalar_bar=False,
+    show_edges=True,
+    line_width=5,
+)
+```
+
+
+### Trimesh
+
 
 ## 合并 Mesh
 
@@ -236,4 +265,16 @@ ms = pymeshlab.MeshSet()
 ms.load_new_mesh('airplane.obj')
 ms.generate_convex_hull()
 ms.save_current_mesh('convex_hull.ply')
+```
+
+## PyVista
+
+```python
+import pyvista
+
+mesh = pv.read(filename)
+cpos = mesh.plot()
+
+sphere = pyvista.Sphere()
+sphere.save('my_mesh.stl')
 ```
