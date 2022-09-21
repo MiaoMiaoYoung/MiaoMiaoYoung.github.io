@@ -97,8 +97,11 @@ The letter A is shown in \autoref{A}
 
 ```latex
 \begin{adjustbox}{width=.48\textwidth}{
-
+    \begin{tabular}  
+    ...
+    \end{tabular}  
 }
+\end{adjustbox}
 ```
 
 
