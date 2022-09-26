@@ -267,7 +267,7 @@ ms.generate_convex_hull()
 ms.save_current_mesh('convex_hull.ply')
 ```
 
-## PyVista
+### PyVista
 
 ```python
 import pyvista

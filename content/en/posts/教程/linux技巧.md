@@ -183,3 +183,16 @@ ln -s /lib/systemd/system/rc.local.service /etc/systemd/system/
 5. 测试reboot
 
 
+
+## Linux 命令别名
+
+在~/.bashrc文件（用户配置文件）中修改：
+
+```bash
+alias work='cd /mnt/cache/yangxiaoyu/MiaoMiaoYang/VesselSeg/; conda activate miao-torch'
+alias data='cd /mnt/petrelfs/yangxiaoyu/'
+alias pid='squeue | grep yangxiao'
+alias nv='WatchNV(){ swatch -n $1 nv always;};WatchNV'
+```
+
+其中 nv 表示了带参数的命令的写法
