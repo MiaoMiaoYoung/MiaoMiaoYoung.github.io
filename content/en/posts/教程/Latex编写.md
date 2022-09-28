@@ -72,6 +72,18 @@ The letter A is shown in \autoref{A}
 \end{document}
 ```
 
+### 旋转图片
+
+```latex
+\usepackage{rotating}
+
+\begin{sidewaysfigure}
+  \centering
+  \includegraphics[width=0.99\textwidth]{./figures.pdf}
+  \caption{Caption Here.}
+  \label{fig:workflow}
+\end{sidewaysfigure}
+```
 
 ### 表格的大小
 
