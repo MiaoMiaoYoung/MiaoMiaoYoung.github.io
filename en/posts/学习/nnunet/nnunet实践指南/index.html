@@ -22,7 +22,7 @@
 <a href=/en/gallery/photo class=navbar__dropdown--item dir=ltr>Photo</a></div></div><a href=/en/posts class="navbar__menu-item navbar__slide-down active" dir=ltr data-ani=true>Posts</a>
 <a href=/en/showcase class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>Showcase</a>
 <a href=/en/publication class="navbar__menu-item navbar__slide-down" dir=ltr data-ani=true>Pub</a></div></nav><main class="single__main main-main"><nav class="breadcrumb hide" aria-label=breadcrumbs><script>document.querySelector(".breadcrumb").classList.remove("hide")</script><ol><li><a href=https://miaomiaoyoung.github.io/en/ class=capitalize>MiaoMiaoYang's BLOG</a></li><li><a href=https://miaomiaoyoung.github.io/en/posts/ class=capitalize>Posts</a></li><li class=is-active><span>nnunet实践指南</span></li></ol></nav><div class=single><div class=single__nojs>This page looks best with JavaScript enabled</div><script>document.querySelector(".single").classList.remove("hide"),document.querySelector(".single__nojs").classList.add("hide")</script><h2 class=single__title data-ani=true>nnunet实践指南</h2><h3 class=single__subtitle></h3><div class=single__meta><div class=single__infos><time class=single__info title="Written At">📅&nbsp;Jul 19, 2021</time>
-&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time">☕&nbsp;6&nbsp;min read</span>
+&nbsp;&#183;&nbsp; <span class=single__info title="Reading Time">☕&nbsp;7&nbsp;min read</span>
 <span class=single__info></span></div><ul class="single__tags caption">🏷️<li><a href=https://miaomiaoyoung.github.io/en/tags/%E4%BB%A3%E7%A0%81%E5%A4%8D%E7%8E%B0/ class=single__tag title=代码复现>#代码复现</a></li><li><a href=https://miaomiaoyoung.github.io/en/tags/%E5%8C%BB%E5%AD%A6%E5%9B%BE%E5%83%8F/ class=single__tag title=医学图像>#医学图像</a></li><li><a href=https://miaomiaoyoung.github.io/en/tags/%E5%88%86%E5%89%B2/ class=single__tag title=分割>#分割</a></li><li><a href=https://miaomiaoyoung.github.io/en/tags/nnunet/ class=single__tag title=nnunet>#nnunet</a></li></ul></div><article class=single__contents data-dir=ltr data-ani=true><div class=expand><button type=button class=expand__button aria-label="Expand Button">
 <span class="expand-icon expand-icon__right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentcolor" d="M9.29 15.88 13.17 12 9.29 8.12c-.39-.39-.39-1.02.0-1.41.39-.39 1.02-.39 1.41.0l4.59 4.59c.39.39.39 1.02.0 1.41L10.7 17.3c-.39.39-1.02.39-1.41.0-.38-.39-.39-1.03.0-1.42z"/></svg></span>What's on this Page</button><div class="expand__content expand__content--toc"><nav id=TableOfContents><ul><li><a href=#数据集处理>数据集处理</a><ul><li><a href=#数据集文件>数据集文件</a></li><li><a href=#datasetjson>dataset.json</a></li><li><a href=#完成>完成</a></li></ul></li><li><a href=#nnunet配置>nnUNet配置</a><ul><li><a href=#下载安装nnunet>下载安装nnUNet</a></li><li><a href=#设置路径>设置路径</a></li></ul></li><li><a href=#转换数据集>转换数据集</a></li><li><a href=#数据进行预处理>数据进行预处理</a></li><li><a href=#训练>训练</a><ul><li><a href=#2d-u-net>2D U-Net</a></li><li><a href=#3d-full-resolution-u-net>3D full resolution U-Net</a></li><li><a href=#3d-u-net-cascade>3D U-Net cascade</a></li></ul></li><li><a href=#测试>测试</a></li><li><a href=#修改nnunet损失函数>修改nnUNet损失函数</a></li></ul></nav></div></div><h2 id=数据集处理>数据集处理</h2><blockquote><p>官方要求在这里：https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/dataset_conversion.md</p></blockquote><p>现有的数据集是按照如下目录进行排列的，其中器官标签organ文件夹和肿瘤标签文件夹tumor中的标签文件都是0-1标签文件。</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
 </span><span class=lnt> 2
@@ -588,13 +588,85 @@
 </span></span><span class=line><span class=cl>    <span class=sb>`</span>-- nnUNet
 </span></span></code></pre></td></tr></table></div></div><h2 id=训练>训练</h2><blockquote><p>参考：https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/training_example_Hippocampus.md</p></blockquote><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nnUNet_train CONFIGURATION TRAINER_CLASS_NAME TASK_NAME_OR_ID FOLD  --npz <span class=o>(</span>additional options<span class=o>)</span>
-</span></span></code></pre></td></tr></table></div></div><p>选择相对应的模型进行训练:</p><h3 id=2d-u-net>2D U-Net</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></span></code></pre></td></tr></table></div></div><pre tabindex=0><code>usage: nnUNet_train [-h] [-val] [-c] [-p P] [--use_compressed_data] [--deterministic] [--npz] [--find_lr] [--valbest] [--fp32] [--val_folder VAL_FOLDER] [--disable_saving]
+                    [--disable_postprocessing_on_folds] [--val_disable_overwrite] [--disable_next_stage_pred] [-pretrained_weights PRETRAINED_WEIGHTS]
+                    network network_trainer task fold
+
+positional arguments:
+  network
+  network_trainer
+  task                  can be task name or task id
+  fold                  0, 1, ..., 5 or &#39;all&#39;
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -val, --validation_only
+                        use this if you want to only run the validation
+  -c, --continue_training
+                        use this if you want to continue a training
+  -p P                  plans identifier. Only change this if you created a custom experiment planner
+  --use_compressed_data
+                        If you set use_compressed_data, the training cases will not be decompressed. Reading compressed data is much more CPU and RAM intensive and should only be used if you
+                        know what you are doing
+  --deterministic       Makes training deterministic, but reduces training speed substantially. I (Fabian) think this is not necessary. Deterministic training will make you overfit to some
+                        random seed. Don&#39;t use that.
+  --npz                 if set then nnUNet will export npz files of predicted segmentations in the validation as well. This is needed to run the ensembling step so unless you are developing
+                        nnUNet you should enable this
+  --find_lr             not used here, just for fun
+  --valbest             hands off. This is not intended to be used
+  --fp32                disable mixed precision training and run old school fp32
+  --val_folder VAL_FOLDER
+                        name of the validation folder. No need to use this for most people
+  --disable_saving      If set nnU-Net will not save any parameter files (except a temporary checkpoint that will be removed at the end of the training). Useful for development when you are
+                        only interested in the results and want to save some disk space
+  --disable_postprocessing_on_folds
+                        Running postprocessing on each fold only makes sense when developing with nnU-Net and closely observing the model performance on specific configurations. You do not
+                        need it when applying nnU-Net because the postprocessing for this will be determined only once all five folds have been trained and nnUNet_find_best_configuration is
+                        called. Usually running postprocessing on each fold is computationally cheap, but some users have reported issues with very large images. If your images are large
+                        (&gt;600x600x600 voxels) you should consider setting this flag.
+  --val_disable_overwrite
+                        Validation does not overwrite existing segmentations
+  --disable_next_stage_pred
+                        do not predict next stage
+  -pretrained_weights PRETRAINED_WEIGHTS
+                        path to nnU-Net checkpoint file to be used as pretrained model (use .model file, for example model_final_checkpoint.model). Will only be used when actually training.
+                        Optional. Beta. Use with caution.
+</code></pre><p>选择相对应的模型进行训练:</p><h3 id=2d-u-net>2D U-Net</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nnUNet_train 2d nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
 </span></span></code></pre></td></tr></table></div></div><h3 id=3d-full-resolution-u-net>3D full resolution U-Net</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nnUNet_train 3d_fullres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
-</span></span></code></pre></td></tr></table></div></div><h3 id=3d-u-net-cascade>3D U-Net cascade</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></span></code></pre></td></tr></table></div></div><h3 id=3d-u-net-cascade>3D U-Net cascade</h3><p>级联Unet需要两阶段运行</p><ul><li><p>Stage 1</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nnUNet_train 3d_lowres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
+</span></span></code></pre></td></tr></table></div></div></li><li><p>Stage 2</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
-</span></span></code></pre></td></tr></table></div></div><h2 id=测试>测试</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></span></code></pre></td></tr></table></div></div></li></ul><p>第一阶段训练完后，RESULT_FOLDER的结果应该如下：</p><pre tabindex=0><code>RESULTS_FOLDER/nnUNet/
+└─ 3d_lowres
+   └── Task02_Heart
+       └── nnUNetTrainerV2__nnUNetPlansv2.1
+           ├── fold_0
+           │   ├── debug.json
+           │   ├── model_best.model
+           │   ├── model_best.model.pkl
+           │   ├── model_final_checkpoint.model
+           │   ├── model_final_checkpoint.model.pkl
+           │   ├── network_architecture.pdf
+           │   ├── progress.png
+           │   └── validation_raw
+           │       ├── la_007.nii.gz
+           │       ├── la_007.pkl
+           │       ├── la_016.nii.gz
+           │       ├── la_016.pkl
+           │       ├── la_021.nii.gz
+           │       ├── la_021.pkl
+           │       ├── la_024.nii.gz
+           │       ├── la_024.pkl
+           │       ├── summary.json
+           │       └── validation_args.json
+           ├── fold_1
+           ├── fold_2
+           ├── fold_3
+           └── fold_4
+</code></pre><blockquote><p>可能会出现没有 validation_raw 文件夹的情况，这个时候重新预测一遍就好了, nnUNet_train 搭配 -val 参数就可以只进行验证 （但是必须要有model_final_checkpoint.model 、 model_final_checkpoint.model.pkl 文件）</p></blockquote><h2 id=测试>测试</h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>nnUNet_predict -i nnUNet_raw_data_base/nnUNet_raw_data/Task005_Prostate/imagesTs/ -o OUTPUT_DIRECTORY -t Task005_Prostate -m 3d_fullres -f <span class=m>0</span>
 </span></span></code></pre></td></tr></table></div></div><ul><li>&lsquo;-i&rsquo;: 输入图像路径，需要经过数据的预处理</li><li>&lsquo;-o&rsquo;: 生成label的输出文件夹</li><li>&lsquo;-t&rsquo;: 任务标号，可全称，如:Task005_Prostate</li><li>&lsquo;-m&rsquo;: 模型种类</li><li>&lsquo;-f&rsquo;: [可选]，制定交叉验证的折进行预测</li></ul><hr><h2 id=修改nnunet损失函数>修改nnUNet损失函数</h2><blockquote><p><a href=https://github.com/MIC-DKFZ/nnUNet/tree/master/documentation/extending_nnunet.md>https://github.com/MIC-DKFZ/nnUNet/tree/master/documentation/extending_nnunet.md</a></p></blockquote><ul><li>在"nnUNet\nnunet\training\loss_functions"添加新的损失函数</li></ul><p>&ldquo;nnUNet\nnunet\training\network_training"中保留了许多的训练策略，比如 &ldquo;nnUNetTrainerV2CascadeFullRes&rdquo;</p><p>其中的继承关系：nnUNetTrainerV2CascadeFullRes → nnUNetTrainerV2 → nnUNetTrainer</p><p>可以看到，这个里面使用的损失函数是：&ldquo;from nnunet.training.loss_functions.dice_loss import DC_and_CE_loss&rdquo;</p></article><script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
