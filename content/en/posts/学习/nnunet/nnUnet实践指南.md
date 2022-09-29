@@ -438,6 +438,52 @@ Folder
 nnUNet_train CONFIGURATION TRAINER_CLASS_NAME TASK_NAME_OR_ID FOLD  --npz (additional options)
 ```
 
+```
+usage: nnUNet_train [-h] [-val] [-c] [-p P] [--use_compressed_data] [--deterministic] [--npz] [--find_lr] [--valbest] [--fp32] [--val_folder VAL_FOLDER] [--disable_saving]
+                    [--disable_postprocessing_on_folds] [--val_disable_overwrite] [--disable_next_stage_pred] [-pretrained_weights PRETRAINED_WEIGHTS]
+                    network network_trainer task fold
+
+positional arguments:
+  network
+  network_trainer
+  task                  can be task name or task id
+  fold                  0, 1, ..., 5 or 'all'
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -val, --validation_only
+                        use this if you want to only run the validation
+  -c, --continue_training
+                        use this if you want to continue a training
+  -p P                  plans identifier. Only change this if you created a custom experiment planner
+  --use_compressed_data
+                        If you set use_compressed_data, the training cases will not be decompressed. Reading compressed data is much more CPU and RAM intensive and should only be used if you
+                        know what you are doing
+  --deterministic       Makes training deterministic, but reduces training speed substantially. I (Fabian) think this is not necessary. Deterministic training will make you overfit to some
+                        random seed. Don't use that.
+  --npz                 if set then nnUNet will export npz files of predicted segmentations in the validation as well. This is needed to run the ensembling step so unless you are developing
+                        nnUNet you should enable this
+  --find_lr             not used here, just for fun
+  --valbest             hands off. This is not intended to be used
+  --fp32                disable mixed precision training and run old school fp32
+  --val_folder VAL_FOLDER
+                        name of the validation folder. No need to use this for most people
+  --disable_saving      If set nnU-Net will not save any parameter files (except a temporary checkpoint that will be removed at the end of the training). Useful for development when you are
+                        only interested in the results and want to save some disk space
+  --disable_postprocessing_on_folds
+                        Running postprocessing on each fold only makes sense when developing with nnU-Net and closely observing the model performance on specific configurations. You do not
+                        need it when applying nnU-Net because the postprocessing for this will be determined only once all five folds have been trained and nnUNet_find_best_configuration is
+                        called. Usually running postprocessing on each fold is computationally cheap, but some users have reported issues with very large images. If your images are large
+                        (>600x600x600 voxels) you should consider setting this flag.
+  --val_disable_overwrite
+                        Validation does not overwrite existing segmentations
+  --disable_next_stage_pred
+                        do not predict next stage
+  -pretrained_weights PRETRAINED_WEIGHTS
+                        path to nnU-Net checkpoint file to be used as pretrained model (use .model file, for example model_final_checkpoint.model). Will only be used when actually training.
+                        Optional. Beta. Use with caution.
+```
+
 选择相对应的模型进行训练:
 
 ### 2D U-Net
@@ -454,9 +500,54 @@ nnUNet_train 3d_fullres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
 
 ### 3D U-Net cascade
 
-```bash
-nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
+级联Unet需要两阶段运行
+
+- Stage 1
+
+    ```bash
+    nnUNet_train 3d_lowres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
+    ```
+
+- Stage 2
+
+    ```bash
+    nnUNet_train 3d_cascade_fullres nnUNetTrainerV2CascadeFullRes TaskXXX_MYTASK FOLD --npz
+    ```
+
+第一阶段训练完后，RESULT_FOLDER的结果应该如下：
+
 ```
+RESULTS_FOLDER/nnUNet/
+└─ 3d_lowres
+   └── Task02_Heart
+       └── nnUNetTrainerV2__nnUNetPlansv2.1
+           ├── fold_0
+           │   ├── debug.json
+           │   ├── model_best.model
+           │   ├── model_best.model.pkl
+           │   ├── model_final_checkpoint.model
+           │   ├── model_final_checkpoint.model.pkl
+           │   ├── network_architecture.pdf
+           │   ├── progress.png
+           │   └── validation_raw
+           │       ├── la_007.nii.gz
+           │       ├── la_007.pkl
+           │       ├── la_016.nii.gz
+           │       ├── la_016.pkl
+           │       ├── la_021.nii.gz
+           │       ├── la_021.pkl
+           │       ├── la_024.nii.gz
+           │       ├── la_024.pkl
+           │       ├── summary.json
+           │       └── validation_args.json
+           ├── fold_1
+           ├── fold_2
+           ├── fold_3
+           └── fold_4
+```
+
+> 可能会出现没有 validation_raw 文件夹的情况，这个时候重新预测一遍就好了, nnUNet_train 搭配 -val 参数就可以只进行验证 （但是必须要有model_final_checkpoint.model 、 model_final_checkpoint.model.pkl 文件）
+
 
 ## 测试
 
