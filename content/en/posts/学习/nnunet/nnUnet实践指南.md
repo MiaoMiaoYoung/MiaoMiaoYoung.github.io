@@ -517,33 +517,88 @@ nnUNet_train 3d_fullres nnUNetTrainerV2 TaskXXX_MYTASK FOLD --npz
 第一阶段训练完后，RESULT_FOLDER的结果应该如下：
 
 ```
-RESULTS_FOLDER/nnUNet/
-└─ 3d_lowres
-   └── Task02_Heart
-       └── nnUNetTrainerV2__nnUNetPlansv2.1
-           ├── fold_0
-           │   ├── debug.json
-           │   ├── model_best.model
-           │   ├── model_best.model.pkl
-           │   ├── model_final_checkpoint.model
-           │   ├── model_final_checkpoint.model.pkl
-           │   ├── network_architecture.pdf
-           │   ├── progress.png
-           │   └── validation_raw
-           │       ├── la_007.nii.gz
-           │       ├── la_007.pkl
-           │       ├── la_016.nii.gz
-           │       ├── la_016.pkl
-           │       ├── la_021.nii.gz
-           │       ├── la_021.pkl
-           │       ├── la_024.nii.gz
-           │       ├── la_024.pkl
-           │       ├── summary.json
-           │       └── validation_args.json
-           ├── fold_1
-           ├── fold_2
-           ├── fold_3
-           └── fold_4
+(RESULTS_FOLDER) nnUNet_trained_models
+└── nnUNet
+    └── 3d_lowres
+        └── Task099_Organ
+            └── nnUNetTrainerV2__nnUNetPlansv2.1
+                ├── fold_0
+                │   ├── debug.json
+                │   ├── model_best.model
+                │   ├── model_best.model.pkl
+                │   ├── model_final_checkpoint.model
+                │   ├── model_final_checkpoint.model.pkl
+                │   ├── model_latest.model
+                │   ├── model_latest.model.pkl
+                │   ├── postprocessing.json
+                │   ├── progress.png
+                │   ├── training_log_2022_9_28_20_52_08.txt
+                │   ├── training_log_2022_9_28_21_13_23.txt
+                │   ├── training_log_2022_9_29_10_05_59.txt
+                │   ├── validation_raw
+                │   │   ├── Organ_004.nii.gz
+                │   │   ├── Organ_009.nii.gz
+                │   │   ├── Organ_014.nii.gz
+                │   │   ├── Organ_017.nii.gz
+                │   │   ├── summary.json
+                │   │   └── validation_args.json
+                │   └── validation_raw_postprocessed
+                │       ├── Organ_004.nii.gz
+                │       ├── Organ_009.nii.gz
+                │       ├── Organ_014.nii.gz
+                │       ├── Organ_017.nii.gz
+                │       └── summary.json
+                ├── fold_1
+                |   └── ...
+                ├── fold_2
+                |   └── ...
+                ├── fold_3
+                |   └── ...
+                ├── fold_4
+                |   └── ...
+                ├── gt_niftis
+                │   ├── Organ_001.nii.gz
+                │   ├── Organ_002.nii.gz
+                │   ├── Organ_003.nii.gz
+                │   ├── Organ_004.nii.gz
+                │   ├── Organ_005.nii.gz
+                │   ├── Organ_006.nii.gz
+                │   ├── Organ_007.nii.gz
+                │   ├── Organ_008.nii.gz
+                │   ├── Organ_009.nii.gz
+                │   ├── Organ_010.nii.gz
+                │   ├── Organ_011.nii.gz
+                │   ├── Organ_012.nii.gz
+                │   ├── Organ_013.nii.gz
+                │   ├── Organ_014.nii.gz
+                │   ├── Organ_015.nii.gz
+                │   ├── Organ_016.nii.gz
+                │   ├── Organ_017.nii.gz
+                │   ├── Organ_018.nii.gz
+                │   ├── Organ_019.nii.gz
+                │   └── Organ_020.nii.gz
+                ├── plans.pkl
+                └── pred_next_stage
+                    ├── Organ_001_segFromPrevStage.npz
+                    ├── Organ_002_segFromPrevStage.npz
+                    ├── Organ_003_segFromPrevStage.npz
+                    ├── Organ_004_segFromPrevStage.npz
+                    ├── Organ_005_segFromPrevStage.npz
+                    ├── Organ_006_segFromPrevStage.npz
+                    ├── Organ_007_segFromPrevStage.npz
+                    ├── Organ_008_segFromPrevStage.npz
+                    ├── Organ_009_segFromPrevStage.npz
+                    ├── Organ_010_segFromPrevStage.npz
+                    ├── Organ_011_segFromPrevStage.npz
+                    ├── Organ_012_segFromPrevStage.npz
+                    ├── Organ_013_segFromPrevStage.npz
+                    ├── Organ_014_segFromPrevStage.npz
+                    ├── Organ_015_segFromPrevStage.npz
+                    ├── Organ_016_segFromPrevStage.npz
+                    ├── Organ_017_segFromPrevStage.npz
+                    ├── Organ_018_segFromPrevStage.npz
+                    ├── Organ_019_segFromPrevStage.npz
+                    └── Organ_020_segFromPrevStage.npz
 ```
 
 > 可能会出现没有 validation_raw 文件夹的情况，这个时候重新预测一遍就好了, nnUNet_train 搭配 -val 参数就可以只进行验证 （但是必须要有model_final_checkpoint.model 、 model_final_checkpoint.model.pkl 文件）
