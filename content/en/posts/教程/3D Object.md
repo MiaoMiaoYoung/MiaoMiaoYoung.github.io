@@ -255,6 +255,28 @@ pl.show()
 但是不知道为啥，这个库demo可以跑，但是用在我项目里就会段错误segment fault，不过例子还是很好看的
 
 
+## Mesh 连通性
+
+### PyVista
+
+> https://docs.pyvista.org/api/core/_autosummary/pyvista.PolyData.connectivity.html
+
+```python
+import pyvista
+mesh = pyvista.Sphere() + pyvista.Sphere(center=(2, 0, 0))
+conn = mesh.connectivity(largest=False)
+conn.plot(cmap=['red', 'blue'])
+```
+
+## 对Mesh进行插值
+
+## Mesh 填充孔洞
+
+> https://docs.pyvista.org/api/core/_autosummary/pyvista.PolyDataFilters.fill_holes.html?highlight=filling+holes
+
+
+
+
 ## Mesh IO
 
 ### pymeshlab
