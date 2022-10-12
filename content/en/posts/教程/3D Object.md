@@ -145,7 +145,7 @@ mesh.save('./test.stl', mode=stl.Mode.ASCII)
 
 ```python
 def combined_stl(meshes, save_path="./combined.stl"):
-    combined = mesh.Mesh(np.concatenate([m.data for m in meshes])).is_closed()
+    combined = mesh.Mesh(np.concatenate([m.data for m in meshes]))
 
 
     # print(combined.is_closed())
@@ -275,8 +275,6 @@ conn.plot(cmap=['red', 'blue'])
 > https://docs.pyvista.org/api/core/_autosummary/pyvista.PolyDataFilters.fill_holes.html?highlight=filling+holes
 
 
-
-
 ## Mesh IO
 
 ### pymeshlab
@@ -299,4 +297,14 @@ cpos = mesh.plot()
 
 sphere = pyvista.Sphere()
 sphere.save('my_mesh.stl')
+```
+
+### Numpy-STL
+
+```python
+import numpy
+from stl import mesh
+
+# Using an existing stl file:
+your_mesh = mesh.Mesh.from_file('some_file.stl')
 ```
