@@ -184,6 +184,20 @@ Font shape `TU/ptm/b/it' undefined (Font)	using `TU/ptm/bx/it' instead.
 ```
 
 
+### IEEE 引用子图 Fig.1a -> Fig.1(a)
+
+> https://blog.csdn.net/xdzhujy/article/details/120752598
+
+在\begin{document}之前插入以下几句代码：
+
+```latex
+\usepackage[labelformat=simple]{subcaption}
+\captionsetup[sub]{font=footnotesize}
+\captionsetup[figure]{name={Fig.},labelsep=period,font=footnotesize} 
+\renewcommand\thesubfigure{(\alph{subfigure})}
+```
+
+
 ### Subfigure 错误
 
 
