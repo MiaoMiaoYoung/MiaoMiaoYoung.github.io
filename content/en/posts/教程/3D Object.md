@@ -302,9 +302,16 @@ sphere.save('my_mesh.stl')
 ### Numpy-STL
 
 ```python
-import numpy
+import numpy`
 from stl import mesh
 
 # Using an existing stl file:
 your_mesh = mesh.Mesh.from_file('some_file.stl')
+```
+
+
+### Trimesh
+
+```python
+
 ```
