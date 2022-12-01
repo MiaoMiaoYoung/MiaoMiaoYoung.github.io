@@ -214,6 +214,9 @@ if numpy.isclose(self.normals.sum(axis=0), 0, atol=1e-4).all():
 
 ### pymeshlab
 
+
+目前使用下来效果最好，但是速度特别慢...
+
 ```python
 import pymeshlab as ml
 
@@ -253,6 +256,28 @@ pl.show()
 ```
 
 但是不知道为啥，这个库demo可以跑，但是用在我项目里就会段错误segment fault，不过例子还是很好看的
+
+
+### Trimesh
+
+
+> https://trimsh.org/trimesh.boolean.html#boolean-py
+
+
+Trimesh 提供了一个自动合并所有Meshs的操作还是很不错的，而且速度上感觉会快很多...
+
+```python
+import os
+import trimesh
+from utils import get_files_name
+
+files = get_files_name(dire='./tmp')
+meshs = [trimesh.load(os.path.join('./tmp',f)) for f in files]
+result = trimesh.boolean.boolean_automatic(meshs, 'union')
+
+result.export('./ga.stl')
+```
+
 
 
 ## Mesh 连通性
@@ -314,4 +339,6 @@ your_mesh = mesh.Mesh.from_file('some_file.stl')
 
 ```python
 
+mesh = trimesh.load('some_file.stl')
+mesh.export('./ga.stl')
 ```
