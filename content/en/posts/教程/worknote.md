@@ -9,6 +9,13 @@ tags:
     - code    
 ---
 
+
+## Mathjax
+
+{{< mathjax >}}
+
+
+
 ## 平滑一组数据 (Smooth)
 
 ```python
