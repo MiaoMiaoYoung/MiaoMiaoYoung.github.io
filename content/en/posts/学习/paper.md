@@ -136,6 +136,8 @@ enableTocContent: true
 
     - **elaborate**
 
+    - **delicate**
+
 - 模型的优点
 
     -  feasibility
@@ -235,8 +237,18 @@ enableTocContent: true
 
 - Discussion 侧重于表达自己和别人结果的对比，来说明自己的方法对比别人方法的优点和缺点
 
+----------------------------------------------
+
+References中的其他字段
+
+Zotero经常会引入一些奇奇怪怪的字段，比如editor，ISSN，ISBN这种字段，所以需要小心查证一下， 删除掉一些不太经常使用的字段，保证参考文献格式的统一
+
+
+
+
 ## References
 
 [英文学术论文写作常用词句积累](https://www.cnblogs.com/kailugaji/p/14546542.html)
 
 [替换词](https://www.powerthesaurus.org/)
+
