@@ -13,11 +13,14 @@ libraries:
 enableTocContent: true
 ---
 
+
 ## Words
 
 ### Verb
 
 - 展示，表现
+
+    [用法讲解 blog](https://www.editing.tw/blog/progress/grammar-usage/%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E8%8B%B1%E6%96%87%E7%A0%94%E7%A9%B6%E7%B5%90%E6%9E%9C%E6%BF%AB%E7%94%A8show%E5%91%88%E7%8F%BE%E4%B8%80%E5%AD%97.html)
 
     - **present**: *presents a great challenge* 
 
@@ -27,15 +30,35 @@ enableTocContent: true
 
     - **reveal** *Experimental results reveal that* 
 
+    - **report**
+
+    - **demonstarte**
+
+    - **display**
+
     - **express** 
 
-    - **show**: *it shows that*
+    - **suggest**
+
+    - **illustrate** *XXX is illustrated in Figure 3.* [ 多在图例中 ]
+
+    - **depict** *Figure 5 depicts* [ 多在图例中 ]
+
+    - **show**: *it shows that*  [ 限制使用 ]
+
+
+
 
 - 提出
 
     - **present**: *the method is presented*
 
     - **propose** *we propose XXX*
+
+    - **design**
+
+    - **devise** *is devised to regularize*
+
 
 - 实施，应用
 
@@ -51,13 +74,22 @@ enableTocContent: true
 
     - **implement**
 
+    - **conduct** *conduct experiments*
+
+    - **adopte**
+
+
 - 验证，证明，调查
 
     - **validate**: *validates the importance*
 
     - **verify**
 
+    - **confirm**
+
     - **demonstarte** *demonstrate the superiority of the proposed method*
+
+    - **evidencing** 同上demonstrate
 
     - **investigate**  *investigate the effectiveness of the*
 
@@ -102,6 +134,20 @@ enableTocContent: true
 
     - **sophisticated**
 
+    - **elaborate**
+
+- 模型的优点
+
+    -  feasibility
+
+    -  practicality
+
+    - viability
+
+    - robustness
+
+    - superiority
+
 - 离散的像素： sparsity
 
 
@@ -109,6 +155,8 @@ enableTocContent: true
 ----------------------------------------------
 
 ### Conj.
+
+[参考](https://blog.wordvice.cn/common-transition-terms-used-in-academic-papers/)
 
 - 并列
 
@@ -122,6 +170,20 @@ enableTocContent: true
 
     - **Coupled with XXX**
 
+    - **Besides**
+
+  -  **Equally important**
+
+    - **Second**
+
+    - **Moreover**
+
+    - **Furthermore**
+
+    - **What’s more**
+
+    - **Subsequently**
+
 - 原因
 
     - **Due to**
@@ -131,6 +193,8 @@ enableTocContent: true
     - **Consequently** 
 
     - **Therefore**
+
+    - **Accordingly**
 
 - 转折
 
@@ -143,6 +207,10 @@ enableTocContent: true
     - **Instead of**
 
     - **In contrast to**
+
+    - **Despite**
+
+    - **Although**
 
 - 强调，递进
 
@@ -167,3 +235,8 @@ enableTocContent: true
 
 - Discussion 侧重于表达自己和别人结果的对比，来说明自己的方法对比别人方法的优点和缺点
 
+## References
+
+[英文学术论文写作常用词句积累](https://www.cnblogs.com/kailugaji/p/14546542.html)
+
+[替换词](https://www.powerthesaurus.org/)
