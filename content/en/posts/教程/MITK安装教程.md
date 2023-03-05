@@ -493,3 +493,10 @@ find . –name "*" –exec unix2dos {} \; (from git bash)
 within E:/MITK/CMakeExternals/
 
 找到了所有的LR结尾的文件，然后把他们改成CRLF就行
+
+#### mitkIOUtil.cpp 警告视为错误 "nodiscard"
+
+
+
+
+

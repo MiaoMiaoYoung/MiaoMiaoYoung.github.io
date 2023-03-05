@@ -54,6 +54,7 @@ tags:
 Tikz三方库：
 - https://github.com/HarisIqbal88/PlotNeuralNet
 - http://www.giantpandacv.com/%E8%B5%84%E6%BA%90%E5%85%B1%E4%BA%AB/%E5%BF%AB%E9%80%9F%E5%AD%A6%E4%B9%A0%E4%BD%BF%E7%94%A8tikz%E7%BB%98%E5%88%B6CNN%E7%A4%BA%E6%84%8F%E5%9B%BE/
+- https://tikz.net/neural_networks/
 
 发现一个好玩的东西，在使用PlotNeuralNet的同时开着VScode，将.tex生成的文件作为VScode工作文件夹。
 这样在PlotNeuralNet生成.tex的同时，Latex Workshop检测到.tex文件变动，就会自己生成相应的pdf

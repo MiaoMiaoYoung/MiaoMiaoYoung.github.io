@@ -135,3 +135,25 @@ $ apt update
 ```
 
 解决！
+
+## 项目结构
+
+- 项目名称 [e.g. Geometry-based Segmentation]
+
+    - 数据集名称 [e.g. MSD_Liver]
+
+        - data
+
+            数据集数据，最好统一格式: image / label ...
+
+
+        - code
+
+            - 版本号 [e.g. v1]
+
+        - contrast [对比实验]
+
+            - 对比实验名称
+
+
+
