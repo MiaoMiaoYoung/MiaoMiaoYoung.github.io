@@ -94,6 +94,22 @@ enableTocContent: true
     - **investigate**  *investigate the effectiveness of the*
 
 
+- 指代，表示
+
+    - **denote**
+
+    - **represent**
+
+    - **symbolize**
+
+- 能够，胜任
+
+    - be capcable of 
+
+    - be competent for 
+
+    - qualified 
+
 ----------------------------------------------
 
 ### Adj.
@@ -186,9 +202,13 @@ enableTocContent: true
 
     - **Subsequently**
 
+    - **Beyond that (diagnosis)**
+
 - 原因
 
     - **Due to**
+
+    - **Attributing to**
 
 - 结果
 
