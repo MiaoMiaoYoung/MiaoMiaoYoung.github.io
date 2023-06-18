@@ -113,8 +113,8 @@
 </span></span><span class=line><span class=cl><span class=c1>#Owner information goes here!#</span>
 </span></span><span class=line><span class=cl><span class=c1>##############################</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=n>client_id</span><span class=o>=</span> <span class=s1>&#39;&lt;enter your client id&gt;&#39;</span>
-</span></span><span class=line><span class=cl><span class=n>client_secret</span><span class=o>=</span><span class=s1>&#39;&lt;enter your client secret&gt;&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>client_id</span><span class=o>=</span> <span class=n>sys</span><span class=o>.</span><span class=n>argv</span><span class=p>[</span><span class=mi>1</span><span class=p>]</span>     <span class=c1># &#39;&lt;enter your client id&gt;&#39;</span>
+</span></span><span class=line><span class=cl><span class=n>client_secret</span><span class=o>=</span><span class=n>sys</span><span class=o>.</span><span class=n>argv</span><span class=p>[</span><span class=mi>2</span><span class=p>]</span>  <span class=c1># &#39;&lt;enter your client secret&gt;&#39;</span>
 </span></span><span class=line><span class=cl><span class=c1>##############################</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=n>cmd1</span> <span class=o>=</span> <span class=n>json</span><span class=o>.</span><span class=n>loads</span><span class=p>(</span><span class=n>os</span><span class=o>.</span><span class=n>popen</span><span class=p>(</span><span class=s1>&#39;curl -d &#34;client_id=</span><span class=si>%s</span><span class=s1>&amp;scope=https://www.googleapis.com/auth/drive.file&#34; https://oauth2.googleapis.com/device/code&#39;</span><span class=o>%</span><span class=n>client_id</span><span class=p>)</span><span class=o>.</span><span class=n>read</span><span class=p>())</span>
@@ -123,7 +123,7 @@
 </span></span><span class=line><span class=cl><span class=n>cmd2</span> <span class=o>=</span> <span class=n>json</span><span class=o>.</span><span class=n>loads</span><span class=p>(</span><span class=n>os</span><span class=o>.</span><span class=n>popen</span><span class=p>((</span><span class=s1>&#39;curl -d client_id=</span><span class=si>%s</span><span class=s1> -d client_secret=</span><span class=si>%s</span><span class=s1> -d device_code=</span><span class=si>%s</span><span class=s1> -d grant_type=urn~~3Aietf~~3Aparams~~3Aoauth~~3Agrant-type~~3Adevice_code https://accounts.google.com/o/oauth2/token&#39;</span><span class=o>%</span><span class=p>(</span><span class=n>client_id</span><span class=p>,</span><span class=n>client_secret</span><span class=p>,</span><span class=n>cmd1</span><span class=p>[</span><span class=s1>&#39;device_code&#39;</span><span class=p>]))</span><span class=o>.</span><span class=n>replace</span><span class=p>(</span><span class=s1>&#39;~~&#39;</span><span class=p>,</span><span class=s1>&#39;%&#39;</span><span class=p>))</span><span class=o>.</span><span class=n>read</span><span class=p>())</span>
 </span></span><span class=line><span class=cl><span class=nb>print</span><span class=p>(</span><span class=n>cmd2</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>name</span> <span class=ow>in</span> <span class=n>sys</span><span class=o>.</span><span class=n>argv</span><span class=p>[</span><span class=mi>1</span><span class=p>:]:</span>
+</span></span><span class=line><span class=cl><span class=k>for</span> <span class=n>name</span> <span class=ow>in</span> <span class=n>sys</span><span class=o>.</span><span class=n>argv</span><span class=p>[</span><span class=mi>3</span><span class=p>:]:</span>
 </span></span><span class=line><span class=cl>    <span class=c1># zip files</span>
 </span></span><span class=line><span class=cl>    <span class=n>cmd4</span> <span class=o>=</span> <span class=n>os</span><span class=o>.</span><span class=n>popen</span><span class=p>(</span><span class=s1>&#39;&#39;&#39;
 </span></span></span><span class=line><span class=cl><span class=s1>    curl -X POST -L </span><span class=se>\
@@ -135,7 +135,7 @@
 </span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=n>cmd4</span><span class=p>)</span>
 </span></span><span class=line><span class=cl>    <span class=nb>print</span><span class=p>(</span><span class=s1>&#39;end&#39;</span><span class=p>)</span>
 </span></span></code></pre></td></tr></table></div></div><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
-</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>./curlgoogle file1 file2.txt file3.jpg etc... 
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>./curlgoogle <span class=o>=</span>client-id client-secret file1 file2.txt file3.jpg etc... 
 </span></span></code></pre></td></tr></table></div></div></article><script defer src=/js/clipboard.min.1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44.js></script>
 <script defer src=/js/helper/prev.min.js></script>
 <script defer src=/js/helper/prop.min.js></script>
