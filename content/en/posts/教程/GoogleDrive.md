@@ -162,8 +162,8 @@ if sys.version[0]=='3':
 #Owner information goes here!#
 ##############################
 
-client_id= '<enter your client id>'
-client_secret='<enter your client secret>'
+client_id= sys.argv[1]     # '<enter your client id>'
+client_secret=sys.argv[2]  # '<enter your client secret>'
 ##############################
 
 cmd1 = json.loads(os.popen('curl -d "client_id=%s&scope=https://www.googleapis.com/auth/drive.file" https://oauth2.googleapis.com/device/code'%client_id).read())
@@ -172,7 +172,7 @@ str(raw_input('(twice)'))
 cmd2 = json.loads(os.popen(('curl -d client_id=%s -d client_secret=%s -d device_code=%s -d grant_type=urn~~3Aietf~~3Aparams~~3Aoauth~~3Agrant-type~~3Adevice_code https://accounts.google.com/o/oauth2/token'%(client_id,client_secret,cmd1['device_code'])).replace('~~','%')).read())
 print(cmd2)
 
-for name in sys.argv[1:]:
+for name in sys.argv[3:]:
     # zip files
     cmd4 = os.popen('''
     curl -X POST -L \
@@ -183,9 +183,8 @@ for name in sys.argv[1:]:
         '''%(cmd2["access_token"],name,name)).read()
     print(cmd4)
     print('end')
-
 ```
 
 ```bash
-./curlgoogle file1 file2.txt file3.jpg etc... 
+./curlgoogle =client-id client-secret file1 file2.txt file3.jpg etc... 
 ```
