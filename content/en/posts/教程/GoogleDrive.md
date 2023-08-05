@@ -1,5 +1,5 @@
 ---
-title: "Google Drive 命令行上传文件"
+title: "Google Drive 命令行上传/下载文件"
 date: 2023-05-14T10:37:48+08:00
 draft: False
 categories:
@@ -14,8 +14,9 @@ enableTocContent: true
 
 > 需求：内网服务器没有图形界面时，Google Drive作为中转站传输数据使用，使用scp等工具特别慢
 
+## 上传文件
 
-## Google OAuth 客户端凭据 (Client Credentials)
+### Google OAuth 客户端凭据 (Client Credentials)
 
 > Thanks gdrive !
 > https://github.com/glotlabs/gdrive/blob/main/docs/create_google_api_credentials.md
@@ -84,7 +85,7 @@ Thats it!
 
 Gdrive will ask for your Client Id and Client Secret when using the `gdrive account add` command.
 
-## 使用curl上传文件
+### 使用curl上传文件
 
 > https://towardsdatascience.com/uploading-files-to-google-drive-directly-from-the-terminal-using-curl-2b89db28bb06
 
@@ -142,7 +143,7 @@ Gdrive will ask for your Client Id and Client Secret when using the `gdrive acco
     "https://www.googleapis.com/upload/drive/v3/files?uploadType=multipart"
     ```
 
-## 使用Python
+### 使用Python
 
 现在我们知道我们的命令有效，我们可以创建一个可执行脚本来为我们完成所有工作。在这里我们可以提供一组文件，它将它们压缩，然后将它们发送到谷歌驱动器。 
 
@@ -187,4 +188,21 @@ for name in sys.argv[3:]:
 
 ```bash
 ./curlgoogle =client-id client-secret file1 file2.txt file3.jpg etc... 
+```
+
+
+## 下载文件
+
+在 Google Drive 将文件设置为共享，得到如下链接
+
+https://drive.google.com/file/d/1Cy_MpY452A------------xkIRWJhPwz/view?usp=sharing
+
+需要设置下面的文件id和下载的文件名：
+
+```
+import gdown
+
+url = 'https://drive.google.com/uc?id=1Cy_MpY452A------------xkIRWJhPwz'
+output = <name>
+gdown.download(url, output, quiet=False)
 ```
