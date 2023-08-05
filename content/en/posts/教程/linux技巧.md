@@ -27,6 +27,14 @@ nvidia-docker run -it --net=host --shm-size 6G -v /home/MiaoMiaoYang:/MiaoMiaoYa
 ## --shm-size 指定容器内存的大小
 ```
 
+## docker apt 提示 Operation not permitted
+
+https://blog.csdn.net/zhou920786312/article/details/119713645
+
+设置privileged为true完全获得root权限
+
+docker run -it --privileged=true centos:7.7.1908 bash
+
 ## 中文编码
 
 ```bash
@@ -54,18 +62,36 @@ apt-get update
 
 pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
-## Ubuntu 文件数
+## 计算文件数
 
 ```bash
 ls -l | grep -c '^-'
 ```
 
-## Ubuntu 传输文件
+## 传输文件
 
 ```bash
 scp    local_file   remote_username@remote_ip:remote_file 
 scp -r local_folder remote_username@remote_ip:remote_folder 
 ```
+
+## 断点续传
+
+```bash
+apt-get install rsync
+rsync --partial --progress -e ssh /path/to/local/file user@remote:/path/to/remote/file
+```
+
+--partial 实现断点续传
+
+--progress 显示传输进度
+
+## MD5
+
+```bash
+md5sum <文件路径>
+```
+
 
 ## Ubuntu 版本
 
@@ -189,9 +215,9 @@ ln -s /lib/systemd/system/rc.local.service /etc/systemd/system/
 在~/.bashrc文件（用户配置文件）中修改：
 
 ```bash
-alias work='cd /mnt/cache/yangxiaoyu/MiaoMiaoYang/VesselSeg/; conda activate miao-torch'
-alias data='cd /mnt/petrelfs/yangxiaoyu/'
-alias pid='squeue | grep yangxiao'
+alias work='cd /mnt/cache/ga/MiaoMiaoYang/VesselSeg/; conda activate miao-torch'
+alias data='cd /mnt/petrelfs/ga/'
+alias pid='squeue | grep ga'
 alias nv='WatchNV(){ swatch -n $1 nv always;};WatchNV'
 ```
 

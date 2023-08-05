@@ -110,6 +110,14 @@ enableTocContent: true
 
     - qualified 
 
+    - handle
+
+- 参与
+
+    - participate in 
+
+    - engage in 
+
 ----------------------------------------------
 
 ### Adj.
