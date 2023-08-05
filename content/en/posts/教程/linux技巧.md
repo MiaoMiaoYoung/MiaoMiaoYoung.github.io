@@ -163,7 +163,7 @@ sudo vim rc.local.service
 
 在末尾添加[Install]字段 (rc.local.service文件没有的话就新建一个)：
 
-```json
+```yaml
 #  This file is part of systemd.
 #
 #  systemd is free software; you can redistribute it and/or modify it
@@ -222,3 +222,48 @@ alias nv='WatchNV(){ swatch -n $1 nv always;};WatchNV'
 ```
 
 其中 nv 表示了带参数的命令的写法
+
+## Device or resource busy 查找文件占用进程
+
+- https://zhuanlan.zhihu.com/p/467274841
+
+```
+rm -rf .ps_00000097*
+rm: cannot remove ‘.ps_000000978eec4c0100000088’: Device or resource busy
+rm: cannot remove ‘.ps_000000979b8e2f0100000089’: Device or resource busy
+```
+
+使用以下命令查找进程
+
+```bash
+lsof | grep <设备或资源名>
+```
+
+## 分割文件
+
+> https://deepinout.com/linux-cmd/linux-file-process-cmd/linux-cmd-split.html
+
+按照大小将大文件分割成若干小文件
+
+```bash
+split -b 10G <file> PREFIX
+```
+
+split 参数：
+
+    -a：指定输出文件名的后缀长度，默认为2个(aa,ab...)
+
+    -d：指定输出文件名的后缀用数字代替
+
+    -b：指定输出文件的最大字节数，如1k,1m...
+
+    -C：指定每一个输出文件中单行的最大字节数
+
+    -l：指定每一个输出文件的最大行数
+
+
+合并文件
+
+```bash
+cat splog* > newLog.log
+```
