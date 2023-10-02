@@ -162,3 +162,7 @@ $ apt update
 ## ImageNet 
 
 https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_train.tar
+
+```bash
+mkdir train && tar -xvf ILSVRC2012_img_train.tar -C train && for x in `ls train/*tar`; do fn=train/`basename $x .tar`; mkdir $fn; tar -xvf $x -C $fn; rm -f $fn.tar; done
+```
