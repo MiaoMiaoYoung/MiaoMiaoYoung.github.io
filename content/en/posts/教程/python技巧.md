@@ -72,3 +72,71 @@ python3 -m venv /path/to/new/virtual/environment
 import warnings
 warnings.filterwarnings("ignore")
 ```
+
+## mio
+
+### get_files_name
+
+```python
+## 按顺序得到当前目录下，所有文件（包括文件夹）的名字
+def get_files_name(dire):
+    '''
+    按顺序得到当前目录下，所有文件（包括文件夹）的名字
+    :param dire: 文件夹目录
+    :return:files[list]，当前目录下所有的文件（包括文件夹）的名字，顺序排列
+    '''
+
+    assert os.path.exists(dire), "{} is not existed".format(dire)
+    assert os.path.isdir(dire), "{} is not a directory".format(dire)
+
+    files = os.listdir(dire)
+    files = natsort.natsorted(files)
+    return files
+```
+
+### get_json
+
+```python
+## get json content as dict
+def get_json(file):
+    import json
+    with open(file, 'r', encoding='utf-8') as f:
+        dicts = json.load(f)
+    return dicts
+```
+
+### get_csv
+
+```python
+## 获取csv文件
+def get_csv(file, delimiter=','):
+    import csv
+    with open(file, 'r') as f:
+        reader = csv.reader(f, delimiter=delimiter)
+        result = list(reader)
+    return result
+```
+
+### save_csv
+
+```python
+def save_csv(file, headers, rows, delimiter=','):
+    import csv
+    with open(file, 'w') as f:
+        writer = csv.writer(f, delimiter=delimiter)
+        if headers is not None:
+            writer.writerow(headers)
+        writer.writerows(rows)
+```
+
+### save_json
+
+```py
+## save dict as json
+def save_json(dicts, file, indent=2):
+    import json
+    info = json.dumps(dicts, indent=indent, ensure_ascii=False)
+    with open(file, 'w', encoding='utf-8') as f:  # 使用.dumps()方法时，要写入
+        f.write(info)
+```
+
