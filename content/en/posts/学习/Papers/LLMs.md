@@ -32,3 +32,8 @@ model_id = "bigscience/bloom-1b7"
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto", load_in_4bit=True)
 ```
+
+
+## OpenCLIP
+
+
