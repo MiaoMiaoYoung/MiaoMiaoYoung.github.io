@@ -48,4 +48,23 @@ tmux split-window
 tmux split-window -h
 ```
 
+### 
+
 ## 窗口管理
+
+```bash
+# 新建窗口
+tmux new-window -n <window-name>
+```
+
+------------------------------------------
+
+## Q&A
+
+### 分辨率，出现好多点
+
+ctrl  + b
+shift + d
+
+选择分辨率最小的窗口退出，再attach进来
+
