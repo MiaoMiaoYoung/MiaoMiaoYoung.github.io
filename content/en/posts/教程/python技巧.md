@@ -50,12 +50,14 @@ apt-get install libglib2.0
     - 删除site-packages文件夹内所有ruamel的文件
     - 再次进行pip install pyradiomics的安装
 
-## 创建虚拟环境
+## Python虚拟环境
+
+### 创建虚拟环境
 
 https://docs.python.org/zh-cn/3/library/venv.html
 
 ```bash
-python3 -m venv /path/to/new/virtual/environment
+python -m venv /path/to/new/virtual/environment
 ```
 
 **Optional:**
@@ -65,6 +67,13 @@ python3 -m venv /path/to/new/virtual/environment
     ```bash
     python -m venv ./venv --system-site-packages
     ```
+
+### 激活虚拟环境
+
+windows环境下，进入虚拟环境路径下的Scripts文件夹中
+
+使用cmd命令行，输入activate激活虚拟python环境，注意！powershell有可能不太行，更改一下Powershell的脚本运行权限；是activate不是activate.bat
+
 
 ## 忽略警告
 

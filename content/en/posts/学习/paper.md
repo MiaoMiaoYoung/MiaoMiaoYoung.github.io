@@ -78,6 +78,11 @@ enableTocContent: true
 
     - **adopte**
 
+    - **leverage**
+
+    - **opt** *opted for* 选择 
+
+    - **employ**
 
 - 验证，证明，调查
 
@@ -139,6 +144,8 @@ enableTocContent: true
     - **severe**
 
     - **increasingly**
+
+    - **tremendous**
 
     [1] It remains a critical challenge to XXX due to ...
 
@@ -256,6 +263,8 @@ enableTocContent: true
 - For medical image analysis, nnUNET is considered a strong baseline as it achieves stateof-the-art performance on many well-established segmentation challenges.
 
 - Instead of traditional voxel-based segmentation, the mesh-deformation-based methods have been increasingly drawing the attention of the community.
+
+- has attracted unprecedented attention
 
 ## 结构
 

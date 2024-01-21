@@ -8,6 +8,87 @@ tags:
     - latex
 ---
 
+## VSCode + Latex
+
+- 在VScode中安装Latex Workshop插件
+
+- VScode 中 Ctrl + Shift + P 打开用户设置 (>Preference: Open user setting json)
+
+- 添加编译工具 (latex-workshop.latex.tools) 和编译方案 (latex-workshop.latex.recipes)
+
+```yaml
+{
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex", 
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOCFILE%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+ "latex-workshop.latex.recipes": [
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ],
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+        {
+            "name": "pdf->bib->pdf->pdf",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        }
+    ],
+}
+```
+
+
+- 其他设置
+
+```yaml
+"latex-workshop.latex.autoBuild.run": "onFileChange", ## 保存tex文件时自动编译
+"latex-workshop.latex.autoBuild.run": "never",        ## 我选择保存不编译
+```
 
 ## Trick
 

@@ -104,3 +104,15 @@ tags:
 "backgroundImage" : "F:\\pictures\\collection\\nichijou\\LQs9bx.jpg",
 "backgroundImageOpacity": 0.15
 ```
+
+## PowerShell 运行脚本限制
+
+在windows PowerShell上运行.bat脚本，会出现 **“ XXX， 因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies”** 的报错
+
+这是因为PowerShell运行脚本权限限制
+
+在PowerShell中直接输入get-ExecutionPolicy可以查看PowerShell权限，Restricted (限制)
+
+在管理员模式下通过set-ExecutionPolicy命令修改权限，RemoteSigned为允许本地运行脚本，但是阻止远程；AllSigned为本地和远程都可运行脚本
+
+![7.png](https://s2.loli.net/2024/01/21/debfQUpazyuT4Cc.png)
