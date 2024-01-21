@@ -116,3 +116,58 @@ tags:
 在管理员模式下通过set-ExecutionPolicy命令修改权限，RemoteSigned为允许本地运行脚本，但是阻止远程；AllSigned为本地和远程都可运行脚本
 
 ![7.png](https://s2.loli.net/2024/01/21/debfQUpazyuT4Cc.png)
+
+## 别名 Alias
+
+- https://blog.csdn.net/Tos_CSDN/article/details/130821910
+
+```bash
+Get-Alias -name *                     ## 查看别名
+Set-Alias -Name Edit -Value notepad   ## 创建一个别名notepad——>Edit
+notepad c:\alias.ps1                  ## 创建一个powershell脚本文件
+Export-Alias c:\alias.ps1             ## 将别名导出到C:\alias.ps1
+del alias:Edit                        ## 删除别名Edit
+$alias:Edit                           ## 查看别名，不存在
+Import-Alias -Force c:\alias.ps1      ## 将C:\alias.ps1导入powershell
+$alias:Edit                           ## 查看别名，存在
+```
+
+但是这个只能在一个powershell窗口里存在，下面是创建永久别名的方法
+
+- https://blog.csdn.net/u013391094/article/details/129340006
+
+对于Powershell来说，有一个变量 Profile 定义了Powershell启动时默认加载的配置文件，查看变量的方法： 
+
+```bash
+Get-Variable Profile
+
+# Name                           Value
+# ----                           -----
+# PROFILE                        C:\Users\XXX\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
+```
+
+注意，虽然有这个变量，但是不代表这个文件真的存在（甚至上层文件夹都不存在），查看这个文件是否存在方法：
+
+```bash
+Test-Path $profile
+```
+
+上面返回的 False 代表这个路径不存在（一般该文件在没有单独创建之前都是不存在的）
+
+创建这个路径的方法：
+
+```bash
+New-Item -Type file -Force $profile
+
+#  目录: C:\Users\XXX\Documents\WindowsPowerShell
+#
+#  Mode                 LastWriteTime         Length Name
+#  ----                 -------------         ------ ----
+#  -a----         2024/1/21     18:31              0 Microsoft.PowerShell_profile.ps1
+```
+
+将别名配置添加到Profile变量指向的配置文件中，可以使用notepad进行编辑。 这里为了演示方便，所以使用命令行进行操作，执行命令： 
+
+```bash
+Add-Content $Profile 'Set-Alias ll ls'
+```

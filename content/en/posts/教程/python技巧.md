@@ -74,6 +74,13 @@ windows环境下，进入虚拟环境路径下的Scripts文件夹中
 
 使用cmd命令行，输入activate激活虚拟python环境，注意！powershell有可能不太行，更改一下Powershell的脚本运行权限；是activate不是activate.bat
 
+为了方便，将激活命令以别名方式写入powershell启动文件（见windows terminal调教指南）
+
+```bash
+Add-Content $Profile 'Set-Alias miao D:\projects\py_envs\base\Scripts\Activate.ps1'
+```
+
+![1.png](https://s2.loli.net/2024/01/21/OjYpqDdANsQb3Gu.png)
 
 ## 忽略警告
 
