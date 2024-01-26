@@ -287,6 +287,15 @@ Zotero经常会引入一些奇奇怪怪的字段，比如editor，ISSN，ISBN这
 
 
 
+## 前车之鉴，后事之师
+
+- 拥有了丰富的拒稿经验之后，发现在写文章的过程中会经常犯几个相同问题，积累之后看看能不能总结一下
+
+
+### DETAILS 细节决定成败
+
+
+
 ## References
 
 [英文学术论文写作常用词句积累](https://www.cnblogs.com/kailugaji/p/14546542.html)
@@ -294,3 +303,4 @@ Zotero经常会引入一些奇奇怪怪的字段，比如editor，ISSN，ISBN这
 [替换词](https://www.powerthesaurus.org/)
 
 [推荐动词] (https://blog.wordvice.com/recommended-verbs-for-research-writing/)
+

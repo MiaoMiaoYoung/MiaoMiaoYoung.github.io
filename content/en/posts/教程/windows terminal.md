@@ -115,6 +115,10 @@ tags:
 
 在管理员模式下通过set-ExecutionPolicy命令修改权限，RemoteSigned为允许本地运行脚本，但是阻止远程；AllSigned为本地和远程都可运行脚本
 
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+```
+
 ![7.png](https://s2.loli.net/2024/01/21/debfQUpazyuT4Cc.png)
 
 ## 别名 Alias
@@ -124,7 +128,7 @@ tags:
 ```bash
 Get-Alias -name *                     ## 查看别名
 Set-Alias -Name Edit -Value notepad   ## 创建一个别名notepad——>Edit
-notepad c:\alias.ps1                  ## 创建一个powershell脚本文件
+notepad c:\alias.ps1                  ## 创建一个powershell脚本文件y
 Export-Alias c:\alias.ps1             ## 将别名导出到C:\alias.ps1
 del alias:Edit                        ## 删除别名Edit
 $alias:Edit                           ## 查看别名，不存在
@@ -171,3 +175,16 @@ New-Item -Type file -Force $profile
 ```bash
 Add-Content $Profile 'Set-Alias ll ls'
 ```
+
+
+## history
+
+- 显示时间戳
+
+```bash
+history | format-list
+```
+
+- 列出所有的历史记录
+
+https://blog.csdn.net/Distiny_R/article/details/127909804
