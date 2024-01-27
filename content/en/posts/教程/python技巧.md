@@ -18,7 +18,9 @@ shutil.rmtree( src )
 ```
 
 
-## pip cv2
+## pip
+
+### cv2
 
 ```bash
 pip install opencv-python
@@ -37,7 +39,7 @@ ImportError: libgthread-2.0.so.0: cannot open shared object file: No such file o
 apt-get install -y libgl1-mesa-dev
 apt-get install libglib2.0
 ```
-## pip pyradiomics
+### pyradiomics
 
 在使用pytorch官方docker镜像时，安装pyradiomics时会报错
 
@@ -49,6 +51,19 @@ apt-get install libglib2.0
     - 通过pip -V找到site-packages的路径
     - 删除site-packages文件夹内所有ruamel的文件
     - 再次进行pip install pyradiomics的安装
+
+### pip 配置
+
+```bash
+## 源
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+# pip config set install.trusted-host mirrors.cloud.aliyuncs.com
+# Writing to C:\Users\username\AppData\Roaming\pip
+
+## 缓存位置
+pip config set global.cache-dir "D:/install/pip_cache"
+```
+
 
 ## Python虚拟环境
 

@@ -1,5 +1,5 @@
 ---
-title: "conda"
+title: "向conda低头"
 date: 2024-01-25T15:01:38+08:00
 draft: false
 categories:
@@ -184,3 +184,11 @@ conda remove --prefix D:/foo --all
 建议进入Conda环境后使用 pip 
 
 conda install 网速慢，而且没搞懂和base环境之间的联系
+
+```bash
+## 阿里镜像源
+pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
+
+## 设置pip缓存位置
+pip config set global.cache-dir "D:/install/pip_cache"
+```
