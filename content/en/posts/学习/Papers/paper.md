@@ -84,7 +84,7 @@ enableTocContent: true
 
     - **employ**
 
-- 验证，证明，调查
+- 验证，证明，调查，评估
 
     - **validate**: *validates the importance*
 
@@ -97,6 +97,10 @@ enableTocContent: true
     - **evidencing** 同上demonstrate
 
     - **investigate**  *investigate the effectiveness of the*
+
+    - **corroborate** These experiments corroborate our main contributions
+  
+    - **access**
 
 
 - 指代，表示
@@ -181,6 +185,14 @@ enableTocContent: true
 
     - superiority
 
+    - stands out: our approach stands out with two significant advancements. 
+
+- 上述的
+
+    - aforementioned 上述的
+
+
+
 - 离散的像素： sparsity
 
 
@@ -218,6 +230,11 @@ enableTocContent: true
     - **Subsequently**
 
     - **Beyond that (diagnosis)**
+
+    - Likewise
+
+    - Similarly
+  
 
 - 原因
 
@@ -265,6 +282,8 @@ enableTocContent: true
 - Instead of traditional voxel-based segmentation, the mesh-deformation-based methods have been increasingly drawing the attention of the community.
 
 - has attracted unprecedented attention
+
+
 
 ## 结构
 

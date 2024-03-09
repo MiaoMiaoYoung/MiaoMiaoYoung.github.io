@@ -4,9 +4,11 @@ date: 2023-09-12T21:06:19+08:00
 draft: false
 categories:
     - nichijou
+    - 恋爱日记
     - 旅行日记
 tags:
     - nichijou
+    - 恋爱日记
     - 旅行日记
 ---
 
