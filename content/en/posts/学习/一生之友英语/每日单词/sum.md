@@ -1,5 +1,5 @@
 ---
-title: "WordsLists"
+title: "TOEFL - WordsLists"
 date: 2021-09-01T15:01:38+08:00
 draft: false
 categories:
@@ -2462,3 +2462,2676 @@ effective|adj. 有效果的||{{< words src="effective">}}||
 |destruction|n. 毁坏；毁灭|{{< words src="destruction">}}||
 |||{{< words src="">}}||
 
+
+## L24
+
+
+{{< audio src="http://download.dogwood.com.cn/online/toeflchlx/WordList24.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|depot|. 库房；仓库|{{< words src="depot">}}||
+|romantic|adj. 爱情的；浪漫的|{{< words src="romantic">}}||
+|tycoon|n. (商界)巨头；大亨|{{< words src="tycoon">}}||
+|justice|n. 正义|{{< words src="justice">}}||
+|panel|n. 面板；仪表盘|{{< words src="panel">}}||
+|guilty|adj. 有罪的;内疚的|{{< words src="guilty">}}||
+|decipher|vt. 破译|{{< words src="decipher">}}||
+|cushion|vt. 缓冲 n. 垫子|{{< words src="cushion">}}||
+|microorganism|n. 微生物|{{< words src="microorganism">}}||
+|awful|adj. 不舒服的；糟糕的|{{< words src="awful">}}||
+|surgery|n. 外科手术；手术室|{{< words src="surgery">}}||
+|impact|v. 影响；冲击；撞击 n. 影响力；冲击|{{< words src="impact">}}|impact crater n. 陨石坑；撞击坑 <br> {{< words src="impact crater">}} <br> impact on/upon 对...有影响|
+|crustacean|n. 甲壳动物|{{< words src="crustacean">}}|crust (壳)-acean(海洋)|
+|obtain|v. 获得；通用；流行|{{< words src="obtain">}}||
+|attain|vt. 到达；获得|{{< words src="attain">}}||
+|abstain|vi. 放弃；戒除；弃权|{{< words src="abstain">}}|He swore to abstain from smoking. <br>他发誓要戒烟。|
+|respondent|n. 回答者；被告|{{< words src="respondent">}}||
+|particular|adj. 特定的；独特的|{{< words src="particular">}}||
+|newsprint|n. 新闻纸|{{< words src="newsprint">}}||
+|gregarious|adj. 群居的；合群的|{{< words src="gregarious">}}||
+|chafe|v. 擦破|{{< words src="chafe">}}||
+|lizard|n. 蜥蜴|{{< words src="lizard">}}||
+|manner|n. 方式；风格|{{< words src="manner">}}||
+|artifact|n. 手工艺品|{{< words src="artifact">}}||
+|crystal|n. 水晶|{{< words src="crystal">}}||
+|gravel|n. 砂砾；砂石|{{< words src="gravel">}}||
+|grave|n. 墓穴；坟茔|{{< words src="grave">}}||
+|string|n. 细绳；串；系列|{{< words src="string">}}||
+|panorama|n. 全景；全貌|{{< words src="panorama">}}||
+|unparalleled|adj. 空前的；无比的|{{< words src="unparalleled">}}||
+|suspend|vt. 吊；悬挂；暂停；中止|{{< words src="suspend">}}||
+|afflict|vt. 使苦恼；折磨|{{< words src="afflict">}}||
+|stripe|n. 条纹；斑纹|{{< words src="stripe">}}||
+|clay|n. 泥土；黏土|{{< words src="clay">}}||
+|comment|n. 评论|{{< words src="comment">}}||
+|scholarship|n. 奖学金|{{< words src="scholarship">}}||
+|patch|vt. 修补；打补丁 n. 小片；小块|{{< words src="patch">}}||
+|restrict|vt. 约束；限制|{{< words src="restrict">}}||
+|accurate|adj. 精确地|{{< words src="accurate">}}||
+|comprise|vt. 包含；由...组成|{{< words src="comprise">}}||
+|enzyme|n. 酶|{{< words src="enzyme">}}||
+|sumptuous|adj. 奢华的|{{< words src="sumptuous">}}||
+|allegiance|n. 忠诚|{{< words src="allegiance">}}||
+|allegiant|adj. 忠诚的|{{< words src="allegiant">}}||
+|invasion|n. 侵入；侵略|{{< words src="invasion">}}||
+|cabinet|n. 内阁；储藏柜|{{< words src="cabinet">}}||
+|hover|vi. 徘徊；彷徨|{{< words src="hover">}}||
+|accuracy|n. 准确性|{{< words src="accuracy">}}||
+|expire|vi. (协议)到期；期满；失效|{{< words src="expire">}}|He is planning another tour abroad, yet his passport will expire at the end of this month. <br> 他计划再次出国旅行，但他的护照将于本月底到期。<br> {{< words src="He is planning another tour abroad, yet his passport will expire at the end of this month.">}}|
+|aspire|v. 有志于；向往；热望|{{< words src="aspire">}}|Mary is ambitious enough to aspire to conversational fluency in Chinese in four months. 玛丽雄心很大， 竟立志在四个月里学会用汉语流利地会话。|
+|perspire|vi. 流汗；出汗|{{< words src="perspire">}}||
+|gasoline|n. 汽油|{{< words src="gasoline">}}||
+|diminish|v. 降低；贬低；减少；减弱|{{< words src="diminish">}}||
+|angular|adj. 有角的|{{< words src="angular">}}||
+|immense|adj. 巨大的|{{< words src="immense">}}||
+|owl|n. 猫头鹰|{{< words src="owl">}}||
+|percussion|n. 打击乐器|{{< words src="percussion">}}||
+|crooked|adj. 不诚实的；欺诈的|{{< words src="crooked">}}||
+|stratum|n. 岩层|{{< words src="stratum">}}||
+|instead|adv. 代替；顶替|{{< words src="instead">}}||
+|populate|vt. 居住于|{{< words src="populate">}}||
+|ambitious|adj. 有雄心的|{{< words src="ambitious">}}||
+|sentimental|adj. 情感的；伤感的；多愁善感的|{{< words src="sentimental">}}||
+|ultimate|adj. 最后的；最终的；根本的|{{< words src="ultimate">}}|Plants are the ultimate source of all foodstuffs.<br> 植物是所有食物的最终来源。<br>{{< words src="Plants are the ultimate source of all foodstuffs.">}}|
+|infinite|adj. 无限的；无穷的|{{< words src="infinite">}}||
+|evergreen|adj. 常绿的; n. 常青树|{{< words src="evergreen">}}||
+|plumage|n. 鸟类羽毛|{{< words src="plumage">}}||
+|decadent|adj. 堕落的；颓废的|{{< words src="decadent">}}||
+|subspecies|n. 亚种|{{< words src="subspecies">}}||
+|hummingbird|n. 蜂鸟|{{< words src="hummingbird">}}||
+|estate|n. 地产|{{< words src="estate">}}||
+|stylistic|adj. 风格上的|{{< words src="stylistic">}}||
+|declare|v. 表明；断言；声称|{{< words src="declare">}}||
+|varnish|vt. 上清漆|{{< words src="varnish">}}||
+|vanish|v. 消失；不见|{{< words src="vanish">}}||
+|wonder|v. 诧异；纳闷；想知道 n. 奇迹|{{< words src="wonder">}}||
+|justify|v. 证明...正当的；为...辩护|{{< words src="justify">}}||
+|dissolve|v. 溶解；清除；解散|{{< words src="dissolve">}}||
+|superficial|adj. 肤浅的；浅薄的|{{< words src="superficial">}}||
+|peninsula|n. 半岛|{{< words src="peninsula">}}||
+|luxurious|adj. 奢侈|{{< words src="luxurious">}}||
+|ornate|adj. 华丽的；奢侈的|{{< words src="ornate">}}||
+|plaudit|n. 鼓掌；喝彩|{{< words src="plaudit">}}||
+|quiver|n. 颤抖； vi. 抖动；颤动|{{< words src="quiver">}}||
+|saunter|vi./n. 闲逛；漫步|{{< words src="saunter">}}||
+|tackle|v. 对付；处理；阻截； n. 拦截|{{< words src="tackle">}}||
+|usher|n. 招待员 v 引领；引导|{{< words src="usher">}}||
+|vigor|n. 活力；精力|{{< words src="vigor">}}||
+|solitude|n. 孤单；孤独|{{< words src="solitude">}}||
+|whim|n. 冲动；奇想|{{< words src="whim">}}||
+|apparatus|n. 器械；器具；设备|{{< words src="apparatus">}}||
+|vogue|n. 时尚；风气|{{< words src="vogue">}}||
+|brace|vt. 加强；加固；防备|{{< words src="brace">}}||
+|censor|n. 审查员 vt. 审查；检查|{{< words src="censor">}}||
+|respire|v. 呼吸|{{< words src="respire">}}|-pire|
+|morphology|n. 形态学|{{< words src="morphology">}}||
+|adroit|adj. 精明的；干练的；熟练地|{{< words src="adroit">}}||
+|moss|n. 苔藓|{{< words src="moss">}}||
+|perch|v. 栖息；停留 n. 栖息处|{{< words src="perch">}}||
+|recipient|n. 接受者|{{< words src="recipient">}}||
+|fare|vi. 进展 n. 费用|{{< words src="fare">}}||
+|neon|n. 霓虹灯|{{< words src="neon">}}||
+|minimize|vt. 将...减少；降低；贬低|{{< words src="minimize">}}||
+|permeate|v. 弥漫；渗透|{{< words src="permeate">}}||
+|midterm|adj. 中间的；其中的|{{< words src="midterm">}}||
+|||{{< words src="">}}||
+|||{{< words src="">}}||
+
+## L25
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList25.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|stress|n. 压力|{{< words src="stress">}}||
+|digest|v. 消化；吸收|{{< words src="digest">}}||
+|pancreas|n. 胰腺|{{< words src="pancreas">}}||
+|Gothic|adj. 哥特式的|{{< words src="Gothic">}}||
+|undergraduate|n. 本科生|{{< words src="undergraduate">}}||
+|conversation|n. 交谈；谈话|{{< words src="conversation">}}||
+|rust|v. 铁锈； n. 生锈|{{< words src="rust">}}||
+|testimony|n. 证据；证明|{{< words src="testimony">}}|The pyramids are an eloquent testimony to the ancient Egyptians' engineering skills. <br>金字塔是古埃及人非凡工程技术的明鉴<br> {{< words src="The pyramids are an eloquent testimony to the ancient Egyptians' engineering skills.">}}|
+|wick|n. 灯芯|{{< words src="wick">}}||
+|perish|v. 灭亡|{{< words src="perish">}}||
+|cherish|v. 珍惜|{{< words src="cherish">}}||
+|nocturnal|adj. 夜行的；|{{< words src="nocturnal">}}||
+|application|n. 应用；申请|{{< words src="application">}}||
+|distant|adj. 遥远的；远离的|{{< words src="distant">}}||
+|polygon|n. 多边形|{{< words src="polygon">}}||
+|arbitrary|adj. 任意的；专制的；专断的|{{< words src="arbitrary">}}||
+|membrane|n. 薄膜|{{< words src="membrane">}}|a waterproof membrane|
+|essential|adk. 基本的；本质的|{{< words src="essential">}}||
+|soothe|vt. 缓和；减轻；抚慰|{{< words src="soothe">}}|soothe away解除；消除|
+|robust|adj. 健壮的；强壮的|{{< words src="robust">}}||
+|venomous|adj. 有毒的；恶意的；狠毒的|{{< words src="venomous">}}||
+|chamber|n. 会议厅；议院；洞穴|{{< words src="chamber">}}||
+|reversible|adj. 可逆的；可翻转的|{{< words src="reversible">}}||
+|sleek|adj. 光滑而有光泽的；时髦的|{{< words src="sleek">}}||
+|copilot|n. 副飞行员|{{< words src="copilot">}}||
+|tactile|adj. 触觉的；可感触的|{{< words src="tactile">}}||
+|variant|n. 变形；变体|{{< words src="variant">}}||
+|choppy|adj. 波浪起伏的；不平静的|{{< words src="choppy">}}||
+|solvent|n. 溶剂； adj. 溶解力的|{{< words src="solvent">}}||
+|viscous|adj. 粘滞性的|{{< words src="viscous">}}||
+|yolk|n. 蛋黄|{{< words src="yolk">}}||
+|cavern|n. 洞穴；山洞|{{< words src="cavern">}}||
+|drench|vt. 使湿透|{{< words src="drench">}}||
+|landslide|n. 山崩；塌方|{{< words src="landslide">}}||
+|contiguous|adj. 接壤的；毗邻的；连续的|{{< words src="contiguous">}}|The countries are contiguous. <br>这些国家互相接壤。<br> {{< words src="The countries are contiguous.">}}|
+|moor|n. 沼泽；旷野；荒野|{{< words src="moor">}}||
+|crescent|adj. 新月形|{{< words src="crescent">}}||
+|missile|n. 导弹|{{< words src="missile">}}||
+|shroud|vt. 隐藏；遮蔽|{{< words src="shroud">}}||
+|mound|n. 土墩；土丘|{{< words src="mound">}}||
+|creative|adj. 有创造力的；创造性的|{{< words src="creative">}}||
+|eccentric|n. 古怪的人 adj. 古怪的；反常的|{{< words src="eccentric">}}|ec (偏离) - centric (中心的)|
+|solo|adj. 单独的；独唱的|{{< words src="solo">}}||
+|conserve|vt. 保存；保藏|{{< words src="conserve">}}||
+|volume|n. 体积；容积；容量|{{< words src="volume">}}||
+|temperate|adj. 气候温和；温带的|{{< words src="temperate">}}||
+|asset|n. 资产；财产；长处；优点|{{< words src="asset">}}||
+|assert|v. 维护；主张；断言|{{< words src="assert">}}||
+|cliff|n. 悬崖；峭壁|{{< words src="cliff">}}||
+|mess|n. 肮脏；混乱；困境|{{< words src="mess">}}||
+|neutral|adj. 中性的；中立的|{{< words src="neutral">}}||
+|abbreviate|vt. 缩写；缩略|{{< words src="abbreviate">}}||
+|delight|v. 愉快；高兴|{{< words src="delight">}}||
+|plot|n. 情节；阴谋 v. 密谋；划分；标出|{{< words src="plot">}}|The novel is well organized in terms of plot. 这部小说的故事布局非常严谨。 {{< words src="The novel is well organized in terms of plot.">}}|
+|crustal|adj. 外壳的；地壳的|{{< words src="crustal">}}||
+|glow|vi. 发光|{{< words src="glow">}}||
+|upset|vt. 使心烦意乱； adj. 沮丧 n. 困扰；麻烦|{{< words src="upset">}}||
+|notate|vt. 以符号表示|{{< words src="notate">}}||
+|pose|vt. 摆姿势；造成；提出|{{< words src="pose">}}||
+|hurricane|n. 飓风；风暴|{{< words src="hurricane">}}||
+|interact|vi. 相互作用；互相配合|{{< words src="interact">}}||
+|pore|vi. 审阅； n. 气孔|{{< words src="pore">}}||
+|pole|n. 杆；地极|{{< words src="pole">}}||
+|entertain|v. 招待；款待|{{< words src="entertain">}}||
+|granular|adj. 颗粒状的|{{< words src="granular">}}||
+|unique|adj. 唯一的|{{< words src="unique">}}||
+|bead|n. 珠子；水滴|{{< words src="bead">}}||
+|craftsman|n. 手艺人；工艺师|{{< words src="craftsman">}}||
+|grasp|vt./n. 抓住；掌握；理解；领会|{{< words src="grasp">}}||
+|bias|n. 偏见；偏心|{{< words src="bias">}}||
+|predict|v. 预言；预测|{{< words src="predict">}}||
+|triangle|n. 三角形|{{< words src="triangle">}}||
+|outcome|n. 结果；成果|{{< words src="outcome">}}||
+|decorate|v. 装饰；布置|{{< words src="decorate">}}||
+|unconsolidated|adj. 松散的；疏松的|{{< words src="unconsolidated">}}||
+|citadel|n. 堡垒|{{< words src="citadel">}}||
+|pinpoint|vt. 精准定位； n. 光点 adj. 准确的；精确地|{{< words src="pinpoint">}}||
+|hatch|v. 孵化；孵出|{{< words src="hatch">}}||
+|approach|v. 接近；处理 n. 方法；手段|{{< words src="approach">}}||
+|fossil|adj. 化石的；陈腐的 n. 化石|{{< words src="fossil">}}||
+|turnpike|n. 收费公路|{{< words src="turnpike">}}||
+|detectable|adj. 可察觉的|{{< words src="detectable">}}||
+|contrast|n. 对比；对照 v. 对比|{{< words src="contrast">}}||
+|oasis|n. 绿洲|{{< words src="oasis">}}||
+|primary|adj. 最初的；首要的；基本的|{{< words src="primary">}}||
+|gulf|n. 海湾；分歧；隔阂|{{< words src="gulf">}}||
+|pale|adj. 苍白的|{{< words src="pale">}}||
+|image|n. 形象；印象；图片|{{< words src="image">}}||
+|beneficial|adj. 有益的；有利的|{{< words src="beneficial">}}||
+|spherical|adj. 球形的；球状的|{{< words src="spherical">}}||
+|||{{< words src="">}}||
+
+## L26
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList26.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|permit|v. 允许；许可 n. 许可证；执照|{{< words src="permit">}}||
+|addition|n. 加法|{{< words src="addition">}}||
+|divorce|n. 离婚；分离|{{< words src="divorce">}}||
+|category|n. 种类；范畴|{{< words src="category">}}||
+|figurative|adj. 比喻的；借喻的|{{< words src="figurative">}}||
+|metaphor|n. 隐喻|{{< words src="metaphor">}}||
+|analogy|n. 类比|{{< words src="analogy">}}||
+|portrait|n. 肖像；画像|{{< words src="portrait">}}||
+|dioxide|n. 二氧化物|{{< words src="dioxide">}}||
+|methanol|n. 甲醇|{{< words src="methanol">}}||
+|amass|vt. 积聚|{{< words src="amass">}}||
+|feasible|adj. 可行的；行得通的|{{< words src="feasible">}}||
+|pleasing|adj. 令人高兴的|{{< words src="pleasing">}}||
+|score|v. 评分；获胜 n. 分数；二十|{{< words src="score">}}||
+|simply|adv. 简单的；简明的；简直；仅仅|{{< words src="simply">}}||
+|fertile|adj. 肥沃的；富饶的|{{< words src="fertile">}}||
+|fertilizer|n. 肥料|{{< words src="fertilizer">}}||
+|penmanship|n. 书法|{{< words src="penmanship">}}||
+|imprecise|adj. 不精确的|{{< words src="imprecise">}}||
+|wispy|adj. 成束的；纤细的|{{< words src="wispy">}}||
+|susceptible|adj. 过敏的；易受感染的|{{< words src="susceptible">}}|Young people are the most susceptible to advertisements. <br> 年轻人最容易受广告影响。<br> {{< words src="Young people are the most susceptible to advertisements.">}}|
+|respect|vt. 尊重；尊敬；遵守 n. 尊敬|{{< words src="respect">}}||
+|effluent|n. 流出；废水；污水|{{< words src="effluent">}}||
+|integrity|n. 正直；完整|{{< words src="integrity">}}||
+|integrate|v. 合并；成为一体|{{< words src="integrate">}}||
+|thwart|vt. 阻碍；使...受挫|{{< words src="thwart">}}|The security forces were doing all they could to thwart terrorists. <br> 安全部队正尽其所能挫败恐怖分子。<br> {{< words src="The security forces were doing all they could to thwart terrorists.">}}|
+|hamper|v. 阻碍；妨碍|{{< words src="hamper">}}| The bad weather hampered rescue operations. <br> 恶劣的天气阻碍了救助行动。<br> {{< words src="The bad weather hampered rescue operations.">}}|
+|prevent|v. 阻碍；阻止；预防|{{< words src="prevent">}}|Further treatment will prevent cancer from developing. <br> 进一步治疗将预防癌症恶化。 <br> {{< words src="Further treatment will prevent cancer from developing.">}}|
+|impede|vt. 阻碍；阻止|{{< words src="impede">}}|Debris and fallen rock are impeding the progress of the rescue workers.<br>瓦砾和落下的岩石正阻碍着救援人员的进程。<br> {{< words src="Debris and fallen rock are impeding the progress of the rescue workers.">}}|
+|hinder|v. 阻碍；妨碍；阻止|{{< words src="hinder">}}|Further investigation was hindered by the loss of all documentation on the case. <br>由于有关此案的材料全部丢失，进一步的调查受到了阻碍。<br> {{< words src="Further investigation was hindered by the loss of all documentation on the case.">}}|
+|keep from|隐瞒；阻止；抑制|{{< words src="keep from">}}||
+|put a crimp into|妨碍；破坏计划|{{< words src="put a crimp into">}}||
+|zone|vt. 分区；划分地带 n. 地区；地域|{{< words src="zone">}}||
+|jar|v. 震动；冲突；抵触 n. 坛子；广口瓶|{{< words src="jar">}}||
+|accordion|n. 手风琴|{{< words src="accordion">}}||
+|accord|n. 协议，条约；符合，一致 v. 一致；符合|{{< words src="accord">}}|accord with 同…相符合；与…一致 <br> in accord with 同…相符合；与…一致 <br> These results accord closely with our predictions.  <br> 这些结果和我们的预测相当一致。<br> {{< words src="These results accord closely with our predictions.">}}|
+|posthumous|adj. 死后的|{{< words src="posthumous">}}||
+|sodium|n. 钠|{{< words src="Sodium">}}||
+|centennial|n. 百年纪念|{{< words src="centennial">}}||
+|responsible|adj. 有责任感的|{{< words src="responsible">}}||
+|series|n. 系列；连续|{{< words src="series">}}||
+|tendon|n. 腱|{{< words src="tendon">}}||
+|maturity|n. 成熟的；完备的|{{< words src="maturity">}}||
+|boulder|n. 巨石|{{< words src="boulder">}}||
+|careless|adj. 粗心的；疏忽的|{{< words src="careless">}}||
+|voracious|adj. 狼吞虎咽的|{{< words src="voracious">}}||
+|clarify|vt. 澄清；阐明|{{< words src="clarify">}}||
+|relay|vt. 转播；传达；转述 n. 接替人员|{{< words src="relay">}}|The satellite will be used mainly to relay television programmes. <br> 这颗卫星将主要用来转播电视节目。<br> {{< words src="The satellite will be used mainly to relay television programmes.">}}|
+|rely|v. 相信，信赖；依靠，依赖|{{< words src="rely">}}|They relied heavily on the advice of their professional advisers. <br>他们非常依赖专业顾问的建议。<br> {{< words src="They relied heavily on the advice of their professional advisers.">}}|
+|molten|adj. 熔化的；熔融的|{{< words src="molten">}}||
+|acute|adj. 严重得；极度的；激烈的；敏锐的|{{< words src="acute">}}||
+|lethargy|n. 死气沉沉的|{{< words src="lethargy">}}||
+|diverse|adj. 不同的；多样的|{{< words src="diverse">}}||
+|diversity|n. 多样性|{{< words src="diversity">}}||
+|acclaim|n./vt. 喝彩；称赞|{{< words src="acclaim">}}||
+|meteorite|n. 陨石|{{< words src="meteorite">}}||
+|consumption|n. 消耗；消费|{{< words src="consumption">}}||
+|shrub|n. 灌木丛|{{< words src="shrub">}}||
+|orient|n. 东方； vt. 使适应;定位|{{< words src="orient">}}|It took him some time to orient himself in his new school.  <br> 他经过了一段时间才熟悉新学校的环境。<br> {{< words src="It took him some time to orient himself in his new school.">}} <br> The mountaineers found it hard to orient themselves in the fog.  <br> 登山者在大雾中很难辨认方向。<br> {{< words src="The mountaineers found it hard to orient themselves in the fog.">}} <br>  You will need the time to orient yourself to your new way of eating. <br> 你需要时间适应新的吃法。{{< words src="You will need the time to orient yourself to your new way of eating.">}}|
+|pinnacle|n. 山顶；山峰|{{< words src="pinnacle">}}||
+|endless|adj. 无穷尽的|{{< words src="endless">}}||
+|frigid|adj. 寒冷的|{{< words src="frigid">}}||
+|fluid|n. 液体；流体|{{< words src="fluid">}}||
+|crack|v. 破裂；断裂 n. 裂缝；裂纹|{{< words src="crack">}}||
+|tectonic|adj. 地壳构造的|{{< words src="tectonic">}}||
+|democrat|n. 民主党人|{{< words src="democrat">}}||
+|boon|n. 恩惠；恩赐|{{< words src="boon">}}||
+|photodissociation|n. 光解作用|{{< words src="photodissociation">}}||
+|soprano|n. 女高音|{{< words src="soprano">}}||
+|format|n. 设计；安排；格式|{{< words src="format">}}||
+|expressive|adj. 有表现力的|{{< words src="expressive">}}||
+|acidity|n. 酸度；酸性|{{< words src="acidity">}}||
+|focalize|v. 使集中；调节焦距|{{< words src="focalize">}}||
+|observatory|n. 天文台|{{< words src="observatory">}}||
+|prospector|n. 勘探者|{{< words src="prospector">}}||
+|rotational|adj. 旋转的|{{< words src="rotational">}}||
+|swampy|adj. 沼泽多的；湿地的；松软的|{{< words src="swampy">}}||
+|troposphere|n. 对流层|{{< words src="troposphere">}}||
+|wintry|adj. 冬天的；寒冷的|{{< words src="wintry">}}||
+|buoyant|adj. 有浮力的；漂浮的|{{< words src="buoyant">}}||
+|cement|n. 水泥；胶合剂 vt 巩固；团结|{{< words src="cement">}}||
+|spatial|adj. 空间的|{{< words src="spatial">}}||
+|dynamical|adj. 动态的；动力的|{{< words src="dynamical">}}||
+|entity|n. 实体|{{< words src="entity">}}||
+|fusion|n. 熔化；溶解|{{< words src="fusion">}}||
+|hydraulic|adj. 水力的；液压的|{{< words src="hydraulic">}}||
+|condense|v. 压缩；凝结|{{< words src="condense">}}||
+|allergy|n. 过敏性反映|{{< words src="allergy">}}||
+|variable|adj. 易变的|{{< words src="variable">}}||
+|evolution|n. 发展；进化|{{< words src="evolution">}}||
+|representative|n. 代表；代理人 adj. 典型的；有代表性的|{{< words src="representative">}}||
+|crystallize|v. 结晶；明确|{{< words src="crystallize">}}||
+|gorgeous|adj. 漂亮的|{{< words src="gorgeous">}}||
+|angle|n. 角度；立场；观点|{{< words src="angle">}}||
+|impose|v. 把...强加于;强制推行|{{< words src="impose">}}|Congress can impose strict conditions on the bank. <br> 国会可能会迫使这家银行接受苛刻的条件。 <br> {{< words src="Congress can impose strict conditions on the bank.">}}|
+|expose|v. 暴露；显露|{{< words src="expose">}}|My job as a journalist is to expose the truth. <br> 我作为记者的职责就是展示事实。<br> {{< words src="My job as a journalist is to expose the truth.">}}|
+|compose|v. 组成；构成|{{< words src="compose">}}|Protein molecules compose all the complex working parts of living cells.  <br>蛋白质分子构成了活细胞所有复杂的工作部件。 {{< words src="Protein molecules compose all the complex working parts of living cells.">}}|
+|decompose|v. 使腐烂; 使分解;分解|{{< words src="decompose">}}|When the plants die, they decompose, and the phosphorus is recycled back into the soil.  <br> 当植物死亡时，它们会分解，磷就会被回收到土壤中。 <br> {{< words src="When the plants die, they decompose, and the phosphorus is recycled back into the soil.">}}|
+|dispose|vi. 处理；放置；安排|{{< words src="dispose">}}|Obviously we ask all our customers to dispose of litter responsibly.  <br> 显然，我们要求所有的顾客负责任地处理垃圾。<br> {{< words src="Obviously we ask all our customers to dispose of litter responsibly.">}}|
+|depose|vt. 免职；废黜；废除 vi. 宣誓作证|{{< words src="depose">}}|The right to elect chieftains and to depose them. <br>选举和撤换酋长的权利。 <br> {{< words src="The right to elect chieftains and to depose them.">}}|
+|deposit|v. 放下；放置；沉淀 n. 沉淀；押金；存款|{{< words src="deposit">}}|Landlords can charge a returnable deposit. <br>房东可以收取一笔可退还的押金。<br> {{< words src="Landlords can charge a returnable deposit.">}}|
+|repose|n. 休息；睡眠 v. 坐落；静卧；休息|{{< words src="repose">}}||
+|propose|v. 提议；建议；提出|{{< words src="propose">}}|He has proposed a resolution limiting the role of U.S. troops.<br>他提出了一项限制美军作用的决议。 <br>{{< words src="He has proposed a resolution limiting the role of U.S. troops.">}}|
+|oppose|v. 反抗；阻碍；竞争|{{< words src="oppose">}}|I would oppose changing the law. <br>我将反对改变这个法规。<br> {{< words src="I would oppose changing the law.">}}|
+|purpose|n. 目的；意图；计划|{{< words src="purpose">}}|The purpose of industry is to create wealth. <br>勤劳的目的是致富。 <br> {{< words src="The purpose of industry is to create wealth.">}}|
+|transpose|vt. 调换；颠倒顺序|{{< words src="transpose">}}|Many people inadvertently transpose digits of the ZIP code. <br> 许多人粗心地把邮政编码的数字弄颠倒了。<br> {{< words src="Many people inadvertently transpose digits of the ZIP code.">}}|
+|||{{< words src="">}}||
+
+
+## L27
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList27.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|apologize|vi. 道歉；认错|{{< words src="apologize">}}||
+|colleague|n. 同事；同僚|{{< words src="colleague">}}||
+|pump|n. 泵； vt. 用泵抽|{{< words src="pump">}}||
+|exempt|adj. 被免除的；被豁免的|{{< words src="exempt">}}|Virtually all students will be exempt from the tax.  <br>差不多所有的学生都可免此税项。<br> {{< words src="Virtually all students will be exempt from the tax.">}}|
+|marine|adj. 海的；海生的|{{< words src="marine">}}||
+|board|n. 委员会；董事会；板 v. 上船；登机|{{< words src="board">}}|a bulletin board 公告板 <br> {{< words src="a bulletin board">}}|
+|immature|adj. 未成熟的|{{< words src="immature">}}||
+|orientation|n. 方向；定位|{{< words src="orientation">}}||
+|aggressive|adj. 侵略的；挑衅的；又进取心的|{{< words src="aggressive">}}||
+|cling|vi. 附着；黏住|{{< words src="cling">}}|cling to 坚持；不放弃|
+|output|n. 产量；输出量|{{< words src="output">}}||
+|hostile|adj. 不友好的；敌意的|{{< words src="hostile">}}||
+|resolve|v. 解决；决定；决心|{{< words src="resolve">}}||
+|resolve|v. 解决；决定；决心 n. 决心|{{< words src="resolve">}}|Nothing could weaken his resolve to continue. <br>什么也不能削弱他继续下去的决心。<br> {{< words src="Nothing could weaken his resolve to continue. ">}} <br> We must find a way to resolve these problems before it's too late. <br> 我们必须找到一个办法去解决这些问题,不然就太晚了。<br> {{< words src="We must find a way to resolve these problems before it's too late.">}}| 
+|resolved|adj. 坚定的；下决心的|{{< words src="resolved">}}||
+|resolution|n. 决心|{{< words src="resolution">}}||
+|absolve|v. 免罪;赦免|{{< words src="absolve">}}|This cannot absolve you from all responsibility. <br> 这并不能解除你的全部责任。|
+|absolution|n. 赦免|{{< words src="absolution">}}|She felt as if his words had granted her absolution. <br>她感到似乎他的话是对她的赦免。|
+|solve|v. 解决|{{< words src="solve">}}||
+|solution|n. 解决；办法|{{< words src="solution">}}||
+|tile|vt. 铺瓦;铺地砖 n. 瓦片；地砖|{{< words src="tile">}}||
+|undertaking|n. 任务；项目；事业|{{< words src="undertaking">}}||
+|transmit|v. 传送；传递；输送|{{< words src="transmit">}}||
+|sloth|n. 树懒；懒散；懒惰|{{< words src="sloth">}}||
+|popular|adj. 通俗的；流行的|{{< words src="popular">}}||
+|furry|adj. 毛皮的|{{< words src="furry">}}||
+|restraint|n. 抑制；克制|{{< words src="restraint">}}||
+|restrain|vt. 克制；约束；管制|{{< words src="restrain">}}|She was unable to restrain her desperate anger. <br> 她无法抑制她那不顾一切的愤怒。<br> {{< words src="She was unable to restrain her desperate anger.">}} <br> The government is taking steps to restrain inflation.  <br> 政府正在采取措施控制通货膨胀。<br> {{< words src="The government is taking steps to restrain inflation.">}}|
+|outermost|adj. 最外面的；离中心最远的|{{< words src="outermost">}}||
+|slight|adj. 轻微的；微弱的|{{< words src="slight">}}||
+|butter|n. 黄油|{{< words src="butter">}}||
+|vegetative|adj. 植物性的|{{< words src="vegetative">}}||
+|plasma|n. 血浆|{{< words src="plasma">}}||
+|swarm|n. 群 vi. 云集；密集|{{< words src="swarm">}}||
+|locomotion|n. 移动；运动|{{< words src="locomotion">}}||
+|utmost|adj. 最大限度的 n. 最大限度；最大量|{{< words src="utmost">}}||
+|dignity|n. 尊严；高贵|{{< words src="dignity">}}||
+|spot|v. 认出；发现 n. 地点；斑点|{{< words src="spot">}}||
+|rudimentary|adj. 原始的；基本的；基础的|{{< words src="rudimentary">}}||
+|bud|n. 芽；蓓蕾|{{< words src="bud">}}||
+|remainder|n. 剩余物；残存|{{< words src="remainder">}}||
+|depend|v. 依靠；依赖|{{< words src="depend">}}||
+|slumber|n. 睡眠；安睡|{{< words src="slumber">}}||
+|complement|vt. 补充；补足 n. 补充|{{< words src="complement">}}||
+|complementary|adj. 补充的|{{< words src="complementary">}}||
+|strive|vi. 奋斗；努力|{{< words src="strive">}}||
+|figure|n. 身形；身材；轮廓；数字 v. 估算|{{< words src="figure">}}||
+|credit|vt. 把...归于 n. 荣耀；学分；信用|{{< words src="credit">}}||
+|spaghetti|n. 意大利面条|{{< words src="spaghetti">}}||
+|outcry|n. 大声疾呼；强烈抗议|{{< words src="outcry">}}||
+|retain|vt. 保持；保留|{{< words src="retain">}}||
+|inertia|n. 惯性；惰性|{{< words src="inertia">}}||
+|liquefy|v. 溶解；液化|{{< words src="liquefy">}}||
+|shrimp|n. 虾|{{< words src="shrimp">}}||
+|editorial|n. 社论 adj. 社论的；编辑|{{< words src="editorial">}}||
+|assimilate|v. 透彻理解；吸收；消化；同化|{{< words src="assimilate">}}||
+|focus|n. 焦点；中心 v. 集中（注意力）；聚焦|{{< words src="focus">}}||
+|soybean|n. 大豆|{{< words src="soybean">}}||
+|annoyed|adj. 生气的|{{< words src="annoyed">}}||
+|banner|n. 横幅|{{< words src="banner">}}||
+|factor|n. 要素；因素；|{{< words src="factor">}}||
+|infiltrate|v. 渗入；渗透|{{< words src="infiltrate">}}|He claimed that some countries have been trying to infiltrate their agents into the republic. <br>他声称有些国家一直试图使他们的特工渗入该共和国。<br>{{< words src="He claimed that some countries have been trying to infiltrate their agents into the republic.">}}|
+|permeate|v. 渗透;弥漫|{{< words src="permeate">}}|Water will easily permeate a cotton dress. <br> 水很容易渗透棉布衣服。<br> {{< words src="Water will easily permeate a cotton dress.">}}|
+|soak|v. 渗透；沉浸|{{< words src="soak">}}|Soak the beans for 2 hours. <br>把豆子泡上两个小时。|
+|percolate|v. 过滤；渗透；逐渐流传，传开|{{< words src="percolate">}}| All of these thoughts percolated through my mind. <br> 所有这些想法在我心里慢慢扩散开来。<br> {{< words src="All of these thoughts percolated through my mind.">}} <br>New fashions took a long time to percolate down. <br> 新时尚要很长时间才能在大众中流行起来。|
+|leach|v. 过滤；溶解 n. 过滤器|{{< words src="leach">}}||
+|momentum|n. 动量；动力；冲力|{{< words src="momentum">}}||
+|odorous|adj. 有气味的；难闻的|{{< words src="odorous">}}||
+|supersonic|adj. 超音速的|{{< words src="supersonic">}}||
+|thermal|adj. 热的；热量的|{{< words src="thermal">}}||
+|coefficient|n. 系数|{{< words src="coefficient">}}||
+|differential|adj. 差别的；有区别的|{{< words src="differential">}}||
+|vaporize|v. 蒸发；汽化|{{< words src="vaporize">}}||
+|waggle|v./n. 摆动|{{< words src="waggle">}}||
+|approximation|n. 接近；近似值|{{< words src="approximation">}}||
+|bisect|vt. 把...二等分|{{< words src="bisect">}}||
+|calculable|adj. 可计算的|{{< words src="calculable">}}||
+|ellipse|n. 椭圆|{{< words src="ellipse">}}||
+|dividend|n. 红利；股息；回报；收益；被除数|{{< words src="dividend">}}||
+|formula|n. 公式；方程式|{{< words src="formula">}}||
+|weathering|n. 侵蚀；风化|{{< words src="weathering">}}||
+|tarnish|v. 玷污；失去光泽；败坏|{{< words src="tarnish">}}||
+|inquire|v. 打听；询问|{{< words src="inquire">}}||
+|extrapolate|v. 外推；推断；推知|{{< words src="extrapolate">}}||
+|remains|n. 剩余物；残留物|{{< words src="remains">}}||
+|flexibility|n. 灵活性；弹性；韧性|{{< words src="flexibility">}}||
+|mural|n. 壁画；壁饰； adj. 墙壁上的|{{< words src="mural">}}||
+|balance|vt. 使平衡； n. 天平；平衡；差额；余款|{{< words src="balance">}}||
+|telegraph|n. 电报；电报机 v. 发电报|{{< words src="telegraph">}}||
+|privilege|vt. 给予特权 n. 特权；特殊待遇|{{< words src="privilege">}}||
+|chart|v. 用图说明；制图；记录 n. 图表|{{< words src="chart">}}||
+|scan|vt. 细查；审视|{{< words src="scan">}}||
+|congress|n. 国会；议会；代表大会|{{< words src="congress">}}||
+|amenity|n. 便利设施；福利设施；愉快|{{< words src="amenity">}}||
+|pretension|n. 要求；主张|{{< words src="pretension">}}||
+|sensual|adj. 感觉的；感官的|{{< words src="sensual">}}||
+|grimly|adv. 冷酷的；严肃的|{{< words src="grimly">}}||
+|mechanics|n. 机械学；力学|{{< words src="mechanics">}}||
+|presentation|n. 提供；显示；介绍；表演|{{< words src="presentation">}}||
+|refurbish|vt. 重新装新|{{< words src="refurbish">}}||
+|ancient|adj. 古代的|{{< words src="ancient">}}||
+|||{{< words src="">}}||
+
+## L28
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList28.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|portable|adj. 轻便的|{{< words src="portable">}}||
+|disciple|n. 门徒；弟子|{{< words src="disciple">}}||
+|exhibit|v. 陈列；展览|{{< words src="exhibit">}}||
+|exhibition|n. 展览会|{{< words src="exhibition">}}|The exhibition is held annually. <br> 这个展览每年举行一次。 <br> {{< words src="The exhibition is held annually.">}}|
+|rekindle|vt. 重新点燃；使振作|{{< words src="rekindle">}}||
+|meteor|n. 流星|{{< words src="meteor">}}||
+|strap|n. 带 vt. 用带捆扎|{{< words src="strap">}}||
+|urban|adj. 城市的；市内的|{{< words src="urban">}}||
+|salamander|n. 火蜥蜴|{{< words src="salamander">}}||
+|bond|n. 联结；契约；合同 v. 黏合；结合|{{< words src="bond">}}||
+|handy|adj. 可用的；便利的|{{< words src="handy">}}||
+|gauge|n. 标准；规格； vt. 测量；度量|{{< words src="gauge">}}||
+|embryo|n. 胚胎|{{< words src="embryo">}}||
+|quadruple|v. 成四倍 adj. 四倍的|{{< words src="quadruple">}}||
+|integral|adj. 构成整体所需的；必要的|{{< words src="integral">}}||
+|urgent|adj. 急迫的；紧迫的|{{< words src="urgent">}}||
+|quotient|n. 份额；商|{{< words src="quotient">}}||
+|annual|adj. 每年的；一年一度的； n. 年报；年刊|{{< words src="annual">}}||
+|multiplicative|adj. 倍增的；乘法的|{{< words src="multiplicative">}}||
+|studio|n. 工作室；画室|{{< words src="studio">}}||
+|geometric|adj. 几何的；几何学的|{{< words src="geometric">}}||
+|minus|adj. 减的；负的|{{< words src="minus">}}||
+|ordinate|n. 纵坐标|{{< words src="ordinate">}}||
+|numeric|adj. 数字的|{{< words src="numeric">}}||
+|oblong|adj. 矩形的；长方形的|{{< words src="oblong">}}||
+|quantitative|adj. 数量的；定量的|{{< words src="quantitative">}}||
+|reciprocal|adj. 相互的；互惠的；互利的|{{< words src="reciprocal">}}||
+|tangent|n. 切线；正切； adj. 切线的|{{< words src="tangent">}}||
+|allot|vt. 分配；配给|{{< words src="allot">}}||
+|boycott|vt. 联合抵制；拒绝购买|{{< words src="boycott">}}||
+|compensation|n. 补偿；赔偿|{{< words src="compensation">}}||
+|ordinal|adj. 序数的；顺序的|{{< words src="ordinal">}}||
+|perimeter|n. 周长；外缘；边缘|{{< words src="perimeter">}}||
+|triple|v. 增至三倍 adj. 三部分的|{{< words src="triple">}}||
+|curtail|vt. 缩短；缩减|{{< words src="curtail">}}||
+|deficit|n. 赤字；逆差；不足|{{< words src="deficit">}}||
+|motto|n. 座右铭；格言|{{< words src="motto">}}||
+|reject|vt. 拒绝；抵制；抛弃|{{< words src="reject">}}||
+|tension|n. 紧张；拉力；张力|{{< words src="tension">}}||
+|flame|n. 火舌；火焰；光芒|{{< words src="flame">}}||
+|vent|n. 通风口；出口 vt. 表达；发泄|{{< words src="vent">}}||
+|jog|vi. 慢跑|{{< words src="jog">}}||
+|mimic|vt. 模仿； n. 模仿者 adj. 模拟的|{{< words src="mimic">}}||
+|laboratory|n. 实验室；研究室|{{< words src="laboratory">}}||
+|criss-cross|v. 构成十字的；交叉往来 adj. 纵横交错的|{{< words src="criss-cross">}}||
+|sour|v. 变酸；变质 adj. 馊的；变酸的|{{< words src="sour">}}||
+|deteriorate|v. 变坏；恶化；变质|{{< words src="deteriorate">}}||
+|decay|n./v. 破败,衰落;衰败;腐朽,腐烂|{{< words src="decay">}}| In practice, the agency system has decayed. Most "agents" now sell only to themselves or their immediate family.<br> 实际上，这种代理制已经衰退。现在，大多数“代理人”都只把产品卖给自己或亲近的家人。<br> {{< words src="In practice, the agency system has decayed. Most agents now sell only to themselves or their immediate family.">}}|
+|corruption|n. 贪污，腐败；堕落，腐蚀；|{{< words src="corruption">}}|Corruption is endemic in the system.  <br> 腐败在这种制度下普遍存在。<br> {{< words src="Corruption is endemic in the system.">}}|
+|critique|n. 批评；评论 vt. 写评论|{{< words src="critique">}}||
+|viral|adj. 病毒性的|{{< words src="viral">}}||
+|fault|n. 过错；过失|{{< words src="fault">}}||
+|schedule|vt. 安排；预定 n. 时刻表|{{< words src="schedule">}}||
+|latter|adj. 后面的； n. 后者|{{< words src="latter">}}||
+|minimal|adj. 最小的；最低限度的|{{< words src="minimal">}}||
+|refrigerate|vt. 冷冻；冷藏；使冷却|{{< words src="refrigerate">}}||
+|fountain|n. 喷泉；源泉|{{< words src="fountain">}}||
+|horizontal|adj. 水平的；与地面平行的|{{< words src="horizotal">}}||
+|appetite|n. 胃口；食欲|{{< words src="appetite">}}||
+|perpendicular|adj. 垂直的|{{< words src="perpendicular">}}||
+|impressive|adj. 给人印象深刻|{{< words src="impressive">}}||
+|generous|adj. 给人印象深刻的|{{< words src="generous">}}||
+|liberate|vt. 解放；释放|{{< words src="liberate">}}||
+|completion|n. 完成；实现；结束|{{< words src="completion">}}||
+|synthesize|vt. 合成；综合|{{< words src="synthesize">}}||
+|inherent|adj. 固有的；内在的|{{< words src="inherent">}}||
+|disinterested|adj. 客观的；无私的|{{< words src="disinterested">}}||
+|asthma|n. 哮喘|{{< words src="asthma">}}||
+|mania|n. 躁狂；狂热|{{< words src="mania">}}||
+|inspect|vt. 检查；视察|{{< words src="inspect">}}||
+|scorch|v. 烧焦；枯萎|{{< words src="scorch">}}||
+|aggregate|n. 聚集物；总计|{{< words src="aggregate">}}||
+|cylinder|n. 圆筒；圆柱体|{{< words src="cylinder">}}||
+|impair|vt. 削弱；损害|{{< words src="impair">}}||
+|quality|n. 质量；品德；品质 adj. 优良的|{{< words src="quality">}}||
+|bureau|n. 局；署|{{< words src="bureau">}}||
+|excavation|n. 挖掘；发掘|{{< words src="excavation">}}||
+|spin|v. 快速旋转；纺纱 n. 旋转|{{< words src="spin">}}||
+|erode|v. 侵蚀；腐蚀|{{< words src="erode">}}||
+|settle|v. 安定；安顿；安居；解决；确定|{{< words src="settle">}}||
+|virus|n. 病毒|{{< words src="virus">}}||
+|state|n. 情况；状况；国家；州 v. 陈述；说明|{{< words src="state">}}||
+|Fahrenheit|n. 华氏温度计|{{< words src="Fahrenheit">}}||
+|creep|vi. 缓慢行进；爬行|{{< words src="creep">}}||
+|thorough|adj. 彻底的；详尽的|{{< words src="thorough">}}||
+|spectrum|n. 光谱；频谱|{{< words src="spectrum">}}||
+|overhaul|n. 仔细检查；彻底检修 vt. 仔细检查|{{< words src="overhaul">}}||
+|innate|adj. 天生的；固有的|{{< words src="innate">}}||
+|picturesque|adj. 如画的；别致的|{{< words src="picturesque">}}||
+|||{{< words src="">}}||
+
+## L29
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList29.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|graphite|n. 石墨|{{< words src="graphite">}}||
+|encourage|v. 鼓励；激励|{{< words src="encourage">}}||
+|shuffle|v./n. 搅乱；洗牌|{{< words src="shuffle">}}||
+|modulate|v. 调节；调整；调制|{{< words src="modulate">}}||
+|rebate|n. 回扣；折扣；退还款|{{< words src="rebate">}}||
+|finch|n. 雀类|{{< words src="finch">}}||
+|nostalgia|n. 思乡病|{{< words src="nostalgia">}}||
+|nostalgic|adj. 思乡的；怀旧的|{{< words src="nostalgic">}}||
+|pants|n. 内裤；短裤|{{< words src="pants">}}||
+|endorse|vt. 签名；宣传；代言；赞同|{{< words src="endorse">}}||
+|fluctuation|n. 波动；起伏|{{< words src="fluctuation">}}||
+|subsidiary|n. 子公司；附属机构；支流 adj. 次要的|{{< words src="subsidiary">}}||
+|import|n. 进口； vt. 进口；输入|{{< words src="import">}}||
+|perquisite|n. 津贴；利益；特权|{{< words src="perquisite">}}||
+|mortgage|n. 抵押贷款；按揭；抵押证书|{{< words src="mortgage">}}||
+|necessity|n. 必需品；必要|{{< words src="necessity">}}||
+|externality|n. 外部性；外部效应|{{< words src="externality">}}||
+|insolvent|adj. 破产的|{{< words src="insolvent">}}||
+|lucrative|adj. 赚钱的；获利的|{{< words src="lucrative">}}||
+|negotiate|vi. 谈判；商定；商议|{{< words src="negotiate">}}||
+|patronize|v. 赞助；资助|{{< words src="patronize">}}||
+|recoup|vt. 弥补；收回(损失)|{{< words src="recover">}}||
+|monetary|adj. 金钱的；货币的|{{< words src="monetary">}}||
+|redeem|vt. 赎回；偿清；弥补;挽回|{{< words src="redeem">}}|reedm the reputation 挽回声誉|
+|deem|v. 认为；相信|{{< words src="deem">}}|You might even deem it as extreme.你可能认为这是在走极端。|
+|choir|n. 唱诗班；合唱队 vi. 合唱|{{< words src="choir">}}||
+|stagnant|adj. 不景气的；停滞的|{{< words src="stagnant">}}||
+|basin|n. 脸盆|{{< words src="basin">}}||
+|premise|n. 地基；前提；假设|{{< words src="premise">}}||
+|surcharge|n. 额外费用；附加费|{{< words src="surcharge">}}||
+|transact|vt. 交易；执行；处理|{{< words src="transact">}}||
+|alleviate|vt 减轻；缓解|{{< words src="alleviate">}}||
+|rodent|n. 啮齿目动物； adj. 咬的|{{< words src="rodent">}}||
+|punctual|adj. 守时的|{{< words src="punctual">}}||
+|dogged|adj. 顽强的；坚持不懈的|{{< words src="dogged">}}||
+|preliminary|adj. 预备的；初步的|{{< words src="preliminary">}}||
+|transform|vt. 使变形；改造；改革|{{< words src="transform">}}||
+|aurora|n. 极光|{{< words src="aurora">}}||
+|interstellar|adj. 星际的|{{< words src="interstellar">}}||
+|realm|n. 王国；国度|{{< words src="realm">}}||
+|consideration|n. 考虑；思考；体谅|{{< words src="consideration">}}||
+|aviation|n. 航空|{{< words src="aviation">}}||
+|manipulate|vt. 操作；处理；利用|{{< words src="manipulate">}}||
+|hammer|v. 捶打；n. 锤子|{{< words src="hammer">}}||
+|synthetic|adj. 合成的；综合的|{{< words src="synthetic">}}||
+|census|n. 人口普查；人口统计|{{< words src="census">}}||
+|sustain|vt. 保持；维持；支撑；经受|{{< words src="sustain">}}|The ice will not sustain your weight. 这冰承受不了你的体重。<br> {{< words src="The ice will not sustain your weight. ">}}|
+|clutch|n. 掌握；控制；抓紧 v. 抓紧|{{< words src="clutch">}}||
+|sensible|adj. 可察觉的；意识到的|{{< words src="sensible">}}||
+|sensitive|adj. 过敏的；敏感的|{{< words src="sensitive">}}||
+|target|n. 目标；对象；靶子|{{< words src="target">}}||
+|flamboyant|adj. 艳丽的；绚丽夺目的|{{< words src="flamboyant">}}||
+|vein|n. 静脉；叶脉；纹理|{{< words src="vein">}}||
+|jewelry|n. 首饰；珠宝|{{< words src="jewelry">}}||
+|pack|v. 收拾行李；打包|{{< words src="pack">}}||
+|satellite|n. 卫星；人造卫星|{{< words src="satellite">}}||
+|correspondent|n. 记者|{{< words src="correspondent">}}||
+|resilience|n. 弹力；弹性；复原力|{{< words src="resilience">}}||
+|shower|n. 暴雨；淋浴器 v. 淋雨|{{< words src="shower">}}||
+|tedious|adj. 单调乏味的|{{< words src="tedious">}}||
+|charter|vt. 特区设立；给予特权；包租 n. 纲领；宣言|{{< words src="charter">}}||
+|forefront|n. 最前沿；中心|{{< words src="forefront">}}||
+|spun|adj. 拉起丝|{{< words src="spun">}}||
+|accessible|adj. 易接近；可得到；可进入的|{{< words src="accessible">}}||
+|undertake|v. 承担；进行；从事|{{< words src="undertake">}}||
+|splash|n. 溅上的液体；斑点|{{< words src="splash">}}||
+|weave|v. 迂回行进；编织；编造|{{< words src="weave">}}||
+|gull|n. 海鸥|{{< words src="gull">}}||
+|prose|n. 散文|{{< words src="prose">}}||
+|flint|n. 打火石|{{< words src="flint">}}||
+|considerate|adj. 考虑周到的；体贴的|{{< words src="considerate">}}||
+|subdue|vt. 征服；制服；抑制|{{< words src="subdue">}}||
+|extension|n. 延长；延伸|{{< words src="extension">}}||
+|ceramic|n. 陶瓷器|{{< words src="ceramic">}}||
+|reactor|n. 反应堆|{{< words src="reactor">}}||
+|adhere|vi. 粘附；附着|{{< words src="adhere">}}||
+|token|n. 表示；标志；象征；记号|{{< words src="token">}}||
+|startling|adj. 惊人的；令人吃惊的|{{< words src="startling">}}||
+|imperative|adj. 迫切的；重要紧急的；必要的|{{< words src="imperative">}}||
+|choreograph|v. 编舞|{{< words src="choreograph">}}||
+|applicable|adj. 可应用的；恰当的；合适的|{{< words src="applicable">}}||
+|prosper|vi. 繁荣；兴旺|{{< words src="prosper">}}||
+|literature|n. 文学；文学作品|{{< words src="literature">}}||
+|demanding|adj. 苛求的；难满足的|{{< words src="demanding">}}||
+|backhand|n. 反手击球|{{< words src="backhand">}}||
+|collapse|v./n. 崩溃；倒塌|{{< words src="collapse">}}||
+|formation|n. 形成；构成|{{< words src="formation">}}||
+|radar|n. 雷达|{{< words src="radar">}}||
+|fascinating|adj. 迷人的；醉人的|{{< words src="fascinating">}}||
+|catalyst|n. 催化剂|{{< words src="catalyst">}}||
+|anomaly|n. 异常的；反常的|{{< words src="anomaly">}}||
+|devour|vt. 吞食；狼吞虎咽的；吞噬；吞没|{{< words src="devour">}}||
+|sculpt|vt. 雕刻|{{< words src="sculpt">}}||
+|magnify|vt. 放大；扩大|{{< words src="magnify">}}||
+|||{{< words src="">}}||
+
+## L30
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList30.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|melody|n. 旋律；曲调|{{< words src="melody">}}||
+|launch|vt. 发动；发起；发射；推出 n. 发射|{{< words src="launch">}}||
+|formulate|vt. 阐明；规划；制定|{{< words src="formulate">}}||
+|genre|n. 类型；流派|{{< words src="genre">}}||
+|coarse|adj. 粗糙的|{{< words src="coarse">}}||
+|pitch|n. 高音；沥青；球场|{{< words src="pitch">}}||
+|millennium|n. 千禧年|{{< words src="millennium">}}||
+|care|n. 小心；谨慎；忧虑 v. 关心；|{{< words src="care">}}||
+|ivory|n. 象牙；象牙色；象牙制品|{{< words src="ivory">}}||
+|entail|vt. 牵涉；涉及；必要；遗传，继承|{{< words src="entail">}}|Such a decision would entail a huge political risk in the midst of the presidential campaign. <br> 这样的决定会在总统大选之际导致一个巨大的政治风险。<br> {{< words src="Such a decision would entail a huge political risk in the midst of the presidential campaign.">}}|
+|wrap|vt. 包裹 n. 围巾|{{< words src="wrap">}}||
+|ultraviolet|adj. 紫外线的|{{< words src="ultraviolet">}}||
+|league|n. 联盟；同盟|{{< words src="league">}}||
+|consonant|adj. 和谐的；协调的|{{< words src="consonant">}}||
+|well-heeled|adj. 富有的；有钱的|{{< words src="well-heeled">}}||
+|binary|adj. 二进制的；二元的|{{< words src="binary">}}||
+|digitize|vt. 数字化的|{{< words src="digitize">}}||
+|subdivide|v. 细分；再分|{{< words src="subdivide">}}||
+|vibrant|adj. 震动的|{{< words src="vibrant">}}||
+|vibrate|v. (使)震动|{{< words src="vibrate">}}|The ground shook and the cliffs seemed to vibrate. <br> 大地摇晃，那些悬崖似乎在颤动。<br> {{< words src="The ground shook and the cliffs seemed to vibrate.">}}|
+|pathetic|adj. 可怜的；引起怜悯的|{{< words src="pathetic">}}||
+|agitate|v. 鼓动；煽动；激怒|{{< words src="agitate">}}||
+|generic|adj. 种类的；属的|{{< words src="generic">}}||
+|defiant|adj. 反叛的；挑衅的|{{< words src="defiant">}}||
+|faint|adj. 模糊的；虚弱的|{{< words src="faint">}}||
+|placid|adj. 平静的；安静的|{{< words src="placid">}}||
+|gloomy|adj. 忧郁的；令人沮丧的；昏暗的|{{< words src="gloomy">}}||
+|tangible|adj. 可触摸的；明确的；实际的；确凿的|{{< words src="tangible">}}||
+|chronological|adj. 按年代顺序排列的|{{< words src="chronological">}}||
+|extensive|adj. 广大的；广阔的；广泛的|{{< words src="extensive">}}||
+|provoke|vt. 挑动；激怒；挑衅；引发|{{< words src="provoke">}}||
+|diversify|v. 多样化；不同的|{{< words src="diversify">}}||
+|overgraze|v. 过度放牧|{{< words src="overgraze">}}||
+|ascertain|vt. 弄清；查明|{{< words src="ascertain">}}|as - certain|
+|criteria|n. 标准；准则|{{< words src="criteria">}}|criterion的复数形式|
+|swoon|vi./n. 昏厥；昏倒|{{< words src="swoon">}}||
+|monument|n. 纪念碑|{{< words src="monument">}}||
+|definite|adj. 清楚的；确切的|{{< words src="definite">}}||
+|spring|v. 跳跃；涌现；提出 n. 泉水；弹簧；春天；跳跃|{{< words src="spring">}}||
+|withdraw|v. 取消；撤销；撤退|{{< words src="withdraw">}}||
+|patent|vt. 取得专利权 n. 专利权 adj. 有专利的|{{< words src="patent">}}||
+|nourishment|n. 营养|{{< words src="nourishment">}}||
+|supplier|n. 供应商|{{< words src="supplier">}}||
+|congressional|adj. 国会的|{{< words src="congressional">}}||
+|interfere|vi. 干扰；干涉|{{< words src="interfere">}}||
+|respective|adj. 分别的；各自的|{{< words src="respective">}}||
+|monumental|adj. 纪念碑的；不朽的|{{< words src="monumental">}}||
+|remnant|n. 残余物；遗迹|{{< words src="remnant">}}||
+|exotic|adj. 外来的；异国的|{{< words src="exotic">}}||
+|inherit|v. 继承；遗传而得|{{< words src="inherit">}}||
+|rivalry|n. 竞争|{{< words src="rivalry">}}||
+|protest|v. 抗议；反对 n. 抗议；反对|{{< words src="protest">}}||
+|flexible|adj. 灵活的；可变通的|{{< words src="flexible">}}||
+|sacrificial|adj. 供奉品的；牺牲的|{{< words src="sacrificial">}}||
+|rebel|n. 叛逆者；起义者|{{< words src="rebel">}}||
+|pendant|n. 垂饰|{{< words src="pendant">}}||
+|tornado|n. 飓风|{{< words src="tornado">}}||
+|characterize|vt. 以...为特征|{{< words src="characterize">}}||
+|audience|n. 听众|{{< words src="audience">}}||
+|pasture|n. 牧场；草原|{{< words src="pasture">}}||
+|delta|n. 三角洲|{{< words src="delta">}}||
+|cram|v. 填塞；塞满|{{< words src="cram">}}||
+|station|n. 所；站；岗位；身份；地位 vt. 安置；驻扎|{{< words src="station">}}||
+|precursor|n. 先驱；前兆|{{< words src="precursor">}}||
+|teem|vi. 充满；到处都是|{{< words src="teem">}}||
+|rank|n. 等级|{{< words src="rank">}}||
+|alga|n. 藻类|{{< words src="alga">}}||
+|devise|vt. 设计；发明；策划|{{< words src="devise">}}||
+|quit|v. 停止；放弃；离开|{{< words src="quit">}}||
+|hinterland|n. 内地；腹地|{{< words src="hinterland">}}||
+|relate|v. 叙述；讲述|{{< words src="relate">}}||
+|tutor|n. 导师； v. 辅导|{{< words src="tutor">}}||
+|domain|n. 领域|{{< words src="domain">}}||
+|stellar|adj. 星星的；恒星的|{{< words src="stellar">}}||
+|immutable|dj. 不可改变的|{{< words src="immutable">}}||
+|marvel|v. 大为赞叹 n. 令人惊异；奇迹|{{< words src="marvel">}}||
+|cannibalism|n. 嗜食同类|{{< words src="cannibalism">}}||
+|fraction|n. 小部分；一点儿；少许|{{< words src="fraction">}}||
+|syllable|n. 音节|{{< words src="syllable">}}||
+|grain|n. 谷物；颗粒|{{< words src="grain">}}||
+|diagram|n. 图表；图解|{{< words src="diagram">}}||
+|paradigm|n. 典范，范例；样板，|{{< words src="paradigm">}}||
+|scavenger|n. 捡破烂的人|{{< words src="scavenger">}}||
+|scavenge|v. 捡破烂；拾荒|{{< words src="scavenge">}}||
+|multitude|n. 大量；众多|{{< words src="multitude">}}||
+|lost-and-found|n. 失物招领处|{{< words src="lost-and-found">}}||
+|statistic|n. 统计数字；统计学|{{< words src="statistic">}}||
+|break|v./n. 破裂；碎；打断；中止|{{< words src="break">}}||
+|impart|vt. 传授；传达；给予|{{< words src="impart">}}||
+|cautious|adj. 小心的；谨慎的|{{< words src="cautious">}}||
+|substantiate|vt. 证明；证实|{{< words src="substantiate">}}||
+|precious|adj. 贵重的|{{< words src="precious">}}||
+|entrepreneur|n. 企业家|{{< words src="entrepreneur">}}||
+|||{{< words src="">}}||
+
+
+## L31
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList31.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|amount|vi. 总计； n. 总额|{{< words src="amount">}}||
+|steer|v. 驾驶；为...掌舵；引导|{{< words src="steer">}}|The new government is seen as one that will steer the country in the right direction. <br> 新政府被认为能将这个国家引向正确的方向。<br> {{< words src="The new government is seen as one that will steer the country in the right direction.">}}|
+|violate|vt. 违背；违反；侵犯|{{< words src="violate">}}||
+|interval|n. 间隔时间；间距|{{< words src="interval">}}||
+|ponderous|adj. 笨重的；笨拙的|{{< words src="ponderous">}}||
+|define|vt. 定义；解释|{{< words src="define">}}||
+|visualize|v. 想象；使形象化|{{< words src="visualize">}}||
+|frugal|adj. 节约的；节俭的|{{< words src="frugal">}}||
+|emerald|n. 祖母绿宝石|{{< words src="emerald">}}||
+|reference|n. 提到；涉及；参考|{{< words src="reference">}}||
+|vocal|adj. 声音的；发生的|{{< words src="vocal">}}||
+|passive|adj. 被动的；消极的|{{< words src="passive">}}||
+|eschew|vt. 避开；戒除；回避|{{< words src="eschew">}}||
+|deductive|adj. 演绎的；推论的|{{< words src="deductive">}}||
+|inductive|adj. 归纳的；|{{< words src="inductive">}}||
+|illustrate|vt. (使用图例和画图)说明；解释|{{< words src="illustrate">}}||
+|advisable|adj. 可取的；适当的；明智的|{{< words src="advisable">}}||
+|hedge|n. 树篱；防备|{{< words src="hedge">}}||
+|pyramid|n. 金字塔|{{< words src="pyramid">}}||
+|liable|adj. 有责任的；有义务的|{{< words src="liable">}}||
+|exhort|vt. 劝告；规劝；告诫|{{< words src="exhort">}}||
+|advise|vt. 劝告；建议|{{< words src="advise">}}||
+|persuade|vt. 说服；劝服|{{< words src="persuade">}}||
+|persuasive|adj. 令人信服的|{{< words src="persuasive">}}||
+|disparate|adj. 迥然不同的|{{< words src="disparate">}}||
+|homosexuality|n. 同性恋|{{< words src="homosexuality">}}||
+|vivify|vt. 赋予生气；使活跃|{{< words src="vivify">}}||
+|ignite|v. 点燃；着火|{{< words src="ignite">}}||
+|spurn|vt./n. 拒绝；摒弃；唾弃|{{< words src="spurn">}}|He spurned the advice of management consultants.<br> 他拒绝了管理顾问的劝告。<br> {{< words src="He spurned the advice of management consultants.">}}|
+|uproot|v. 根除；离开家园|{{< words src="uproot">}}||
+|retrieve|vt. 取回；索回；挽回|{{< words src="retrieve">}}||
+|tribute|n. 贡品；颂词；称赞|{{< words src="tribute">}}||
+|expeditious|adj. 迅速有效的|{{< words src="expeditious">}}||
+|repetition|n. 重复；反复|{{< words src="repetition">}}||
+|assail|vt. 抨击；指责|{{< words src="assail">}}||
+|exemplify|vt. 是...的典型；例示；举例证明|{{< words src="exemplify">}}||
+|permanence|n. 永久；持久|{{< words src="permanence">}}|A child needs a family which **keeps the sense of stability and permanence.**<br> 孩子需要的是一个稳定持久的家 <br>{{< words src="A child needs a family which keeps the sense of stability and permanence.">}}|
+|recess|n. 休会期；休庭；暂停|{{< words src="recess">}}||
+|gang|n. 一帮；一伙|{{< words src="gang">}}||
+|ingenious|adj. 巧妙地；聪明的|{{< words src="ingenious">}}||
+|elevate|vt. 举起；抬高；提升职位；使情绪高昂|{{< words src="elevate">}}||
+|elevation|n. 海拔|{{< words src="elevation">}}||
+|elevator|n. 电梯|{{< words src="elevator">}}||
+|evaluate|v. 评价；评估；估值|{{< words src="evaluate">}}||
+|replace|vt. 替换；取代；归还|{{< words src="replace">}}||
+|twist|v. 缠绕；扭曲；曲解|{{< words src="twist">}}||
+|extreme|adj. 极度的|{{< words src="extreme">}}||
+|alphabet|n. 字母表|{{< words src="alphabet">}}||
+|contract|n. 合同；契约； v. 收缩；签订契约|{{< words src="contract">}}||
+|divert|vt. 转移...的注意力；使分心|{{< words src="divert">}}||
+|revoke|vt. 撤回；撤销；废除|{{< words src="revoke">}}||
+|melanin|n. 黑色素|{{< words src="melanin">}}||
+|zealous|adj. 狂热的；热烈的|{{< words src="zealous">}}||
+|drawback|n. 缺点；障碍|{{< words src="drawback">}}||
+|somewhat|adv. 稍微；晚点|{{< words src="somewhat">}}||
+|perform|v. 做；履行；完成；表演|{{< words src="perform">}}||
+|buddy|n. 伙伴|{{< words src="buddy">}}||
+|swallow|v. 吞咽|{{< words src="swallow">}}||
+|pierce|v. 刺穿；刺破|{{< words src="pierce">}}||
+|recoil|vi. 弹回；后退；退缩 n. 后退|{{< words src="recoil">}}||
+|infrastructure|n. 基础设施|{{< words src="infrastructure">}}||
+|engraving|n. 雕刻术|{{< words src="engraving">}}||
+|vehicle|n. 交通工具；车辆|{{< words src="vehicle">}}||
+|meteorological|adj. 气象学的|{{< words src="meteorological">}}||
+|core|n. 核心；要点；精髓|{{< words src="core">}}||
+|strip|vt. 剥夺；剥掉 n. 条带；带状物|{{< words src="strip">}}||
+|lace|n. 蕾丝|{{< words src="lace">}}||
+|kinetic|adj. 运动的|{{< words src="kinetic">}}||
+|premature|adj. 早熟的|{{< words src="premature">}}||
+|vacation|vi. 度假；假期 n. 假期|{{< words src="vacation">}}||
+|elementary|adj. 初级的；基础的|{{< words src="elementary">}}||
+|stationary|adj. 静止的；固定的；稳定的|{{< words src="stationary">}}||
+|notation|n. 符号；记号|{{< words src="notation">}}||
+|prime|adj. 主要的；最初的|{{< words src="prime">}}||
+|specific|adj. 明确的；具体的；特点的|{{< words src="specific">}}||
+|flock|vi. 聚结；成群 n. 群|{{< words src="flock">}}||
+|nectar|n. 花蜜|{{< words src="nectar">}}||
+|enactment|n. (法律)制定；颁布；法律；法规|{{< words src="enactment">}}||
+|sluggish|adj. 行动迟缓；不活泼的|{{< words src="sluggish">}}||
+|district|n. 地区；区域；行政区|{{< words src="district">}}||
+|obsolete|adj. 过时的；废弃的|{{< words src="obsolete">}}||
+|prestige|n. 威望；声望|{{< words src="prestige">}}||
+|silicate|n. 硅酸盐|{{< words src="silicate">}}||
+|moral|adj. 道德的；道义上的|{{< words src="moral">}}||
+|pigeon|n. 鸽子|{{< words src="pigeon">}}||
+|adaptive|adj. 合适的|{{< words src="adaptive">}}||
+|raw|adj. 生的；未加工的|{{< words src="raw">}}||
+|negotiation|n. 商谈；谈判|{{< words src="negotiation">}}||
+|delectable|adj. 美味的；可口的|{{< words src="delectable">}}||
+|abrasion|n. 表面磨损|{{< words src="abrasion">}}||
+|fiber|n. 纤维素|{{< words src="fiber">}}||
+|burrow|v. 挖掘；寻找；探索|{{< words src="burrow">}}||
+|regular|adj. 规则的；有规律的|{{< words src="regular">}}||
+|sum|n. 和；总数；金额 v. 共计；合计|{{< words src="sum">}}||
+|defecate|vi. 排便；澄清|{{< words src="defecate">}}||
+|||{{< words src="">}}||
+
+
+
+
+
+## L32
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList32.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|crust|n. 地壳；外壳|{{< words src="crust">}}||
+|scholar|n. 学着|{{< words src="scholar">}}||
+|validate|vt. 证实；使生效|{{< words src="validate">}}|The Academy Awards appear to validate his career. <br>这些奥斯卡金像奖看来证实了他的职业生涯的价值。<br>{{< words src="The Academy Awards appear to validate his career.">}}|
+|abort|v. 中止；夭折；使流产|{{< words src="abort">}}||
+|motive|n. 动机；目的|{{< words src="motive">}}||
+|evade|v. 逃避；回避；躲开|{{< words src="evade">}}|She is trying to evade all responsibility for her behaviour. <br> 她在试图逃避应为自己的行为承担的所有责任。<br>{{< words src="She is trying to evade all responsibility for her behaviour.">}}|
+|invade|v. 侵略；入侵|{{< words src="invade">}}|When did the Romans invade Britain? <br> 古罗马人是何时侵略英国的？<br> {{< words src="When did the Romans invade Britain?">}}|
+|pervade|vt. 遍及；弥漫|{{< words src="pervade">}}|Tablets are newer and just beginning to pervade the market. <br> 平板电脑较新且刚刚开始蔓延于市场。<br> {{< words src="Tablets are newer and just beginning to pervade the market. ">}}|
+|eschew|vt. 避免；避开；远避|{{< words src="eschew">}}|Eschew any decisions. 避开任何决定。|
+|credentialism|n. 文聘主义|{{< words src="credentialism">}}|| 
+|arable|adj. 可耕作的；适用于耕作的|{{< words src="arable">}}||
+|divine|adj. 神圣的；极美好的|{{< words src="divine">}}||
+|relegate|vt. 使贬职；降级;|{{< words src="relegate">}}|Might it not be better to relegate the king to a purely ceremonial function?<br> 使该国王降级到一种纯粹礼仪性的职能难道不更好吗？<br> {{< words src="Might it not be better to relegate the king to a purely ceremonial function?">}}|
+|aggregate|v. 集合；聚合；聚集 n. 总计 adj. 总计的|{{< words src="aggregate">}}|The rate of growth of GNP will depend upon the rate of growth of aggregate demand. <br> 国民生产总值的增长率将依赖于总需求的增长率。<br> {{< words src="The rate of growth of GNP will depend upon the rate of growth of aggregate demand. ">}}|
+|delegate|v. 授权；委派；n. 代表|{{< words src="delegate">}}|The Canadian delegate offered no reply. <br> 那位加拿大代表没给答复。|
+|vicious|adj. 危险的；罪恶的|{{< words src="vicious">}}||
+|cohere|vi. 连贯；一致；黏合；团结一致|{{< words src="cohere">}}|This view does not cohere with their other beliefs. <br> 这个观点与他们的其他看法不一致。|
+|shrewd|adj. 敏捷的；机灵的|{{< words src="shrewd">}}||
+|advantageous|adj. 有利的|{{< words src="advantageous">}}||
+|reiterate|vt. 反复说；重申|{{< words src="reiterate">}}||
+|monogamy|n. 一夫一妻制|{{< words src="monogamy">}}||
+|tame|adj. 驯服的；沉闷的；乏味的|{{< words src="tame">}}||
+|stigma|n. 污点；耻辱；烙印|{{< words src="stigma">}}||
+|outlive|v. 比...活得久；耐久|{{< words src="outlive">}}||
+|trivialize|vt. 使显得琐碎；轻视|{{< words src="trivialize">}}||
+|resent|v. 憎恶；愤恨|{{< words src="resent">}}||
+|degenerative|adj. 衰退的；堕落的|{{< words src="degenerative">}}||
+|solemn|adj. 庄严的；严肃的；隆重的|{{< words src="solemn">}}||
+|knit|v. 编结；编织|{{< words src="knit">}}||
+|glorify|vt. 吹捧；美化；赞美；赞扬|{{< words src="glorify">}}||
+|recount|v. 讲述；描述|{{< words src="recount">}}||
+|financial|adj. 财政的；财务的|{{< words src="financial">}}||
+|crusade|n. 十字军远征；斗争；运动|{{< words src="crusade">}}||
+|grasshopper|n. 蚂蚱；蝗虫|{{< words src="grasshopper">}}||
+|voltage|n. 电压|{{< words src="voltage">}}||
+|fundamental|adj. 基础的；基本的|{{< words src="fundamental">}}||
+|documentary|adj. 文件的；文献的；记录的|{{< words src="documentary">}}||
+|merchant|n. 商人|{{< words src="merchant">}}||
+|reform|n./v. 改革；改造；革新|{{< words src="reform">}}||
+|facade|n. 正面；表面|{{< words src="facade">}}||
+|channel|n. 频道；通道；途径|{{< words src="channel">}}||
+|vibration|n. 震动；振动|{{< words src="vibration">}}||
+|perfect|adj. 完美的；理想的；完全的|{{< words src="perfect">}}||
+|soak|v. 浸泡；浸湿|{{< words src="soak">}}||
+|resume|v. 重新开始；继续|{{< words src="resume">}}||
+|consume|vt. 消耗；吃喝|{{< words src="consume">}}||
+|presume|vt. 假定；推测|{{< words src="presume">}}||
+|assume|vt. 假定；夺取；善用；侵占|{{< words src="assume">}}||
+|propose|v. 提出；建议|{{< words src="propose">}}||
+|hardy|adj. 强壮的|{{< words src="hardy">}}||
+|acid|n. 酸 adj. 酸的|{{< words src="acid">}}||
+|hieratic|adj. 僧侣的|{{< words src="hieratic">}}||
+|thorn|n. 刺；荆棘|{{< words src="thorn">}}||
+|lethal|adj. 致命的；破坏性极大的|{{< words src="lethal">}}||
+|grab|v. 抓；拿|{{< words src="grab">}}||
+|contrary|adj. 相反的；逆的|{{< words src="contrary">}}|on the contrary adv. 相反的|
+|heritage|n. 遗产；传统|{{< words src="heritage">}}||
+|cavity|n. 腔；洞穴；窟窿|{{< words src="cavity">}}||
+|astronomical|adj. 天文学的；极大地|{{< words src="astronomical">}}||
+|likewise|adv. 同样的；也|{{< words src="likewise">}}||
+|exterior|adj. 外部的；外表的|{{< words src="exterior">}}||
+|waste|adj. 无用的；废弃的|{{< words src="waste">}}||
+|fragment|n. 碎片；断片|{{< words src="fragment">}}||
+|eloquent|adj. 雄辩地|{{< words src="eloquent">}}||
+|primate|n. 灵长类|{{< words src="primate">}}||
+|supply|n. 供应；储备 vt. 补给；供应|{{< words src="supply">}}|supply sth. to sb 给...供给...|
+|reluctant|adj. 不情愿的；勉强的|{{< words src="reluctant">}}||
+|convey|vt. 运送；传输；传达；表达|{{< words src="convey">}}||
+|garb|n. 服装 vt. 穿着|{{< words src="garb">}}||
+|stem|vt. 阻止；起源 n. 茎|{{< words src="stem">}}|stem from 源于|
+|naive|adj. 天真的；率真的|{{< words src="naive">}}||
+|prepare|v. 准备；预备|{{< words src="prepare">}}||
+|underground|adv. 在地下的；秘密的 adj. 地下的|{{< words src="underground">}}||
+|alert|adj. 警觉地；警惕的|{{< words src="alert">}}||
+|genetics|n. 遗传学|{{< words src="genetics">}}||
+|creativity|n. 创造性；创造力|{{< words src="creativity">}}||
+|girder|n. 主梁|{{< words src="girder">}}||
+|allergic|adj. 过敏的|{{< words src="allergic">}}||
+|bold|adj. 大胆的|{{< words src="bold">}}||
+|determine|v. 决心；决定；查明|{{< words src="determine">}}||
+|refreshing|adj. 提神的；使人耳目一新的|{{< words src="refreshing">}}||
+|vapor|n. 蒸汽；潮气|{{< words src="vapor">}}||
+|asymmetrical|adj. 不均匀的|{{< words src="asymmetrical">}}||
+|symmetrical|adj. 均匀的|{{< words src="symmetrical">}}||
+|spawn|v. 产卵；产生|{{< words src="spawn">}}||
+|epoch|n. 新纪元|{{< words src="epoch">}}||
+|collision|n. 碰撞；冲突；抵触|{{< words src="collision">}}||
+|substantial|adj. 实质的；坚固的|{{< words src="substantial">}}||
+|revival|n. 复兴；再流行；复苏|{{< words src="revival">}}||
+|galaxy|n. 星系|{{< words src="galaxy">}}||
+|shovel|vt. 铲；把...大量投入|{{< words src="shovel">}}||
+|revise|vt. 修订；修改|{{< words src="revise">}}||
+|spectacular|adj. 壮观的|{{< words src="spectacular">}}||
+|rely|vi. 依赖；依靠|{{< words src="rely">}}||
+|||{{< words src="">}}||
+
+
+## L33
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList33.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|caption|n. 标题；说明文字；字幕|{{< words src="caption">}}||
+|prolong|vt. 延长；拉长|{{< words src="prolong">}}||
+|detract|v. 贬低；诋毁；减损|{{< words src="detract">}}|detract from ... 贬低 <br> They feared that the publicity surrounding him would detract from their own election campaigns. <br> 他们担心围绕他的宣传会有损他们自已的竞选活动。<br> {{< words src="They feared that the publicity surrounding him would detract from their own election campaigns.">}}|
+|distract|vt. 使分心|{{< words src="distract">}}|It was another attempt to distract attention from the truth. <br>这又是企图分散人们对事实真相的注意力。 <br> {{< words src="It was another attempt to distract attention from the truth.">}}|
+|abstract|adj. 抽象的；理论上的 n. 摘要 v. 提取|{{< words src="abstract">}}||
+|attract|v. 吸引|{{< words src="attract">}}|The Cardiff Bay project is attracting many visitors.<br>加的夫湾工程吸引着众多的参观者。<br> {{< words src="The Cardiff Bay project is attracting many visitors.">}}|
+|contract|n. 合同；契约；订婚 v. 收缩；签合同|{{< words src="contract">}}|The company won a hefty contract for work on Chicago's tallest building.<br>公司赢得了芝加哥最高建筑的重要施工合同。 <br> {{< words src="The company won a hefty contract for work on Chicago's tallest building.">}}<br> The manufacturing economy contracted in October for the sixth consecutive month. <br> 制造业经济到10月份已连续萎缩6个月了。<br> {{< words src="The manufacturing economy contracted in October for the sixth consecutive month.">}}|
+|extract|v. 提取；提炼|{{< words src="extract">}}|Petroleum engineers plan and manage the extraction of oil.<br>石油工程师们规划并管理石油的提炼。<br>  {{< words src="Petroleum engineers plan and manage the extraction of oil.">}}|
+|protract|v. 延长|{{< words src="protract">}}|Let's not protract the debate any further. <br>我们不要再继续争论下去了。<br> {{< words src="Let's not protract the debate any further.">}}|
+|retract|v. 缩回；缩进；取消|{{< words src="retract">}}|Mr. Smith hurriedly sought to retract the statement, but it had just been broadcast on national radio.<br>史密斯先生急忙试图收回声明，但它刚刚已经在国家电台播出了。<br> {{< words src="Mr. Smith hurriedly sought to retract the statement, but it had just been broadcast on national radio.">}}|
+|subtract|vt. 减去；删减|{{< words src="subtract">}}|They subtract this loan balance from the sale price and you get cash to buy another house. <br>他们从售房价格里减去这个贷款余额，然后你就可以得到现金去买另一个房子。<br> {{< words src="They subtract this loan balance from the sale price and you get cash to buy another house.">}}|
+|scourge|vt. 鞭挞；折磨 n. 鞭子；祸害|{{< words src="scourge">}}||
+|aberrant|adj. 异常的|{{< words src="aberrant">}}||
+|disperse|v. 分散；散开|{{< words src="disperse">}}||
+|compressible|adj. 可压缩的|{{< words src="compressible">}}||
+|ponder|v. 思索；沉思|{{< words src="ponder">}}||
+|suspense|n. 担心；焦虑；不确定|{{< words src="suspense">}}|keep ... in suspense 保持悬念|
+|suspend|v. 延缓；推迟|{{< words src="suspend">}}||
+|hesitant|adj. 犹豫的；吞吞吐吐的|{{< words src="hesitant">}}||
+|immigrate|vi. 移居入境|{{< words src="immigrate">}}||
+|charismatic|adj. 有超凡魅力的|{{< words src="charismatic">}}||
+|arrogant|adj. 傲慢的；自大的|{{< words src="arrogant">}}||
+|instantaneous|adj. 立即的；瞬刻的|{{< words src="instantaneous">}}||
+|smear|v. 诽谤；诋毁 n. 污迹|{{< words src="smear">}}||
+|tenet|n. 信条；教义|{{< words src="tenet">}}||
+|wretch|n. 恶棍；无赖|{{< words src="wretch">}}||
+|ruthless|adj. 无情的；残酷的|{{< words src="ruthless">}}||
+|cohabitation|n. 同居|{{< words src="cohabitation">}}||
+|synonym|n. 同义词|{{< words src="synonym">}}||
+|proportion|n. 比例；均衡；部分|{{< words src="proportion">}}||
+|reddish|adj. 微红的|{{< words src="reddish">}}||
+|construction|n. 构造；结构|{{< words src="construction">}}||
+|fellowship|n. 友谊；奖学金|{{< words src="fellowship">}}||
+|architect|n. 建筑师；设计师|{{< words src="architect">}}||
+|band|vi. 联合；集合 n. 乐队；群|{{< words src="band">}}||
+|bend|v. 弯曲；屈服|{{< words src="bend">}}||
+|gemstone|n. 宝石|{{< words src="gemstone">}}||
+|flu|n. 流行性感冒|{{< words src="flu">}}||
+|thesis|n. 论文；论点|{{< words src="thesis">}}||
+|clan|n. 家族；宗族|{{< words src="clan">}}||
+|reflect|v. 反射；表明；显示|{{< words src="reflect">}}||
+|deserted|adj. 荒废的；空无一人的；被抛弃的|{{< words src="deserted">}}||
+|lobby|n. 休息室；大厅 v. 游说|{{< words src="lobby">}}||
+|probe|v. 探查；探测；盘问|{{< words src="probe">}}||
+|thereby|adv. 因此；从而|{{< words src="thereby">}}||
+|toed|adj. 有趾的|{{< words src="toed">}}||
+|vigilance|n. 警戒；警惕|{{< words src="vigilance">}}||
+|legislature|n. 立法机关|{{< words src="legislature">}}||
+|gaseous|adj. 气态的|{{< words src="gaseous">}}||
+|artificial|adj. 人工的；人造的|{{< words src="artificial">}}||
+|oxide|n. 氧化物|{{< words src="oxide">}}||
+|precise|adj. 准确的；精确地|{{< words src="precise">}}||
+|debt|n. 债务；负债情况|{{< words src="debt">}}||
+|glean|vt. 点滴搜集|{{< words src="glean">}}||
+|rural|adj. 乡村的|{{< words src="rural">}}||
+|tally|n. 记录；账本 v. 吻合|{{< words src="tally">}}||
+|curl|v. 卷曲；蜷缩 n. 卷发|{{< words src="curl">}}||
+|snack|n. 快餐；小吃|{{< words src="snack">}}||
+|pursue|v. 继续；从事于；追击；追求|{{< words src="pursue">}}||
+|broadcast|v. 广播；播放 n. 广播|{{< words src="broadcast">}}||
+|angiosperm|n. 被子植物|{{< words src="angiosperm">}}||
+|cramped|adj. 狭小的；狭窄的|{{< words src="cramped">}}||
+|shellfish|n. 贝类|{{< words src="shellfish">}}||
+|postpone|v. 延期；推迟|{{< words src="postpone">}}||
+|trace|vt. 查出；找到；追溯 n. 痕迹|{{< words src="trace">}}||
+|gnaw|v. 啃；咬|{{< words src="gnaw">}}||
+|petition|n. 请愿；请愿书；诉状 v. 请愿|{{< words src="petition">}}||
+|arrange|v. 布置；安排|{{< words src="arrange">}}||
+|tribal|adj. 部落的；宗族的|{{< words src="tribal">}}||
+|destination|n. 目的地；终点|{{< words src="destination">}}||
+|reconstruction|n. 复兴；改造|{{< words src="reconstruction">}}||
+|attach|vt. 连接；依附于；|{{< words src="attach">}}||
+|seismic|adj. 地震的|{{< words src="seismic">}}||
+|nonetheless|adv. 虽然如此；但是|{{< words src="nonetheless">}}||
+|designate|vt. 命名；任命|{{< words src="designate">}}||
+|barren|adj. 贫瘠的|{{< words src="barren">}}||
+|sore|adj. 疼痛的|{{< words src="sore">}}||
+|familiarize|vt. 使熟悉|{{< words src="familiarize">}}||
+|dragonfly|n. 蜻蜓|{{< words src="dragonfly">}}||
+|descriptive|adj. 描述性的；叙述的|{{< words src="descriptive">}}||
+|setting|n. 环境；背景|{{< words src="setting">}}||
+|multiply|v. 增加；繁殖|{{< words src="multiply">}}||
+|luxury|adj. 奢华的；奢侈的|{{< words src="luxury">}}||
+|bellows|n. 风箱|{{< words src="bellows">}}||
+|accomplish|vt. 到达；完成；实现|{{< words src="accomplish">}}||
+|ripe|adj. 成熟的|{{< words src="ripe">}}||
+|detective|n. 侦探|{{< words src="detective">}}||
+|survive|v. 幸免；幸存|{{< words src="survive">}}||
+|merchandise|n. 商品；货物|{{< words src="merchandise">}}||
+|temper|n. 脾气；性情 v. 缓和；调节|{{< words src="temper">}}||
+|devastate|vt. 破坏；毁坏|{{< words src="devastate">}}||
+|counterpart|n. 相对物；副本|{{< words src="counterpart">}}||
+|seal|vt. 密封； n. 海豹；封条|{{< words src="seal">}}||
+|||{{< words src="">}}||
+
+
+## L34
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList34.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|bounce|v. 弹起；反弹 n. 弹跳|{{< words src="bounce">}}||
+|graphics|n. 图形；图像|{{< words src="graphics">}}||
+|regulate|v. 管理；控制；调整；调节|{{< words src="regulate">}}|Under such a plan, the government would regulate competition among insurance companies so that everyone gets care at lower cost.  <br> 根据这样一个计划，政府会控制保险公司之间的竞争，这样每个人都能以较低价格获得保险。<br> {{< words src="Under such a plan, the government would regulate competition among insurance companies so that everyone gets care at lower cost. ">}}|
+|regulation|n. 规章；制度|{{< words src="regulation">}}|The European Union has proposed new regulations to control the hours worked by its employees.<br>  欧盟已经提出了新的法规来控制其雇员的工作时间。<br> {{< words src="The European Union has proposed new regulations to control the hours worked by its employees.">}}|
+|pause|v./n. 中止；暂停|{{< words src="pause">}}|pause to do 停顿去做|
+|elusive|adj. 难以理解的；逃避的；无解的|{{< words src="elusive">}}|Smell, however, is a highly elusive phenomenon. <br> 然而，气味是一种非常难以捉摸的现象。<br>{{< words src="Smell, however, is a highly elusive phenomenon.">}}|
+|elude|vt. 逃避；使困惑|{{< words src="elude">}}||
+|giraffe|n. 长颈鹿|{{< words src="giraffe">}}||
+|limitation|n. 限制；局限性|{{< words src="limitation">}}||
+|assortment|n. 分类|{{< words src="assortment">}}||
+|predominant|vi. 统治；支配；占优势|{{< words src="predominant">}}||
+|reproach|v./n. 指责；斥责|{{< words src="reproach">}}||
+|gratify|vt. 使满意|{{< words src="gratify">}}||
+|pharaoh|n. 法老|{{< words src="pharaoh">}}||
+|circulate|v. 循环；流通；传播|{{< words src="circulate">}}||
+|encroach|vi. 侵占；侵蚀|{{< words src="encroach">}}|encroach on sth. 侵占...|
+|glorious|adj. 壮丽的；辉煌的|{{< words src="glorious">}}||
+|focal|adj. 焦点|{{< words src="focal">}}||
+|toady|vi. 谄媚；奉承|{{< words src="toady">}}||
+|hearsay|n. 谣言；传闻|{{< words src="hearsay">}}||
+|ambivalent|adj. 对立的；感情矛盾的|{{< words src="ambivalent">}}||
+|momentary|adj. 片刻的；瞬间的|{{< words src="momentary">}}||
+|lofty|adj. 高耸的；崇高的|{{< words src="lofty">}}||
+|scrupulous|adj. 谨慎的；严谨的|{{< words src="scrupulous">}}||
+|nimble|adj. 敏捷的|{{< words src="nimble">}}||
+|perpetual|adj. 连续不断的|{{< words src="perpetual">}}||
+|antecedent|n 祖先；先辈|{{< words src="antecedent">}}||
+|extinguish|vt. 熄灭；灭绝；消灭；毁灭|{{< words src="extinguish">}}||
+|dote|vi. 溺爱|{{< words src="dote">}}||
+|consecutive|adj. 连续不断的|{{< words src="consecutive">}}||
+|liberal|adj. 自由的；开明的；慷慨的|{{< words src="liberal">}}||
+|rental|adj. 租用的；出租的|{{< words src="rental">}}||
+|skeletal|adj. 骨骼的|{{< words src="skeletal">}}||
+|tough|adj. 坚韧的；困难的；严格的|{{< words src="tough">}}||
+|clump|n. 丛；簇；束|{{< words src="clump">}}||
+|poetry|n. 诗歌|{{< words src="poetry">}}||
+|repertoire|n. 保留剧目；|{{< words src="repertoire">}}||
+|imitate|vt. 模仿；效仿|{{< words src="imitate">}}||
+|exploit|vt. 开发；利用|{{< words src="exploit">}}||
+|proof|n. 证明|{{< words src="proof">}}||
+|rally|v. 集合；召集|{{< words src="rally">}}||
+|specify|vt. 使具体化；明确说明|{{< words src="specify">}}||
+|genetic|adj. 基因的|{{< words src="genetic">}}||
+|eliminate|vt. 消除；淘汰|{{< words src="eliminate">}}||
+|scatter|v. 分散；驱散；散开；撒播|{{< words src="scatter">}}||
+|desperate|adj. 绝望的；拼命地|{{< words src="desperate">}}||
+|proliferate|vi. 激增；迅速繁殖|{{< words src="proliferate">}}||
+|errand|n. 差事；差使|{{< words src="errand">}}||
+|horde|n. 一大群人|{{< words src="horde">}}||
+|literacy|n. 有文化；有教养|{{< words src="literacy">}}||
+|coverage|n. 新闻报道；覆盖范围|{{< words src="coverage">}}||
+|subsidy|n. 津贴；补助金|{{< words src="subsidy">}}||
+|evidence|vt. 证明 n. 证据|{{< words src="evidence">}}||
+|vivid|adj. 清晰地；生动的；鲜明的|{{< words src="vivid">}}||
+|suspension|n. 暂停；中止；暂缓|{{< words src="suspension">}}||
+|cape|n. 海角；斗篷；披肩|{{< words src="cape">}}||
+|generalize|v. 概括；归纳|{{< words src="generalize">}}||
+|sled|n. 雪橇|{{< words src="sled">}}||
+|current|adj. 现在的；当前的；流通的 n. 气流；水流；趋势；潮流|{{< words src="current">}}||
+|vital|adj. 生死攸关的；至关重要的|{{< words src="vital">}}||
+|besiege|vt. 包围|{{< words src="besiege">}}||
+|media|n. 媒介；媒体|{{< words src="media">}}||
+|commodity|n. 商品|{{< words src="commodity">}}||
+|introduction|n. 介绍；传入；导言；绪论|{{< words src="introduction">}}||
+|scout|v. 侦查；寻找|{{< words src="scout">}}||
+|herd|n. 牧群；人群；芸芸众生|{{< words src="herd">}}||
+|abrupt|adj. 突然地；意外的|{{< words src="abrupt">}}||
+|sew|v. 缝；缝补；缝上|{{< words src="sew">}}||
+|buck|v. 抵抗；反制|{{< words src="buck">}}||
+|avert|vt. 避免；规避|{{< words src="avert">}}||
+|eschew|vt. 避免；避开；远避|{{< words src="eschew">}}||
+|graph|n. 图表|{{< words src="graph">}}||
+|shuttle|v. 穿梭往返 n. 航天飞机；梭子；航班|{{< words src="shuttle">}}||
+|transparent|adj. 透明的；明显的|{{< words src="transparent">}}||
+|sake|n. 缘故；理由|{{< words src="sake">}}||
+|flap|n. 拍打；振翅；封盖|{{< words src="flap">}}||
+|horizon|n. 地平线；眼界|{{< words src="horizon">}}||
+|sauce|n. 调味料；作料|{{< words src="sauce">}}|for the sake of 为了...|
+|adjunct|n. 附加物|{{< words src="adjunct">}}||
+|wasp|n. 黄蜂|{{< words src="wasp">}}||
+|foment|vt. 煽动；挑起；激起|{{< words src="foment">}}||
+|stalk|n. 茎；梗|{{< words src="stalk">}}||
+|part-time|adj. 兼职的|{{< words src="part-time">}}||
+|harbor|vt. 窝藏；藏有|{{< words src="harbor">}}||
+|irrigate|vt. 灌溉；冲洗|{{< words src="irrigate">}}||
+|aggregate|n. 合计；集合； v. 集合|{{< words src="aggregate">}}||
+|relegate|v. 贬职；降职|{{< words src="relegate">}}||
+|delegate|v. 授权；委托；代理|{{< words src="delegate">}}||
+|communicate|v. 交流；沟通；传达|{{< words src="communicate">}}||
+|portion|n. 部分； vt. 划分；分配|{{< words src="portion">}}||
+|authority|n. 权利；管辖权；|{{< words src="authority">}}||
+|clinic|n. 门诊；诊所|{{< words src="clinic">}}||
+|sanctuary|n. 禁猎区；圣殿|{{< words src="sanctuary">}}||
+|linguist|n. 语言学家|{{< words src="linguist">}}||
+|closet|n. 壁橱； adj. 私下的；秘密的|{{< words src="closet">}}||
+|bookstore|n. 书店|{{< words src="bookstore">}}||
+|remind|vt. 提醒|{{< words src="remind">}}||
+|candidate|n. 候选人|{{< words src="candidate">}}||
+|speculate|v. 推测；深思|{{< words src="speculate">}}||
+|speculator|n. 投机者|{{< words src="speculator">}}||
+|speculation|n. 推测；投机|{{< words src="speculation">}}||
+|speculative|adj. 推测的；投机的|{{< words src="speculative">}}||
+|abiding|adj. 持久的；永久的|{{< words src="abiding">}}||
+|yield|v. 生成；出产；屈服；头像 n. 产量；收益|{{< words src="yield">}}||
+|continuity|n. 连贯性；连续性|{{< words src="continuity">}}||
+|consecutive|adj. 连续的；不间断的|{{< words src="consecutive">}}||
+|saturate|vt. 使湿透；使饱和|{{< words src="saturate">}}||
+|||{{< words src="">}}||
+
+
+## L35
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList35.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|rodeo|n. 牛仔竞技表演|{{< words src="rodeo">}}||
+|loan|n. 贷款；出借 vt. 出借|{{< words src="loan">}}||
+|colaborator|n. 合作者；协作者|{{< words src="colaborator">}}||
+|phase|n. 相位；阶段；时期|{{< words src="phase">}}||
+|specimen|n. 样本；标本|{{< words src="specimen">}}||
+|deficient|adj. 不足的；缺乏的|{{< words src="deficient">}}||
+|slide|v./n. 滑动|{{< words src="slide">}}||
+|legible|adj. 清楚地|{{< words src="legible">}}||
+|complicated|adj. 难懂的|{{< words src="complicated">}}||
+|limb|n. 肢体；手臂；树的主枝干|{{< words src="limb">}}||
+|subsequent|adj. 随后的；并发的|{{< words src="subsequent">}}||
+|by-product|n. 副产品；副作用|{{< words src="by-product">}}||
+|dorsal|adj. 背部的|{{< words src="dorsal">}}||
+|zinc|n. 锌|{{< words src="zinc">}}||
+|cable|n. 缆绳；钢索；电缆|{{< words src="cable">}}||
+|politics|n. 政治；纲领；政见|{{< words src="politics">}}||
+|bloom|n. 开花；花期 v. 使开花|{{< words src="bloom">}}||
+|reputation|n. 名声；声望；名誉|{{< words src="reputation">}}||
+|overcharge|v. 锁价过高；渲染；夸张|{{< words src="overcharge">}}||
+|invade|v. 侵入；侵略|{{< words src="invade">}}||
+|mansion|n. 公寓|{{< words src="mansion">}}||
+|aquarium|n. 养鱼缸；水族馆|{{< words src="aquarium">}}||
+|wholesome|adj. 健康的；有道德的|{{< words src="wholesome">}}||
+|melodrama|n. 情节剧；通俗剧|{{< words src="melodrama">}}||
+|haircut|n. 理发|{{< words src="haircut">}}||
+|predator|n. 捕食者|{{< words src="predator">}}||
+|awesome|adj. 令人敬畏的；使人恐惧的|{{< words src="awesome">}}||
+|lichen|n. 青苔；地衣|{{< words src="lichen">}}||
+|ongoing|adj. 正在进行的；不间断的|{{< words src="ongoing">}}||
+|gospel|n. 准则；信条|{{< words src="gospel">}}||
+|reservation|n. 预订；预约|{{< words src="reservation">}}||
+|advertise|vt. 为...做广告；宣传|{{< words src="advertise">}}||
+|mesmerize|vt. 迷住；使入迷|{{< words src="mesmerize">}}||
+|groan|vi. 呻吟；叹息 n. 呻吟；抱怨|{{< words src="groan">}}||
+|modest|adj. 谦虚的；适度的|{{< words src="modest">}}||
+|along|adv. 向前；一起； prep. 沿着|{{< words src="along">}}||
+|magnificent|adj. 极好的；宏伟的；华丽的|{{< words src="magnificent">}}||
+|hike|v./n. 徒步旅行；远足|{{< words src="hike">}}||
+|overall|adj. 全面的；综合的 adv. 总共|{{< words src="overall">}}||
+|scurry|vi./n. 急跑；疾行|{{< words src="scurry">}}||
+|indigestion|n. 消化不良症|{{< words src="indigestion">}}||
+|boom|vi. 迅速发展；激增 n. 激增；繁荣|{{< words src="boom">}}||
+|perpetuate|vt. 使永存；使持续|{{< words src="perpetuate">}}||
+|perpetual|adj. 连续不断的|{{< words src="perpetual">}}||
+|permeate|v. 渗透|{{< words src="permeate">}}|Bias against women permeates every level of the judicial system. <br>对妇女的偏见全面影响司法体系的各个层面。<br> {{< words src="Bias against women permeates every level of the judicial system.">}}|
+|companion|n. 同伴|{{< words src="companion">}}||
+|twine|n. 细绳 v. 缠绕；盘绕|{{< words src="twine">}}||
+|resident|adj. 常驻的；居住的 n. 居民；旅客|{{< words src="resident">}}||
+|concede|v. (不情愿地)承认；让步；允许|{{< words src="concede">}}|Bess finally conceded that Nancy was right. <br> 贝丝最终承认南希是对的。<br>  Poland's Communist government conceded the right to establish independent trade unions. <br> 波兰共产党政府给予了建立独立工会的权力。<br> {{< words src="Poland's Communist government conceded the right to establish independent trade unions.">}}|
+|cede|vt. 割让；放弃|{{< words src="cede">}}||
+|accede|vi. 同意|{{< words src="accede">}}||
+|recede|vi. 后退|{{< words src="recede">}}||
+|precede|v. 领先；先于|{{< words src="precede">}}||
+|float|v. 漂浮；浮动|{{< words src="float">}}||
+|rod|n. 杆；棒子|{{< words src="rod">}}||
+|classical|adj. 经典的；古典的|{{< words src="classical">}}||
+|principle|n. 原则；原理；道德准则|{{< words src="principle">}}||
+|outspoken|adj. 直言不讳的|{{< words src="outspoken">}}||
+|factual|adj. 实际的；真实的|{{< words src="factual">}}||
+|prize|vt. 珍视； n. 奖品；奖金|{{< words src="prize">}}||
+|formidable|adj. 难以对付的；强大的；令人敬畏的|{{< words src="formidable">}}||
+|obedience|n. 服从；顺从|{{< words src="obedience">}}||
+|persist|vi. 坚持；持续|{{< words src="persist">}}||
+|skeptical|adj. 怀疑的|{{< words src="skeptical">}}||
+|dearth|n. 缺乏；短缺|{{< words src="dearth">}}||
+|invitation|n. 邀请；请柬|{{< words src="invitation">}}||
+|sequence|n. 一系列；顺序|{{< words src="sequence">}}||
+|humble|adj. 谦卑的；卑贱的；简陋的|{{< words src="humble">}}||
+|overflow|v. 泛滥；溢出 n. 溢出|{{< words src="overflow">}}||
+|glimmer|n. 闪烁的微光；一丝；一线|{{< words src="glimmer">}}||
+|staunch|adj. 坚定的；忠诚的|{{< words src="staunch">}}||
+|traverse|v. 横穿；横渡|{{< words src="traverse">}}||
+|malice|n. 恶意；怨恨|{{< words src="malice">}}||
+|sneaky|adj. 偷偷摸摸的|{{< words src="sneaky">}}||
+|uphold|vt. 支持；维护|{{< words src="uphold">}}||
+|forsake|vt. 遗弃；放弃；抛弃|{{< words src="forsake">}}||
+|vow|v. 发誓； n. 盟约|{{< words src="vow">}}||
+|embargo|n. 禁运 vt. 禁运|{{< words src="embargo">}}||
+|ordeal|n. 折磨；严峻考验|{{< words src="ordeal">}}||
+|deflect|v. 偏斜；转向|{{< words src="deflect">}}||
+|abhor|vt. 憎恨；厌恶|{{< words src="abhor">}}||
+|pernicious|adj. 有害的；恶性的|{{< words src="pernicious">}}||
+|suspicious|adj. 可疑的；令人怀疑的|{{< words src="suspicious">}}||
+|venturesome|adj. 敢于冒险的|{{< words src="venturesome">}}||
+|diagnose|v. 诊断；判断|{{< words src="diagnose">}}||
+|regiment|n. 团；一大群人|{{< words src="regiment">}}||
+|smelting|n. 冶炼；熔炼|{{< words src="smelting">}}||
+|cartilage|n. 软骨|{{< words src="cartilage">}}||
+|||{{< words src="">}}||
+|||{{< words src="">}}||
+
+
+## L36
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList36.mp3">}}
+
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|fold|n. 褶； v. 折叠；合拢；包裹|{{< words src="fold">}}||
+|discrete|adj. 分离的；个别的；离散的|{{< words src="discrete">}}||
+|courier|n. 信使|{{< words src="courier">}}||
+|sculpture|n. 雕像；雕塑品|{{< words src="sculpture">}}||
+|polygamy|n. 一夫多妻制|{{< words src="polygamy">}}||
+|despise|vt. 鄙视；看不起|{{< words src="despise">}}||
+|despite|prep. 尽管|{{< words src="despite">}}||
+|trumpet|v. 鼓吹；宣扬 n. 小号|{{< words src="trumpet">}}||
+|convene|v. 召集；召开|{{< words src="convene">}}||
+|babble|v. 胡言乱语|{{< words src="babble">}}||
+|canopy|n. 天蓬；罩盖|{{< words src="canopy">}}||
+|reproduce|v. 繁育；生殖|{{< words src="reproduce">}}||
+|notable|adj. 值得注意的|{{< words src="notable">}}||
+|subjective|adj. 主观的；个人的|{{< words src="subjective">}}||
+|tolerable|adj. 可忍受的|{{< words src="tolerable">}}||
+|exclaim|v. 惊叫；呼喊|{{< words src="exclaim">}}||
+|contradictory|adj. 对立的；矛盾的|{{< words src="contradictory">}}||
+|ambivalent|adj. (情感)矛盾的|{{< words src="ambivalent">}}||
+|anomalous|adj. 异常的；不规则的|{{< words src="anomalous">}}||
+|anomaly|n. 异常事物|{{< words src="anomaly">}}||
+|dissent|vi. 不同意；持异议|{{< words src="dissent">}}||
+|tender|adj. 嫩的；脆弱的；温柔的|{{< words src="tender">}}||
+|derivative|adj. 派生的；引出的 n. 派生词|{{< words src="derivative">}}||
+|bolt|v. 逃跑 n. 插销；门轴|{{< words src="bolt">}}||
+|calamitous|adj. 灾难性的|{{< words src="calamitous">}}||
+|surmise|v./n. 推测；猜测|{{< words src="surmise">}}||
+|premise|n. 前提；假设|{{< words src="premise">}}||
+|affluent|adj. 丰富的；富裕的|{{< words src="affluent">}}||
+|influent|adj. 流入的|{{< words src="influent">}}||
+|superimpose|vt. 使重叠；使叠加|{{< words src="superimpose">}}||
+|impose|v. 强制实行；把（自己的观点、信仰等）强加于；欺骗|{{< words src="impose">}}||
+|congest|v. 使充满；使拥塞|{{< words src="congest">}}||
+|recollection|n. 记忆力；回忆|{{< words src="recollection">}}||
+|congratulation|n. 祝贺|{{< words src="congratulation">}}||
+|ageism|n. 年龄歧视|{{< words src="ageism">}}||
+|pilot|n. 飞行员 adj. 实验性的 vt. 驾驶；领航|{{< words src="pilot">}}||
+|debut|n. 首次演出|{{< words src="debut">}}||
+|script|n. 剧本；脚本|{{< words src="script">}}||
+|consent|vi./n. 同意；赞成；准许|{{< words src="consent">}}||
+|directory|n. 目录|{{< words src="directory">}}||
+|orchid|n. 兰花|{{< words src="orchid">}}||
+|convince|vt. 说服；使确信|{{< words src="convince">}}||
+|convenience|n. 方便；便利性|{{< words src="convenience">}}||
+|ardent|adj. 热心的；热情洋溢的|{{< words src="ardent">}}||
+|convection|n. 对流；传送|{{< words src="convection">}}||
+|hollow|adj. 空心的；中空的；虚伪的|{{< words src="hollow">}}||
+|ambiguous|adj. 模糊的|{{< words src="ambiguous">}}||
+|vague|adj. 模糊的|{{< words src="vague">}}||
+|illegible|adj. 含糊不清的|{{< words src="illegible">}}||
+|antibiotic|n. 抗生素 adj. 抗菌的|{{< words src="antibiotic">}}||
+|rinse|n./vt. 冲洗；漂洗|{{< words src="rinse">}}||
+|nevertheless|adv. 然而；不过|{{< words src="nevertheless">}}||
+|insult|vt. 侮辱；凌辱|{{< words src="insult">}}||
+|cabin|n. 小屋|{{< words src="cabin">}}||
+|gourmet|adj. 美味的|{{< words src="gourmet">}}||
+|insect|n. 虫子|{{< words src="insect">}}||
+|productivity|n. 生产力|{{< words src="productivity">}}||
+|surgeon|n. 外科医师|{{< words src="surgeon">}}||
+|govern|v. 统治；管理|{{< words src="govern">}}||
+|strategy|n. 战略；策略|{{< words src="strategy">}}||
+|average|adj. 平均的；一般的|{{< words src="average">}}||
+|postcard|n. 明信片|{{< words src="postcard">}}||
+|mount|v. 增加；登上；攀登；发起；组织 n. 山峰|{{< words src="mount">}}||
+|corporate|adj. 法人的；公司的|{{< words src="corporate">}}||
+|distasteful|adj. 令人反感的；讨厌的|{{< words src="distasteful">}}||
+|medieval|adj. 中世纪的；中古的|{{< words src="medieval">}}||
+|clamor|n. 吵闹；喧哗|{{< words src="clamor">}}||
+|clamorous|adj. 吵闹的|{{< words src="clamorous">}}||
+|claim|v. 宣传；要求；获得|{{< words src="claim">}}||
+|acclaim|v./n. 称赞；喝彩|{{< words src="acclaim">}}||
+|exclaim|v. 呼喊；惊叫|{{< words src="exclaim">}}||
+|declaim|v. 慷慨陈词|{{< words src="declaim">}}||
+|disclaim|v. 否认；拒绝；放弃|{{< words src="disclaim">}}||
+|counterclaim|v. 反对|{{< words src="counterclaim">}}||
+|proclaim|vt. 宣告；声明；赞扬|{{< words src="proclaim">}}||
+|reclaim|v. 开拓；改造；挽救|{{< words src="reclaim">}}||
+|relevance|n. 有关；相关；中肯|{{< words src="relevance">}}||
+|biochemical|adj. 生物化学的；生化的|{{< words src="biochemical">}}||
+|second|adj. 第二的；次等的|{{< words src="second">}}||
+|assistance|n. 帮助；辅助|{{< words src="assistance">}}||
+|modeling|n. 立体感|{{< words src="modeling">}}||
+|laundry|n. 洗衣店；洗衣房|{{< words src="laundry">}}||
+|spew|v. 喷涌；射出；呕吐|{{< words src="spew">}}||
+|orbital|adj. 轨道的|{{< words src="orbital">}}||
+|generalization|n. 概括；归纳|{{< words src="generalization">}}||
+|inheritance|n. 遗产；继承物|{{< words src="inheritance">}}||
+|detect|vt. 发现；察觉；探测|{{< words src="detect">}}||
+|preference|n. 偏爱；优先权|{{< words src="preference">}}||
+|subliminal|adj. 下意识的；潜意识的|{{< words src="subliminal">}}||
+|blame|vt. 谴责；责备 n. 过失|{{< words src="blame">}}||
+|shape|n. 形状；外形|{{< words src="shape">}}||
+|hemisphere|n. 半球|{{< words src="hemisphere">}}||
+|squirrel|n. 松鼠|{{< words src="squirrel">}}||
+|enforce|vt. 实施；生效；执行|{{< words src="enforce">}}||
+|pollen|n. 花粉|{{< words src="pollen">}}||
+|institute|vt. 设立；制定；开创 n. 研究所|{{< words src="institute">}}||
+|spark|v. 激发；引发；触发|{{< words src="spark">}}||
+|chain|n. 链条；连锁店 vt. 连锁|{{< words src="chain">}}||
+|monotonous|adj. 单调的；无聊的|{{< words src="monotonous">}}||
+|rattle|v. 发出咔哒声；使紧张 n. 咔哒声|{{< words src="rattle">}}||
+|similar|adj. 相似的|{{< words src="similar">}}||
+|embarrass|vt. 使尴尬|{{< words src="embarrass">}}||
+|outfit|n. 全套装备|{{< words src="outfit">}}||
+|brand|vt. 铭刻；打烙印；丑化；败坏名声 n. 商品；品牌；类型|{{< words src="brand">}}||
+|economical|adj. 经济的；实惠的|{{< words src="economical">}}||
+|distinguish|v. 区分；辨别|{{< words src="distinguish">}}||
+|artisan|n. 工匠；手艺人|{{< words src="">}}||
+|elliptical|adj. 椭圆形的；隐晦的；省略的|{{< words src="elliptical">}}||
+|mint|v. 铸造硬币 n. 铸币厂|{{< words src="mint">}}||
+|||{{< words src="">}}||
+|||{{< words src="">}}||
+
+
+## L37
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList37.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|vanish|vi. 消失；灭绝|{{< words src="vanish">}}||
+|overwhelm|vt. 淹没；浸没；击败；制服|{{< words src="overwhelm">}}||
+|sequoia|n. 红杉|{{< words src="sequoia">}}||
+|prairie|n. 大草原|{{< words src="prairie">}}||
+|pasture|n. 草地；牧场 vt. 放牧|{{< words src="pasture">}}||
+|canal|n. 运河；沟渠 vt. 开运河|{{< words src="canal">}}||
+|exact|adj. 精确的；精确的；严谨的|{{< words src="exact">}}||
+|retail|n. 零售； v. 以...价格零售|{{< words src="retail">}}||
+|hypothesis|n. 假设；假说|{{< words src="hypothesis">}}||
+|selection|n. 挑选；选择|{{< words src="selection">}}||
+|tug|v. 拖；拉 n. 牵引|{{< words src="tug">}}||
+|overdue|adj. 过期的；逾期的|{{< words src="overdue">}}||
+|frustrate|vt. 挫败；使灰心|{{< words src="frustrate">}}||
+|outline|n. 轮廓|{{< words src="outline">}}||
+|species|n. 种类；种群|{{< words src="species">}}||
+|negate|vt. 取消；否定|{{< words src="negate">}}||
+|consequence|n. 结果；影响；推理|{{< words src="consequence">}}||
+|overcome|vt. 战胜；客服|{{< words src="overcome">}}||
+|adjacent|adj. 临近的；毗邻的|{{< words src="adjacent">}}||
+|gradual|adj. 逐渐的；逐步的|{{< words src="gradual">}}||
+|puppet|n. 木偶|{{< words src="puppet">}}||
+|accounting|n. 会计|{{< words src="accounting">}}||
+|roll|v. 滚动|{{< words src="roll">}}||
+|irony|n. 反讽；讽刺|{{< words src="irony">}}||
+|parasite|n. 寄生虫|{{< words src="parasite">}}||
+|paradigm|n. 范例|{{< words src="paradigm">}}||
+|paradox|n. 悖论|{{< words src="paradox">}}||
+|clumsy|adj. 笨拙的|{{< words src="clumsy">}}||
+|recession|n. 衰退；萧条；撤回|{{< words src="recession">}}||
+|inaccessible|adj. 难以达到的；不可企及的|{{< words src="inaccessible">}}||
+|deduct|vt. 扣除；减去；推论；演绎|{{< words src="deduct">}}||
+|philosophy|n. 哲学|{{< words src="philosophy">}}||
+|reptile|n. 爬行动物|{{< words src="reptile">}}||
+|admit|v. 承认；准许...进入|{{< words src="admit">}}||
+|swamp|n. 沼泽地|{{< words src="swamp">}}||
+|germinate|v. 发芽；萌芽；发展|{{< words src="germinate">}}||
+|procedure|n. 程序；手续；步骤|{{< words src="procedure">}}||
+|encase|vt. 包住|{{< words src="encase">}}||
+|restoration|n. 恢复；整修；修复|{{< words src="restoration">}}||
+|olfactory|adj. 嗅觉的|{{< words src="olfactory">}}||
+|canvas|n. 画布；油布|{{< words src="canvas">}}||
+|pique|vt. 激怒；激起|{{< words src="pique">}}||
+|downside|n. 缺点；负面|{{< words src="downside">}}||
+|locate|vt. 坐落于；找出；定位|{{< words src="locate">}}||
+|anecdote|n. 秘事；轶事；趣闻|{{< words src="anecdote">}}||
+|turbulent|adj. 动乱的|{{< words src="turbulent">}}||
+|sophisticated|adj. 老练的|{{< words src="sophisticated">}}||
+|draw|v. 吸引；招引；画；描述|{{< words src="draw">}}||
+|rejuvenate|vt. 使年轻|{{< words src="rejuvenate">}}||
+|tentacle|n. 触角；触须|{{< words src="tentacle">}}||
+|furious|adj. 狂怒的|{{< words src="furious">}}||
+|annotation|n. 注释|{{< words src="annotation">}}||
+|rage|v. 发怒；怒斥； n. 狂怒|{{< words src="rage">}}||
+|fiery|adj. 似火的；暴怒的|{{< words src="fiery">}}||
+|grouse|v. 发牢骚；抱怨|{{< words src="grouse">}}||
+|afloat|adj. 漂浮的；有偿债能力的|{{< words src="afloat">}}||
+|scruple|n./vi. 踌躇；顾忌|{{< words src="scruple">}}||
+|scrupulous|adj. 谨慎的；小心的|{{< words src="scrupulous">}}||
+|rob|vt. 抢夺；抢掠|{{< words src="rob">}}||
+|dissimulate|vt. 掩盖；掩饰；假装|{{< words src="dissimulate">}}||
+|assimulate|v. 消化；吸收|{{< words src="assimulate">}}||
+|aboriginal|adj. 原始的；土著的|{{< words src="aboriginal">}}||
+|expedient|n. 权宜之计；应急办法|{{< words src="expedient">}}||
+|superstitious|adj. 迷信的|{{< words src="superstitious">}}||
+|elapse|vi. (时间)消逝；流逝|{{< words src="elapse">}}||
+|auspicious|adj. 吉利的；幸运的|{{< words src="auspicious">}}||
+|plow|n. 犁 v. 耕田|{{< words src="plow">}}||
+|categorize|vt. 将...分类|{{< words src="categorize">}}||
+|despondent|adj. 垂头丧气的|{{< words src="despondent">}}||
+|espouse|vt. 支持；拥护|{{< words src="espouse">}}||
+|conspicuous|adj. 显眼的|{{< words src="conspicuous">}}||
+|hind|adj. 后面的；在后的|{{< words src="hind">}}||
+|untapped|adj. 未开发的；未使用的|{{< words src="untapped">}}||
+|ambush|n./vt. 埋伏；伏击|{{< words src="ambush">}}||
+|exponent|n. 解释者；倡导者；拥护者|{{< words src="exponent">}}||
+|confusion|n. 困惑；混乱；混淆|{{< words src="confusion">}}||
+|resist|v. 抵抗|{{< words src="resist">}}||
+|moth|n. 蛾子|{{< words src="moth">}}||
+|shame|n. 羞耻；耻辱|{{< words src="shame">}}||
+|biologist|n. 生物学家|{{< words src="biologist">}}||
+|disaster|n. 灾难|{{< words src="disaster">}}||
+|incessant|adj. 不断的；连续的|{{< words src="incessant">}}||
+|skull|n. 颅骨；头骨|{{< words src="skull">}}||
+|infant|n. 婴儿；幼儿|{{< words src="infant">}}||
+|commune|vi. 与...亲密的交谈|{{< words src="commune">}}||
+|recline|v. 斜椅|{{< words src="recline">}}||
+|available|adj. 可得到的|{{< words src="available">}}||
+|environmental|adj. 环境有关的|{{< words src="environmental">}}||
+|tableland|n. 高原；台地|{{< words src="tableland">}}||
+|erect|adj. 直立的|{{< words src="erect">}}||
+|illuminate|vt. 照亮；|{{< words src="illuminate">}}||
+|spheroid|n. 球状体|{{< words src="spheroid">}}||
+|fatigue|n. 劳累；疲劳|{{< words src="fatigue">}}||
+|climate|n. 气候；地带；风气|{{< words src="climate">}}||
+|novice|n. 生手；新手|{{< words src="novice">}}||
+|recall|v. 回忆起；召回；叫回|{{< words src="">}}||
+|||{{< words src="">}}||
+
+
+## L38
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList38.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|external|adj. 外部的；外面的|{{< words src="external">}}||
+|altitude|n. 海拔；高度|{{< words src="altitude">}}||
+|pursuit|n. 追求；消遣|{{< words src="pursuit">}}||
+|vertical|adj. 垂直的；竖直的|{{< words src="vertical">}}||
+|rigid|adj. 严格的|{{< words src="rigid">}}||
+|flavor|n. 风味；滋味 vt. 给...调味|{{< words src="flavor">}}||
+|priority|n. 优先权；优先|{{< words src="priority">}}||
+|radiate|v. 辐射；发射；流露|{{< words src="radiate">}}||
+|glacier|n. 冰川；冰河|{{< words src="glacier">}}||
+|position|vt. 安置 n. 位置；职位|{{< words src="position">}}||
+|beach|n. 海滩；河滩|{{< words src="beach">}}||
+|assistant|adj. 辅助的；副的 n. 助教|{{< words src="assistant">}}||
+|comedy|n. 喜剧|{{< words src="comedy">}}||
+|overlap|v. 交叠；重叠|{{< words src="overlap">}}||
+|nurture|vt. 养护；养育；支持|{{< words src="nurture">}}||
+|militant|adj. 好战的|{{< words src="militant">}}||
+|continuum|n. 统一体|{{< words src="continuum">}}||
+|virtuous|adj. 有道德的；品行端正的|{{< words src="virtuous">}}||
+|addictive|adj. 使人上瘾的；醉心的|{{< words src="addictive">}}||
+|omit|vt. 省略；删去；遗漏|{{< words src="omit">}}||
+|illusion|n. 幻觉；错觉|{{< words src="illusion">}}||
+|household|adj. 家庭的；家用的|{{< words src="household">}}||
+|chronical|adj. 慢性的|{{< words src="chronical">}}||
+|methane|n. 甲烷；沼气|{{< words src="methane">}}||
+|methanol|n. 甲醇|{{< words src="methanol">}}||
+|ironic|adj. 讽刺的|{{< words src="ironic">}}||
+|compute|v. 计算|{{< words src="compute">}}||
+|preponderance|n. 优势|{{< words src="preponderance">}}||
+|reschedule|vt. 重新计划；重订...时间表|{{< words src="reschedule">}}||
+|genuine|adj. 真的；非人造的；真诚的|{{< words src="genuine">}}||
+|leak|v. 漏；泄露 n. 漏洞|{{< words src="leak">}}||
+|grazing|n. 放牧；牧场|{{< words src="grazing">}}||
+|crucial|adj. 至关重要的|{{< words src="crucial">}}||
+|instance|n. 例子；事例|{{< words src="instance">}}||
+|overtime|adv. 加班 adj. 超时的|{{< words src="overtime">}}||
+|physiology|n. 生理机能|{{< words src="physiology">}}||
+|physics|n. 物理学|{{< words src="physics">}}||
+|physical|adj. 物理的|{{< words src="physical">}}||
+|philosophy|n. 哲学|{{< words src="philosophy">}}||
+|lava|n. 岩浆；熔浆|{{< words src="lava">}}||
+|deserve|v. 值得；应得|{{< words src="deserve">}}||
+|grocery|n. 杂货店|{{< words src="grocery">}}||
+|captivity|n. 囚禁；拘留|{{< words src="captivity">}}||
+|pronounced|adj. 显著的；明确的|{{< words src="pronounced">}}||
+|bouquet|n. 花束；香味；芬芳|{{< words src="bouquet">}}||
+|endeavor|vi./n. 努力；尽力|{{< words src="endeavor">}}||
+|submission|n. 屈服；服从；提交|{{< words src="submission">}}||
+|ware|n. 陶器；器皿|{{< words src="ware">}}||
+|conclusive|adj. 确定的；确凿的|{{< words src="conclusive">}}||
+|jaw|n. 颌；鄂|{{< words src="jaw">}}||
+|retreat|vi. 撤退；退却；退缩|{{< words src="retreat">}}||
+|squid|n. 鱿鱼|{{< words src="squid">}}||
+|adventure|n. 冒险|{{< words src="adventure">}}||
+|denote|v. 表示；象征|{{< words src="denote">}}||
+|connote|v. 意味着；暗示|{{< words src="connote">}}||
+|stew|n. 炖菜；担忧|{{< words src="stew">}}||
+|incoming|adj. 引入的；新任的|{{< words src="incoming">}}||
+|rupture|v. 破裂；决裂；断绝|{{< words src="rupture">}}||
+|patriarchic|adj. 家长的；德高望重的|{{< words src="patriarchic">}}||
+|suppress|vt. 抑制；阻止|{{< words src="suppress">}}||
+|depredation|n. 劫掠；抢夺|{{< words src="depredation">}}||
+|racing|adj. 比赛的 n. 比赛|{{< words src="racing">}}||
+|handle|v. 处理|{{< words src="handle">}}||
+|operate|v. 运转；开动；管理；经营|{{< words src="operate">}}||
+|hue|n. 颜色；色度|{{< words src="hue">}}||
+|rhythm|n. 节奏；韵律|{{< words src="rhythm">}}||
+|permission|n. 允许；同意|{{< words src="permission">}}||
+|catastrophe|n. 灾难|{{< words src="catastrophe">}}||
+|deliberate|adj. 故意的；蓄意的 v. 深思熟虑|{{< words src="deliverate">}}||
+|liberate|v. 解放|{{< words src="liberate">}}||
+|presidency|n. (总统的)职位；任期|{{< words src="presidency">}}||
+|independent|adj. 独立的；自主的|{{< words src="independent">}}||
+|handful|n. 一把；少数人|{{< words src="handful">}}||
+|yelp|v. 尖叫|{{< words src="yelp">}}||
+|fortify|vt. 支持；加强；增强|{{< words src="fortify">}}||
+|muse|n. 灵感 v. 沉思|{{< words src="muse">}}||
+|tickle|v. 发挥；使高兴；逗乐|{{< words src="tickle">}}||
+|contemplate|v. 思考；考虑；打量|{{< words src="contemplate">}}||
+|intelligible|adj. 聪明的；理智的|{{< words src="intelligible">}}||
+|mortify|vt. 使难堪|{{< words src="mortify">}}||
+|deviant|adj. 不正常的|{{< words src="deviant">}}||
+|patriarchy|n. 父权制|{{< words src="patriarchy">}}||
+|entreat|v. 祈求；恳求|{{< words src="entreat">}}||
+|loath|adj. 不情愿的|{{< words src="loath">}}||
+|cordial|adj. 亲切的；热诚的|{{< words src="cordial">}}||
+|derivation|n. 起源；发源|{{< words src="derivation">}}||
+|gleam|n. 微光；一丝 vi. 闪光；闪烁|{{< words src="gleam">}}||
+|clench|v./n. 抓紧；握牢|{{< words src="clench">}}||
+|provocative|adj. 挑衅的；煽动的|{{< words src="provocative">}}||
+|quash|vt. 撤销；废止|{{< words src="quash">}}||
+|filial|adj. 子女的|{{< words src="filial">}}||
+|tempo|n. 速度；节奏|{{< words src="tempo">}}||
+|rouse|vt. 唤起；唤醒；激起|{{< words src="rouse">}}||
+|brochure|n. 小册子|{{< words src="brochure">}}||
+|conduct|v. 引导；传导；进行；管理；表现 n. 行为；管理|{{< words src="conduct">}}||
+|faculty|n. 学院；全体教职工|{{< words src="faculty">}}||
+|hint|n. 暗示；提示|{{< words src="hint">}}||
+|||{{< words src="">}}||
+
+
+
+
+## L39
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList39.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|chill|n. 寒冷 adj. 寒冷的|{{< words src="chill">}}||
+|sweeping|adj. 彻底的；广泛的|{{< words src="sweeping">}}||
+|moist|adj. 潮湿的|{{< words src="moist">}}||
+|henceforce|adv. 从此以后|{{< words src="henceforce">}}||
+|advent|n. 到来；来临；出现|{{< words src="advent">}}||
+|foreshorten|vt. 缩短；节略|{{< words src="foreshorten">}}||
+|internal|adj. 内在的；内部的|{{< words src="internal">}}||
+|yogurt|n. 酸奶|{{< words src="yogurt">}}||
+|remodel|vt. 改造；重新塑造|{{< words src="remodel">}}||
+|infrared|adj. 红外线的 n. 红外线|{{< words src="infrared">}}|infra - red|
+|spiny|adj. 长满刺的；带刺的|{{< words src="spiny">}}||
+|haul|v. 拖；拖运 n. 拖；拉|{{< words src="haul">}}||
+|noticeable|adj. 明显的；值得注意的|{{< words src="noticeable">}}||
+|decompose|v. 分解；腐烂|{{< words src="decompose">}}||
+|improve|v. 改善；改进|{{< words src="improve">}}||
+|minute|adj. 细微的；极小的 n. 分钟|{{< words src="minute">}}||
+|deprive|vt. 剥夺；失去|{{< words src="deprive">}}||
+|orchestra|n. 管弦乐队|{{< words src="orchestra">}}||
+|arduous|adj. 费力的；艰巨的|{{< words src="arduous">}}||
+|transaction|n. 交易；业务|{{< words src="transaction">}}||
+|ephemeral|adj. 短暂的；转瞬即逝的|{{< words src="ephemeral">}}||
+|superintendent|n. 主管；负责人|{{< words src="superintendent">}}||
+|brush|v. 刷；轻碰 n. 刷子|{{< words src="brush">}}||
+|incredible|adj. 惊人的|{{< words src="incredible">}}||
+|encompass|vt. 包含；环绕|{{< words src="encompass">}}||
+|section|n. 部分；地区；部门|{{< words src="section">}}||
+|faucet|n. 龙头；咽喉；要塞|{{< words src="faucet">}}||
+|gradient|n. 梯度；坡度|{{< words src="gradient">}}||
+|absorption|n. 吸收；全神贯注|{{< words src="absorption">}}||
+|absorb|vt. 吸收|{{< words src="absorb">}}||
+|chimpanzee|n. 黑猩猩|{{< words src="chimpanzee">}}||
+|temporary|adj. 暂时的|{{< words src="temporary">}}||
+|aggression|n. 侵略|{{< words src="aggression">}}||
+|project|v. 放映；规划；预测 n. 方案；项目|{{< words src="project">}}||
+|satire|n. 讽刺文学|{{< words src="satire">}}||
+|chargin|n. 懊恼；失望|{{< words src="chargin">}}||
+|batch|n. 一批；一组|{{< words src="batch">}}||
+|grovel|vi. 摇尾乞怜|{{< words src="grovel">}}||
+|ambient|adj. 周围的|{{< words src="ambient">}}||
+|duplicate|adj. 完全相同的；副本的 vt. 复制|{{< words src="duplicate">}}||
+|transcendent|adj. 卓越的；出众的|{{< words src="transcendent">}}||
+|harmonious|adj. 和谐的|{{< words src="harmonious">}}||
+|harmony|n. 和谐；协调|{{< words src="harmony">}}||
+|harm|n./v. 伤害；损害|{{< words src="harm">}}||
+|harmful|adj. 有害的|{{< words src="harmful">}}||
+|prostitution|n. 卖淫；堕落|{{< words src="prostitution">}}||
+|impenetrable|adj. 不能穿透的；不可理解的|{{< words src="impenetrable">}}||
+|verge|vi. 接近；濒临|{{< words src="verge">}}||
+|kinship|n. 血缘关系|{{< words src="kinship">}}||
+|groove|n. 沟；槽|{{< words src="groove">}}||
+|epitome|n. 摘要；梗概；典型；范例|{{< words src="epitome">}}||
+|illusory|adj. 虚幻的；幻觉的|{{< words src="illusory">}}||
+|anomie|n. 混乱；社会道德沦丧|{{< words src="anomie">}}||
+|negligible|adj. 可以忽略的；无关紧要的|{{< words src="negligible">}}||
+|emigrate|v. 移民；移居国外|{{< words src="emigrate">}}||
+|slick|adj. 光滑的；熟练地|{{< words src="slick">}}||
+|prelude|n. 序幕；前奏曲|{{< words src="prelude">}}||
+|immerse|vt. 使沉浸于|{{< words src="immerse">}}||
+|cluster|n. 簇；团|{{< words src="cluster">}}||
+|barber|n. 理发师|{{< words src="barber">}}||
+|ruin|vt. 毁坏；破坏|{{< words src="ruin">}}||
+|auxiliary|adj. 辅助的；补助的|{{< words src="auxiliary">}}||
+|distress|n. 痛苦；忧伤|{{< words src="distress">}}||
+|pole|n. 地极；磁极|{{< words src="pole">}}||
+|vicinity|n. 邻近；附近|{{< words src="vicinity">}}||
+|metallic|adj. 金属般的|{{< words src="metallic">}}||
+|term|n. 学期；期限|{{< words src="term">}}||
+|chief|adj. 主要的|{{< words src="chief">}}||
+|exaggerate|v. 夸张；夸大|{{< words src="exaggerate">}}||
+|hinder|vt. 阻碍；妨碍|{{< words src="hinder">}}||
+|shatter|v. 粉碎；破碎|{{< words src="shatter">}}||
+|instruction|n. 教导|{{< words src="instruction">}}||
+|prehistoric|adj. 史前的；陈旧的|{{< words src="prehistoric">}}||
+|address|n. 地址；讲话|{{< words src="address">}}||
+|ripen|v. 使成熟|{{< words src="ripen">}}||
+|infectious|adj. 传染性的|{{< words src="infectious">}}||
+|garbage|n. 垃圾；废物|{{< words src="garbage">}}||
+|bundle|n. 捆；束|{{< words src="bundle">}}||
+|forerunner|n. 先驱者；开路人|{{< words src="forerunner">}}||
+|provision|n. 供应；供应品|{{< words src="provision">}}||
+|meaningful|adj. 意味深长的；有目的的|{{< words src="meaningful">}}||
+|accompany|vt. 为...伴奏；陪伴；陪同|{{< words src="accompany">}}||
+|linen|n. 亚麻制品|{{< words src="linen">}}||
+|quartz|n. 石英|{{< words src="quartz">}}||
+|uppermost|adj. 最高的；最上面的； adv. 最上面的|{{< words src="uppermost">}}||
+|defense|n. 防御；防卫|{{< words src="defense">}}||
+|sacred|adj. 宗教的；神圣的|{{< words src="sacred">}}||
+|extent|n. 程度；范围|{{< words src="extent">}}||
+|classify|vt. 分类；分等级|{{< words src="classify">}}||
+|realistic|adj. 现实主义的；逼真的|{{< words src="realistic">}}||
+|sense|n. 感官；感觉|{{< words src="sense">}}||
+|obstacle|n. 障碍；障碍物|{{< words src="obstacle">}}||
+|whereby|adv./conj. 借以；凭借|{{< words src="whereby">}}||
+|||{{< words src="">}}||
+|||{{< words src="">}}||
+
+## L40
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList40.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|inform|vt. 通知；了解；熟悉|{{< words src="inform">}}||
+|sturdy|adj. 健壮的；结实的；稳固的|{{< words src="sturdy">}}||
+|momentous|adj. 重大的|{{< words src="momentous">}}||
+|enslave|vt. 奴役|{{< words src="enslave">}}||
+|frivolous|adj. 琐碎的；无关紧要的；可笑的|{{< words src="frivolous">}}||
+|contender|n. 竞争者|{{< words src="contender">}}||
+|indigenous|adj. 本地的；本土的|{{< words src="indigenous">}}||
+|artifice|n. 诡计；奸计；策略|{{< words src="artifice">}}||
+|maze|n. 迷宫|{{< words src="maze">}}||
+|spellbind|vt. 迷住；入迷|{{< words src="spellbind">}}||
+|counterfeit|adj. 伪造的；假冒的|{{< words src="counterfeit">}}||
+|upsurge|n. 高涨；暴增|{{< words src="upsurge">}}||
+|bequeath|vt. 遗赠；流传|{{< words src="bequeath">}}||
+|conceivable|adj. 可能的|{{< words src="conceivable">}}||
+|enunciate|v. 表明；阐明|{{< words src="enunciate">}}||
+|prejudice|n. 偏见；成见 vt. 产生偏见|{{< words src="prejudice">}}||
+|shred|n. 碎片；细条|{{< words src="shred">}}||
+|chivalrous|adj. 有骑士精神的；殷勤的|{{< words src="chivalrous">}}||
+|heed|n./v. 注意；留心|{{< words src="heed">}}||
+|betray|vt. 出卖；泄露；背叛|{{< words src="betray">}}||
+|admire|vt. 钦佩；赞赏|{{< words src="admire">}}||
+|haphazard|adj. 偶然的；任意的|{{< words src="haphazard">}}||
+|spreadhead|n. 先锋；前锋|{{< words src="spreadhead">}}||
+|postulate|vt. 假定；假设|{{< words src="postulate">}}||
+|rainbow|n. 彩虹|{{< words src="rainbow">}}||
+|humanitarian|adj. 人道主义的|{{< words src="humanitarian">}}||
+|inactive|adj. 不活动的；怠惰的|{{< words src="inactive">}}||
+|block|vt. 阻塞；阻碍；妨碍|{{< words src="block">}}||
+|recycle|vt. 回收利用|{{< words src="recycle">}}||
+|adobe|n. 泥砖；土胚|{{< words src="adobe">}}||
+|frost|v. 结霜 n. 霜|{{< words src="frost">}}||
+|longtitude|n. 经度；经线|{{< words src="longtitude">}}||
+|adequate|adj. 适当的；足够的|{{< words src="adequate">}}||
+|kingdom|n. 王国|{{< words src="kingdom">}}||
+|intersection|n. 交点；十字路口|{{< words src="intersection">}}||
+|religion|n. 宗教|{{< words src="religion">}}||
+|region|n. 地区|{{< words src="region">}}||
+|surge|v. 涌起；飞涨；激增 n. 汹涌；澎湃|{{< words src="surge">}}||
+|discern|vt. 洞悉；识别|{{< words src="discern">}}||
+|method|n. 方法|{{< words src="method">}}||
+|intent|n. 意图；目的|{{< words src="intent">}}||
+|maintain|vt. 维持；保持；维修；保养|{{< words src="maintain">}}||
+|acronym|n. 首字母缩写|{{< words src="acronym">}}||
+|vegetation|n. 植物；植被|{{< words src="vegetation">}}||
+|possess|vt. 具有；拥有|{{< words src="possess">}}||
+|interplay|n./vi. 相互作用|{{< words src="interplay">}}||
+|recurring|adj. 往复的；反复的|{{< words src="recurring">}}||
+|cascade|vi. 倾泻；流注 n. 小瀑布；串联|{{< words src="cascade">}}||
+|assembly|n. 集会；装配；议会|{{< words src="assembly">}}||
+|investigate|v. 研究；调查|{{< words src="investigate">}}||
+|mercantile|adj. 贸易的；商业的|{{< words src="mercantile">}}||
+|renovate|vt. 修复；更新；翻新|{{< words src="renovate">}}||
+|attractive|adj. 吸引人的|{{< words src="attractive">}}||
+|postage|n. 邮资|{{< words src="postage">}}||
+|coexist|vi. 共存|{{< words src="coexist">}}||
+|lasting|adj. 持久的；永久的|{{< words src="lasting">}}||
+|foster|v. 鼓励；促进；助长|{{< words src="foster">}}||
+|aloft|adv. 在高处；在空中|{{< words src="aloft">}}||
+|manifestation|n. 显示；表明|{{< words src="manifestation">}}||
+|date|n. 日期；日子|{{< words src="date">}}||
+|surround|v. 包围；环绕；围绕|{{< words src="surround">}}||
+|limestone|n. 石灰石|{{< words src="limestone">}}||
+|exert|vt. 运行；行使；施加|{{< words src="exert">}}||
+|converge|vi. 汇聚；聚集；聚合|{{< words src="converge">}}||
+|prerequisite|n. 先决条件；前提|{{< words src="prerequisite">}}||
+|squeeze|v. 挤压；压榨；削减|{{< words src="squeeze">}}||
+|lengthen|v. 延长|{{< words src="lengthen">}}||
+|atrophy|n. 萎缩症|{{< words src="atrophy">}}||
+|employ|vt. 使用；雇佣|{{< words src="employ">}}||
+|coil|v. 盘绕；卷|{{< words src="coil">}}||
+|repel|v. 击退；驱逐；排斥|{{< words src="repel">}}||
+|applicant|n. 申请者|{{< words src="applicant">}}||
+|gourd|n. 葫芦|{{< words src="gourd">}}||
+|concern|vt. 涉及；关系到|{{< words src="concern">}}||
+|mechanize|vt. 使机械化|{{< words src="mechanize">}}||
+|harmony|n. 和声；和谐；融合；协调|{{< words src="harmony">}}||
+|theoretical|adj. 不切实际的|{{< words src="theoretical">}}||
+|ancestor|n. 祖先；祖宗|{{< words src="ancestor">}}||
+|huddle|n. 挤在一起的人 vi. 聚集在一起|{{< words src="huddle">}}||
+|congenial|adj. 情投意合的|{{< words src="congenial">}}||
+|overlook|vt. 俯瞰；眺望|{{< words src="overlook">}}||
+|textile|n. 纺织品|{{< words src="textile">}}||
+|ratio|n. 比率|{{< words src="ratio">}}||
+|idle|adj. 懒散的；闲散的|{{< words src="idle">}}||
+|execute|vt. 执行；履行|{{< words src="execute">}}||
+|reciprocity|n. 互惠互助|{{< words src="reciprocity">}}||
+|shortage|n. 不足；缺乏|{{< words src="shortage">}}||
+|existence|n. 存在；实在；生存|{{< words src="existence">}}||
+|terminate|v. 停止；结束|{{< words src="terminate">}}||
+|influential|adj. 有影响力的；有权势的|{{< words src="influential">}}||
+|standard|n. 标准；准则|{{< words src="standard">}}||
+|reveal|vt. 暴露；揭露|{{< words src="reveal">}}||
+|||{{< words src="">}}||
+
+
+## L41
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList41.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|initiate|vt. 发起；开始；创始|{{< words src="initiate">}}||
+|autonomy|n. 自治；自主权|{{< words src="autonomy">}}||
+|contemporary|adj. 当代的|{{< words src="contemporary">}}||
+|wagon|n. 货车|{{< words src="wagon">}}||
+|profile|n. 轮廓；外形；人物简介|{{< words src="profile">}}||
+|portrait|n. 肖像；描写|{{< words src="portrait">}}||
+|adjust|v. 调整；调节|{{< words src="adjust">}}||
+|obituary|n. 讣告；讣闻|{{< words src="obituary">}}||
+|lessen|v. 变小；变少；变轻|{{< words src="lessen">}}||
+|bilateral|adj. 两边的；双边的|{{< words src="bilateral">}}||
+|racism|n. 种族主义的|{{< words src="racism">}}||
+|smirk|vi. 假笑|{{< words src="smirk">}}||
+|pilant|adj. 柔软的|{{< words src="pilant">}}||
+|trample|v. 踩碎；践踏|{{< words src="trample">}}||
+|fraudulent|adj. 欺诈的|{{< words src="fraudulent">}}||
+|fraud|n. 欺骗；骗子|{{< words src="fraud">}}||
+|zigzag|vi. 曲折进行； adj. 之字形的|{{< words src="zigzag">}}||
+|deploy|vt. 部署；调度；利用|{{< words src="deploy">}}||
+|memorize|vt. 记住；记忆；熟记|{{< words src="memorize">}}||
+|stereotype|n. 陈规；固定形式|{{< words src="stereotype">}}||
+|invert|vt. 使倒转；使倒置|{{< words src="invert">}}||
+|obscene|adj. 淫秽的；下流的|{{< words src="obscene">}}||
+|paradox|n. 自相矛盾|{{< words src="paradox">}}||
+|wedge-shaped|adj. 楔形的|{{< words src="wedge-shaped">}}||
+|semantic|adj. 语义的|{{< words src="semantic">}}||
+|preach|v. 布道|{{< words src="preach">}}||
+|readability|n. 可读性|{{< words src="readability">}}||
+|moderate|adj. 适度的；温和的 v. 缓和|{{< words src="moderate">}}||
+|poverty|n. 贫穷；贫困|{{< words src="poverty">}}||
+|sanitation|n. 卫生；卫生设施|{{< words src="sanitation">}}||
+|tantalizing|adj. 诱人的|{{< words src="tantalizing">}}||
+|minor|adj. 较小的；次要的 n. 未成年人；辅修科目|{{< words src="minor">}}||
+|coupon|n. 礼券|{{< words src="coupon">}}||
+|base|vt. 以...为根据地 n. 基础；底部|{{< words src="base">}}||
+|synchronize|v. 使同步；同步发生|{{< words src="synchronize">}}||
+|chronic|adj. 慢性的|{{< words src="chronic">}}||
+|chronological|adj. 按时间顺序的|{{< words src="chronological">}}||
+|extravagant|adj. 放肆的；过分的|{{< words src="extravagant">}}||
+|cafeteria|n. 自助餐厅|{{< words src="cafeteria">}}||
+|powder|n. 粉末|{{< words src="powder">}}||
+|devote|vt. 献身于|{{< words src="devote">}}||
+|monopoly|n. 垄断；专卖；独占|{{< words src="monopoly">}}||
+|opponent|n. 敌手；对手|{{< words src="opponent">}}||
+|idyllic|adj. 田园风光的|{{< words src="idyllic">}}||
+|constituent|n. 选民|{{< words src="constituent">}}||
+|constitute|v. 组成，构成；|{{< words src="constitute">}}||
+|constitution|n. 宪章；体质；构造；组成|{{< words src="constitution">}}||
+|epitomize|vt. 摘要；概括|{{< words src="epitomize">}}||
+|genesis|n. 起源；开端|{{< words src="genesis">}}||
+|indifference|n. 冷漠；不关心|{{< words src="indifference">}}||
+|convex|adj. 突出的|{{< words src="convex">}}||
+|distinctive|adj. 出众的；有特色的|{{< words src="distinctive">}}||
+|enlightenment|n. 启发；教化；启迪|{{< words src="enlightenment">}}||
+|rustic|adj. 乡村的；淳朴的|{{< words src="rustic">}}||
+|facial|adj. 面部的|{{< words src="facial">}}||
+|medium|adj. 中等的；平均的|{{< words src="medium">}}||
+|drain|v. 流走；流出|{{< words src="drain">}}||
+|poetic|adj. 诗歌的|{{< words src="poetic">}}||
+|require|vt. 需要；要求；命令|{{< words src="require">}}||
+|diplomatic|adj. 外交的|{{< words src="diplomatic">}}||
+|oral|adj. 口头|{{< words src="oral">}}||
+|lament|n. 挽歌；悼词|{{< words src="lament">}}||
+|braid|n. 穗带|{{< words src="braid">}}||
+|daisy|n. 雏菊|{{< words src="daisy">}}||
+|epic|n. 史诗|{{< words src="epic">}}|epic|
+|catalog|n. 目录|{{< words src="catalog">}}||
+|muscle|n. 肌肉|{{< words src="muscle">}}||
+|ooze|v. 渗出；洋溢着；充满|{{< words src="ooze">}}||
+|individual|adj. 单独的；独特的|{{< words src="individual">}}||
+|withstand|vt. 经受住；耐受|{{< words src="withstand">}}||
+|apartment|n. 公寓套房|{{< words src="apartment">}}||
+|porous|adj. 有孔的|{{< words src="porous">}}||
+|relevant|adj. 相关的|{{< words src="relevant">}}||
+|elaborate|adj. 精心制作的；复杂精美的 v. 详述|{{< words src="elaborate">}}||
+|through|prep. 穿过；自始至终 adj. 完成的；结束的|{{< words src="through">}}||
+|vacancy|n. 空位；空缺|{{< words src="vacancy">}}||
+|establish|vt. 建立；设立|{{< words src="establish">}}||
+|platitude|n. 陈词滥调|{{< words src="platitude">}}||
+|dimensional|adj. ...度空间的|{{< words src="dimensional">}}||
+|crazy|adj. 疯狂的|{{< words src="crazy">}}||
+|illegible|adj. 难以辨认的；模糊的|{{< words src="illegible">}}||
+|sidebar|n. 补充报道|{{< words src="sidebar">}}||
+|drowsy|adj. 昏昏欲睡的；催眠的|{{< words src="drowsy">}}||
+|ridge|n. 山脊|{{< words src="ridge">}}||
+|bonanza|n. 富矿带|{{< words src="bonanza">}}||
+|alike|adv. 一样的；相似的|{{< words src="alike">}}||
+|pedagogy|n. 教育学；教育法|{{< words src="pedagogy">}}||
+|material|n. 材料；原料|{{< words src="material">}}||
+|dot|v. 打点；点缀 n. 点；圆点|{{< words src="dot">}}||
+|notorious|adj. 臭名昭著的|{{< words src="notorious">}}||
+|habitat|n. 自然环境；栖息地|{{< words src="habitat">}}||
+|chew|v. 咀嚼|{{< words src="chew">}}||
+|educated|adj. 受过教育的|{{< words src="educated">}}||
+|accuse|vt. 谴责；指责|{{< words src="accuse">}}||
+|reckless|adj. 轻率的；鲁莽的|{{< words src="reckless">}}||
+|||{{< words src="">}}||
+
+
+## L42
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList42.mp3">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|rendition|n. 表演；提供；给予|{{< words src="rendition">}}||
+|drift|v. 漂流；漂移；漂泊 n. 漂泊|{{< words src="drift">}}||
+|haven|n. 港口；庇护所；避难所|{{< words src="haven">}}||
+|harbor|n. 港口；避难所|{{< words src="harbor">}}||
+|heaven|n. 天堂|{{< words src="heaven">}}||
+|slogan|n. 标语；口号|{{< words src="slogan">}}||
+|affinity|n. 密切关系；吸引力；喜爱|{{< words src="affinity">}}||
+|stun|vt. 使昏迷；使震惊|{{< words src="stun">}}||
+|comparative|adj. 比较的；比较级的|{{< words src="comparative">}}||
+|fulfill|vt. 履行；实现|{{< words src="fulfill">}}||
+|paste|v. 粘贴；黏贴|{{< words src="paste">}}||
+|ally|n. 盟友；同盟国|{{< words src="ally">}}||
+|scandal|n. 丑闻；丑事|{{< words src="scandal">}}||
+|inactivate|vt. 使不活动的；使不活跃的|{{< words src="inactivate">}}||
+|explode|v. 使爆炸；激增；冲动；发怒|{{< words src="explode">}}||
+|utility|n. 功用；效用|{{< words src="utility">}}||
+|filter|v. 过滤；筛选|{{< words src="filter">}}||
+|receptive|adj. 善于接受的；能接纳的|{{< words src="receptive">}}||
+|donate|vt. 捐赠；赠送|{{< words src="donate">}}||
+|riddle|n. 谜语；迷|{{< words src="riddle">}}||
+|schematic|adj. 纲要的；严谨的|{{< words src="schematic">}}||
+|pottery|n. 陶器；陶器厂|{{< words src="pottery">}}||
+|acquit|vt. 宣告无罪；表现|{{< words src="acquit">}}||
+|discount|n. 折扣； vt. 把...打折；低估|{{< words src="discount">}}||
+|semiotics|n. 符号学|{{< words src="semiotics">}}||
+|edible|adj. 可食用的|{{< words src="edible">}}||
+|subscribe|v. 订阅；订购；申请；预定|{{< words src="subscribe">}}||
+|verbalize|v. 用言语表达|{{< words src="verbalize">}}||
+|align|v. 结盟；对齐；校准|{{< words src="align">}}||
+|purchase|n. 购买； vt. 购买|{{< words src="purchase">}}||
+|syntactic|adj. 句法的|{{< words src="syntactic">}}||
+|verbiage|n. 冗词；赘言|{{< words src="verbiage">}}||
+|drag|v. 拖动； n. 拉|{{< words src="drag">}}||
+|absolve|vt. 赦免；免除；宽恕|{{< words src="absolve">}}||
+|dispense|v 分配；免除；省略|{{< words src="dispense">}}|The union had already dispensed $60000 in grants. <br> 工会已经分发了6万美元的补助金。|
+|exempt|v. 免除；豁免|{{< words src="exempt">}}||
+|sensational|adj. 轰动性的；极好的|{{< words src="sensational">}}||
+|paucity|n. 少量的|{{< words src="paucity">}}||
+|geology|n. 地质学|{{< words src="geology">}}||
+|allege|vt. 断言；宣称|{{< words src="allege">}}||
+|rhyme|v./n. 押韵|{{< words src="rhyme">}}||
+|given|adj. 规定的；特定的|{{< words src="given">}}||
+|sedentary|adj. 久坐的；不动的|{{< words src="sedentary">}}||
+|periodical|n. 期刊；杂志 adj. 周期的；定期的|{{< words src="periodical">}}||
+|endow|vt. 天生具有；赋予；资助；捐赠|{{< words src="endow">}}||
+|adversary|n. 对手；敌手|{{< words src="adversary">}}||
+|offspring|n. 子孙；后代|{{< words src="offspring">}}||
+|suburb|n. 市郊；市区|{{< words src="suburb">}}||
+|evaporation|n. 蒸发；消失|{{< words src="evaporation">}}||
+|bony|adj. 瘦骨嶙峋的|{{< words src="bony">}}||
+|polar|adj. 极地的；南北极的|{{< words src="polar">}}||
+|compose|v. 创作；组成|{{< words src="compose">}}||
+|debate|v./n. 辩论；讨论；争论|{{< words src="debate">}}||
+|integrate|v. 合并；整合|{{< words src="integrate">}}||
+|simile|n. 明喻|{{< words src="simile">}}||
+|smile|n. 笑容|{{< words src="smile">}}||
+|comparable|adj. 可比较的；类似的|{{< words src="comparable">}}||
+|decent|adj. 体面的；适当的；得体的|{{< words src="decent">}}||
+|rug|n. 地毯；|{{< words src="rug">}}||
+|complacence|n. 自满；满足|{{< words src="complacence">}}||
+|unbridgeable|adj. 不能架桥的|{{< words src="unbridgeable">}}||
+|extol|vt. 赞美；颂扬|{{< words src="extol">}}||
+|quote|v. 引用； n. 引文|{{< words src="quote">}}||
+|immigrant|adj. 从国外移民的 n. 外来侨民|{{< words src="immigrant">}}||
+|asteroid|n. 小行星|{{< words src="asteroid">}}||
+|haste|n. 急忙；匆忙|{{< words src="haste">}}|**In my haste** I forgot my books. <br> 我一着急就把书忘了|
+|suitcase|n. 手提箱|{{< words src="suitcase">}}||
+|acumen|n. 敏锐|{{< words src="acumen">}}||
+|translation|n. 翻译；译文；译本|{{< words src="translation">}}||
+|meantime|n./adv. 同时|{{< words src="meantime">}}||
+|senate|n. 参议院|{{< words src="senate">}}||
+|chance|n. 机会|{{< words src="chance">}}||
+|overseas|adv. 在海外|{{< words src="overseas">}}||
+|indispensable|adj. 必不可少的|{{< words src="indispensable">}}||
+|proceed|vi. 进行下去；继续做|{{< words src="proceed">}}||
+|alien|n. 外星人 adj. 外国的|{{< words src="alien">}}||
+|envision|vt. 想象；展望|{{< words src="envision">}}||
+|proper|adj. 正确的|{{< words src="proper">}}||
+|sewage|n. 污水；污物|{{< words src="sewage">}}||
+|residue|n. 残余物|{{< words src="residue">}}||
+|analysis|n. 分析|{{< words src="analysis">}}||
+|relative|adj. 相对的；有关的|{{< words src="relative">}}||
+|maximum|adj. 最大的； n. 最大|{{< words src="maximum">}}||
+|poster|n. 海报|{{< words src="poster">}}||
+|fascinate|v. 迷住|{{< words src="fascinate">}}||
+|stereo|n. 立体声 adj. 立体声的|{{< words src="stereo">}}||
+|gin|n. 杜松子酒|{{< words src="gin">}}||
+|confederacy|n. 联盟；同盟|{{< words src="confederacy">}}||
+|desolate|adj. 荒凉的； vt. 使荒芜|{{< words src="desolate">}}||
+|conservative|adj. 保守的；守旧的|{{< words src="conservative">}}||
+|evoke|vt. 唤起；引起；激起|{{< words src="evoke">}}||
+|receptor|n. 感受器；受体|{{< words src="receptor">}}||
+|ability|n. 能力|{{< words src="ability">}}||
+|brass|n. 铜管乐器|{{< words src="brass">}}||
+|vestige|n. 遗迹；残余|{{< words src="vestige">}}||
+|gymnasium|n. 体育馆|{{< words src="gymnasium">}}||
+|maize|n. 玉米|{{< words src="maize">}}||
+|magnesium|n. 镁|{{< words src="magnesium">}}||
+|disposal|n. 清除；处理；处置|{{< words src="disposal">}}||
+|||{{< words src="">}}||
+
+## L43
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList43.mp3">}}
+
+{{< TPO id="1LotBKyZODMaT6MDSCVcfEXws2QHxMYKW">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|descend|v. 遗传；起源|{{< words src="descend">}}||
+|transcend|vt. 胜过；超越|{{< words src="transcend">}}||
+|annul|vt. 宣布无效|{{< words src="annul">}}||
+|annual|adj. 一年一度的|{{< words src="annual">}}||
+|mail|n. 邮件|{{< words src="mail">}}||
+|bill|n. 账单；纸币；钞票|{{< words src="bill">}}||
+|enrich|vt. 使充实；使肥沃|{{< words src="enrich">}}||
+|march|n. 行进；行军；进行曲 v. 前进|{{< words src="march">}}||
+|hormone|n. 激素|{{< words src="hormone">}}||
+|sapphire|n. 蓝宝石；青石|{{< words src="sapphire">}}||
+|coalition|n. 联盟|{{< words src="coalition">}}||
+|hockey|n. 曲棍球|{{< words src="hockey">}}||
+|evaporate|v. 蒸发；消失|{{< words src="evaporate">}}||
+|culpable|adj. 有罪的|{{< words src="culpable">}}||
+|linger|vi. 徘徊；流连|{{< words src="linger">}}||
+|function|n. 机能；功能；作用|{{< words src="function">}}||
+|troupe|n. 剧团|{{< words src="troupe">}}||
+|mock|v. 嘲笑；嘲弄|{{< words src="mock">}}||
+|texture|n. 质地；纹理|{{< words src="texture">}}||
+|enroll|v. 登记；注册|{{< words src="enroll">}}||
+|confiscate|vt. 没收；充公；征用|{{< words src="confiscate">}}||
+|amend|vt. 修订；修正|{{< words src="amend">}}||
+|concord|n. 和睦；公约|{{< words src="concord">}}||
+|brighten|v. 使更明亮|{{< words src="brighten">}}||
+|vascular|adj. 血管的|{{< words src="vascular">}}||
+|aristocratic|adj. 贵族的|{{< words src="aristocratic">}}||
+|fracture|n. 骨折；断裂|{{< words src="fracture">}}||
+|decree|n. 政令；法令|{{< words src="decree">}}||
+|scarf|n. 围巾|{{< words src="scarf">}}||
+|authoritative|adj. 官方的；权威的|{{< words src="authoritative">}}||
+|impersonal|adj. 没有人情味的|{{< words src="impersonal">}}||
+|autonomous|adj. 自治的；独立自主的|{{< words src="autonomous">}}||
+|canvass|v. 游说；拉选票|{{< words src="canvass">}}||
+|conspiracy|n. 密谋；阴谋|{{< words src="conspiracy">}}||
+|corrupt|adj. 堕落的；腐败的；腐化的|{{< words src="corrupt">}}||
+|default|n. 违约；弃权|{{< words src="default">}}||
+|pivot|n. 枢轴；中心点；核心|{{< words src="pivot">}}||
+|seminar|n. 研讨会|{{< words src="seminar">}}||
+|depose|vt. 革除；免除|{{< words src="depose">}}||
+|identical|adj. 相同的|{{< words src="identical">}}||
+|desegregate|v. 废除种族隔离|{{< words src="desegregate">}}||
+|assassinate|vt. 暗杀；行刺|{{< words src="assassinate">}}||
+|superior|adj. 较高的；更好的|{{< words src="superior">}}||
+|photograph|n. 照片 v. 拍照|{{< words src="photograph">}}||
+|muscular|adj. 肌肉的|{{< words src="muscular">}}||
+|amino|adj. 氨基的|{{< words src="amino">}}||
+|disarm|v. 解除武装|{{< words src="disarm">}}||
+|scarce|adj. 缺乏的|{{< words src="scarce">}}||
+|incident|n. 事情；事件|{{< words src="incident">}}||
+|curiosity|n. 好奇心|{{< words src="curiosity">}}||
+|atmosphere|n. 大气|{{< words src="atmosphere">}}||
+|instinct|n. 本能；直觉|{{< words src="instinct">}}||
+|vacuum|n. 真空；空白；空虚|{{< words src="vacuum">}}||
+|antique|n. 古董；古物 adj. 古老的|{{< words src="antique">}}||
+|resistant|adj. 抵抗的；有抵抗力的|{{< words src="resistant">}}||
+|ideomotor|adj. 观念运动的|{{< words src="ideomotor">}}||
+|breathing|n. 呼吸|{{< words src="breathing">}}||
+|dent|vt. 挫伤；损害 n. 缺口；凹痕|{{< words src="dent">}}||
+|intrinsic|adj. 固有的；本质的；内在的|{{< words src="intrinsic">}}||
+|skeleton|n. 梗概；提纲；骨架|{{< words src="skeleton">}}||
+|disease|n. 疾病|{{< words src="disease">}}||
+|concentric|adj. 同心的|{{< words src="concentric">}}||
+|racket|n. 球拍；喧闹|{{< words src="racket">}}||
+|earnest|adj. 认真的；真诚的|{{< words src="earnest">}}||
+|instrument|n. 仪器；器械；工具|{{< words src="instrument">}}||
+|hibernation|n. 冬眠|{{< words src="hibernation">}}||
+|fatal|adj. 致命的；命中注定的|{{< words src="fatal">}}||
+|nominate|vt. 任命；指定；提名|{{< words src="nominate">}}||
+|cholesterol|n. 胆固醇|{{< words src="cholesterol">}}||
+|articulate|adj. 善于表达的； v. 明确表达|{{< words src="articulate">}}||
+|souvenir|n. 纪念品|{{< words src="souvenir">}}||
+|relieve|vt. 缓解；减轻；宽慰|{{< words src="relieve">}}||
+|medication|n. 药物|{{< words src="medication">}}||
+|electrode|n. 电极|{{< words src="electrode">}}||
+|contagious|adj. 传染性的|{{< words src="contagious">}}||
+|thread|v. 穿针；穿过；通过|{{< words src="thread">}}||
+|sponge|n. 海绵；寄生虫|{{< words src="sponge">}}||
+|automobile|n. 汽车|{{< words src="automobile">}}||
+|republic|n. 共和国|{{< words src="republic">}}||
+|dominant|adj. 统治的；支配的|{{< words src="dominant">}}||
+|ritual|n. 典礼|{{< words src="ritual">}}||
+|periphery|n. 外围；边缘|{{< words src="periphery">}}||
+|immediate|adj. 即刻的；立即的|{{< words src="immediate">}}||
+|delirium|n. 精神错乱|{{< words src="delirium">}}||
+|insistence|n. 坚决主张；坚决|{{< words src="insistence">}}||
+|botany|n. 植物学；植物|{{< words src="botany">}}||
+|quarterly|adv. 按季度 adj. 季度的|{{< words src="quarterly">}}||
+|stage|n. 阶段；步骤；舞台|{{< words src="stage">}}||
+|legislative|n. 立法机关 adj. 立法的|{{< words src="legislative">}}||
+|combination|n. 结合体|{{< words src="combination">}}||
+|inventory|n. 目录；清单|{{< words src="inventory">}}||
+|denounce|vt. 谴责；抨击|{{< words src="denounce">}}||
+|||{{< words src="">}}||
+
+
+## L44
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList44.mp3">}}
+
+{{< TPO id="16ls4gAl2G6xcRH9b-eNccaMAiKbLVsIx">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|squirt|v. 喷射|{{< words src="squirt">}}||
+|resin|n. 树脂|{{< words src="resin">}}||
+|context|n. 上下文；背景|{{< words src="context">}}||
+|symptom|n. 症状；征兆|{{< words src="symptom">}}||
+|interrupt|v. 打扰；中断|{{< words src="interrupt">}}||
+|defect|n. 瑕疵；缺陷 vi. 叛变|{{< words src="defect">}}||
+|velocity|n. 速度；速率|{{< words src="velocity">}}||
+|dormitory|n. 宿舍|{{< words src="dormitory">}}||
+|freight|n. 货运；运费|{{< words src="freight">}}||
+|tread|v. 践踏；踩踏|{{< words src="tread">}}|tread on sb's heels 步...的后尘|
+|ascribe|vt. 把...归功于|{{< words src="ascribe">}}||
+|supplement|n. 补充；附录 vt. 补充；增补|{{< words src="supplement">}}||
+|equation|n. 等式|{{< words src="equation">}}||
+|copper|n. 铜；铜币|{{< words src="copper">}}||
+|rear|vt. 养育；抚养；饲养 adj. 后部的；后方的 n. 后方|{{< words src="rear">}}||
+|distinct|adj. 明显的；清楚地|{{< words src="distinct">}}||
+|accede|vi. 即位；就任；同意|{{< words src="accede">}}||
+|mosquito|n. 蚊子|{{< words src="mosquito">}}||
+|numerous|adj. 许多的|{{< words src="numerous">}}||
+|livestock|n. 家畜；牲畜|{{< words src="livestock">}}||
+|inert|adj. 无活动的；惰性的；迟钝的|{{< words src="inert">}}||
+|prescription|n. 处方；药方；|{{< words src="prescription">}}||
+|awkward|adj. 别扭；笨拙的|{{< words src="awkward">}}||
+|collective|adj. 集体的；共同的|{{< words src="collective">}}||
+|invertebrate|n. 无脊椎动物 adj. 无脊椎的|{{< words src="invertebrate">}}||
+|barge|v. 冲撞；乱闯|{{< words src="barge">}}||
+|snap|v. 猛咬；折断|{{< words src="snap">}}||
+|feat|n. 功绩；壮举|{{< words src="feat">}}||
+|conservation|n. 保存；保护|{{< words src="conservation">}}||
+|smother|vt. 抑制；扼杀|{{< words src="smother">}}||
+|blur|v. 变模糊|{{< words src="blur">}}||
+|mantle|n. 覆盖物；披风|{{< words src="mantle">}}||
+|demonstrate|v. 论证；证明|{{< words src="demonstrate">}}||
+|additive|n. 添加剂 adj. 添加的|{{< words src="additive">}}||
+|lithosphere|n. 岩石圈|{{< words src="lithosphere">}}||
+|dam|n. 坝；堤 vt. 筑坝；控制|{{< words src="dam">}}||
+|steep|adj. 陡峭的|{{< words src="steep">}}||
+|exhaust|vt. 耗尽；用尽 n. 废气|{{< words src="exhaust">}}||
+|cardiac|adj. 心脏的|{{< words src="cardiac">}}||
+|Easter|n. 复活节|{{< words src="Easter">}}||
+|Latin|adj. 拉丁的 n. 拉丁语|{{< words src="Latin">}}||
+|minimum|adj. 最小的；最低的 n. 最小值|{{< words src="minimum">}}||
+|raise|v. 举起；提升；直立|{{< words src="raise">}}||
+|amateur|n. 业余爱好者；外行 adj. 外行的|{{< words src="amateur">}}||
+|prior|adj. 在...前的；优先的|{{< words src="prior">}}||
+|sheer|adj. 陡峭的；完全的；绝对的 adv. 垂直的；陡峭的|{{< words src="sheer">}}||
+|measure|n. 措施；标准；程度|{{< words src="measure">}}||
+|engaging|adj. 迷人的|{{< words src="engaging">}}||
+|convert|v. 改变；转变；转化|{{< words src="convert">}}||
+|tremendous|adj. 惊人的；巨大的|{{< words src="tremendous">}}||
+|bunch|n. 簇；束|{{< words src="bunch">}}||
+|pictorial|adj. 图示的|{{< words src="pictorial">}}||
+|enlist|v. 征募；从军；参军|{{< words src="enlist">}}||
+|stuff|n. 原料；材料|{{< words src="stuff">}}||
+|rumor|n. 传闻；谣言|{{< words src="rumor">}}||
+|trigger|vt. 引发；导致|{{< words src="trigger">}}||
+|agency|n. 代理处|{{< words src="agency">}}||
+|packed|adj. 拥挤的；压紧的|{{< words src="packed">}}||
+|resign|v. 辞职；放弃|{{< words src="resign">}}||
+|guarantee|v. 保证；担保|{{< words src="guarantee">}}||
+|coordinate|v. 协调；配合|{{< words src="coordinate">}}||
+|terminology|n. 术语|{{< words src="terminology">}}||
+|inaugurate|vt. 为...举行就职典礼；开始；开创|{{< words src="inaugurate">}}||
+|composer|n. 作曲家|{{< words src="composer">}}||
+|trade|n. 贸易；商业；交易 v. 交易|{{< words src="trade">}}||
+|empower|v. 授权；准许|{{< words src="empower">}}||
+|injurious|adj. 侮辱的；诽谤的|{{< words src="injurious">}}||
+|confine|vt. 限制；禁闭|{{< words src="confine">}}||
+|faction|n. 派别；派系|{{< words src="faction">}}||
+|lapse|n. 失误；失足 vi. 失效；合同期满|{{< words src="lapse">}}||
+|enact|v. 制定法律；扮演|{{< words src="enact">}}||
+|allay|vt. 减轻；减少|{{< words src="allay">}}||
+|expropriate|vt. 征用；没收|{{< words src="expropriate">}}||
+|mandate|n. 授权；委托书；任期 v. 授权|{{< words src="mandate">}}||
+|fraud|n. 骗子；冒牌货|{{< words src="fraud">}}||
+|imperial|adj. 帝国的；帝王的|{{< words src="imperial">}}||
+|empress|n. 女皇；皇后|{{< words src="empress">}}||
+|dramatic|adj. 戏剧的；戏剧性的|{{< words src="dramatic">}}||
+|levy|vt. 征税 n. 税款|{{< words src="levy">}}||
+|apply|v. 申请；应用|{{< words src="apply">}}||
+|interrogate|vt. 审问；询问；盘问|{{< words src="interrogate">}}||
+|forfeit|vt. 被没收；丧失|{{< words src="forfeit">}}||
+|juridical|adj. 法律的；司法的|{{< words src="juridical">}}||
+|lawsuit|n. 诉讼|{{< words src="lawsuit">}}||
+|mandatory|adj. 强制的；法定的；义务的|{{< words src="mandatory">}}||
+|endangered|adj. 濒危的|{{< words src="endangered">}}||
+|||{{< words src="">}}||
+
+## L45
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList45.mp3">}}
+
+{{< TPO id="17v2E15kwshmEossgMDuApReOjyb8LPSB">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|farce|n. 闹剧；笑剧|{{< words src="farce">}}||
+|lubricant|n. 润滑剂|{{< words src="lubricant">}}||
+|dairy|n. 牛奶场；奶制品|{{< words src="dairy">}}||
+|microwave|n. 微波；微波炉|{{< words src="microwave">}}||
+|legislate|v. 制定法律；通过立法|{{< words src="legislate">}}||
+|legislative|adj. 立法的|{{< words src="legislative">}}||
+|legislation|n. 立法；法律|{{< words src="legislation">}}||
+|legislature|n. 立法机关|{{< words src="legislature">}}||
+|legitimate|adj. 合法的|{{< words src="legitimate">}}||
+|indict|vt. 控诉；起诉；控告|{{< words src="indict">}}||
+|tube|n. 管道|{{< words src="tube">}}||
+|distort|vt. 扭曲；歪曲|{{< words src="distort">}}||
+|cancel|v. 取消；废除|{{< words src="cancel">}}||
+|industry|n. 勤奋；工业|{{< words src="industry">}}||
+|dispute|n. 争论；纠纷 v. 争论|{{< words src="dispute">}}||
+|essay|n. 散文；随笔|{{< words src="essay">}}||
+|sieve|n. 筛子；漏勺 vt. 筛；过滤|{{< words src="sieve">}}||
+|commit|vt. 承诺；犯错|{{< words src="commit">}}||
+|auditorium|n. 礼堂|{{< words src="auditorium">}}||
+|transportation|n. 运输；运输工具|{{< words src="transportation">}}||
+|dilute|adj. 冲淡的；稀释的 vt. 冲淡；稀释|{{< words src="dilute">}}||
+|plastic|n. 塑料 adj. 塑料的；虚伪的|{{< words src="plastic">}}||
+|stack|n. 堆 v. 堆积；堆放|{{< words src="stack">}}||
+|oval|adj. 卵形的；椭圆形的|{{< words src="oval">}}||
+|fabric|n. 构造；布料|{{< words src="fabric">}}||
+|portray|vt. 描绘；扮演|{{< words src="portray">}}||
+|Babylonian|adj. 巴比伦的 n. 巴比伦人|{{< words src="Babylonian">}}||
+|capacity|n. 能力；容量；职责|{{< words src="capacity">}}||
+|blast|v. 爆炸|{{< words src="blast">}}||
+|dispersal|n. 疏散；散步；散开|{{< words src="dispersal">}}||
+|partnership|n. 合伙人|{{< words src="partnership">}}||
+|relic|n. 遗物；遗迹|{{< words src="relic">}}||
+|irreverent|adj. 不敬的|{{< words src="irreverent">}}||
+|revere|vt. 尊敬；敬畏|{{< words src="revere">}}||
+|meteorology|n. 气象学|{{< words src="meteorology">}}||
+|circumference|n. 周围；周边；周长|{{< words src="circumference">}}|The earth is almost 25 000 miles in circumference. <br> 地球的周长大约为25 000英里。|
+|circumstance|n. 条件；情况；|{{< words src="circumstance">}}|
+It is their sensitive response to human circumstance that accounts for the persistence of certain universal ideas.<br> 他们对人类环境的敏感反应解释了某些普遍观点的持久性。|
+|publicize|vt. 宣传；推广|{{< words src="publicize">}}||
+|device|n. 装置；设备|{{< words src="device">}}||
+|beak|n. 鸟嘴；喙|{{< words src="beak">}}||
+|premier|n. 首相；总理|{{< words src="premier">}}||
+|codify|vt. 整理；系统化|{{< words src="codify">}}||
+|dismal|adj. 阴沉的；阴郁的|{{< words src="dismal">}}||
+|harsh|adj. 恶劣的；严酷的；粗糙的|{{< words src="harsh">}}||
+|volunteer|n. 志愿者；志愿军 adj. 志愿的；义务的|{{< words src="volunteer">}}||
+|diffuse|v. 散播；传播；漫射 adj. 扩散的；冗长的|{{< words src="diffuse">}}||
+|chubby|adj. 丰满的|{{< words src="chubby">}}||
+|intimate|adj. 亲密的；密切的|{{< words src="intimate">}}||
+|transcend|vt. 超越|{{< words src="transcend">}}||
+|hurry|v. 催促；匆忙 n. 急忙；匆忙|{{< words src="hurry">}}||
+|venom|n. 毒液|{{< words src="venom">}}||
+|monarchy|n. 君主制|{{< words src="monarchy">}}||
+|paraphrase|n. 释义； v. 解释|{{< words src="paraphrase">}}||
+|worth|adj. 值得的 n. 价值；财产|{{< words src="worth">}}||
+|erratic|adj. 古怪的；不规则的|{{< words src="erratic">}}||
+|loyal|adj. 忠诚的|{{< words src="loyal">}}||
+|dinosaur|n. 恐龙的|{{< words src="dinosaur">}}||
+|hazard|n. 危险；风险 vt. 使...处于危险|{{< words src="hazard">}}||
+|recreation|n. 娱乐；消遣|{{< words src="recreation">}}||
+|swindle|vt./n. 诈骗|{{< words src="swindle">}}||
+|collide|vi. 碰撞；冲突；抵触|{{< words src="collide">}}||
+|oxygen|n. 氧气|{{< words src="oxygen">}}||
+|gem|n. 宝石；珍品|{{< words src="gem">}}||
+|combat|v./n. 战斗；格斗|{{< words src="combat">}}||
+|lower|v. 降低 adj. 较低的|{{< words src="lower">}}||
+|avalanche|n./v. 雪崩；山崩|{{< words src="avalanche">}}||
+|fierce|adj. 凶猛的；残忍的|{{< words src="fierce">}}||
+|sponsor|vt. 主办；赞助 n. 发起者|{{< words src="sponsor">}}||
+|cuneiform|n. 楔形文字|{{< words src="cuneiform">}}||
+|manifesto|n. 宣言；声明|{{< words src="manifesto">}}||
+|manifest|v. 表明；显示|{{< words src="manifest">}}||
+|outlaw|vt. 宣布...非法|{{< words src="outlaw">}}||
+|pact|n. 协议；条约|{{< words src="pact">}}||
+|regin|n. 统治；支配 vi. 统治|{{< words src="regin">}}||
+|summon|v. 传唤；传讯；召集；召开|{{< words src="summon">}}||
+|latent|adj. 潜在的；潜伏的|{{< words src="latent">}}||
+|wield|vt. 支配；掌权|{{< words src="wield">}}||
+|penalty|n. 处罚；惩罚|{{< words src="penalty">}}||
+|verdict|n. 裁定；判断；意见|{{< words src="verdict">}}||
+|reconcile|vt. 使协调；使和解|{{< words src="reconcile">}}||
+|hurl|v. 猛投；大声斥责|{{< words src="hurl">}}||
+|sovereign|adj. 君主的；独立自主的 n. 君主|{{< words src="sovereign">}}||
+|prosecute|v. 起诉；控告；检举|{{< words src="prosecute">}}||
+|blade|n. 刀刃；刀片|{{< words src="blade">}}||
+|tyrannical|adj. 专制的；残暴的|{{< words src="tyrannical">}}||
+|verifiable|adj. 可证实的|{{< words src="verifiable">}}||
+|suborn|vt. 收买；买通|{{< words src="suborn">}}||
+|warrant|n. 授权；批准|{{< words src="">}}||
+|irritable|adj. 急躁的；易怒的|{{< words src="irritable">}}||
+|notion|n. 概念；观念|{{< words src="notion">}}||
+|migrate|v. 迁徙；移居|{{< words src="migrate">}}||
+|preside|vi. 担任主席；主持；掌管|{{< words src="preside">}}||
+|slander|n. 诽谤；中伤 vt. 诽谤|{{< words src="slander">}}||
+|reservoir|n. 蓄水池；水库|{{< words src="reservoir">}}||
+|||{{< words src="">}}||
+
+
+## L46
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList46.mp3">}}
+
+{{< TPO id="1FyxoksE1ahgr4WG7lfp6iwSfWY2AEFa9">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|scheme|n. 计划；方案|{{< words src="scheme">}}||
+|consult|v. 请教；商议|{{< words src="consult">}}||
+|insult|v. 侮辱；冒犯|{{< words src="insult">}}||
+|result|n. 结果 v. 导致|{{< words src="result">}}||
+|dispose|v. 安排；布置|{{< words src="dispose">}}|Obviously we ask all our customers to dispose of litter responsibly. <br>显然，我们要求所有的顾客负责任地处理垃圾。<br> {{< words src="Obviously we ask all our customers to dispose of litter responsibly.">}}|
+|disposal|n. 处理；清除|{{< words src="disposal">}}|Congress passed a law that regulates the disposal of waste. <br> 国会通过了一条管理废物处理的法律。<br> {{< words src="Congress passed a law that regulates the disposal of waste.">}}|
+|depose|v. 罢免；废除|{{< words src="depose">}}|The right to elect chieftains and to depose them. <br> 选举和撤换酋长的权利。<br> {{< words src="The right to elect chieftains and to depose them.">}}|
+|pulse|n. 脉搏|{{< words src="pulse">}}||
+|furnace|n. 火炉；熔炉|{{< words src="furnace">}}||
+|realization|n. 实现；意识|{{< words src="realization">}}||
+|dilemma|n. 困境|{{< words src="dilemma">}}||
+|peculiar|adj. 古怪的；独特的|{{< words src="peculiar">}}||
+|morale|n. 士气；斗志|{{< words src="morale">}}||
+|eminent|adj. 显著的；杰出的|{{< words src="eminent">}}||
+|screen|n. 屏幕 vt. 掩蔽；审查|{{< words src="screen">}}||
+|valid|adj. 合理的；有效的|{{< words src="valid">}}||
+|eject|v. 驱逐；驱赶；喷射|{{< words src="eject">}}||
+|fidelity|n. 忠诚|{{< words src="fidelity">}}||
+|partial|adj. 部分的|{{< words src="partial">}}||
+|skip|v. 跳；跳过|{{< words src="skip">}}||
+|regenerate|v. 复兴；振兴；再生|{{< words src="regenerate">}}||
+|bump|n. 肿块；撞击|{{< words src="bump">}}||
+|submarine|n. 潜水艇 adj. 水下的|{{< words src="submarine">}}||
+|promising|adj. 有前途的；有希望的|{{< words src="promising">}}||
+|domesticate|vt. 驯养；驯化|{{< words src="domesticate">}}||
+|staff|n. 全体职工|{{< words src="staff">}}||
+|motion|n. 运动；移动|{{< words src="motion">}}||
+|pathology|n. 变态；病理学|{{< words src="pathology">}}||
+|torrent|n. 洪流；急流；爆发|{{< words src="torrent">}}||
+|concentration|n. 专注；专心|{{< words src="concentration">}}||
+|pocketbook|n. 钱袋；皮夹|{{< words src="pocketbook">}}||
+|kerosene|n. 煤油|{{< words src="kerosene">}}||
+|smoothly|adv. 顺利的；平稳的|{{< words src="smoothly">}}||
+|bulb|n. 灯泡|{{< words src="bulb">}}||
+|reasonable|adj. 合理的；适当的|{{< words src="reasonable">}}||
+|captive|adj. 被控制的；被监禁的 n. 俘虏|{{< words src="captive">}}||
+|hospitable|adj. (气候，环境)宜人的|{{< words src="hospitable">}}||
+|attract|vt. 吸引|{{< words src="attract">}}||
+|pipe|n. 管道|{{< words src="pipe">}}||
+|crumple|v. 变皱；崩溃；垮台|{{< words src="">}}||
+|crumpled|adj. 皱巴巴的|{{< words src="crumpled">}}||
+|reliance|n. 依靠；依赖|{{< words src="reliance">}}||
+|bald|adj. 光秃秃的；秃头的|{{< words src="bald">}}||
+|extraordinary|adj. 特别的；非凡的|{{< words src="extraordinary">}}||
+|checked|adj. 格子花纹的|{{< words src="checked">}}||
+|jeans|n. 牛仔裤|{{< words src="jeans">}}||
+|stimulate|vt. 刺激；激励；激发|{{< words src="stimulate">}}||
+|benign|adj. 良性的；有利的；善良的|{{< words src="benign">}}||
+|insurance|n. 保险|{{< words src="insurance">}}||
+|economic|adj. 经济上的|{{< words src="economic">}}||
+|maritime|adj. 海的；海事的|{{< words src="maritime">}}||
+|continent|n. 大陆|{{< words src="continent">}}||
+|fungi|n. 真菌|{{< words src="fungi">}}||
+|belie|vt. 掩饰|{{< words src="belie">}}||
+|documentation|n. 文件；归档|{{< words src="documentation">}}||
+|gender|n. 性别|{{< words src="gender">}}||
+|clue|n. 线索；提示|{{< words src="clue">}}||
+|plague|vt. 困扰；使苦恼 n. 鼠疫；传染病|{{< words src="plague">}}||
+|aggravate|vt. 恶化；加重；激怒|{{< words src="aggravate">}}||
+|surpass|vt. 超过；胜过|{{< words src="surpass">}}||
+|curative|adj. 有疗效的 n. 药物|{{< words src="curative">}}||
+|previous|adj. 先前的；在前的|{{< words src="previous">}}||
+|hereditary|adj. 遗传性的；可继承的|{{< words src="hereditary">}}||
+|bosom|n. 胸部；乳房；胸怀|{{< words src="bosom">}}||
+|calculus|n. 微积分|{{< words src="calculus">}}||
+|invalid|adj. 无效的； n. 残疾者|{{< words src="invalid">}}||
+|cerebral|adj. 大脑的；理智的|{{< words src="cerebral">}}||
+|dosage|n. 剂量|{{< words src="dosage">}}||
+|excise|vt. 切除；删去|{{< words src="excise">}}||
+|balm|n. 镇痛剂；安慰剂|{{< words src="balm">}}||
+|holistic|adj. 整体的；全面的|{{< words src="holistic">}}||
+|infirm|adj. 虚弱的|{{< words src="infirm">}}||
+|patient|adj. 有耐心的 n. 病人|{{< words src="patient">}}||
+|myopic|adj. 近视的|{{< words src="myopic">}}||
+|optic|adj. 视觉的；眼的|{{< words src="optic">}}||
+|pathological|adj. 病态的；病理学的|{{< words src="pathological">}}||
+|capillary|n. 毛细血管 adj. 毛细血管的|{{< words src="capillary">}}||
+|trench|n. 沟渠 v. 挖沟|{{< words src="trench">}}||
+|deny|v. 否认|{{< words src="deny">}}||
+|costume|n. 服饰；服装|{{< words src="costume">}}||
+|rampant|adj. 猖獗的；肆虐的|{{< words src="rampant">}}||
+|generate|vt. 产生；导致；引起|{{< words src="generate">}}||
+|cassette|n. 录像带|{{< words src="cassette">}}||
+|Neolithic|adj. 新石器时代的|{{< words src="Neolithic">}}||
+|fumigate|vt. 烟熏；香薰|{{< words src="fumigate">}}||
+|innovative|adj. 创新的；革新的|{{< words src="innovative">}}||
+|counter|adv. 相反的 adj. 相反的 n. 柜台；计数器 v. 反对|{{< words src="counter">}}||
+|flag|n. 旗帜；标记|{{< words src="flag">}}||
+|explosive|adj. 爆炸性的|{{< words src="explosive">}}||
+|pliable|adj. 易弯曲的；柔韧的；顺从的|{{< words src="pliable">}}||
+|recipe|n. 食谱；方法；诀窍；秘诀|{{< words src="recipe">}}||
+|||{{< words src="">}}||
+
+
+## L47
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList47.mp3">}}
+
+{{< TPO id="1Dj1QOV2mExZkKpe2MK68rAHqufcK5nxx">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|precautionary|adj. 预防|{{< words src="precautionary">}}||
+|compact|adj. 紧凑的；简洁的 vt. 压缩|{{< words src="compact">}}||
+|compete|v. 竞争；对抗|{{< words src="compete">}}||
+|sap|vt. 使衰竭；削弱；逐渐破坏 n. 液|{{< words src="sap">}}|I was afraid the sickness had sapped my strength. <br> 恐怕这场病已经消耗了我的力气。<br> {{< words src="I was afraid the sickness had sapped my strength.">}}|
+|auditory|adj. 听觉的；耳的|{{< words src="auditory">}}||
+|explicit|adj. 清楚地；直率的|{{< words src="explicit">}}||
+|lens|n. 透镜；镜头；镜片|{{< words src="lens">}}||
+|volatile|adj. 易挥发的；不稳定的|{{< words src="volatile">}}|There have been riots before and the situation is volatile. <br>先前一直就有暴乱，局势变化无常。<br> {{< words src="There have been riots before and the situation is volatile.">}} <br>  The blast occurred when volatile chemicals exploded. <br>冲击波是在易挥发的化学品爆炸时产生的。<br> {{< words src="The blast occurred when volatile chemicals exploded.">}}|
+|celestial|adj. 天空的|{{< words src="celestial">}}|Galileo's observations of Jupiter's satellites showed that the Ptolemaic theory of the motion of celestial bodies is false.  <br> 伽利略对木星卫星的观察表明，托勒密关于天体运动的理论是错误的。<br> {{< words src="Galileo's observations of Jupiter's satellites showed that the Ptolemaic theory of the motion of celestial bodies is false.">}}|
+|behaviorism|n. 行为主义|{{< words src="behaviorism">}}||
+|semester|n. 学期|{{< words src="semester">}}||
+|equator|n. 赤道|{{< words src="equator">}}||
+|productive|adj. 生产的；多产的；富有成效的|{{< words src="productive">}}||
+|elicit|vt. 得出；引起|{{< words src="elicit">}}|Mr. Norris said he was hopeful that his request would elicit a positive response. <br> 诺里斯先生说他希望他的要求会引起积极的回应。<br> {{< words src="Mr. Norris said he was hopeful that his request would elicit a positive response.">}}|
+|educe|v. 引出；显出|{{< words src="educe">}}||
+|deduce|v. 推断；引出|{{< words src="deduce">}}||
+|newsletter|n. 时事通讯|{{< words src="newsletter">}}||
+|salon|n. 沙龙；客厅|{{< words src="salon">}}||
+|afford|v. 负担得起；提供；给予|{{< words src="afford">}}||
+|magma|n. 岩浆|{{< words src="magma">}}||
+|utilize|vt. 利用|{{< words src="utilize">}}||
+|hieroglyph|n. 象形文字|{{< words src="hieroglyph">}}||
+|sporadic|adj. 偶发的；零星的；间或出现的|{{< words src="sporadic">}}||
+|Jupiter|n. 木星|{{< words src="Jupiter">}}||
+|qualify|v. 使具有资格；使合格；有权|{{< words src="qualify">}}||
+|parameter|n. 参数；参量|{{< words src="parameter">}}||
+|contradict|v. 反驳；同...矛盾|{{< words src="contradict">}}||
+|thaw|v. 融化；解冻|{{< words src="thaw">}}|It's so cold the snow doesn't get a chance to thaw.<br>天气太冷了，积雪都没机会融化。<br> {{< words src="It's so cold the snow doesn't get a chance to thaw.">}}|
+|walnut|n. 胡桃木|{{< words src="walnut">}}||
+|square|n. 正方形；广场；平方|{{< words src="square">}}||
+|policy|n. 政策；方针|{{< words src="policy">}}||
+|obstruct|vt. 妨碍；阻挠|{{< words src="obstruct">}}||
+|obstacle|n. 障碍物|{{< words src="obstacle">}}||
+|loathsome|adj. 令人厌恶的|{{< words src="loathsome">}}||
+|swing|v. 摆动；摇荡|{{< words src="swing">}}||
+|molecule|n. 分子|{{< words src="molecule">}}||
+|navigate|v. 导航；航行|{{< words src="navigate">}}||
+|tangle|n. 混乱；纠纷 v. 纠结|{{< words src="tangle">}}||
+|opposite|adj. 对面的；对立的|{{< words src="opposite">}}||
+|far-fetched|adj. 牵强的|{{< words src="far-fetched">}}||
+|senator|n. 参议员|{{< words src="senator">}}||
+|anarchist|n. 无政府主义的|{{< words src="anarchist">}}||
+|contributor|n. 贡献者；捐助者|{{< words src="contributor">}}||
+|nitrogen|n. 氮|{{< words src="nitrogen">}}||
+|terminus|n. 终点站|{{< words src="terminus">}}||
+|compromise|n./v. 妥协；折中|{{< words src="compromise">}}||
+|eligible|adj. 合格的；符合条件的|{{< words src="eligible">}}||
+|elegant|adj. 优雅的|{{< words src="elegant">}}||
+|specialize|v. 专攻；专用于|{{< words src="specialize">}}||
+|accelerate|v. 加快；加速|{{< words src="accelerate">}}||
+|ductile|adj. 韧性的；有延展性的|{{< words src="ductile">}}||
+|comparison|n. 对比；对比；比喻|{{< words src="comparison">}}||
+|symphony|n. 交响乐|{{< words src="symphony">}}||
+|symptom|n. 症状|{{< words src="symptom">}}||
+|plaster|n. 灰泥；石膏|{{< words src="plaster">}}||
+|dazzling|adj. 令人眼花缭乱的|{{< words src="dazzling">}}||
+|compare|v. 比较|{{< words src="compare">}}||
+|anatomy|n. 解刨学|{{< words src="anatomy">}}||
+|radiation|n. 放射|{{< words src="radiation">}}||
+|evaluate|vt. 评价；评估|{{< words src="evaluate">}}||
+|recessive|adj. 隐性的|{{< words src="recessive">}}||
+|scrutinize|v. 仔细检查；细查|{{< words src="scrutinize">}}||
+|wan|adj. 苍白的；憔悴的|{{< words src="wan">}}||
+|electrolysis|n. 电解作用|{{< words src="electrolysis">}}||
+|literacy|adj. 文学上的|{{< words src="literacy">}}||
+|subconscious|n. 下意识 adj. 下意识的|{{< words src="subconscious">}}||
+|subliminal|adj. 潜意识的|{{< words src="subliminal">}}||
+|needy|adj. 贫穷的；贫困的|{{< words src="needy">}}||
+|trauma|n. 精神创伤|{{< words src="trauma">}}||
+|cortex|n. 皮层；皮质|{{< words src="cortex">}}||
+|syndrome|n. 综合征；典型表现|{{< words src="syndrome">}}||
+|wrench|v. 扭伤；猛拉 n. 扭伤|{{< words src="wrench">}}||
+|amphibious|adj. 两栖的|{{< words src="amphibious">}}||
+|carbohydrate|n. 碳水化合物|{{< words src="carbohydrate">}}||
+|quench|vt. 扑灭；熄灭|{{< words src="quench">}}||
+|degenerate|vi. 退化；衰退|{{< words src="degenerate">}}||
+|executive|n. 执行者；管理人员 adj. 执行的；实施的；行政的|{{< words src="executive">}}||
+|trance|n. 恍惚|{{< words src="trance">}}||
+|disturbance|n. 打扰|{{< words src="disturbance">}}||
+|plankton|n. 浮游生物|{{< words src="plankton">}}||
+|instructor|n. 导师；讲师|{{< words src="instructor">}}||
+|lack|n./v. 缺乏；不足|{{< words src="lack">}}||
+|slice|n. 薄片；部分|{{< words src="slice">}}||
+|career|n. 生涯；经历|{{< words src="career">}}||
+|inconspicuous|adj. 不显眼的|{{< words src="inconspicuous">}}||
+|replenish|vt. 添加；补充|{{< words src="replenish">}}||
+|optimal|adj. 最优的|{{< words src="optimal">}}||
+|fibrous|adj. 含纤维的|{{< words src="fibrous">}}||
+|buffalo|n. 水牛|{{< words src="buffalo">}}||
+|hybrid|adj. 杂交的；合成的|{{< words src="hybrid">}}||
+|willow|n. 柳树|{{< words src="willow">}}||
+|induce|vt. 引起；导致；诱使|{{< words src="induce">}}||
+|rayon|n. 人造丝|{{< words src="rayon">}}||
+|scale|n. 规模；比例|{{< words src="scale">}}||
+|||{{< words src="">}}||
+
+
+
+
+## L48
+
+
+{{< audio src="https://download.dogwood.com.cn/online/toeflchlx/WordList48.mp3">}}
+
+{{< TPO id="1JMVES4gWXcn5rygjjgZ8wFl2hefGfZ8T">}}
+
+
+|words|explanation|audio|remark|
+|:--:|:--:|:--:|:--:|
+|recital|n. 赘述；音乐演奏会|{{< words src="recital">}}|piano recital 钢琴演奏会|
+|flank|n. 侧翼；腹面 vt. 位于...的侧面|{{< words src="flank">}}||
+|silt|n. 淤泥 v. 阻塞|{{< words src="silt">}}||
+|ample|adj. 富足的；充足的；丰富的|{{< words src="ample">}}||
+|converse|vi. 交谈；谈话 adj. 相反的；逆向的|{{< words src="converse">}}||
+|inverse|adj. 相反的；逆的|{{< words src="inverse">}}||
+|patriot|n. 爱国者|{{< words src="patriot">}}||
+|portrait|n. 肖像|{{< words src="portrait">}}||
+|oak|n. 橡树|{{< words src="oak">}}||
+|emanate|v. 散发（声音；气味）；表现；显示|{{< words src="emanate">}}||
+|sparse|adj. 稀疏的；稀少的|{{< words src="sparse">}}||
+|encrust|v. 结壳|{{< words src="encrust">}}||
+|propagate|v. 繁殖；散布；传播|{{< words src="propagate">}}|Some tropical plants can only be propagated from seed. 一些热带植物只能通过种子进行繁殖 <br> {{< words src="Some tropical plants can only be propagated from seed.">}}|
+|herbivore|n. 食草动物|{{< words src="herbivore">}}||
+|carnivore|n. 食肉动物|{{< words src="carnivore">}}||
+|floral|adj. 花的|{{< words src="floral">}}||
+|track|n. 跑道；小路；足迹 v. 跟踪|{{< words src="track">}}||
+|sprain|n./vt. 扭伤|{{< words src="sprain">}}|He fell and sprained his ankle. <br> 他跌了一跤，扭伤了脚踝。<br> {{< words src="He fell and sprained his ankle.">}}|
+|constant|adj. 坚定的；稳定的；不变的 n. 常数|{{< words src="constant">}}||
+|hoof|n. (牛、马) 蹄|{{< words src="hoof">}}||
+|adopt|v. 采用；收养|{{< words src="adopt">}}||
+|sustainable|adj. 可持续的；可忍受的|{{< words src="sustainable">}}||
+|compel|vt. 驱使；迫使|{{< words src="compel">}}||
+|bound|adj. 有义务的； n. 界限 v. 跳跃|{{< words src="bound">}}||
+|molecular|adj. 分子的|{{< words src="molecular">}}||
+|diameter|n. 直径|{{< words src="diameter">}}||
+|linguistic|adj. 语言学的|{{< words src="linguistic">}}||
+|rancher|n. 牧场主|{{< words src="rancher">}}||
+|heyday|n. 全盛期|{{< words src="heyday">}}||
+|bleach|n. 漂白剂 v. 漂白；变白|{{< words src="bleach">}}|The tree's roots are stripped and hung to season and bleach. <br> 这些树根被剥去皮并挂起来风干晒白。<br> {{< words src="The tree's roots are stripped and hung to season and bleach.">}}|
+|nap|n. 小睡；打盹|{{< words src="nap">}}||
+|clog|v. 堵塞；阻塞|{{< words src="clog">}}|Within a few years the pipes began to clog up.  <br> 没有几年管子就开始堵塞了。<br> {{< words src="Within a few years the pipes began to clog up.">}}|
+|sulfur|n. 硫磺|{{< words src="sulfur">}}||
+|apprenticeship|n. 学徒工|{{< words src="apprenticeship">}}||
+|prevailing|adj. 普遍的；流行的|{{< words src="prevailing">}}||
+|pervade|vt. 遍及；弥漫|{{< words src="pervade">}}|Tablets are newer and just beginning to pervade the market.  <br> 平板电脑较新且刚刚开始蔓延于市场。<br> {{< words src="Tablets are newer and just beginning to pervade the market.">}}|
+|prevail|vt. 流行；盛行；占据优势|{{< words src="prevailing">}}|Rick still believes that justice will prevail. <br> 里克仍然相信正义会占上风。<br> {{< words src="Rick still believes that justice will prevail.">}}|
+|discipline|vt. 训练；惩罚 n. 纪律；学科|{{< words src="discipline">}}|| 
+|hop|v. 单足跳|{{< words src="hop">}}||
+|subversive|adj. 颠覆性的；破坏性的|{{< words src="subversive">}}|The play was promptly banned as subversive and possibly treasonous. <br> 该剧被认为是颠覆性的且可能是叛国性的而立即被禁演了。<br> {{< words src="The play was promptly banned as subversive and possibly treasonous.">}}|
+|grind|v. 打磨；研磨 n. 磨碎|{{< words src="grind">}}||
+|objective|n. 目标 adj. 客观的|{{< words src="objective">}}||
+|flourish|vi. 繁荣；繁盛|{{< words src="flourish">}}||
+|peripheral|adj. 不重要的；外围的|{{< words src="peripheral">}}||
+|periphery|n. 外围，边缘|{{< words src="periphery">}}||
+|bulletin|n. 公告；布告|{{< words src="bulletin">}}||
+|plight|n. 困境|{{< words src="plight">}}|She was touched by the plight of the refugees.  <br> 难民的困境使她受到触动。<br> {{< words src="She was touched by the plight of the refugees.">}}|
+|stock|vt. 储备；存储 n. 库存；现货；股票； adj. 常用的；常备的|{{< words src="stock">}}||
+|disseminate|v. 散布；传播|{{< words src="disseminate">}}||
+|seminate|adj. (种子)散播的；散步的 v. 散播；散步；传播|{{< words src="seminate">}}||
+|crow|n. 乌鸦|{{< words src="crow">}}||
+|hawk|n. 鹰|{{< words src="hawk">}}||
+|response|n. 回答；反应|{{< words src="response">}}||
+|dismay|vt. 使沮丧；使气馁|{{< words src="dismay">}}||
+|haunt|vt. （思想、回忆）萦绕在心头|{{< words src="haunt">}}|He would always be haunted by that scene in Well Park. <br> 他将不断回想起威尔公园的那一幕。<br> {{< words src="He would always be haunted by that scene in Well Park.">}}|
+|traditional|adj. 传统的；惯例的|{{< words src="traditional">}}||
+|protein|n. 蛋白质|{{< words src="protein">}}||
+|deceive|v. 欺骗|{{< words src="deceive">}}||
+|sprout|v. 发芽；抽条；生长|{{< words src="sprout">}}|spring + out 嫩芽出来|
+|compass|n. 罗盘；圆规；范围|{{< words src="compass">}}||
+|theory|n. 理论；原理；看法|{{< words src="theory">}}||
+|atom|n. 原子|{{< words src="atom">}}||
+|luster|n. 光亮|{{< words src="luster">}}||
+|review|vt./n. 审查；复习；回顾|{{< words src="review">}}||
+|correspond|vi. 符合；相一致；相当于|{{< words src="correspond">}}||
+|hydrothermal|adj. 热液的|{{< words src="hydrothermal">}}||
+|perceive|vt. 感知；察觉；理解|{{< words src="perceive">}}||
+|strand|n. 部分；一股；一缕 vt. 使滞留|{{< words src="strand">}}|The climbers had been stranded by a storm. <br>这些登山者被暴风雨困住了。<br>{{< words src="The climbers had been stranded by a storm.">}} <br>She was wearing a strand of crystal beads.  <br> 她戴着一串水晶珠子。|
+|alternative|n. 可供选择的事物 adj. 可供替代的|{{< words src="alternative">}}|/ɔːlˈtɜːrnətɪv/|
+|erupt|v. 爆发；喷出|{{< words src="erupt">}}||
+|chlorine|n. 氯|{{< words src="chlorine">}}||
+|scrape|v. 刮掉；擦掉 n.擦痕；刮痕|{{< words src="scrape">}}||
+|rub|v. 摩擦；磨损|{{< words src="rub">}}|The signs of rubbing on their left side indicate that their users were right-handed. <br> {{< words src="The signs of rubbing on their left side indicate that their users were right-handed.">}} <br> 同义替换： Wear on its left side. [wear v./n. 磨损 穿戴]|
+|conceive|v. 构思；设想；|{{< words src="conceive">}}||
+|delegate|n. 代表 vt. 授权；委派...为代表|{{< words src="delegate">}}||
+|process|vt. 加工；处理； n. 过程；程序|{{< words src="process">}}||
+|corps|n. 军团；军队|{{< words src="corps">}}||
+|crop|n. 庄稼|{{< words src="crop">}}||
+|isolate|vt. 使隔离；使孤独|{{< words src="isolate">}}||
+|anecdotal|adj. 逸闻趣事的|{{< words src="anecdotal">}}||
+|emit|vt. 发出；放射；排放|{{< words src="emit">}}||
+|capability|n. 能力|{{< words src="capability">}}||
+|diction|n. 措辞；用语|{{< words src="diction">}}||
+|dictation|n. 听写；口述|{{< words src="dictation">}}||
+|opaque|adj. 不透明的|{{< words src="opaque">}}||
+|tow|vt./n. 牵引；拖|{{< words src="tow">}}||
+|imply|vt. 意味着；暗示|{{< words src="imply">}}||
+|glaze|n. 釉料 v. 上釉|{{< words src="glaze">}}||
+|organic|adj. 有机的；器官的|{{< words src="organic">}}||
+|ailment|n. 小病|{{< words src="ailment">}}||
+|camouflage|n./vt. 掩饰；伪装|{{< words src="camouflage">}}||
+|implement|vt. 使生效；执行；实施|{{< words src="implement">}}||
+|unadorned|adj. 朴实的；未装饰的|{{< words src="unadorned">}}||
+|resource|n. 资源；财力|{{< words src="resource">}}||
+|curve|v. 弄弯 n. 曲线|{{< words src="curve">}}||
+|twinkling|n. 瞬间；一眨眼 adj. 闪光的|{{< words src="twinkling">}}||
+|hominid|n. 原始人类 adj. 灵长目的|{{< words src="hominid">}}||
+|||{{< words src="">}}||

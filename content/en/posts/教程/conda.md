@@ -177,6 +177,11 @@ conda remove --name foo --all
 conda remove --prefix D:/foo --all
 ```
 
+不使用conda init前提下，直接激活环境
+
+```bash
+source activate foo
+```
 
 
 ## python 环境
