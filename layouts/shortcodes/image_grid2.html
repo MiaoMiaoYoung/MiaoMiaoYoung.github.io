@@ -27,10 +27,13 @@
     }
 
     .grid-item:hover .back-image {
+      transition-delay: 0.6s; /* 延时0.6s变大，有一定的缓冲时间 */
       transform: scale(8); /* 鼠标悬停时下层图片稍稍变大 */
       z-index: 2;
-    }
+    }    
+
   </style>
+
 </head>
 
 
@@ -52,7 +55,6 @@
     {{ end }}
 
   </div>
-
 </body>
 </html>
 
