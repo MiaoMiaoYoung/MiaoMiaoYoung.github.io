@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Grid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(36, 1fr);
+      grid-gap: 0;
+    }
+
+    .grid-container img {
+      display: flex;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .grid-container img:hover {
+       transform: scale(8);
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="grid-container">
+
+    {{ $dir := string (.Get "image_dir") }}
+    {{ $files := readDir (print "/static" $dir) }}
+    {{ range sort $files }}
+    {{- $image := resources.Get (printf "%s/%s" $dir .Name) -}}
+    {{- $imageurl := printf "%s/%s" $dir .Name -}}
+    {{- $imagetitle := index (split .Name ".") 0 -}}
+    <img src="{{ $imageurl }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
+
+    {{ end }}
+
+  </div>
+
+</body>
+</html>
+
+

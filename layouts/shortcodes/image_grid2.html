@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Grid</title>
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(36, 1fr); /* 调整列数和每列宽度，以适应您的布局需求 */
+      grid-gap: 0; /* 设置网格间距为0，确保紧贴且不留空隙 */
+    }
+
+    .grid-item {
+      position: relative;
+    }
+
+    .grid-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease;
+    }
+
+    .front-image {
+      opacity: 0.6; /* 设置上层图片的透明度为0.5，可以根据需要进行调整 */
+    }
+
+    .grid-item:hover .back-image {
+      transform: scale(8); /* 鼠标悬停时下层图片稍稍变大 */
+      z-index: 2;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="grid-container">
+
+    {{ $image_dir := string (.Get "image_dir") }}
+    {{ $mask_dir := string (.Get "mask_dir") }}
+    {{ $files := readDir (print "/static" $image_dir) }}
+    {{ range sort $files }}
+    {{- $imageurl := printf "%s/%s" $image_dir .Name -}}
+    {{- $maskurl := printf "%s/%s" $mask_dir .Name -}}
+    {{- $imagetitle := index (split .Name ".") 0 -}}
+    <div class="grid-item">
+        <img src="{{ $imageurl }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}" class="back-image">
+        <img src="{{ $maskurl }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}" class="front-image">    
+    </div>
+
+    {{ end }}
+
+  </div>
+
+</body>
+</html>
+
+

@@ -283,6 +283,8 @@ enableTocContent: true
 
 - has attracted unprecedented attention
 
+- In the realm of daily existence, certain fragments of information enjoy pervasive prevalence, whereas others manifest themselves with utmost rarity.
+
 
 
 ## 结构
