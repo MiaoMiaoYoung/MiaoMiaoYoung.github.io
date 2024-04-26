@@ -127,6 +127,10 @@ enableTocContent: true
 
     - engage in 
 
+- 拥有
+
+    - **boast** The Vicuna-7B model boasts 12 transformer layers
+
 ----------------------------------------------
 
 ### Adj.
@@ -187,6 +191,16 @@ enableTocContent: true
 
     - stands out: our approach stands out with two significant advancements. 
 
+    - effectively
+
+    - efficiently
+
+    - Precisely
+
+    - Proficiently
+
+    - Competently
+
 - 上述的
 
     - aforementioned 上述的
@@ -235,6 +249,7 @@ enableTocContent: true
 
     - Similarly
   
+    - In the context of
 
 - 原因
 

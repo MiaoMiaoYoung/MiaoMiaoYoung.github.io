@@ -267,3 +267,17 @@ split 参数：
 ```bash
 cat splog* > newLog.log
 ```
+
+## Kill程序后显卡仍然占用
+
+查找占用的僵尸程序
+
+```bash
+fuser -v /dev/nvidia*
+```
+
+查找占用的僵尸程序，并全部杀掉
+
+```bash
+fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sh
+```

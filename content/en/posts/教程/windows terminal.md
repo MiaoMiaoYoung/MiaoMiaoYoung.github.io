@@ -105,6 +105,14 @@ tags:
 "backgroundImageOpacity": 0.15
 ```
 
+## ASCII 艺术
+
+```bash
+watch -tn1 'pyfiglet -f slant `date +%T` | cowsay --random'
+while sleep 3; do clear; fortune | cowsay --random | lolcat; done
+while true; do clear; fortune | cowsay --random | lolcat; sleep 6; done
+```
+
 ## PowerShell 运行脚本限制
 
 在windows PowerShell上运行.bat脚本，会出现 **“ XXX， 因为在此系统上禁止运行脚本。有关详细信息，请参阅 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies”** 的报错

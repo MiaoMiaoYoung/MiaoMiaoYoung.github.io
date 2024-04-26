@@ -157,3 +157,20 @@ DELETE FROM logs WHERE serial ='ZR52AGQE';
 接下来就是把这块“崭新”的硬盘，重新加入到存储池就好，修复一下存储空间就好
 
 后面为了防止再次断电的意外发生，还是鼓捣了一台UPS对群晖进行意外断电的保护
+
+## 网络架桥
+
+人在国外，家中群晖用来转发流量，实现翻墙回国
+
+ZeroTier看教程
+
+----------------------
+
+windows端口转发
+
+https://blog.csdn.net/yuerchina/article/details/128903257
+
+（浏览器一般走443端口）
+
+netsh interface portproxy add v4tov4 listenaddress=127.0.0.1 listenport=443 connectaddress=10.242.52.35 connectport=443
+
