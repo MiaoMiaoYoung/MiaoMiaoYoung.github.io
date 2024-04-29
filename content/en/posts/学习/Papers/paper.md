@@ -131,6 +131,10 @@ enableTocContent: true
 
     - **boast** The Vicuna-7B model boasts 12 transformer layers
 
+- 缓解
+
+    - Alleviate
+
 ----------------------------------------------
 
 ### Adj.
