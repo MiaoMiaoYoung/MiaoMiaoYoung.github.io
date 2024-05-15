@@ -281,3 +281,18 @@ fuser -v /dev/nvidia*
 ```bash
 fuser -v /dev/nvidia* |awk '{for(i=1;i<=NF;i++)print "kill -9 " $i;}' | sh
 ```
+
+
+## rsync 拷贝文件
+
+
+要在Linux系统中将整个目录中除了.pth文件和.log文件以外的所有文件复制到另一个目录，你可以使用rsync命令。假设要将目录/source/dir中除了.pth文件以外的所有文件复制到/destination/dir，可以使用以下命令：
+
+```bash
+rsync -av --exclude='*.pth' --exclude='*.log' /source/dir/ /destination/dir/
+# -a 表示以递归方式复制文件，并保持所有文件属性。
+# -v 表示详细输出。
+# --exclude='*.pth' 表示排除所有以.pth为扩展名的文件。
+# /source/dir/ 是源目录路径。
+# /destination/dir/ 是目标目录路径。
+```

@@ -156,6 +156,9 @@ conda config --set auto_activate_base False
 conda create -n foo python=3.5
 conda create --prefix D:/foo python=3.5
 
+## 导出环境；根据环境创建环境
+conda env export > environment.yml
+conda env create -f environment.yml
 
 ## 使用命令查看当前拥有的虚拟环境
 conda info --envs

@@ -249,11 +249,21 @@ enableTocContent: true
 
     - **Beyond that (diagnosis)**
 
-    - Likewise
+    - **Likewise**
 
-    - Similarly
+    - **Similarly**
   
-    - In the context of
+    - **In the context of ...**
+
+    - **In terms of ...**
+
+    - **With regard to ...**
+
+    - **From the perspective of ...**
+
+    - **Concerning ...**
+
+    - **Regarding ...**
 
 - 原因
 
