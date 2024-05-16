@@ -159,12 +159,18 @@
 </span><span class=lnt>23
 </span><span class=lnt>24
 </span><span class=lnt>25
+</span><span class=lnt>26
+</span><span class=lnt>27
+</span><span class=lnt>28
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1>## 创建一个新环境</span>
 </span></span><span class=line><span class=cl><span class=c1>## conda create -n [env名字] python=[版本号]</span>
 </span></span><span class=line><span class=cl><span class=c1>## conda create --prefix=[环境地址] python=[版本号]</span>
 </span></span><span class=line><span class=cl>conda create -n foo <span class=nv>python</span><span class=o>=</span>3.5
 </span></span><span class=line><span class=cl>conda create --prefix D:/foo <span class=nv>python</span><span class=o>=</span>3.5
 </span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>## 导出环境；根据环境创建环境</span>
+</span></span><span class=line><span class=cl>conda env <span class=nb>export</span> &gt; environment.yml
+</span></span><span class=line><span class=cl>conda env create -f environment.yml
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1>## 使用命令查看当前拥有的虚拟环境</span>
 </span></span><span class=line><span class=cl>conda info --envs
