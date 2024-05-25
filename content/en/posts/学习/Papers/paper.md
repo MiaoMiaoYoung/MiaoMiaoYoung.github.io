@@ -28,7 +28,10 @@ enableTocContent: true
 
     - **indicate**: *indicates a significant challenge*
 
-    - **reveal** *Experimental results reveal that* 
+    - **reveal** 
+        - *Experimental results reveal that* 
+
+        - *The findings reveal unique insights into the effects of XXX on*
 
     - **report**
 
@@ -46,8 +49,9 @@ enableTocContent: true
 
     - **show**: *it shows that*  [ 限制使用 ]
 
+    - **tailored** 量身定制 tailored to
 
-
+    - stemming from 
 
 - 提出
 
@@ -58,6 +62,7 @@ enableTocContent: true
     - **design**
 
     - **devise** *is devised to regularize*
+
 
 
 - 实施，应用
@@ -83,6 +88,8 @@ enableTocContent: true
     - **opt** *opted for* 选择 
 
     - **employ**
+
+    - **endeavour** we endeavour to explore an alternative to
 
 - 验证，证明，调查，评估
 
@@ -121,6 +128,9 @@ enableTocContent: true
 
     - handle
 
+    - **tailored** 量身定制 tailored to
+
+
 - 参与
 
     - participate in 
@@ -131,9 +141,25 @@ enableTocContent: true
 
     - **boast** The Vicuna-7B model boasts 12 transformer layers
 
-- 缓解
+    - **spans** Our comprehensive study spans both visual and textual domains
 
-    - Alleviate
+
+
+- 缓解，优化，消除
+
+    - **Alleviate**
+
+    - **mitigate**
+
+    - **optimize**
+
+    - **tailored** 量身定制 tailored to
+
+    - **circumvents** 避免了
+
+    - **adapt**
+
+    - **accommodate** 消除，缓解
 
 ----------------------------------------------
 
@@ -158,6 +184,10 @@ enableTocContent: true
     - **increasingly**
 
     - **tremendous**
+
+    - **paramount** the quest for XXX  remains paramount
+
+
 
     [1] It remains a critical challenge to XXX due to ...
 
@@ -344,6 +374,7 @@ Zotero经常会引入一些奇奇怪怪的字段，比如editor，ISSN，ISBN这
 
 ### DETAILS 细节决定成败
 
+Figure 3a 后面不加点(.)，缩写才加. Fig.3a 
 
 
 ## References
