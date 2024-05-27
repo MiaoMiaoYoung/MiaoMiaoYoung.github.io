@@ -33,7 +33,7 @@ tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(model_id, device_map="auto", load_in_4bit=True)
 ```
 
-## inference in multi-GPU
+### inference in multi-GPU
 
 - https://huggingface.co/docs/accelerate/main/en/usage_guides/big_modeling#designing-a-device-map
 
@@ -86,6 +86,61 @@ sents=['你是谁']
 ids = tokenizer(sents,max_length=1800,padding=True,truncation=True,return_tensors="pt")
 ids = ids.to(model.device) 
 outputs = model.generate(**ids, do_sample=False)
+```
+
+
+### Errors
+
+#### piece id is out of range.
+
+```bash
+  File "/scratch/eyu/code/datagen/caption.py", line 93, in <module>
+    predicts = model.generate({ "image": image.cuda(), "prompt": prompt})
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/data/eyu/workspace/LAVIS/lavis/models/blip2_models/blip2_vicuna_instruct.py", line 386, in generate
+    output_text = self.llm_tokenizer.batch_decode(outputs, skip_special_tokens=True)
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 3469, in batch_decode
+    return [
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 3470, in <listcomp>
+    self.decode(
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/tokenization_utils_base.py", line 3509, in decode
+    return self._decode(
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/tokenization_utils.py", line 931, in _decode
+    filtered_tokens = self.convert_ids_to_tokens(token_ids, skip_special_tokens=skip_special_tokens)
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/tokenization_utils.py", line 912, in convert_ids_to_tokens
+    tokens.append(self._convert_id_to_token(index))
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/models/llama/tokenization_llama.py", line 129, in _convert_id_to_token
+    token = self.sp_model.IdToPiece(index)
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/sentencepiece/__init__.py", line 1179, in _batched_func
+    return _func(self, arg)
+  File "/anaconda3/envs/cdd/lib/python3.8/site-packages/sentencepiece/__init__.py", line 1172, in _func
+    raise IndexError('piece id is out of range.')
+IndexError: piece id is out of range.
+
+```
+
+```python
+## /anaconda3/envs/cdd/lib/python3.8/site-packages/transformers/models/llama/tokenization_llama.py
+def _convert_id_to_token(self, index):
+    """Converts an index (integer) in a token (str) using the vocab."""
+    
+    token = self.sp_model.IdToPiece(index)
+    return token
+```
+
+
+```python
+def _convert_id_to_token(self, index):
+    """Converts an index (integer) in a token (str) using the vocab."""
+    if index >= self.sp_model.vocab_size():
+        return ""
+    
+    if index < 0:
+        return ""
+
+    token = self.sp_model.IdToPiece(index)
+    return token
 ```
 
 
