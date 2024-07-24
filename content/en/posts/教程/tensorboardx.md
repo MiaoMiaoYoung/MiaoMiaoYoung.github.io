@@ -81,6 +81,16 @@ tensorboard --logdir=/MiaoMiaoYang/cifar-10/runs/ --port=5000 --bind_all
 - **logdir**中使用绝对路径
 - 使用**--bind_all**，不然会出现拒绝访问
 
+远程查看数据时需要ssh -L代理
+
+```bash
+# HostB 上启动一个 PortB 端口，映射到 HostC:PortC 上，在 HostB 上运行：
+ssh -L 0.0.0.0:PortB:HostC:PortC user@HostC
+
+# 将远程的6006端口代理到本地的8888端口
+ssh -L 8888:127.0.0.1:6006 username@ip -p 22
+```
+
 ## 记录数据
 
 ### 数字 (scalar)

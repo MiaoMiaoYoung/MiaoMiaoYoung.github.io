@@ -169,4 +169,6 @@ https://image-net.org/challenges/LSVRC/2012/2012-downloads.php
 mkdir train && tar -xvf ILSVRC2012_img_train.tar -C train && for x in `ls train/*tar`; do fn=train/`basename $x .tar`; mkdir $fn; tar -xvf $x -C $fn; rm -f $fn.tar; done
 ```
 
+整理val到分类文件夹
 
+https://raw.githubusercontent.com/soumith/imagenetloader.torch/master/valprep.sh

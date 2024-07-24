@@ -1,6 +1,6 @@
 ---
 title: "Vision Transformer (ViT)"
-date: 2023-04-19T15:01:38+08:00
+date: 2023-04-20T15:01:38+08:00
 draft: false
 categories:
     - 学习
@@ -15,8 +15,7 @@ enableTocContent: true
 
 ## 再探 ViT (更深更慢更强)
 
-![](https://pic4.zhimg.com/80/v2-5afd38bd10b279f3a572b13cda399233_720w.webp)
-
+![vit.png](https://s2.loli.net/2024/07/24/SouFs61jlyXch8d.jpg)
 
 ViT主要结构：
 
@@ -152,7 +151,7 @@ class PatchEmbed(nn.Module):
 
 ### Transformer Block
 
-![transformer](https://img-blog.csdnimg.cn/b02b9f8442144f9097ad2db92c7616cc.png#pic_center)
+![tf_block.png](https://s2.loli.net/2024/07/24/k2VUFiwljbTLWpq.png)
 
 
 1. Layer Normalization
@@ -261,7 +260,7 @@ class PatchEmbed(nn.Module):
 
 4. MLP
 
-    ![alt text](https://img-blog.csdnimg.cn/83de5197df134ea391b0a7826623b797.png#pic_center)
+    ![MLP.png](https://s2.loli.net/2024/07/24/rNezmHdP4WOjI5q.png)
 
     MLP is all you need ...
 
@@ -296,6 +295,8 @@ class Block(nn.Module):
 
 分类头，MLP少了一层后面的，和CNN的套路没啥区别
 
+![MLP_head.png](https://s2.loli.net/2024/07/24/6f2z4HNxdEwQSXs.png)
+
 ### 总览
 
 具体来说，ViT-B/16整体网络结构如下图
@@ -303,6 +304,6 @@ class Block(nn.Module):
 > https://blog.csdn.net/Z960515/article/details/122636814?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_baidulandingword~default-0-122636814-blog-122667271.235^v43^pc_blog_bottom_relevance_base7&spm=1001.2101.3001.4242.1&utm_relevant_index=1
 
 
-![alt text](https://img-blog.csdnimg.cn/b28267eaad1243049f3dfa5afd98b1c8.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBASG9sbG93S25pZ2h0Wg==,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
+![vit16.png](https://s2.loli.net/2024/07/24/DEGZPa72vndk3U4.jpg)
 
 
