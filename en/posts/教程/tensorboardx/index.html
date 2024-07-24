@@ -52,7 +52,17 @@
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>tensorboard --logdir<span class=o>=</span>yourpath --port<span class=o>=</span><span class=m>6005</span>
 </span></span></code></pre></td></tr></table></div></div><h3 id=服务器中的docker启动>服务器中的docker启动</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>tensorboard --logdir<span class=o>=</span>/MiaoMiaoYang/cifar-10/runs/ --port<span class=o>=</span><span class=m>5000</span> --bind_all
-</span></span></code></pre></td></tr></table></div></div><ul><li>将Docker中的端口映射出去</li><li><strong>logdir</strong>中使用绝对路径</li><li>使用**&ndash;bind_all**，不然会出现拒绝访问</li></ul><h2 id=记录数据>记录数据</h2><h3 id=数字-scalar>数字 (scalar)</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span></span></code></pre></td></tr></table></div></div><ul><li>将Docker中的端口映射出去</li><li><strong>logdir</strong>中使用绝对路径</li><li>使用**&ndash;bind_all**，不然会出现拒绝访问</li></ul><p>远程查看数据时需要ssh -L代理</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
+</span><span class=lnt>3
+</span><span class=lnt>4
+</span><span class=lnt>5
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=c1># HostB 上启动一个 PortB 端口，映射到 HostC:PortC 上，在 HostB 上运行：</span>
+</span></span><span class=line><span class=cl>ssh -L 0.0.0.0:PortB:HostC:PortC user@HostC
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 将远程的6006端口代理到本地的8888端口</span>
+</span></span><span class=line><span class=cl>ssh -L 8888:127.0.0.1:6006 username@ip -p <span class=m>22</span>
+</span></span></code></pre></td></tr></table></div></div><h2 id=记录数据>记录数据</h2><h3 id=数字-scalar>数字 (scalar)</h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=n>add_scalar</span><span class=p>(</span><span class=n>tag</span><span class=p>,</span> <span class=n>scalar_value</span><span class=p>,</span> <span class=n>global_step</span><span class=o>=</span><span class=kc>None</span><span class=p>,</span> <span class=n>walltime</span><span class=o>=</span><span class=kc>None</span><span class=p>)</span>
 </span></span></code></pre></td></tr></table></div></div><ul><li>tag: 数据名称</li><li>scalar_value: 数字常量 (float)，可以理解为纵轴如果是pytorch tensor，需要调用.item()获取其数值</li><li>global_step: 训练的step，可以理解为横轴</li><li>walltime: 记录放生的时间，default: time.time()</li></ul><p>Example:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span><span class=lnt>2
