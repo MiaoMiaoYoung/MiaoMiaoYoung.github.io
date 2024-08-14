@@ -85,11 +85,13 @@ enableTocContent: true
 
     - **leverage**
 
-    - **opt** *opted for* 选择 
+    - **harness**  *harnessing the capabilities of large language models* 
+
+    - **opt** 选择 *opted for*  
 
     - **employ**
 
-    - **endeavour** we endeavour to explore an alternative to
+    - **endeavour** 努力 *we endeavour to explore an alternative to*
 
 - 验证，证明，调查，评估
 
@@ -128,7 +130,7 @@ enableTocContent: true
 
     - handle
 
-    - **tailored** 量身定制 tailored to
+    - **tailored** 量身定制 *tailored to;  tailoring to the demand for high-quality datasets.*
 
 
 - 参与
@@ -139,11 +141,25 @@ enableTocContent: true
 
 - 拥有
 
-    - **boast** The Vicuna-7B model boasts 12 transformer layers
+    - **boast**: *The Vicuna-7B model boasts 12 transformer layers*
 
-    - **spans** Our comprehensive study spans both visual and textual domains
+    - **spans**: **span a spectrum** *Our comprehensive study spans both visual and textual domains* / *span a spectrum from regions to pixels*
 
+    -  cover: cover a spectrum from regions to pixels
 
+- 增强，提升
+
+    - improve
+
+    - enhance
+
+    - amplify: 增强，放大 *amplifying its generalization*
+
+    - foster: 增强 *foster the model's overall performance.*
+
+    - broaden: 扩大 *broadens its scope of *
+
+    - fortify
 
 - 缓解，优化，消除
 
