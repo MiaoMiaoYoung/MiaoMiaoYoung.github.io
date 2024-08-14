@@ -157,7 +157,7 @@ enableTocContent: true
 
     - foster: 增强 *foster the model's overall performance.*
 
-    - broaden: 扩大 *broadens its scope of *
+    - broaden: 扩大 *broadens its scope of*
 
     - fortify
 
