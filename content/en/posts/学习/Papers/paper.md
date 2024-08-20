@@ -161,6 +161,9 @@ enableTocContent: true
 
     - fortify
 
+    - enrich
+
+
 - 缓解，优化，消除
 
     - **Alleviate**
@@ -177,7 +180,50 @@ enableTocContent: true
 
     - **accommodate** 消除，缓解
 
+    - **reconcile** 协调 reconcile the divergence between
+
 ----------------------------------------------
+
+### Noun
+
+- 模型的优点
+
+    - feasibility 可行性
+
+    - practicality 可行性
+
+    - viability 可行性
+
+    - robustness 鲁棒性
+
+    - superiority 
+
+    - versatility 多功能的
+
+    - competency 能力
+
+    - capability 能力
+
+    - capacity 能力；容量
+
+    - adaptability 能力；适应力
+
+    - proficiency 熟练；专家 *demonstrating its superior proficiency in* 
+
+    - stands out: *our approach stands out with two significant advancements.* 
+
+    - effectively
+
+    - efficiently
+
+    - Precisely
+
+    - Proficiently
+
+    - Competently
+
+- 离散的像素： sparsity
+
 
 ### Adj.
 
@@ -227,29 +273,6 @@ enableTocContent: true
 
     - **delicate**
 
-- 模型的优点
-
-    -  feasibility
-
-    -  practicality
-
-    - viability
-
-    - robustness
-
-    - superiority
-
-    - stands out: our approach stands out with two significant advancements. 
-
-    - effectively
-
-    - efficiently
-
-    - Precisely
-
-    - Proficiently
-
-    - Competently
 
 - 上述的
 
@@ -257,7 +280,6 @@ enableTocContent: true
 
 
 
-- 离散的像素： sparsity
 
 
 
