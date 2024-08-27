@@ -75,6 +75,9 @@ Vscode的配置调试文件，一般在*项目根目录/.vscode*下，主要结�
         "--tokenizer_path", "tokenizer.model",
         "--max_seq_len", "512",
         "--max_batch_size", "6",
-    ]
+    ],
+    "env": {
+        "CUDA_VISIBLE_DEVICE": "0"
+    },    
 },
 ```
