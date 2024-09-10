@@ -136,6 +136,15 @@ $ apt update
 
 解决！
 
+### RuntimeError: cuDNN error: CUDNN_STATUS_NOT_INITIALIZED
+
+torch.cuda.is_available()健在的情况下
+
+有可能...就是没显存了
+
+在nvidia-smi上监控一下显存的使用情况，有可能程序自动会多卡，有一张显存占用就不行的情况
+
+
 ## 项目结构
 
 - 项目名称 [e.g. Geometry-based Segmentation]

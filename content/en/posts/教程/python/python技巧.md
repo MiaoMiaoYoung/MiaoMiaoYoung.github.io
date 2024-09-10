@@ -161,15 +161,49 @@ def save_csv(file, headers, rows, delimiter=','):
         writer.writerows(rows)
 ```
 
+### get_normal_image
+
+```python
+## 加载一张普通格式图片 2D
+def get_normal_image(path, size=None):
+    '''
+    加载一幅普通格式的2D图像，支持格式：.jpg, .jpeg, .tif ...
+    :param path: 图像的路径
+    :param size: 对图像进行指定大小
+    :return: array: numpy格式
+    '''
+    image = Image.open(path)
+    if size is not None:
+        image = image.resize(size)
+    image = np.asarray(image)
+    return image
+```
+
+
 ### save_json
 
-```py
+```python
 ## save dict as json
 def save_json(dicts, file, indent=2):
     import json
     info = json.dumps(dicts, indent=indent, ensure_ascii=False)
     with open(file, 'w', encoding='utf-8') as f:  # 使用.dumps()方法时，要写入
         f.write(info)
+```
+
+### save_normal_image
+
+```python
+## 将numpy数组保存为普通的2D图像，支持.jpg, .jpeg, .tif
+def save_normal_image(array, target_path):
+    '''
+    将得到的数组保存为普通的2D图像
+    :param array: 想要保存的图像数组
+    :param target_path: 保存的文件路径，注意：一定要带后缀，E.g.,.jpg,.png,.tif
+    :return: None 无返回值
+    '''
+    image = Image.fromarray(array)
+    image.save(target_path)
 ```
 
 

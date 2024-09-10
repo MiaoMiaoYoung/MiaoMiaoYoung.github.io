@@ -93,6 +93,8 @@ enableTocContent: true
 
     - **endeavour** 努力 *we endeavour to explore an alternative to*
 
+    -  **through the inclusion of** 通过
+
 - 验证，证明，调查，评估
 
     - **validate**: *validates the importance*
@@ -132,6 +134,9 @@ enableTocContent: true
 
     - **tailored** 量身定制 *tailored to;  tailoring to the demand for high-quality datasets.*
 
+    - is customized to cater to the requirements of
+
+    - cater to
 
 - 参与
 
@@ -332,6 +337,10 @@ enableTocContent: true
     - **Concerning ...**
 
     - **Regarding ...**
+
+    - **On the flip side** 另一方面
+
+    - **Conversely** 反过来
 
 - 原因
 
