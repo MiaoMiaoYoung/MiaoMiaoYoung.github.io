@@ -402,3 +402,91 @@ class Bert_Model(nn.Module):
 
 I hope that you found this content easy to understand. If you think that I need to elaborate further or clarify anything, drop a comment below.
 
+
+## LLavA
+
+### 配置环境
+
+检查环境是否配好
+
+```python
+# inference.py
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '0'
+
+
+from llava.model.builder import load_pretrained_model
+from llava.mm_utils import get_model_name_from_path
+from llava.eval.run_llava import eval_model
+
+# llava-1.5预训练权重
+model_path = "/model/llava-v1.5-13b"
+
+tokenizer, model, image_processor, context_len = load_pretrained_model(
+    model_path=model_path,
+    model_base=None,
+    model_name=get_model_name_from_path(model_path),
+    load_4bit=True
+)
+
+# 文本提示
+prompt = "what does this image describe?"
+# 测试图片路径
+image_file = "n02509815_6586.JPEG"
+ 
+args = type('Args', (), {
+    "model_path": model_path,
+    "model_base": None,
+    "model_name": get_model_name_from_path(model_path),
+    "query": prompt,
+    "conv_mode": None,
+    "image_file": image_file,
+    "sep": ",",
+    "temperature": 0,
+    "top_p": None,
+    "num_beams": 1,
+    "max_new_tokens": 512
+})()
+
+eval_model(args)
+
+# The image features a small red panda sitting on a tree branch, surrounded by leaves. The panda appears to be looking at something, possibly observing its surroundings or focusing on a specific object. The scene captures the panda's natural habitat and behavior, as they are known to climb trees for safety and to search for food.
+```
+
+
+### 训练
+
+```bash
+# --num_train_epochs 1 \
+# --save_strategy "steps" \
+# --save_steps 24000 \
+# --save_total_limit 1 \
+# --report_to wandb
+# 改成
+--num_train_epochs 20 \
+--save_strategy "epoch" \
+--save_total_limit 10 \
+--report_to tensorboard
+```
+
+- CUDA Out-of-Memory (OOM)
+
+  在script添加参数 --bit 4/8，但是同时会报错
+
+  > ValueError: You cannot perform fine-tuning on purely quantized models. Please attach trainable adapters on top of the quantized model to correctly perform fine-tuning. Please see: https://huggingface.co/docs/transformers/peft for more details
+
+  可以配合lora使用
+
+  如果不想使用lora，那么可以把模型换成vicuna-7b或者vit-base的，让模型更小点
+
+
+
+- lora finetune
+
+  merge_lora_weights.py
+
+  > ValueError: The generation config instance is invalid
+
+  此错误似乎是升级变压器版本时发生的问题。我通过在vicuna的generation_config.json文件中手动添加do_sample：true来解决此问题。
+
+  https://github.com/haotian-liu/LLaVA/issues/1144
