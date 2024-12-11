@@ -140,7 +140,9 @@
 rm: cannot remove ‘.ps_000000978eec4c0100000088’: Device or resource busy
 rm: cannot remove ‘.ps_000000979b8e2f0100000089’: Device or resource busy
 </code></pre><p>使用以下命令查找进程</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
+</span><span class=lnt>2
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>lsof <span class=p>|</span> grep &lt;设备或资源名&gt;
+</span></span><span class=line><span class=cl><span class=c1># lsof | grep .ps_000000979b8e2f0100000089’</span>
 </span></span></code></pre></td></tr></table></div></div><h2 id=分割文件>分割文件</h2><blockquote><p><a href=https://deepinout.com/linux-cmd/linux-file-process-cmd/linux-cmd-split.html>https://deepinout.com/linux-cmd/linux-file-process-cmd/linux-cmd-split.html</a></p></blockquote><p>按照大小将大文件分割成若干小文件</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>split -b 10G &lt;file&gt; PREFIX
 </span></span></code></pre></td></tr></table></div></div><p>split 参数：</p><pre><code>-a：指定输出文件名的后缀长度，默认为2个(aa,ab...)
