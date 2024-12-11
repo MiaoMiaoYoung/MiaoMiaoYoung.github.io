@@ -238,6 +238,7 @@ rm: cannot remove ‘.ps_000000979b8e2f0100000089’: Device or resource busy
 
 ```bash
 lsof | grep <设备或资源名>
+# lsof | grep .ps_000000979b8e2f0100000089’
 ```
 
 ## 分割文件

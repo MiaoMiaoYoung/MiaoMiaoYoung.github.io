@@ -52,3 +52,13 @@ tags:
 6. 包含了代码： code
 7. 特定数据集上的任务： ImageNet-LT, Cifar-100-LT, MSD
 
+## 插件
+
+- zotero-citation 快捷引用
+
+    > https://github.com/MuiseDestiny/zotero-citation
+
+
+- zotero-pdf-translate 文献翻译
+
+    > https://github.com/windingwind/zotero-pdf-translate

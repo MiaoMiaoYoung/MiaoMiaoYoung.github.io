@@ -187,6 +187,8 @@ enableTocContent: true
 
     - **reconcile** 协调 reconcile the divergence between
 
+    - **eschew** 回避，避免 eschews the reconstruction
+
 ----------------------------------------------
 
 ### Noun
@@ -254,6 +256,7 @@ enableTocContent: true
 
     - **paramount** the quest for XXX  remains paramount
 
+    - **overarching** 首要的
 
 
     [1] It remains a critical challenge to XXX due to ...
@@ -284,8 +287,9 @@ enableTocContent: true
     - aforementioned 上述的
 
 
+- 整体的
 
-
+    - holistic 整体的
 
 
 ----------------------------------------------
@@ -371,6 +375,8 @@ enableTocContent: true
     - **Despite**
 
     - **Although**
+
+    -  **eschews XXX in favor of** 避免了...而是... *eschews the reconstruction in favor of leveraging ga loss to steer the entire network.*
 
 - 强调，递进
 

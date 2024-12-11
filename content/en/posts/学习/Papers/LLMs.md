@@ -14,6 +14,38 @@ libraries:
 enableTocContent: true
 ---
 
+## Base
+
+### LLM Auto-regressive Decoding
+
+> https://blog.csdn.net/qq_47564006/article/details/135750787
+
+自回归解码
+
+在自然语言处理(NLP)中，大型语言模型(LLM)如Transformer进行推理时，自回归解码是一种生成文本的方式。在自回归解码中，模型在生成下一个单词时会依赖于它之前生成的单词。
+
+使用自回归解码的公式可以表示为以下步骤:
+
+初始化序列:设$(x_1,x_2,…, x_{t-1})$是目前已生成的单词序列。
+
+计算下一个单词的概率分布:使用语言模型计算在给定上下文之后下一个单词的概率分布:
+
+$$P(x_{t} | x_1,x_2, ... , x_{t-1})$$
+
+这一步骤通常使用softmax函数完成，它将单词的logit转换成概率分布。
+
+选择下一个单词:根据概率分布选择下一个单词$x_t$。这可以通过不同的策略来完成，如:
+
+贪婪解码(Greedy Decoding):选择具有最高概率的单词。$x_t= \argmax P(x_{t} | x_1,x_2, ... , x_{t-1})$
+
+随机抽样(Sampling): 根据概率分布随机选择单词，这允许生成更多样化的文本。
+
+束搜索(Beam Search): 维护一个宽度为(k)的束(beam)，在每一步选择概率最高的(k)个单词组合作为候选，然后在这些候选中选择最终的单词序列。
+
+更新序列:将选定的单词($x_t$)添加到序列中。
+
+重复上述步骤，直到遇到序列结束标记，或者生成了所需长度的文本
+
 ## CODE
 
 ### load in 4/8 bit
@@ -405,9 +437,15 @@ I hope that you found this content easy to understand. If you think that I need 
 
 ## LLavA
 
+> https://zhuanlan.zhihu.com/p/690771106
+>
+> https://zhuanlan.zhihu.com/p/698218006
+
 ### 配置环境
 
 检查环境是否配好
+
+
 
 ```python
 # inference.py
@@ -490,3 +528,7 @@ eval_model(args)
   此错误似乎是升级变压器版本时发生的问题。我通过在vicuna的generation_config.json文件中手动添加do_sample：true来解决此问题。
 
   https://github.com/haotian-liu/LLaVA/issues/1144
+
+
+## Blip
+
