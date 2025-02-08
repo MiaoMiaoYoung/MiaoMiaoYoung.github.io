@@ -105,6 +105,15 @@ import warnings
 warnings.filterwarnings("ignore")
 ```
 
+## python多层文件夹bash的No module报错
+
+设置根目录为python运行路径
+
+```bash
+PYTHONPATH=.
+```
+
+
 ## mio
 
 ### get_files_name

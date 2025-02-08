@@ -53,6 +53,10 @@ enableTocContent: true
 
     - stemming from 
 
+    - **underscores** 强调，下划线 *e.g. underscores the need for*
+
+    - **argue**  it can be argued that
+
 - 提出
 
     - **present**: *the method is presented*
@@ -63,6 +67,7 @@ enableTocContent: true
 
     - **devise** *is devised to regularize*
 
+    - **argue**  it can be argued that
 
 
 - 实施，应用
@@ -121,6 +126,8 @@ enableTocContent: true
     - **represent**
 
     - **symbolize**
+
+    - **signify**
 
 - 能够，胜任
 
@@ -417,7 +424,9 @@ Zotero经常会引入一些奇奇怪怪的字段，比如editor，ISSN，ISBN这
 
 摘要中老是感觉写的平，可能是因为太多都是形容效果如何如何好，不给干货。可以在摘要中精练写出来我们的模型的独创点（不是形容结果，而是具体的描述过程），比如：“一个U型网络被应用于提取图像特征，这些特征被投射到网格空间，驱动基于几何的网络对网格进行变形。” “一个结合了T分布的损失函数被我们用在了图像分类任务中”而不是更多强调与我们模型的结果“我们的模型可以生成更平滑的网格”
 
+可以这么说，先说一下我们使用那些方法类型，比如弱监督，自监督，然后 More specifically, 具体的介绍一下
 
+摘要的背景提示一句话就够，最多两句话，写多了审稿的时候一看就烦
 
 
 ## 前车之鉴，后事之师
@@ -429,6 +438,12 @@ Zotero经常会引入一些奇奇怪怪的字段，比如editor，ISSN，ISBN这
 
 Figure 3a 后面不加点(.)，缩写才加. Fig.3a 
 
+
+## 画图
+
+Adobe AI 对公式支持：latex->svg
+
+https://viereck.ch/latex-to-svg/
 
 ## References
 
