@@ -10,3 +10,8 @@ min_version = "0.65.0"
 [author]
   name = "zzossig"
   homepage = "https://zzossig.io"
+
+[[menu.main]]
+    name = "旅行地图"
+    url = "/travel"
+    weight = 5
