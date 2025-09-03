@@ -200,3 +200,15 @@ pip config set global.index-url https://mirrors.aliyun.com/pypi/simple/
 ## 设置pip缓存位置
 pip config set global.cache-dir "D:/install/pip_cache"
 ```
+
+
+## CUDA 环境
+
+```bash
+conda install cuda -c nvidia
+```
+
+```bash
+export CUDA_HOME=/usr/local/cuda-X.X
+```
+

@@ -298,3 +298,15 @@ rsync -av --exclude='*.pth' --exclude='*.log' /source/dir/ /destination/dir/
 # /source/dir/ 是源目录路径。
 # /destination/dir/ 是目标目录路径。
 ```
+
+## CUDA_HOME
+
+```bash
+export CUDA_HOME=/usr/local/cuda-X.X
+```
+
+## flash_attention_2
+
+```bash
+pip install flash-attn
+```

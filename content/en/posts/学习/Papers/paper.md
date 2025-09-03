@@ -521,9 +521,20 @@ Figure 3a 后面不加点(.)，缩写才加. Fig.3a
 
 ## 画图
 
+### SVG 公式
+
 Adobe AI 对公式支持：latex->svg
 
 https://viereck.ch/latex-to-svg/
+
+
+### SVG / PDF 表格
+
+Excel原文件，选择表格区域，导出pdf
+
+Adobe Acrobat 打开pdf，编辑pdf，将表格全选，ctrl拉动表格到撑满整个页面
+
+
 
 ## References
 

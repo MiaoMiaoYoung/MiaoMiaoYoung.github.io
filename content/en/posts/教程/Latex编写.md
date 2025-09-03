@@ -199,6 +199,24 @@ The letter A is shown in \autoref{A}
 
 
 
+### 好看的文本框
+
+```latex
+\usepackage{tcolorbox}
+\begin{tcolorbox}[
+    colback=white!, % Background color in gray
+     % colback=white!
+    colframe=black!, % Frame color in darker gray
+    colbacktitle=black!, % Title background color
+    title=Prompt $T_o$,
+    % fonttitle=\scriptsize, % Smaller title font size
+    fontupper=\scriptsize,   % Smaller content font size
+]
+\small % Smaller text within the box
+  Give me some examples of normal/abnormal descriptions of the airway, breathing, cardiac, diaphragm, and everything else for chest X-rays.
+\end{tcolorbox}
+```
+
 ## ERROR
 
 ### IEEE Template Xlatex 字体警告
